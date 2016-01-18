@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><cpeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <collectionReader>
+        <collectionIterator>
+            <descriptor>
+                <import location="../collection_reader/i2b2CR.xml"/>
+            </descriptor>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>InputDirectory</name>
+                    <value>
+                        <string>C:\Users\m048100\Documents\i2b2\i2b2Challenge2010\Data\Test\reports\ast_txt</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>Year</name>
+                    <value>
+                        <string>2010_assertion</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </collectionIterator>
+    </collectionReader>
+    <casProcessors casPoolSize="3" processingUnitThreadCount="1">
+        <casProcessor deployment="integrated" name="I2B2AggregateTAE">
+            <descriptor>
+                <import location="../analysis_engine/i2b2AggregateAE.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="0/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="i2b2CC">
+            <descriptor>
+                <import location="../cas_consumer/i2b2CC.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="0/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>OutputDirectory</name>
+                    <value>
+                        <string>C:\Users\m048100\Documents\i2b2\i2b2Challenge2010\Data\Test\reports\GoldStdsvm_features</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>LeftWindow</name>
+                    <value>
+                        <integer>4</integer>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>RightWindow</name>
+                    <value>
+                        <integer>4</integer>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>FeatureType</name>
+                    <value>
+                        <string>uniNorm+eventStr+lda_docfeatures+t100+alpha0.25</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>TopicFeautreDir</name>
+                    <value>
+                        <string>C:\Users\m048100\Documents\i2b2\i2b2Challenge2010\Data\release3_merged\ldaModels\aspects.json.i2b22010_txt.uniNorm_eventStr-final_alpha-1.0_100.theta</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+    </casProcessors>
+    <cpeConfig>
+        <numToProcess>-1</numToProcess>
+        <deployAs>immediate</deployAs>
+        <checkpoint batch="0" time="300000ms"/>
+        <timerImpl/>
+    </cpeConfig>
+</cpeDescription>

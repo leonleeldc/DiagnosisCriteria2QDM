@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>edu.mayo.bmi.medtagger.ml.ae.CRFAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>CRFAnnotator</name>
+    <description>the token for i2b2 dataset. The begin and end spans are UIMA standard. for i2b2 begin and end spans use i2b2Begin and i2b2End respectively the reamining features are i2b2 standards.</description>
+    <version>1.0</version>
+    <vendor/>
+    <configurationParameters>
+      <configurationParameter>
+        <name>CRFSuiteHome</name>
+        <description>CRF Suite Home</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>CRFModel</name>
+        <description>CRF Model</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>LeftWindow</name>
+        <type>Integer</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>RightWindow</name>
+        <type>Integer</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>CRFModel</name>
+        <value>
+          <string>/data5/bsi/nlp/s110067.sharp/i2b2/i2b2Challenge2010/Data/release3_merged/ner_out/crf_ner_model_bigram_w4</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>LeftWindow</name>
+        <value>
+          <integer>2</integer>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>RightWindow</name>
+        <value>
+          <integer>2</integer>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>CRFSuiteHome</name>
+        <value>
+          <string>resources/medtaggerresources/machinelearning/crfsuite</string>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="../type_system/MedTaggerMLTypes.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">uima.tcas.DocumentAnnotation</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.mayo.bmi.medtagger.ml.type.Event</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

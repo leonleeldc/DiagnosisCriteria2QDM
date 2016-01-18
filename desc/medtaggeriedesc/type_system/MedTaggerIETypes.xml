@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>MedTaggerIETypeSystem</name>
+  <description>This is a Type System that will be used for EDT</description>
+  <version>1.0</version>
+  <vendor>Mayo - NLP</vendor>
+    <!-- <import location="../../medtaggerdesc/type_system/MedTaggerTypes.xml"/> -->
+  <imports>
+    <!-- <import location="../../medtaggerdesc/type_system/MedTaggerTypes.xml"/> -->
+    <import location="../../typesystem/TypeSystem.xml"/>
+    <import location="../../typesystem/typeSystemDescriptor.xml"/>
+    <import location="../../typesystem/IndexedAnnotation.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>edu.mayo.bmi.medtagger.ie.type.Match</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>value</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>foundByRule</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+				<featureDescription>
+          <name>sen</name>
+          <description/>
+          <rangeTypeName>org.apache.ctakes.typesystem.type.textspan.Sentence</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casConsumerDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <implementationName>edu.mayo.bmi.medtagger.ml.cc.MLCasConsumer</implementationName>
+  <processingResourceMetaData>
+    <name>ec_cc_training</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+    <configurationParameters>
+      <configurationParameter>
+        <name>OutputDirectory</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>RightWindow</name>
+        <type>Integer</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>LeftWindow</name>
+        <type>Integer</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>TaskType</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>FeatureType</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>OutputDirectory</name>
+        <value>
+          <string>/Users/m048100/Documents/workspace-web/xmlView/test/output</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>TaskType</name>
+        <value>
+          <string>eligibility_criteria</string>
+        </value>
+      </nameValuePair>
+    <nameValuePair>
+        <name>RightWindow</name>
+        <value>
+          <integer>2</integer>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>LeftWindow</name>
+        <value>
+          <integer>2</integer>
+        </value>
+      </nameValuePair>
+    <nameValuePair>
+        <name>FeatureType</name>
+        <value>
+          <string>crfsuite.unigam.bigram.context.document.concept.conToken.uniNorm.posTagging.orthography.affix.umls.unit.numToken</string>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+
+    <typeSystemDescription>
+      <imports>
+        <import location="../typesystem/IndexedAnnotation.xml"/>
+        <import location="../typesystem/TypeSystem.xml"/>
+        <import location="../typesystem/typeSystemDescriptor.xml"/>
+        <import location="../medtaggerdesc/type_system/MedTaggerTypesSystem.xml"/>
+        <import location="../medtaggeriedesc/type_system/MedTaggerIETypes.xml"/>
+        <import location="../medtaggermldesc/type_system/MedTaggerMLTypes.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs/>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>false</modifiesCas>
+      <multipleDeploymentAllowed>false</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </processingResourceMetaData>
+  <resourceManagerConfiguration/>
+</casConsumerDescription>

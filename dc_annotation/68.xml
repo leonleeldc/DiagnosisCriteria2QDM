@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Increasing ESR
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="12" end="15" text="ESR" type="labtest" source="Criteria for Diagnostic of Fat Embolism Syndrome (FES)" category="Critical Care" />
+<NOUN id="N1" start="1" end="11" text="Increasing" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

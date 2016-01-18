@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Positive blood culture despite antibiotic therapy
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="10" end="23" text="blood culture" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="1" end="9" text="Positive" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

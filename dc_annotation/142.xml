@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Disseminated intravascular coagulation:(Prothrombin Time:Prolonged)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="41" end="57" text="Prothrombin Time" type="labtest" source="Laboratory Findings in Various Platelet and Coagulation Disorders" category="Hematology" />
+<NOUN id="N1" start="58" end="67" text="Prolonged" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

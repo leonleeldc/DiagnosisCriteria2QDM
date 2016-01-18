@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+A1 Raised RCM or haemoglobin (Hb) > 18.5 (males), > 16.5 (females)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="4" end="10" text="Raised" type="resultString" source="Diagnostic Criteria for Polycythemia Vera (PV)" category="Hematology" />
+<NOUN id="N1" start="11" end="14" text="RCM" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="18" end="29" text="haemoglobin" type="labtest" source="" category="" />
+<NOUN id="N3" start="31" end="33" text="Hb" type="labtestABB" source="" category="" />
+<NOUN id="N4" start="35" end="36" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N5" start="37" end="41" text="18.5" type="resultValue" source="" category="" />
+<NOUN id="N6" start="43" end="48" text="males" type="Demographic" source="" category="" />
+<NOUN id="N7" start="53" end="57" text="16.5" type="resultValue" source="" category="" />
+<NOUN id="N8" start="51" end="52" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N9" start="59" end="66" text="females" type="Demographic" source="" category="" />
+<NOUN id="N10" start="15" end="17" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

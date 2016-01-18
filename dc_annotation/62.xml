@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Lactic acidosis:Lactic acid level >/=4 mmol/liter
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="17" end="34" text="Lactic acid level" type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="35" end="38" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="38" end="39" text="4" type="resultValue" source="" category="" />
+<NOUN id="N3" start="40" end="50" text="mmol/liter" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

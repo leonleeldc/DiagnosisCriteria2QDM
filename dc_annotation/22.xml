@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Abnormal karyotype (other than Ph chromosome or BCR/ABL fusion gene in marrow cells)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="10" end="19" text="karyotype" type="labtest" source="Diagnostic Criteria for Polycythemia Vera (PV)" category="Hematology" />
+<NOUN id="N1" start="1" end="9" text="Abnormal" type="resultString" source="" category="" />
+<NOUN id="N2" start="46" end="48" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

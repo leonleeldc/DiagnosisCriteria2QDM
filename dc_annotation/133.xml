@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+High liver copper levels > 250 micrograms/g dry weight (Normal range <35 micrograms/g dry weight).
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="12" end="25" text="copper levels" type="labtest" source="Diagnostic Criteria for Wilson's disease" category="Gastroenterology" />
+<NOUN id="N1" start="1" end="5" text="High" type="resultString" source="" category="" />
+<NOUN id="N2" start="6" end="11" text="liver" type="body&amp;organ" source="" category="" />
+<NOUN id="N3" start="26" end="27" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N4" start="28" end="31" text="250" type="resultValue" source="" category="" />
+<NOUN id="N5" start="32" end="44" text="micrograms/g" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

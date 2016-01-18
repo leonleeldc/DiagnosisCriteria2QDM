@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+A- Observation of elevated transferrin saturation >60% on at least 2 occasions in the absence of other known causes of elevated transferrin saturation
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="28" end="50" text="transferrin saturation" type="labtest" source="Traditional Diagnostic Criteria for Hereditary Hemochromatosis" category="Gastroenterology" />
+<NOUN id="N1" start="51" end="52" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="52" end="55" text="60%" type="resultValue" source="" category="" />
+<NOUN id="N3" start="129" end="151" text="transferrin saturation" type="labtest" source="" category="" />
+<NOUN id="N4" start="120" end="128" text="elevated" type="resultString" source="" category="" />
+<NOUN id="N5" start="19" end="27" text="elevated" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

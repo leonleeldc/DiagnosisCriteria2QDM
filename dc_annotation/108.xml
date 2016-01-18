@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Elevated white blood cell count: Leukemoid reactions associated with alcoholic hepatitis
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="10" end="32" text="white blood cell count" type="labtest" source="Typical Laboratory Abnormalities in Alcoholic Liver Disease (ALD)" category="Gastroenterology" />
+<NOUN id="N1" start="1" end="9" text="Elevated" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

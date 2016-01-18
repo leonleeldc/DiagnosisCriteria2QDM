@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Leukocytosis:Leukocyte count >20,000/mm3
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="14" end="29" text="Leukocyte count" type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="30" end="31" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="31" end="37" text="20,000" type="resultValue" source="" category="" />
+<NOUN id="N3" start="37" end="41" text="/mm3" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

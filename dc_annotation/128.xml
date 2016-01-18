@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Diuretic-induced hypo- or hyperkalemia is defined as a change in serum potassium to < 3 mEq/L or > 6 mEq/L despite appropriate measures.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="66" end="81" text="serum potassium" type="labtest" source="Diagnostic Criteria for Refractory Ascites" category="Gastroenterology" />
+<NOUN id="N1" start="85" end="86" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="87" end="88" text="3" type="resultValue" source="" category="" />
+<NOUN id="N3" start="89" end="94" text="mEq/L" type="unit" source="" category="" />
+<NOUN id="N4" start="95" end="97" text="or" type="boolean" source="" category="" />
+<NOUN id="N5" start="98" end="99" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N6" start="100" end="101" text="6" type="resultValue" source="" category="" />
+<NOUN id="N7" start="102" end="107" text="mEq/L" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

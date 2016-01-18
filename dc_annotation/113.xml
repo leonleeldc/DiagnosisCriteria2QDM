@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Virus and antibody can be detected by commercially available radioimmunoassay (RIA), enzyme immunoassay (EIA) and enzyme-linked immunosorbent assay (ELISA) kits. 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="6" text="Virus" type="labtest" source="Typical Serologic Course of Hepatitis A Virus (HAV) Infection" category="Gastroenterology" />
+<NOUN id="N1" start="7" end="10" text="and" type="boolean" source="" category="" />
+<NOUN id="N2" start="11" end="19" text="antibody" type="labtest" source="" category="" />
+<NOUN id="N3" start="62" end="78" text="radioimmunoassay" type="method" source="" category="" />
+<NOUN id="N4" start="80" end="83" text="RIA" type="method" source="" category="" />
+<NOUN id="N5" start="86" end="104" text="enzyme immunoassay" type="method" source="" category="" />
+<NOUN id="N6" start="106" end="109" text="EIA" type="method" source="" category="" />
+<NOUN id="N7" start="115" end="148" text="enzyme-linked immunosorbent assay" type="method" source="" category="" />
+<NOUN id="N8" start="150" end="155" text="ELISA" type="method" source="" category="" />
+</TAGS>
+</NounVerbTask>

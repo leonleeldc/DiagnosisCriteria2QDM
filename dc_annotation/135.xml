@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+AGA IgG(NPV:41-88)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="8" text="AGA IgG" type="labtestABB" source="Revised Criteria for the Diagnosis of Celiac Disease (CD) Proposed by the ESPGHAN" category="Gastroenterology" />
+</TAGS>
+</NounVerbTask>

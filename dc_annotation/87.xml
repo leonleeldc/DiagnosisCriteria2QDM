@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+These markers may be normal in patients with the monostotic form of Paget's disease (15% of patients) therefore, serum bone-specific alkaline phosphatase measurements may be useful. Urinary hydroxyproline is no longer considered an accurate marker of activity or extent of the disease.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="114" end="154" text="serum bone-specific alkaline phosphatase" type="labtest" source="Endocrinology and Metabolism" category="Diagnosis of Paget's Disease of Bone" />
+<NOUN id="N1" start="114" end="119" text="serum" type="body&amp;organ" source="" category="" />
+</TAGS>
+</NounVerbTask>

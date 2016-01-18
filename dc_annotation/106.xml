@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+AST >>> ALT: Both usually <300 IU/L
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="4" text="AST" type="labtestABB" source="Typical Laboratory Abnormalities in Alcoholic Liver Disease (ALD)" category="Gastroenterology" />
+<NOUN id="N1" start="27" end="28" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="28" end="31" text="300" type="resultValue" source="" category="" />
+<NOUN id="N3" start="32" end="36" text="IU/L" type="unit" source="" category="" />
+<NOUN id="N4" start="9" end="12" text="ALT" type="labtestABB" source="" category="" />
+</TAGS>
+</NounVerbTask>

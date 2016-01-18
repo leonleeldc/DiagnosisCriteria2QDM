@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Elevated level of fasting serum gastrin (>100 pg/mL until 1994, >200 pg/mL since 1994);
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="19" end="40" text="fasting serum gastrin" type="labtest" source="Diagnostic Criteria for Zollinger-Ellison Syndrome (ZES)" category="Gastroenterology" />
+<NOUN id="N1" start="1" end="9" text="Elevated" type="resultString" source="" category="" />
+<NOUN id="N2" start="42" end="43" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N3" start="43" end="46" text="100" type="resultValue" source="" category="" />
+<NOUN id="N4" start="47" end="52" text="pg/mL" type="unit" source="" category="" />
+<NOUN id="N5" start="65" end="66" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N6" start="66" end="69" text="200" type="resultValue" source="" category="" />
+<NOUN id="N7" start="70" end="75" text="pg/mL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

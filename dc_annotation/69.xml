@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Renal,Creatinine (mg/dL):>5.0 or <200
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="7" end="17" text="Creatinine" type="labtest" source="The Sequential Organ Failure Assessment (SOFA) Score" category="Critical Care" />
+<NOUN id="N1" start="1" end="6" text="Renal" type="body&amp;organ" source="" category="" />
+<NOUN id="N2" start="19" end="24" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N3" start="26" end="27" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N4" start="27" end="30" text="5.0" type="resultValue" source="" category="" />
+<NOUN id="N5" start="31" end="33" text="or" type="boolean" source="" category="" />
+<NOUN id="N6" start="34" end="35" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N7" start="35" end="38" text="200" type="resultValue" source="" category="" />
+</TAGS>
+</NounVerbTask>

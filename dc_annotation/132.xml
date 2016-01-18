@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Low serum ceruloplasmin levels < 20 mg/dL (Normal range 20-50 mg/dL).
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="5" end="31" text="serum ceruloplasmin levels" type="labtest" source="Diagnostic Criteria for Wilson's disease" category="Gastroenterology" />
+<NOUN id="N1" start="1" end="4" text="Low" type="resultString" source="" category="" />
+<NOUN id="N2" start="32" end="33" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N3" start="34" end="36" text="20" type="resultValue" source="" category="" />
+<NOUN id="N4" start="37" end="42" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

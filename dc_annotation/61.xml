@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Leukopenia:White-cell count <4000/mm3
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="12" end="29" text="White-cell count " type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="29" end="30" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="30" end="34" text="4000" type="resultValue" source="" category="" />
+<NOUN id="N3" start="34" end="38" text="/mm3" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Reduced HDL cholesterol: < 40 mg/dL (1.03 mmol/L) in males and < 50 mg/dL (1.29 mmol/L) in females, or specific treatment for this lipid abnormality
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="9" end="24" text="HDL cholesterol" type="labtest" source="Criteria for the Metabolic Syndrome" category="Diabetes" />
+<NOUN id="N1" start="1" end="8" text="Reduced" type="resultString" source="" category="" />
+<NOUN id="N2" start="26" end="27" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N3" start="28" end="30" text="40" type="resultValue" source="" category="" />
+<NOUN id="N4" start="31" end="36" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N5" start="38" end="42" text="1.03" type="resultValue" source="" category="" />
+<NOUN id="N6" start="43" end="49" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N7" start="54" end="59" text="males" type="Demographic" source="" category="" />
+<NOUN id="N8" start="64" end="65" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N9" start="66" end="68" text="50" type="resultValue" source="" category="" />
+<NOUN id="N10" start="69" end="74" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N11" start="76" end="80" text="1.29" type="resultValue" source="" category="" />
+<NOUN id="N12" start="81" end="87" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N13" start="92" end="99" text="females" type="Demographic" source="" category="" />
+<NOUN id="N14" start="60" end="63" text="and" type="boolean" source="" category="" />
+<NOUN id="N15" start="101" end="103" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

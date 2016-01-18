@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+This five-factor scoring system assigns one point for the presence of each of the following, either at admission or during the initial 24 hours of hospitalization: Bun >25 mg/dL, Impaired mental status, SIRS, Age >60 and a Pleural effusion.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="165" end="168" text="Bun" type="labtest" source="severe acute pancreatitis" category="Gastroenterology" />
+<NOUN id="N1" start="169" end="170" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="170" end="172" text="25" type="resultValue" source="" category="" />
+<NOUN id="N3" start="173" end="178" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

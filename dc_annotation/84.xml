@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Raised serum IgE
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="14" end="17" text="IgE" type="labtest" source="Diagnostic Criteria for Atopic Dermatitis (AD)" category="Dermatology" />
+<NOUN id="N1" start="1" end="7" text="Raised" type="resultString" source="" category="" />
+<NOUN id="N2" start="8" end="13" text="serum" type="body&amp;organ" source="" category="" />
+</TAGS>
+</NounVerbTask>

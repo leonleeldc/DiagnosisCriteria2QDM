@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Elevated serum ferritin not explained by another cause
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="10" end="24" text="serum ferritin" type="labtest" source="Traditional Diagnostic Criteria for Hereditary Hemochromatosis" category="Gastroenterology" />
+<NOUN id="N1" start="1" end="9" text="Elevated" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

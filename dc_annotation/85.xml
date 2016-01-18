@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Atopy (IgE reactivity)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="8" end="11" text="IgE" type="labtest" source="Diagnostic Criteria for Atopic Dermatitis (AD)" category="Dermatology" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Persistently positive blood culture, defined as recovery of a microorganism consistent with infective endocarditis from:
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="23" end="36" text="blood culture" type="labtest" source="Infective Endocarditis" category="Cardiology" />
+<NOUN id="N1" start="14" end="22" text="positive" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

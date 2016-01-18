@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+AEA IgA a(PPV:98-100)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="AEA IgA a" type="labtestABB" source="Revised Criteria for the Diagnosis of Celiac Disease (CD) Proposed by the ESPGHAN" category="Gastroenterology" />
+</TAGS>
+</NounVerbTask>

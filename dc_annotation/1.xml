@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Increased number of lymphocytes and mononuclear cells >5000/mm3 (autoreactive lymphocytic),
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="Increased" type="resultString" source="Diagnosis of Autoreactive Pericarditis" category="Cardiology" />
+<NOUN id="N1" start="21" end="32" text="lymphocytes" type="labtest" source="" category="" />
+<NOUN id="N3" start="37" end="54" text="mononuclear cells" type="labtest" source="" category="" />
+<NOUN id="N4" start="56" end="60" text="5000" type="resultValue" source="" category="" />
+<NOUN id="N5" start="60" end="64" text="/mm3" type="unit" source="" category="" />
+<NOUN id="N2" start="33" end="36" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

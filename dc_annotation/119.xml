@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Haemoglobin 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="12" text="Haemoglobin" type="labtest" source="The Glasgow Blatchford Score (GBS)" category="Gastroenterology" />
+</TAGS>
+</NounVerbTask>

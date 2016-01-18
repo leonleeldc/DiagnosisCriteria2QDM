@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+As IgG anti-HAV persists lifelong after acute infection, detection of IgG anti-HAV alone indicates past infection.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="4" end="16" text="IgG anti-HAV" type="labtestABB" source="Typical Serologic Course of Hepatitis A Virus (HAV) Infection" category="Gastroenterology" />
+<NOUN id="N1" start="71" end="83" text="IgG anti-HAV" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="17" end="25" text="persists" type="resultString" source="" category="" />
+<NOUN id="N3" start="58" end="70" text="detection of" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

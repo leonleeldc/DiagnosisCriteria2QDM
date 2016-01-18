@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+2 positive cultures of blood samples drawn >12 hours apart, or
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="12" end="29" text="cultures of blood" type="labtest" source="Duke Criteria for Infective Endocarditis (IE)" category="Cardiology" />
+<NOUN id="N1" start="3" end="11" text="positive" type="resultString" source="" category="" />
+<NOUN id="N2" start="43" end="59" text=" &amp;gt;12 hours apart" type="TempCondition" source="" category="" />
+<NOUN id="N3" start="61" end="63" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

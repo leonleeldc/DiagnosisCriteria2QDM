@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Testosterone deficiency
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="13" text="Testosterone" type="labtest" source="Indications for Therapy and for Neurosurgery in Patients with Prolactinomas" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="14" end="24" text="deficiency" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Vitamin K deficiency or use of vitamin K antagonist(Prothrombin Time:Prolonged)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="32" end="41" text="vitamin K" type="labtest" source="Laboratory Findings in Various Platelet and Coagulation Disorders" category="Hematology" />
+<NOUN id="N1" start="11" end="21" text="deficiency" type="resultString" source="" category="" />
+<NOUN id="N2" start="53" end="69" text="Prothrombin Time" type="labtest" source="" category="" />
+<NOUN id="N3" start="70" end="79" text="Prolonged" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Urine osmolality >100 mOsm per kg (100 mmol per kg)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="17" text="Urine osmolality" type="labtest" source="Criteria for Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH)" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="18" end="19" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="19" end="22" text="100" type="resultValue" source="" category="" />
+<NOUN id="N3" start="23" end="34" text="mOsm per kg" type="unit" source="" category="" />
+<NOUN id="N4" start="36" end="39" text="100" type="resultValue" source="" category="" />
+<NOUN id="N5" start="40" end="51" text="mmol per kg" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

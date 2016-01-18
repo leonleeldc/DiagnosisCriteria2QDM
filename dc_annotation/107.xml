@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Alkaline phosphatase (ALP) and g-glutamyl transpeptidase (GGT): Both usually elevated to a variable degree
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="21" text="Alkaline phosphatase" type="labtest" source="Typical Laboratory Abnormalities in Alcoholic Liver Disease (ALD)" category="Gastroenterology" />
+<NOUN id="N1" start="23" end="26" text="ALP" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="32" end="57" text="g-glutamyl transpeptidase" type="labtest" source="" category="" />
+<NOUN id="N3" start="59" end="62" text="GGT" type="labtestABB" source="" category="" />
+<NOUN id="N4" start="78" end="86" text="elevated" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

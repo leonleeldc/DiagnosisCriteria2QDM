@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Electrolyte abnormalities: low potassium, magnesium and phosphorus
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="32" end="41" text="potassium" type="labtest" source="" category="" />
+<NOUN id="N1" start="43" end="52" text="magnesium" type="labtest" source="" category="" />
+<NOUN id="N2" start="57" end="67" text="phosphorus" type="labtest" source="" category="" />
+<NOUN id="N3" start="28" end="31" text="low" type="resultString" source="Typical Laboratory Abnormalities in Alcoholic Liver Disease (ALD)" category="Gastroenterology" />
+<NOUN id="N4" start="53" end="56" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

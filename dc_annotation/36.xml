@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Glucose level >/=140 mg/dL (7.8 mmol/L) and <200 mg/dL (11.1 mmol/L) at 2 hours during a standard OGTT
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="14" text="Glucose level" type="labtest" source="Impaired glucose tolerance (IGT)" category="Diabetes" />
+<NOUN id="N1" start="15" end="18" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="18" end="21" text="140" type="resultValue" source="" category="" />
+<NOUN id="N3" start="22" end="27" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N4" start="29" end="32" text="7.8" type="resultValue" source="" category="" />
+<NOUN id="N5" start="33" end="39" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N6" start="45" end="46" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N7" start="46" end="49" text="200" type="resultValue" source="" category="" />
+<NOUN id="N8" start="50" end="55" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N9" start="57" end="61" text="11.1" type="resultValue" source="" category="" />
+<NOUN id="N10" start="62" end="68" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N11" start="73" end="80" text="2 hours" type="TempCondition" source="" category="" />
+<NOUN id="N12" start="99" end="103" text="OGTT" type="labtest" source="" category="" />
+<NOUN id="N14" start="41" end="44" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

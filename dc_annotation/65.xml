@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Hyponatremia:Sodium level <130 mmol/liter
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="14" end="26" text="Sodium level" type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="27" end="28" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="28" end="31" text="130" type="resultValue" source="" category="" />
+<NOUN id="N3" start="32" end="42" text="mmol/liter" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

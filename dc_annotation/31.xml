@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+evidence of elevated cardiac enzymes (creatine kinase-MB fraction, or troponin I or T) or
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="22" end="37" text="cardiac enzymes" type="labtest" source="Diagnostic Criteria for Acute Pericarditis" category="Cardiology" />
+<NOUN id="N1" start="13" end="21" text="elevated" type="resultString" source="" category="" />
+<NOUN id="N2" start="68" end="70" text="or" type="boolean" source="" category="" />
+<NOUN id="N3" start="82" end="84" text="or" type="boolean" source="" category="" />
+<NOUN id="N4" start="88" end="90" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

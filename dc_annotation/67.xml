@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+A sudden inexplicable drop in haematocrit or platelet values
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="31" end="42" text="haematocrit" type="labtest" source="Criteria for Diagnostic of Fat Embolism Syndrome (FES)" category="Critical Care" />
+<NOUN id="N1" start="46" end="54" text="platelet" type="labtest" source="" category="" />
+<NOUN id="N2" start="1" end="27" text="A sudden inexplicable drop" type="resultString" source="" category="" />
+<NOUN id="N3" start="43" end="45" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Symptoms of diabetes plus casual plasma glucose concentration >/=200 mg/dl (11.1 mmol/l)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="34" end="62" text="plasma glucose concentration" type="labtest" source="Criteria for the Diagnosis of Diabetes Mellitus" category="Diabetes" />
+<NOUN id="N1" start="63" end="66" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="66" end="69" text="200" type="resultValue" source="" category="" />
+<NOUN id="N3" start="70" end="75" text="mg/dl" type="unit" source="" category="" />
+<NOUN id="N4" start="77" end="81" text="11.1" type="resultValue" source="" category="" />
+<NOUN id="N5" start="82" end="88" text="mmol/l" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

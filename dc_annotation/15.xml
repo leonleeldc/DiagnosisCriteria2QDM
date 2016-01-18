@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Normal arterial oxygen saturation > 92%
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="8" end="34" text="arterial oxygen saturation" type="labtest" source="" category="Hematology" />
+<NOUN id="N1" start="35" end="36" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="37" end="40" text="92%" type="resultValue" source="" category="" />
+</TAGS>
+</NounVerbTask>

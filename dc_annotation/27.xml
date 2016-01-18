@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Urinary albumin excretion rate >20 mcg/min or albumin to creatinine ratio >/= 30 mg/g
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="31" text="Urinary albumin excretion rate" type="labtest" source="Criteria for the Metabolic Syndrome" category="Diabetes" />
+<NOUN id="N1" start="32" end="33" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="33" end="35" text="20" type="resultValue" source="" category="" />
+<NOUN id="N3" start="36" end="43" text="mcg/min" type="unit" source="" category="" />
+<NOUN id="N4" start="47" end="74" text="albumin to creatinine ratio" type="labtest" source="" category="" />
+<NOUN id="N5" start="75" end="78" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N6" start="79" end="81" text="30" type="resultValue" source="" category="" />
+<NOUN id="N7" start="82" end="86" text="mg/g" type="unit" source="" category="" />
+<NOUN id="N8" start="44" end="46" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

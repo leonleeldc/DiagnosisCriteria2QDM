@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Elevated blood urea nitrogen:Blood urea nitrogen >/=20 mg/dl
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="10" end="29" text="blood urea nitrogen" type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="1" end="9" text="Elevated" type="resultString" source="" category="" />
+<NOUN id="N2" start="30" end="49" text="Blood urea nitrogen" type="labtest" source="" category="" />
+<NOUN id="N3" start="50" end="53" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N4" start="53" end="55" text="20" type="resultValue" source="" category="" />
+<NOUN id="N5" start="56" end="61" text="mg/dl" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

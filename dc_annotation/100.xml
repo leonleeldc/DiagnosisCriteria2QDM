@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Diabetes, aged 40-75 y, with LDL-C levels of 70-189 mg/dL
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="30" end="35" text="LDL-C" type="labtest" source="Summary of the ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce ASCVD" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="46" end="52" text="70-189" type="resultValue" source="" category="" />
+<NOUN id="N2" start="53" end="58" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

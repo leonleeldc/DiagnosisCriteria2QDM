@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+The specific routine diagnosis of acute hepatitis A is made by finding anti-HAV IgM in the serum of patients.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="72" end="84" text="anti-HAV IgM" type="labtestABB" source="Typical Serologic Course of Hepatitis A Virus (HAV) Infection" category="Gastroenterology" />
+<NOUN id="N1" start="92" end="97" text="serum" type="body&amp;organ" source="" category="" />
+</TAGS>
+</NounVerbTask>

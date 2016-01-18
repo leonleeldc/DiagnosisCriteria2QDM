@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Laboratory tests None of the available tests will confirm the diagnosis, but thyroid-function tests and tests for thyroid antibodies may be advisable because of the increased association between alopecia areata and thyroid autoimmunity; abnormal results of thyroid-function tests, the presence of thyroid autoantibodies, or both further support a clinical or histologic working diagnosis of alopecia areata
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="298" end="320" text="thyroid autoantibodies" type="labtest" source="Diagnostic Criteria for Alopecia Areata" category="Dermatology" />
+<NOUN id="N1" start="286" end="294" text="presence" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

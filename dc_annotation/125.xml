@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+B- Diagnosis of iron overload: 1 plus 2, or 1 plus 3, below
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="17" end="21" text="iron" type="labtest" source="Traditional Diagnostic Criteria for Hereditary Hemochromatosis" category="Gastroenterology" />
+<NOUN id="N1" start="22" end="30" text="overload" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

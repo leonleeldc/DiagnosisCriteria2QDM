@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Increased hepatic iron by either a or b, below
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="11" end="23" text="hepatic iron" type="labtest" source="Traditional Diagnostic Criteria for Hereditary Hemochromatosis" category="Gastroenterology" />
+<NOUN id="N1" start="1" end="10" text="Increased" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

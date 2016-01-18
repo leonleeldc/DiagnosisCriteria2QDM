@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Platelet count > 400 x 109/l
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="15" text="Platelet count" type="labtest" source="Diagnostic Criteria for Polycythemia Vera (PV)" category="Hematology " />
+<NOUN id="N1" start="18" end="27" text="400 x 109" type="resultValue" source="" category="" />
+<NOUN id="N2" start="27" end="29" text="/l" type="unit" source="" category="" />
+<NOUN id="N3" start="16" end="17" text="&amp;gt;" type="symbol" source="" category="" />
+</TAGS>
+</NounVerbTask>

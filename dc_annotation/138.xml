@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+tTG IgA(Sensitivity:90-98)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="8" text="tTG IgA" type="labtest" source="Revised Criteria for the Diagnosis of Celiac Disease (CD) Proposed by the ESPGHAN" category="Gastroenterology" />
+</TAGS>
+</NounVerbTask>

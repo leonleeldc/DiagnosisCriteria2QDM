@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Aspirin or thienopyridines(Activated Partial-Thromboplastin Time:Unaffected)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="28" end="65" text="Activated Partial-Thromboplastin Time" type="labtest" source="Laboratory Findings in Various Platelet and Coagulation Disorders" category="Hematology" />
+<NOUN id="N1" start="66" end="76" text="Unaffected" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

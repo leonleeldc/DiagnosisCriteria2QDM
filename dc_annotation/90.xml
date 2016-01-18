@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Serum calcium level>1.0 mg/dl (0.25 mmol/liter) above upper limit of normal range
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="14" text="Serum calcium" type="labtest" source="Guidelines for the Treatment of Asymptomatic Primary Hyperparathyroidism" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="20" end="21" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="21" end="24" text="1.0" type="resultValue" source="" category="" />
+<NOUN id="N3" start="25" end="30" text="mg/dl" type="unit" source="" category="" />
+<NOUN id="N4" start="32" end="36" text="0.25" type="resultValue" source="" category="" />
+<NOUN id="N5" start="37" end="47" text="mmol/liter" type="unit" source="" category="" />
+<NOUN id="N6" start="49" end="54" text="above" type="symbolinString" source="" category="" />
+<NOUN id="N7" start="55" end="82" text="upper limit of normal range" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

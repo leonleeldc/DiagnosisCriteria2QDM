@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Presence of viral genome by PCR or in situ hybridisation.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="29" end="32" text="PCR" type="labtestABB" source="Diagnostic Criteria for Myocarditis" category="Cardiology" />
+<NOUN id="N1" start="1" end="25" text="Presence of viral genome" type="resultString" source="" category="" />
+<NOUN id="N2" start="44" end="57" text="hybridisation" type="labtest" source="" category="" />
+<NOUN id="N3" start="36" end="43" text="in situ" type="resultString" source="" category="" />
+<NOUN id="N4" start="33" end="35" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

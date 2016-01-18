@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Platelets (normal to markedly decreased)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="Platelets" type="labtest" source="Typical Laboratory Abnormalities in Alcoholic Liver Disease (ALD)" category="Gastroenterology" />
+<NOUN id="N1" start="12" end="40" text="normal to markedly decreased" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

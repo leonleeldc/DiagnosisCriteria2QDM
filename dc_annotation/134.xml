@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+High 24 hr urinary copper levels > 100 micrograms /d or > 1.6 mmol/d (Normal range <50 micrograms/d or < 0.8 mmol/d).
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="20" end="33" text="copper levels" type="labtest" source="Diagnostic Criteria for Wilson's disease" category="Gastroenterology" />
+<NOUN id="N1" start="12" end="19" text="urinary" type="body&amp;organ" source="" category="" />
+<NOUN id="N2" start="1" end="5" text="High" type="resultString" source="" category="" />
+<NOUN id="N3" start="6" end="11" text="24 hr" type="TempCondition" source="" category="" />
+<NOUN id="N4" start="34" end="35" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N5" start="36" end="39" text="100" type="resultValue" source="" category="" />
+<NOUN id="N6" start="40" end="54" text="micrograms /d " type="unit" source="" category="" />
+<NOUN id="N7" start="54" end="56" text="or" type="boolean" source="" category="" />
+<NOUN id="N8" start="57" end="58" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N9" start="59" end="62" text="1.6" type="resultValue" source="" category="" />
+<NOUN id="N10" start="63" end="69" text="mmol/d" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

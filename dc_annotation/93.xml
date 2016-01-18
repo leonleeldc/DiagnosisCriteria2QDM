@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Lack of suppression after low-dose dexamethasone testing
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="9" end="57" text="suppression after low-dose dexamethasone testing" type="labtest" source="Criteria for Diagnosis of Cushing’s Syndrome (CS)" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="1" end="5" text="Lack" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

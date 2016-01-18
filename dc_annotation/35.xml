@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Two-hour postload glucose >/=200 mg/dl (11.1 mmol/l) during an Oral Glucose Tolerance Test (OGTT). 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="19" end="26" text="glucose" type="labtest" source="Criteria for the Diagnosis of Diabetes Mellitus" category="Diabetes" />
+<NOUN id="N1" start="1" end="18" text="Two-hour postload" type="TempCondition" source="" category="" />
+<NOUN id="N2" start="27" end="30" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N3" start="30" end="33" text="200" type="resultValue" source="" category="" />
+<NOUN id="N4" start="34" end="39" text="mg/dl" type="unit" source="" category="" />
+<NOUN id="N5" start="41" end="45" text="11.1" type="resultValue" source="" category="" />
+<NOUN id="N6" start="46" end="52" text="mmol/l" type="unit" source="" category="" />
+<NOUN id="N7" start="64" end="91" text="Oral Glucose Tolerance Test" type="labtest" source="" category="" />
+<NOUN id="N8" start="93" end="97" text="OGTT" type="labtestABB" source="" category="" />
+</TAGS>
+</NounVerbTask>

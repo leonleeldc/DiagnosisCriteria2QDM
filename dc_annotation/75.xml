@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Serum creatinine >266 umol/L
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="17" text="Serum creatinine" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="18" end="19" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="19" end="22" text="266" type="resultValue" source="" category="" />
+<NOUN id="N3" start="23" end="29" text="umol/L" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

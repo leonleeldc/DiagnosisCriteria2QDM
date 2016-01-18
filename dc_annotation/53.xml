@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Elevated acute phase reactant (C-reactive protein or erythrocyte sedimentation rate)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="10" end="30" text="acute phase reactant" type="labtest" source="Acute Rheumatic Fever" category="Immumology" />
+<NOUN id="N1" start="1" end="9" text="Elevated" type="resultString" source="" category="" />
+<NOUN id="N2" start="32" end="50" text="C-reactive protein" type="labtest" source="" category="" />
+<NOUN id="N3" start="54" end="84" text="erythrocyte sedimentation rate" type="labtest" source="" category="" />
+<NOUN id="N4" start="51" end="53" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

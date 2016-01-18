@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Raised red cell mass (RCM), male > 36 ml/kg, female > 32 ml/kg
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="4" end="10" text="Raised" type="resultString" source="Diagnostic Criteria for Polycythemia Vera (PV)" category="Hematology " />
+<NOUN id="N1" start="11" end="24" text="red cell mass" type="labtest" source="" category="" />
+<NOUN id="N2" start="26" end="29" text="RCM" type="labtestABB" source="" category="" />
+<NOUN id="N3" start="32" end="36" text="male" type="Demographic" source="" category="" />
+<NOUN id="N4" start="37" end="38" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N5" start="39" end="41" text="36" type="resultValue" source="" category="" />
+<NOUN id="N6" start="42" end="47" text="ml/kg" type="unit" source="" category="" />
+<NOUN id="N7" start="49" end="55" text="female" type="Demographic" source="" category="" />
+<NOUN id="N8" start="56" end="57" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N9" start="58" end="60" text="32" type="resultValue" source="" category="" />
+<NOUN id="N10" start="61" end="66" text="ml/kg" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

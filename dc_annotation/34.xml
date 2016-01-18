@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Fasting Plasma Glucose (FPG) >/=126 mg/dl (7.0 mmol/l)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="23" text="Fasting Plasma Glucose" type="labtest" source="Criteria for the Diagnosis of Diabetes Mellitus" category="Diabetes" />
+<NOUN id="N1" start="25" end="28" text="FPG" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="30" end="33" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N3" start="33" end="36" text="126" type="resultValue" source="" category="" />
+<NOUN id="N4" start="37" end="42" text="mg/dl" type="unit" source="" category="" />
+<NOUN id="N5" start="44" end="47" text="7.0" type="resultValue" source="" category="" />
+<NOUN id="N6" start="48" end="54" text="mmol/l" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

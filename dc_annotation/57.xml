@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Microbiological evidence: positive blood culture but does not meet a major criterion as noted above or serological evidence of active infection with organism consistent with IE
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="36" end="49" text="blood culture" type="labtest" source="Duke Criteria for Infective Endocarditis (IE)" category="Cardiology" />
+<NOUN id="N1" start="27" end="35" text="positive" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

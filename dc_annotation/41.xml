@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+ANA or SMA>/=1:40
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="4" text="ANA" type="labtestABB" source="Autoimmune Hepatitis (AIH)" category="Infectious Disease" />
+<NOUN id="N1" start="8" end="11" text="SMA" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="11" end="14" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N3" start="14" end="18" text="1:40" type="resultValue" source="" category="" />
+<NOUN id="N4" start="5" end="7" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

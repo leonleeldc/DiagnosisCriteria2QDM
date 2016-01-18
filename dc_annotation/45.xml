@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+IgG>upper normal limit
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="4" text="IgG" type="labtestABB" source="Autoimmune Hepatitis (AIH)" category="Infectious Disease" />
+<NOUN id="N1" start="4" end="5" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="5" end="23" text="upper normal limit" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

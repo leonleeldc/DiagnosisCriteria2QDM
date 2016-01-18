@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Patients taking Proton Pump Inhibitors (PPIs), those who have undergone massive small bowel resection, or those who have renal insufficiency, G-cell hyperplasia, or gastric outlet obstruction may have gastrin levels between 150 and 1000 pg/mL Hence, for patients with suspected ZES with an equivocal fasting serum gastrin concentration, a secretin stimulation test should be performed
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="202" end="209" text="gastrin" type="labtest" source="Diagnostic Criteria for Zollinger-Ellison Syndrome (ZES)" category="Gastroenterology" />
+<NOUN id="N1" start="217" end="243" text="between 150 and 1000 pg/mL" type="resultString" source="" category="" />
+<NOUN id="N2" start="237" end="243" text=" pg/mL" type="unit" source="" category="" />
+<NOUN id="N3" start="225" end="228" text="150" type="resultValue" source="" category="" />
+<NOUN id="N4" start="233" end="237" text="1000" type="resultValue" source="" category="" />
+<NOUN id="N5" start="301" end="336" text="fasting serum gastrin concentration" type="labtest" source="" category="" />
+<NOUN id="N6" start="291" end="300" text="equivocal" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

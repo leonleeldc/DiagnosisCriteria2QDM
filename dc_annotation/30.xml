@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Raised fasting plasma glucose (FPG) >/=  100 mg/dL (5.6 mmol/L), or previously diagnosed type 2 diabetes. If above 5.6 mmol/L or 100 mg/dL, oral glucose tolerance test (OGTT) is strongly recommended but is not necessary to define presence of the syndrome
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="8" end="30" text="fasting plasma glucose" type="labtest" source="Criteria for the Metabolic Syndrome" category="Diabetes" />
+<NOUN id="N1" start="32" end="35" text="FPG" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="1" end="7" text="Raised" type="resultString" source="" category="" />
+<NOUN id="N3" start="37" end="40" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N4" start="42" end="45" text="100" type="resultValue" source="" category="" />
+<NOUN id="N5" start="46" end="51" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N6" start="53" end="56" text="5.6" type="resultValue" source="" category="" />
+<NOUN id="N7" start="57" end="63" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N8" start="141" end="169" text="oral glucose tolerance test " type="labtest" source="" category="" />
+<NOUN id="N9" start="170" end="174" text="OGTT" type="labtestABB" source="" category="" />
+<NOUN id="N10" start="110" end="115" text="above" type="resultString" source="" category="" />
+<NOUN id="N11" start="116" end="119" text="5.6" type="resultValue" source="" category="" />
+<NOUN id="N12" start="120" end="126" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N13" start="130" end="133" text="100" type="resultValue" source="" category="" />
+<NOUN id="N14" start="134" end="139" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N15" start="66" end="68" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

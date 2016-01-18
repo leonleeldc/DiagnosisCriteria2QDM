@@ -1,0 +1,10 @@
+<!ENTITY name "NounVerbTask">
+
+<!ELEMENT NOUN ( #PCDATA ) >
+<!ATTLIST NOUN start #IMPLIED >	
+<!ATTLIST NOUN type ( labtest | labtestABB | resultString | symbol | resultValue | unit | symbolinString | unitinString | measurement | tempCondition | body&organ | Demographic) #IMPLIED "other" >
+<!ATTLIST NOUN source CDATA "" >
+<!ATTLIST NOUN category CDATA "" >
+
+
+

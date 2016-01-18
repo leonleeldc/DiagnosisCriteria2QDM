@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+ Microbiologic evidence: positive blood culture but not meeting major criterion as noted previouslyc or serologic evidence of active infection with organism consistent with infective endocarditis
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="35" end="48" text="blood culture" type="labtest" source="Infective Endocarditis" category="Cardiology" />
+<NOUN id="N1" start="26" end="34" text="positive" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

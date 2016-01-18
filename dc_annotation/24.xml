@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+HDL-Cholesterol <40 mg/dL (<1.0 mmol/L) in men and <50 mg/dL (<1.3 mmol/L) in women
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="16" text="HDL-Cholesterol" type="labtest" source="Criteria for the Metabolic Syndrome" category="Diabetes" />
+<NOUN id="N1" start="17" end="18" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="18" end="20" text="40" type="resultValue" source="" category="" />
+<NOUN id="N3" start="21" end="26" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N4" start="28" end="29" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N5" start="29" end="32" text="1.0" type="resultValue" source="" category="" />
+<NOUN id="N6" start="33" end="39" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N7" start="44" end="47" text="men" type="Demographic" source="" category="" />
+<NOUN id="N8" start="52" end="53" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N9" start="53" end="55" text="50" type="resultValue" source="" category="" />
+<NOUN id="N10" start="56" end="61" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N11" start="63" end="64" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N12" start="64" end="67" text="1.3" type="resultValue" source="" category="" />
+<NOUN id="N13" start="68" end="74" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N14" start="79" end="84" text="women" type="Demographic" source="" category="" />
+<NOUN id="N15" start="48" end="51" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

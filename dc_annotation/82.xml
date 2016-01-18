@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+at least 1,000 Sezary cells per mm3 of peripheral blood, an increased population of CD4+/CD7- in peripheral blood with remarkable predominance of CD4+ cells in relation to CD8+ (CD4/CD8 ratio > 10), Sezary cells with a diameter > 14 um representing > 20% of the circulating lymphocytes and, some markers like CD2, CD3, CD4 and CD5 must be absent.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="85" end="94" text="CD4+/CD7-" type="labtest" source="Diagnostic Criteria in SÌ©zary's Syndrome (SS)" category="Dermatology" />
+<NOUN id="N1" start="61" end="81" text="increased population" type="resultString" source="" category="" />
+<NOUN id="N2" start="179" end="192" text="CD4/CD8 ratio" type="labtest" source="" category="" />
+<NOUN id="N3" start="193" end="194" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N4" start="195" end="197" text="10" type="resultValue" source="" category="" />
+<NOUN id="N6" start="263" end="286" text="circulating lymphocytes" type="labtest" source="" category="" />
+<NOUN id="N7" start="250" end="251" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N8" start="252" end="255" text="20%" type="resultValue" source="" category="" />
+</TAGS>
+</NounVerbTask>

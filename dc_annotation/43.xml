@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+or LKM>/=1:40
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="4" end="7" text="LKM" type="labtestABB" source="Autoimmune Hepatitis (AIH)" category="Infectious Disease" />
+<NOUN id="N1" start="7" end="10" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="10" end="14" text="1:40" type="resultValue" source="" category="" />
+<NOUN id="N3" start="1" end="3" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

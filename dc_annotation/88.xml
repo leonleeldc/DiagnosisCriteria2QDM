@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Measurement of serum PTH is the next step in the evaluation of hypercalcemia. An elevated level of PTH (or a level that is in an unexpected normal? range) simultaneous with an elevated calcium level generally indicates a diagnosis of primary hyperparathyroidism
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="100" end="103" text="PTH" type="labtest" source="" category="" />
+<NOUN id="N1" start="82" end="90" text="elevated" type="resultString" source="Guidelines for the Treatment of Asymptomatic Primary Hyperparathyroidism" category="Endocrinology and Metabolism" />
+<NOUN id="N2" start="186" end="193" text="calcium" type="labtest" source="" category="" />
+<NOUN id="N3" start="177" end="185" text="elevated" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

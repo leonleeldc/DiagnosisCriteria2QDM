@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Exclusion of active viral infection both in pericardial effusion and endomyocardial/epimyocardial biopsies (no virus isolation, no IgM-titer against cardiotropic viruses in pericardial effusion, and negative PCR for major cardiotropic viruses);
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="132" end="135" text="IgM" type="labtest" source="Diagnosis of Autoreactive Pericarditis" category="Cardiology" />
+<NOUN id="N1" start="129" end="131" text="no" type="resultString" source="" category="" />
+<NOUN id="N2" start="209" end="212" text="PCR" type="labtest" source="" category="" />
+<NOUN id="N3" start="200" end="208" text="negative" type="resultString" source="" category="" />
+<NOUN id="N4" start="196" end="199" text="and" type="boolean" source="" category="" />
+<NOUN id="N5" start="1" end="10" text="Exclusion" type="exclusion" source="" category="" />
+<NOUN id="N6" start="66" end="69" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

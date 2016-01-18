@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Leukopenia (WBC count <4,000 cells/mm3)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="13" end="22" text="WBC count" type="labtest" source="Guidelines for Intensive Care Unit Admission for Severe Community-Acquired Pneumonia (CAP)" category="Critical Care" />
+<NOUN id="N1" start="23" end="24" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="24" end="29" text="4,000" type="resultValue" source="" category="" />
+<NOUN id="N3" start="30" end="39" text="cells/mm3" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

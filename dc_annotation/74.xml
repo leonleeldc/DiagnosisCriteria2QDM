@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Urine volume 9.3 mL/kg body weight per hour for 8 h
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="13" text="Urine volume" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="14" end="17" text="9.3" type="resultValue" source="" category="" />
+<NOUN id="N2" start="18" end="23" text="mL/kg" type="unit" source="" category="" />
+<NOUN id="N3" start="24" end="44" text="body weight per hour" type="unit" source="" category="" />
+<NOUN id="N4" start="45" end="52" text="for 8 h" type="TempCondition" source="" category="" />
+</TAGS>
+</NounVerbTask>

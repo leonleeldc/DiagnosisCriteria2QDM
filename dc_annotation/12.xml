@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+WBC > 12 x 109/l
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="4" text="WBC" type="labtestABB" source="Diagnostic Criteria for Polycythemia Vera (PV)" category="Hematology " />
+<NOUN id="N1" start="5" end="6" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="7" end="15" text="12 x 109" type="resultValue" source="" category="" />
+<NOUN id="N3" start="15" end="17" text="/l" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

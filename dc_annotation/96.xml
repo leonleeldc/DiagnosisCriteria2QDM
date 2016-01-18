@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Dopamine agonist-resistant macroadenoma
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="17" text="Dopamine agonist" type="labtest" source="Indications for Therapy and for Neurosurgery in Patients with Prolactinomas" category="Endocrinology and Metabolism" />
+</TAGS>
+</NounVerbTask>

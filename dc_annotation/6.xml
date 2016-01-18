@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+No myocarditis: No infiltrating cells or <14 leukocytes/mm2.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="20" end="38" text="infiltrating cells" type="labtest" source="Diagnostic Criteria for Myocarditis" category="Cardiology" />
+<NOUN id="N1" start="17" end="19" text="No" type="resultString" source="" category="" />
+<NOUN id="N2" start="42" end="43" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N3" start="43" end="45" text="14" type="resultValue" source="" category="" />
+<NOUN id="N4" start="46" end="60" text="leukocytes/mm2" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

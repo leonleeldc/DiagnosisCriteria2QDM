@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Platelets <20000/mL or evidence of ongoing disseminated intravascular coagulation
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="Platelets" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="11" end="12" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="12" end="17" text="20000" type="resultValue" source="" category="" />
+<NOUN id="N3" start="17" end="20" text="/mL" type="unit" source="" category="" />
+<NOUN id="N4" start="21" end="23" text="or" type="boolean" source="" category="" />
+<NOUN id="N5" start="57" end="82" text="intravascular coagulation" type="labtest" source="" category="" />
+<NOUN id="N6" start="36" end="56" text="ongoing disseminated" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

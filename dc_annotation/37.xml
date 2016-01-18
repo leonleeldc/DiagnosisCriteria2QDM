@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Fasting glucose level >/=100 mg/dL (5.6 mmol/L) and <126 mg/dL (7.0 mmol/L)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="16" text="Fasting glucose" type="labtest" source="Impaired fasting glucose (IFG)" category="Diabetes" />
+<NOUN id="N1" start="23" end="26" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="26" end="29" text="100" type="resultValue" source="" category="" />
+<NOUN id="N3" start="30" end="35" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N4" start="37" end="40" text="5.6" type="resultValue" source="" category="" />
+<NOUN id="N5" start="41" end="47" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N6" start="53" end="54" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N7" start="54" end="57" text="126" type="resultValue" source="" category="" />
+<NOUN id="N8" start="58" end="63" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N9" start="65" end="68" text="7.0" type="resultValue" source="" category="" />
+<NOUN id="N10" start="69" end="75" text="mmol/L" type="unit" source="" category="" />
+<NOUN id="N11" start="49" end="52" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

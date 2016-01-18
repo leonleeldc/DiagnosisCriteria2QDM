@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+ Individuals receiving high-dose statin therapy would be expected to lower their LDL-C level by >50% from their baseline level, and those receiving moderate-dose statin therapy would be expected to lower their LDL-C level by 30%-49%.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="82" end="87" text="LDL-C" type="labtest" source="Summary of the ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce ASCVD" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="97" end="98" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="94" end="127" text="by &amp;gt;50% from their baseline level" type="resultString" source="" category="" />
+<NOUN id="N3" start="211" end="216" text="LDL-C" type="labtest" source="" category="" />
+<NOUN id="N4" start="223" end="233" text="by 30%-49%" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

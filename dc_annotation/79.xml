@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Leukocytes <1500/mL or >40000/mL
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="11" text="Leukocytes" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="12" end="13" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="13" end="17" text="1500" type="resultValue" source="" category="" />
+<NOUN id="N3" start="17" end="20" text="/mL" type="unit" source="" category="" />
+<NOUN id="N4" start="21" end="23" text="or" type="boolean" source="" category="" />
+<NOUN id="N5" start="24" end="25" text="&amp;gt;" type="unit" source="" category="" />
+<NOUN id="N6" start="25" end="30" text="40000" type="unit" source="" category="" />
+<NOUN id="N7" start="30" end="33" text="/mL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

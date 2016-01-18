@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Biopsies of the esophageal mucosa reveal a dense eosinophilic infiltration (ie, >/=20 eosinophils/HPF).
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="87" end="98" text="eosinophils" type="labtest" source="eosinophilic esophagitis" category="Gastroenterology" />
+<NOUN id="N1" start="81" end="84" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="84" end="86" text="20" type="resultValue" source="" category="" />
+<NOUN id="N3" start="87" end="102" text="eosinophils/HPF" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+There are many biochemical markers for Paget's disease, but the two most important are total serum alkaline phosphatase and urinary pyridinoline.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="100" end="120" text="alkaline phosphatase" type="labtest" source="Diagnosis of Paget's Disease of Bone" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="94" end="99" text="serum" type="body&amp;organ" source="" category="" />
+<NOUN id="N2" start="125" end="132" text="urinary" type="body&amp;organ" source="" category="" />
+<NOUN id="N3" start="133" end="145" text="pyridinoline" type="labtest" source="" category="" />
+</TAGS>
+</NounVerbTask>

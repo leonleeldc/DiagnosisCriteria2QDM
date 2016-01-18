@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Serum triglycerides 150 mg/dL (>/=1.7 mmol/l) or HDL cholesterol <36 mg/dL (<0.9 mmol/l) in men and <40 mg/dL (<1.0 mmol/l) in women.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="20" text="Serum triglycerides" type="labtest" source="Criteria for the Metabolic Syndrome" category="Diabetes" />
+<NOUN id="N1" start="50" end="65" text="HDL cholesterol" type="labtest" source="" category="" />
+<NOUN id="N2" start="21" end="24" text="150" type="resultValue" source="" category="" />
+<NOUN id="N3" start="25" end="30" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N4" start="32" end="35" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N5" start="35" end="38" text="1.7" type="resultValue" source="" category="" />
+<NOUN id="N6" start="39" end="45" text="mmol/l" type="unit" source="" category="" />
+<NOUN id="N7" start="66" end="67" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N8" start="67" end="69" text="36" type="resultValue" source="" category="" />
+<NOUN id="N9" start="70" end="75" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N10" start="77" end="78" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N11" start="78" end="81" text="0.9" type="resultValue" source="" category="" />
+<NOUN id="N12" start="82" end="88" text="mmol/l" type="unit" source="" category="" />
+<NOUN id="N13" start="93" end="96" text="men" type="Demographic" source="" category="" />
+<NOUN id="N14" start="101" end="102" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N15" start="102" end="104" text="40" type="resultValue" source="" category="" />
+<NOUN id="N16" start="105" end="110" text="mg/dL" type="unit" source="" category="" />
+<NOUN id="N17" start="112" end="113" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N18" start="113" end="116" text="1.0" type="resultValue" source="" category="" />
+<NOUN id="N19" start="117" end="123" text="mmol/l" type="unit" source="" category="" />
+<NOUN id="N20" start="128" end="133" text="women" type="Demographic" source="" category="" />
+<NOUN id="N21" start="47" end="49" text="or" type="boolean" source="" category="" />
+<NOUN id="N22" start="97" end="100" text="and" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Bilirubin >60 mg/L or a twofold increase in alkaline phosphatase in serum and
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="Bilirubin" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="11" end="12" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="12" end="14" text="60" type="resultValue" source="" category="" />
+<NOUN id="N3" start="15" end="19" text="mg/L" type="unit" source="" category="" />
+<NOUN id="N4" start="20" end="22" text="or" type="boolean" source="" category="" />
+<NOUN id="N5" start="45" end="65" text="alkaline phosphatase" type="labtest" source="" category="" />
+<NOUN id="N6" start="69" end="74" text="serum" type="body&amp;organ" source="" category="" />
+<NOUN id="N7" start="25" end="41" text="twofold increase" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Persistent biliary obstruction (conjugated bilirubin level >5 mg/dl [86 umol per liter])
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="33" end="53" text="conjugated bilirubin" type="labtest" source="Indications and Contraindications for ERCP in Patients with Acute Biliary Pancreatitis" category="Gastroenterology" />
+<NOUN id="N1" start="60" end="61" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="61" end="62" text="5" type="resultValue" source="" category="" />
+<NOUN id="N3" start="63" end="68" text="mg/dl" type="unit" source="" category="" />
+<NOUN id="N4" start="70" end="72" text="86" type="resultValue" source="" category="" />
+<NOUN id="N5" start="73" end="87" text="umol per liter" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

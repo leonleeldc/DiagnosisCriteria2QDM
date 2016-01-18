@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+LDL-C level >190 mg/dL
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="6" text="LDL-C" type="labtestABB" source="Summary of the ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce ASCVD" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="13" end="14" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="14" end="17" text="190" type="resultValue" source="" category="" />
+<NOUN id="N3" start="18" end="23" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

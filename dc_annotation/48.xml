@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Serum Cr increased 1.5 times*
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="9" text="Serum Cr" type="labtestABB" source="Acute Renal Failure" category="Nephrology " />
+<NOUN id="N2" start="10" end="29" text="increased 1.5 times" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

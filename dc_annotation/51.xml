@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Single positive blood culture for Coxiella burnetii or phase I IgG antibody titer of >1:800
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="17" end="30" text="blood culture" type="labtest" source="Infective Endocarditis" category="Cardiology" />
+<NOUN id="N1" start="8" end="16" text="positive" type="resultString" source="" category="" />
+<NOUN id="N2" start="64" end="67" text="IgG" type="labtestABB" source="" category="" />
+<NOUN id="N3" start="86" end="87" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N4" start="87" end="92" text="1:800" type="resultValue" source="" category="" />
+</TAGS>
+</NounVerbTask>

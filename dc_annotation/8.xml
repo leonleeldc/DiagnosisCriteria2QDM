@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Glycated hemoglobin level of 5.7% or more or impaired fasting glucose or impaired glucose tolerance on previous testing
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="26" text="Glycated hemoglobin level" type="labtest" source="American Diabetes Association Recommendations for the Screening of Asymptomatic Persons for Diabetes" category="Diabetes" />
+<NOUN id="N1" start="30" end="34" text="5.7%" type="resultValue" source="" category="" />
+<NOUN id="N2" start="27" end="42" text="of 5.7% or more" type="symbolinString" source="" category="" />
+<NOUN id="N3" start="55" end="70" text="fasting glucose" type="labtest" source="" category="" />
+<NOUN id="N4" start="46" end="54" text="impaired" type="resultString" source="" category="" />
+<NOUN id="N5" start="83" end="100" text="glucose tolerance" type="labtest" source="" category="" />
+<NOUN id="N6" start="74" end="82" text="impaired" type="resultString" source="" category="" />
+<NOUN id="N7" start="43" end="45" text="or" type="boolean" source="" category="" />
+<NOUN id="N8" start="71" end="73" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

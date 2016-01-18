@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+High-intensity statin therapy* is recommended for patients with known ASCVD, LDL-C levels >190 mg/dL, and DM, with 10-y risk >7.5%. Moderate-dose statin therapy** is recommended for the other treatment groups (patients with DM but with 10-y risk <7.5% and those without DM who have a 10-y risk >7.5%).
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="78" end="83" text="LDL-C" type="labtest" source="Summary of the ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce ASCVD" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="91" end="92" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="92" end="95" text="190" type="resultValue" source="" category="" />
+<NOUN id="N3" start="96" end="101" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

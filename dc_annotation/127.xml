@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Diuretic-induced renal impairment is indicated by an increase of serum creatinine by > 100% to a value of > 2 mg/dL in patients with ascites otherwise responding to treatment. 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="66" end="82" text="serum creatinine" type="labtest" source="Diagnostic Criteria for Refractory Ascites" category="Gastroenterology" />
+<NOUN id="N1" start="54" end="62" text="increase" type="resultString" source="" category="" />
+<NOUN id="N2" start="86" end="87" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N4" start="107" end="108" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N5" start="83" end="92" text="by &amp;gt; 100%" type="resultString" source="" category="" />
+<NOUN id="N6" start="109" end="110" text="2" type="resultValue" source="" category="" />
+<NOUN id="N7" start="111" end="116" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

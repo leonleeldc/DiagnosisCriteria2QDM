@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Uremia (BUN level >/= 20 mg/dl)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="9" end="12" text="BUN" type="labtest" source="Guidelines for Intensive Care Unit Admission for Severe Community-Acquired Pneumonia (CAP)" category="Critical Care" />
+<NOUN id="N1" start="19" end="22" text="&amp;gt;/=" type="symbol" source="" category="" />
+<NOUN id="N2" start="23" end="25" text="20" type="resultValue" source="" category="" />
+<NOUN id="N3" start="26" end="31" text="mg/dl" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

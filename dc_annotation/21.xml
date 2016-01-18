@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Low serum EPO or characteristic burst forming units - erythroid (BFU-E) growth
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="5" end="14" text="serum EPO" type="labtest" source="Diagnostic Criteria for Polycythemia Vera (PV)" category="" />
+<NOUN id="N1" start="1" end="4" text="Low" type="resultString" source="" category="" />
+<NOUN id="N3" start="66" end="71" text="BFU-E" type="labtestABB" source="" category="" />
+<NOUN id="N5" start="33" end="64" text="burst forming units - erythroid" type="labtest" source="" category="" />
+<NOUN id="N6" start="73" end="79" text="growth" type="resultString" source="" category="" />
+<NOUN id="N2" start="15" end="17" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Thrombocytopenia:<100,000 platelets/mm3
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="27" end="36" text="platelets" type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="18" end="19" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="19" end="26" text="100,000" type="resultValue" source="" category="" />
+<NOUN id="N3" start="27" end="40" text="platelets/mm3" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

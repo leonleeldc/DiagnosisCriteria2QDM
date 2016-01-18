@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+At the onset of disease, the presence of IgG anti-HAV is always accompanied by the presence of IgM anti-HAV. 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="42" end="54" text="IgG anti-HAV" type="labtestABB" source="Gastroenterology" category="Typical Serologic Course of Hepatitis A Virus (HAV) Infection" />
+<NOUN id="N1" start="96" end="108" text="IgM anti-HAV" type="labtestABB" source="" category="" />
+<NOUN id="N2" start="80" end="95" text="the presence of" type="resultString" source="" category="" />
+<NOUN id="N3" start="26" end="41" text="the presence of" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

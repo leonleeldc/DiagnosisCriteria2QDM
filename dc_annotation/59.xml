@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Hypoxemia:Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen <250 mm Hg
+]]></TEXT>
+<TAGS>
+<NOUN id="N2" start="96" end="97" text="&amp;lt;" type="symbol" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N3" start="11" end="95" text="Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen" type="labtest" source="" category="" />
+<NOUN id="N4" start="97" end="100" text="250" type="resultValue" source="" category="" />
+<NOUN id="N5" start="101" end="106" text="mm Hg" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

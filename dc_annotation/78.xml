@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Prothrombin time >4 s over upper limit of normal range or a twofold increase in aspartate aminotransferase in serum
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="17" text="Prothrombin time" type="labtest" source="Knaus Criteria for Multiple System Organ Failure (MSOF)" category="Critical Care" />
+<NOUN id="N1" start="18" end="19" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="19" end="20" text="4" type="resultValue" source="" category="" />
+<NOUN id="N3" start="21" end="22" text="s" type="unit" source="" category="" />
+<NOUN id="N4" start="23" end="55" text="over upper limit of normal range" type="resultString" source="" category="" />
+<NOUN id="N5" start="56" end="58" text="or" type="boolean" source="" category="" />
+<NOUN id="N6" start="61" end="77" text="twofold increase" type="resultString" source="" category="" />
+<NOUN id="N7" start="81" end="107" text="aspartate aminotransferase" type="labtest" source="" category="" />
+<NOUN id="N8" start="111" end="116" text="serum" type="body&amp;organ" source="" category="" />
+</TAGS>
+</NounVerbTask>

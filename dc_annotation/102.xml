@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+The expert panel did not recommend for or against LDL-C goals or targets but rather recommends that lipids be checked at baseline and then 4-12 wk after initiating statin therapy to assess adherence and response to therapy. 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="51" end="56" text="LDL-C" type="labtest" source="Summary of the ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce ASCVD" category="Endocrinology and Metabolism" />
+</TAGS>
+</NounVerbTask>

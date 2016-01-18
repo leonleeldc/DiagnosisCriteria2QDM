@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Low albumin:<3.5 g/dl
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="5" end="12" text="albumin" type="labtest" source="Criteria for Consideration of ICU Admission for Patients without an Obvious Need" category="Critical Care" />
+<NOUN id="N1" start="1" end="4" text="Low" type="resultString" source="" category="" />
+<NOUN id="N2" start="13" end="14" text="&amp;lt;" type="symbol" source="" category="" />
+<NOUN id="N3" start="14" end="17" text="3.5" type="resultValue" source="" category="" />
+<NOUN id="N4" start="18" end="22" text="g/dl" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

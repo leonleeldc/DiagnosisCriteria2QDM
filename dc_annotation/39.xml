@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+The criteria for severe acute pancreatitis were defined as organ failure of at least one organ system (systolic blood pressure <90 mm Hg, PaO2 <60 mm Hg, creatinine >2.0 mg/dL after rehydration, and gastrointestinal bleeding >500 mL/24 h) and the presence of local complications such as necrosis, pseudocyst, and abscess.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="155" end="165" text="creatinine" type="labtest" source="severe acute pancreatitis" category="Gastroenterology" />
+<NOUN id="N1" start="166" end="167" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="167" end="170" text="2.0" type="resultValue" source="" category="" />
+<NOUN id="N3" start="171" end="176" text="mg/dL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

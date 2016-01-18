@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Increased 'late-evening' salivary cortisol (test incompletely evaluated
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="Increased" type="resultString" source="Criteria for Diagnosis of Cushing’s Syndrome (CS)" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="35" end="43" text="cortisol" type="labtest" source="" category="" />
+<NOUN id="N2" start="26" end="34" text="salivary" type="body&amp;organ" source="" category="" />
+</TAGS>
+</NounVerbTask>

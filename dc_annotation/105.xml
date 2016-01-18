@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Clinical deterioration (worsening pain, increasing white-cell count, worsening vital signs)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="52" end="62" text="white-cell" type="labtest" source="" category="" />
+<NOUN id="N1" start="41" end="51" text="increasing" type="resultString" source="Indications and Contraindications for ERCP in Patients with Acute Biliary Pancreatitis" category="Gastroenterology" />
+</TAGS>
+</NounVerbTask>

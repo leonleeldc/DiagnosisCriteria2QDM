@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Typical rise and gradual fall (troponin) or more rapid rise and fall (CK-MB) of biochemical markers of myocardial necrosis with at least one of the following
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="32" end="40" text="troponin" type="labtest" source="New Diagnostic Criteria for Myocardial Infarction" category="Cardiology" />
+<NOUN id="N1" start="1" end="13" text="Typical rise" type="resultString" source="" category="" />
+<NOUN id="N2" start="18" end="30" text="gradual fall" type="resultString" source="" category="" />
+<NOUN id="N3" start="71" end="76" text="CK-MB" type="labtestABB" source="" category="" />
+<NOUN id="N4" start="50" end="69" text="rapid rise and fall" type="resultString" source="" category="" />
+<NOUN id="N5" start="42" end="44" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

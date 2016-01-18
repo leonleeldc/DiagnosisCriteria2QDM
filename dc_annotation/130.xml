@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Abnormal results from stimulation testing with secretin (an increase of >200 pg/mL postinjection) or with calcium (an increase >395 pg/mL);
+]]></TEXT>
+<TAGS>
+<NOUN id="N4" start="78" end="83" text="pg/mL" type="unit" source="Diagnostic Criteria for Zollinger-Ellison Syndrome (ZES)" category="Gastroenterology" />
+<NOUN id="N5" start="48" end="56" text="secretin" type="labtest" source="" category="" />
+<NOUN id="N6" start="58" end="97" text="an increase of &amp;gt;200 pg/mL postinjection" type="resultString" source="" category="" />
+<NOUN id="N7" start="107" end="114" text="calcium" type="labtest" source="" category="" />
+<NOUN id="N8" start="116" end="138" text="an increase &amp;gt;395 pg/mL" type="resultString" source="" category="" />
+<NOUN id="N9" start="133" end="138" text="pg/mL" type="unit" source="" category="" />
+</TAGS>
+</NounVerbTask>

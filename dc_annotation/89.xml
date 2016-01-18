@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+The finding of a normal level of albumin-adjusted or ionized serum calcium and an elevated level of PTH in patients with no other causes of secondary hyperparathyroidism is consistent with normocalcemic primary hyperparathyroidism.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="101" end="104" text="PTH" type="labtest" source="Guidelines for the Treatment of Asymptomatic Primary Hyperparathyroidism" category="Endocrinology and Metabolism" />
+<NOUN id="N2" start="83" end="91" text="elevated" type="resultString" source="" category="" />
+<NOUN id="N3" start="62" end="75" text="serum calcium" type="labtest" source="" category="" />
+<NOUN id="N4" start="54" end="61" text="ionized" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

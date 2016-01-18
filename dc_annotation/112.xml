@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+A second option is the detection of virus and/or antigen in the faeces.
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="37" end="42" text="virus" type="labtest" source="Typical Serologic Course of Hepatitis A Virus (HAV) Infection" category="Gastroenterology" />
+<NOUN id="N1" start="43" end="49" text="and/or" type="boolean" source="" category="" />
+<NOUN id="N2" start="50" end="57" text="antigen" type="labtest" source="" category="" />
+<NOUN id="N3" start="65" end="71" text="faeces" type="body&amp;organ" source="" category="" />
+<NOUN id="N4" start="20" end="36" text="the detection of" type="resultString" source="" category="" />
+</TAGS>
+</NounVerbTask>

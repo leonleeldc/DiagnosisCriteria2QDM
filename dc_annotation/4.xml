@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Acute (active) myocarditis: a clear-cut infiltrate (diffuse, focal or confluent) of >14 leukocytes/mm2 (preferably activated T cells). 
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="41" end="51" text="infiltrate" type="labtest" source="Diagnostic Criteria for Myocarditis" category="Cardiology" />
+<NOUN id="N1" start="85" end="86" text="&amp;gt;" type="symbol" source="" category="" />
+<NOUN id="N2" start="86" end="88" text="14" type="resultValue" source="" category="" />
+<NOUN id="N3" start="89" end="103" text="leukocytes/mm2" type="unit" source="" category="" />
+<NOUN id="N4" start="126" end="133" text="T cells" type="labtest" source="" category="" />
+<NOUN id="N5" start="116" end="125" text="activated" type="resultString" source="" category="" />
+<NOUN id="N6" start="68" end="70" text="or" type="boolean" source="" category="" />
+</TAGS>
+</NounVerbTask>

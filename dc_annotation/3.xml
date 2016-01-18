@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Tuberculosis, Borrelia burgdorferi, Chlamydia pneumoniae, and other bacterial infection excluded by PCR and/or cultures;
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="101" end="104" text="PCR" type="labtestABB" source="Diagnosis of Autoreactive Pericarditis" category="Cardiology" />
+<NOUN id="N1" start="112" end="120" text="cultures" type="labtest" source="" category="" />
+<NOUN id="N2" start="59" end="62" text="and" type="boolean" source="" category="" />
+<NOUN id="N3" start="89" end="97" text="excluded" type="exclusion" source="" category="" />
+</TAGS>
+</NounVerbTask>

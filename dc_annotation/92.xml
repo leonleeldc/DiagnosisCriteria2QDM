@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NounVerbTask>
+<TEXT><![CDATA[
+Increased Urinary Free Cortisol (three 24h collections)
+]]></TEXT>
+<TAGS>
+<NOUN id="N0" start="1" end="10" text="Increased" type="resultString" source="Criteria for Diagnosis of Cushing’s Syndrome (CS)" category="Endocrinology and Metabolism" />
+<NOUN id="N1" start="24" end="32" text="Cortisol" type="labtest" source="" category="" />
+<NOUN id="N2" start="34" end="55" text="three 24h collections" type="TempCondition" source="" category="" />
+</TAGS>
+</NounVerbTask>

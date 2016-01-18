@@ -1,0 +1,47 @@
+
+O	Fasting glucose_110
+B-entity		Fasting 110_to
+I-entity		glucose 110_to
+O	glucose 110_to
+B-labvalmod		110 Fasting_glucose to_126
+O	to glucose_110 126_mg
+B-labvalmod		126 110_to mg_/
+O	mg to_126 /_dL
+B-labvalmod		mg/dL	ctext-3=/ to_126 (_6.1
+O	/ 126_mg dL_(
+O	dL mg_/ (_6.1
+O	( /_dL 6.1_to
+B-labvalmod		6.1 dL_( to_7.0
+O	to (_6.1 7.0_mmol
+B-labvalmod		7.0 6.1_to mmol_/
+O	mmol to_7.0 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE to_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	( 100_mg
+B-labvalmod		100 mg_/
+O	mg (_100 /_dL
+B-labvalmod		mg/dL	ctext-3=/ (_100 _>
+O	/ 100_mg dL_
+O	dL mg_/ _>
+O	[ /_dL >_/
+O	> dL_ /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 dL_ 5.6_mmol
+O	/ _> =_5.6
+O	= >_/ 5.6_mmol
+B-labvalmod		5.6 /_= mmol_/
+O	mmol =_5.6 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE =_5.6
+O	/ 5.6_mmol L_
+O	L mmol_/
+O	] /_L
+
+
+O	may be_applicable
+O	be applicable_)
+O	applicable may_be
+O	) be_applicable
+

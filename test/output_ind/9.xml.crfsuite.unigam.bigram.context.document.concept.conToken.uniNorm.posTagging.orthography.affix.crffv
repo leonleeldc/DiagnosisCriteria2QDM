@@ -1,0 +1,41 @@
+
+O	HDL cholesterol_level
+B-entity	HDL cholesterol  level_of
+I-entity	HDL cholesterol  level_of
+O	cholesterol level_of
+O	level HDL_cholesterol of_less
+O	of cholesterol_level less_than
+O	less level_of than_35
+O	than of_less 35_mg
+B-labvalmod	35 	beforecontext-0=context-ro less_than mg_per
+O	mg than_35 per_deciliter
+O	per 35_mg deciliter_(
+O	deciliter mg_per (_0.91
+O	( per_deciliter 0.91_mmol
+B-labvalmod	0.91 	beforecontext-0=context-ro deciliter_( mmol_per
+O	mmol (_0.91 per_liter
+O	per 0.91_mmol liter_)
+O	liter mmol_per )_,
+O	) per_liter ,_triglyceride
+O	, liter_) triglyceride_level
+B-entity	triglyceride 	beforecontext-0=context-ro )_, level_of
+O	level ,_triglyceride of_more
+O	of triglyceride_level more_than
+O	more level_of than_250
+O	than of_more 250_mg
+B-labvalmod	250 	beforecontext-0=context-ro more_than mg_per
+O	mg than_250 per_deciliter
+O	per 250_mg deciliter_(
+O	deciliter mg_per (_2.8
+O	( per_deciliter 2.8_mmol
+B-labvalmod	2.8 	beforecontext-0=context-ro deciliter_( mmol_per
+O	mmol (_2.8 per_liter
+O	per 2.8_mmol liter_)
+O	liter mmol_per )_,
+O	) per_liter ,_or
+O	, liter_) or_both
+O	or )_,
+B-labintermod	or both 	beforecontext-0=context-ro )_,
+I-labintermod	or both 	beforecontext-0=context-ro )_,
+O	both ,_or
+

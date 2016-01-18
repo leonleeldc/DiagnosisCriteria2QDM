@@ -1,0 +1,57 @@
+
+O	HDL cholesterol_level
+B-entity		HDL	T059	T059	T123	ctext-0=HDL	sectonHeader-0=9.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	HDL	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=HDL	SUF|1+0|=HDL		cholesterol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cho	SUF|1+1|=rol		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-4=cholesterol	uniTok|1+-2|=EEEEE level_of
+I-entity		cholesterol	T059	T059	T123	ctext-0=HDL	sectonHeader-0=9.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	HDL	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=HDL	SUF|1+0|=HDL		cholesterol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cho	SUF|1+1|=rol		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-4=cholesterol	uniTok|1+-2|=EEEEE level_of
+O	cholesterol level_of
+O	level HDL_cholesterol of_less
+O	of cholesterol_level less_than
+O	less level_of than_35
+B-labrefrangemod		less	T023	ctext-0=less	sectonHeader-0=9.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	LES	pos|1+0|=JJR	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=les	SUF|1+0|=ess		than	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tha	SUF|1+1|=han		ctext-5=than	beforecontext-0=context-ro level_of 35_mg
+I-labrefrangemod		than	T023	ctext-0=less	sectonHeader-0=9.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	LES	pos|1+0|=JJR	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=les	SUF|1+0|=ess		than	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tha	SUF|1+1|=han		ctext-5=than	beforecontext-0=context-ro level_of 35_mg
+O	than of_less 35_mg
+B-labvalmod		35	unit	ctext-0=35	sectonHeader-0=9.xml-testSeg	num	LES	pos|1-2|=JJR	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=les	SUF|1-2|=ess		than	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=tha	SUF|1-1|=han		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		beforecontext-0=context-ro less_than mg_per
+O	mg than_35 per_deciliter
+B-labvalmod		mg	T059	unit	ctext-0=mg	sectonHeader-0=9.xml-testSeg	than	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tha	SUF|1-2|=han		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		deciliter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dec	SUF|1+2|=ter		ctext-3=per	ctext-7=deciliter	beforecontext-0=context-ro than_35 (_0.91
+I-labvalmod		per	T059	unit	ctext-0=mg	sectonHeader-0=9.xml-testSeg	than	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tha	SUF|1-2|=han		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		deciliter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dec	SUF|1+2|=ter		ctext-3=per	ctext-7=deciliter	beforecontext-0=context-ro than_35 (_0.91
+I-labvalmod		deciliter	T059	unit	ctext-0=mg	sectonHeader-0=9.xml-testSeg	than	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tha	SUF|1-2|=han		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		deciliter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dec	SUF|1+2|=ter		ctext-3=per	ctext-7=deciliter	beforecontext-0=context-ro than_35 (_0.91
+O	per 35_mg deciliter_(
+O	deciliter mg_per (_0.91
+O	( per_deciliter 0.91_mmol
+B-labvalmod		0.91	unit	ctext-0=0.91	sectonHeader-0=9.xml-testSeg	num	deciliter	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=dec	SUF|1-2|=ter		mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		beforecontext-0=context-ro deciliter_( mmol_per
+O	mmol (_0.91 per_liter
+B-labvalmod		mmol	unit	ctext-0=mmol	sectonHeader-0=9.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-5=per	ctext-9=liter	beforecontext-0=context-ro (_0.91 )_,
+I-labvalmod		per	unit	ctext-0=mmol	sectonHeader-0=9.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-5=per	ctext-9=liter	beforecontext-0=context-ro (_0.91 )_,
+I-labvalmod		liter	unit	ctext-0=mmol	sectonHeader-0=9.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-5=per	ctext-9=liter	beforecontext-0=context-ro (_0.91 )_,
+O	per 0.91_mmol liter_)
+O	liter mmol_per )_,
+O	) per_liter ,_triglyceride
+O	, liter_) triglyceride_level
+B-entity		triglyceride	ctext-0=triglyceride	sectonHeader-0=9.xml-testSeg	triglyceride	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tri	SUF|1+0|=ide		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro )_, level_of
+O	level ,_triglyceride of_more
+O	of triglyceride_level more_than
+O	more level_of than_250
+B-labrefrangemod		more	ctext-0=more	sectonHeader-0=9.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	more	pos|1+0|=JJR	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mor	SUF|1+0|=ore		than	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tha	SUF|1+1|=han		ctext-5=than	beforecontext-0=context-ro level_of 250_mg
+I-labrefrangemod		than	ctext-0=more	sectonHeader-0=9.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	more	pos|1+0|=JJR	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mor	SUF|1+0|=ore		than	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tha	SUF|1+1|=han		ctext-5=than	beforecontext-0=context-ro level_of 250_mg
+O	than of_more 250_mg
+B-labvalmod		250	unit	ctext-0=250	sectonHeader-0=9.xml-testSeg	num	more	pos|1-2|=JJR	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mor	SUF|1-2|=ore		than	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=tha	SUF|1-1|=han		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		beforecontext-0=context-ro more_than mg_per
+O	mg than_250 per_deciliter
+B-labvalmod		mg	T059	unit	ctext-0=mg	sectonHeader-0=9.xml-testSeg	than	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tha	SUF|1-2|=han		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		deciliter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dec	SUF|1+2|=ter		ctext-3=per	ctext-7=deciliter	beforecontext-0=context-ro than_250 (_2.8
+I-labvalmod		per	T059	unit	ctext-0=mg	sectonHeader-0=9.xml-testSeg	than	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tha	SUF|1-2|=han		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		deciliter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dec	SUF|1+2|=ter		ctext-3=per	ctext-7=deciliter	beforecontext-0=context-ro than_250 (_2.8
+I-labvalmod		deciliter	T059	unit	ctext-0=mg	sectonHeader-0=9.xml-testSeg	than	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tha	SUF|1-2|=han		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		deciliter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dec	SUF|1+2|=ter		ctext-3=per	ctext-7=deciliter	beforecontext-0=context-ro than_250 (_2.8
+O	per 250_mg deciliter_(
+O	deciliter mg_per (_2.8
+O	( per_deciliter 2.8_mmol
+B-labvalmod		2.8	unit	ctext-0=2.8	sectonHeader-0=9.xml-testSeg	num	deciliter	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=dec	SUF|1-2|=ter		mmol	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		beforecontext-0=context-ro deciliter_( mmol_per
+O	mmol (_2.8 per_liter
+B-labvalmod		mmol	unit	ctext-0=mmol	sectonHeader-0=9.xml-testSeg	mmol	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-5=per	ctext-9=liter	beforecontext-0=context-ro (_2.8 )_,
+I-labvalmod		per	unit	ctext-0=mmol	sectonHeader-0=9.xml-testSeg	mmol	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-5=per	ctext-9=liter	beforecontext-0=context-ro (_2.8 )_,
+I-labvalmod		liter	unit	ctext-0=mmol	sectonHeader-0=9.xml-testSeg	mmol	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-5=per	ctext-9=liter	beforecontext-0=context-ro (_2.8 )_,
+O	per 2.8_mmol liter_)
+O	liter mmol_per )_,
+O	) per_liter ,_or
+O	, liter_) or_both
+O	or )_,
+B-labintermod		or	ctext-0=or	sectonHeader-0=9.xml-testSeg	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	both	pos|1+1|=RB	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bot	SUF|1+1|=oth		uniTok|1+2|=EEEEE	ctext-3=both	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro )_,
+I-labintermod		both	ctext-0=or	sectonHeader-0=9.xml-testSeg	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	both	pos|1+1|=RB	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bot	SUF|1+1|=oth		uniTok|1+2|=EEEEE	ctext-3=both	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro )_,
+O	both ,_or
+

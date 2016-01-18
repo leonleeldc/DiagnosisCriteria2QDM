@@ -1,0 +1,13 @@
+
+O	tTG IgA_(
+B-entity		tTG	T059	ctext-0=tTG	sectonHeader-0=138.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	ttg	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-3|=LOWER-UPPER	PRE|1+0|=tTG	SUF|1+0|=tTG		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		ctext-4=IgA	uniTok|1+-2|=EEEEE (_Sensitivity
+I-entity		IgA	T059	ctext-0=tTG	sectonHeader-0=138.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	ttg	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-3|=LOWER-UPPER	PRE|1+0|=tTG	SUF|1+0|=tTG		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		ctext-4=IgA	uniTok|1+-2|=EEEEE (_Sensitivity
+O	IgA (_Sensitivity
+O	( tTG_IgA Sensitivity_:
+O	Sensitivity IgA_( :_90
+O	: (_Sensitivity 90_-
+O	90 Sensitivity_: -_98
+O	- :_90 98_)
+O	98 90_-
+O	) -_98
+

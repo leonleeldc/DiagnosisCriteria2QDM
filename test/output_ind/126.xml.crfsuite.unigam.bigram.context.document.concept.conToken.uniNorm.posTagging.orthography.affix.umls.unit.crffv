@@ -1,0 +1,14 @@
+
+B-labintermod		Increased	postcontext-0=context-ro	postcontext-2=context-her hepatic_iron
+O	hepatic iron_by
+B-entity		hepatic	beforecontext-1=context-ed	postcontext-2=context-her by_either
+I-entity		iron	beforecontext-1=context-ed	postcontext-2=context-her by_either
+O	iron Increased_hepatic by_either
+O	by hepatic_iron either_a
+O	either iron_by a_or
+O	a by_either or_b
+O	or either_a b_,
+O	b a_or ,_below
+O	, or_b
+O	below b_,
+

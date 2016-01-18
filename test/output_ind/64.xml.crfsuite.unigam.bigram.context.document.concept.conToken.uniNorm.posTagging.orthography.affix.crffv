@@ -1,0 +1,11 @@
+
+B-labintermod	Low  albumin_:
+B-entity	albumin  :_<
+O	: Low_albumin <_3.5
+B-labrefrangemod	< 	ctext-1=<	albumin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=alb	SUF|1-2|=min		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR albumin_: 3.5_g
+B-labvalmod	3.5  :_< g_/
+O	g <_3.5 /_dl
+B-labvalmod	g/dl 	ctext-1=g	ctext-2=/	uniTok|1+2|=EEEEE <_3.5
+O	/ 3.5_g
+O	dl g_/
+

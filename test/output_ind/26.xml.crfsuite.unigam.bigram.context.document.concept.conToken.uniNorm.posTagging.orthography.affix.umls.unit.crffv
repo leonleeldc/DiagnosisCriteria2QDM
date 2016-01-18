@@ -1,0 +1,63 @@
+
+O	Serum triglycerides_150
+B-entity		Serum	C0202236	T059	C0542495	T059 150_mg
+I-entity		triglycerides	C0202236	T059	C0542495	T059 150_mg
+O	triglycerides 150_mg
+B-labvalmod		150 Serum_triglycerides mg_/
+O	mg triglycerides_150 /_dL
+B-labvalmod		mg/dL	ctext-3=/ triglycerides_150 (_>
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 dL_( 1.7_mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod		1.7 /_= mmol_/
+O	mmol =_1.7 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE =_1.7
+O	/ 1.7_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+B-labintermod		or	postcontext-0=context-ro HDL_cholesterol
+O	HDL cholesterol_<
+B-entity		HDL	C0428472	T059	C1445957	T059	C0428472	T059	C0428472	T059 <_36
+I-entity		cholesterol	C0428472	T059	C1445957	T059	C0428472	T059	C0428472	T059 <_36
+O	cholesterol or_HDL <_36
+B-labrefrangemod		<	unit	ctext-1=<	HDL	pos|1-2|=NNP	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=HDL	SUF|1-2|=HDL		cholesterol	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cho	SUF|1-1|=rol		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro HDL_cholesterol 36_mg
+B-labvalmod		36	beforecontext-0=context-ro cholesterol_< mg_/
+O	mg <_36 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ro <_36 (_<
+O	/ 36_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_0.9
+B-labrefrangemod		<	unit	ctext-1=<	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 0.9_mmol
+B-labvalmod		0.9	beforecontext-0=context-ro (_< mmol_/
+O	mmol <_0.9 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro <_0.9 )_in
+O	/ 0.9_mmol l_)
+O	l mmol_/ )_in
+O	) /_l in_men
+O	in l_) men_and
+O	men )_in and_<
+B-labintermod		and	beforecontext-0=context-ro in_men <_40
+B-labrefrangemod		<	unit	ctext-1=<	MEN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=men	SUF|1-2|=men		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro men_and 40_mg
+B-labvalmod		40	beforecontext-0=context-ro and_< mg_/
+O	mg <_40 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ro <_40 (_<
+O	/ 40_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.0
+B-labrefrangemod		<	unit	ctext-1=<	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 1.0_mmol
+B-labvalmod		1.0	beforecontext-0=context-ro (_< mmol_/
+O	mmol <_1.0 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro <_1.0 )_in
+O	/ 1.0_mmol l_)
+O	l mmol_/ )_in
+O	) /_l in_women
+O	in l_) women_.
+O	women )_in
+O	. in_women
+

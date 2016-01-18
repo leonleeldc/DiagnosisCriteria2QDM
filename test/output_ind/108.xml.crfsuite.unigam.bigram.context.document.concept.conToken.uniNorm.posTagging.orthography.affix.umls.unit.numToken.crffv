@@ -1,0 +1,20 @@
+
+B-labintermod		Elevated	ctext-0=Elevated	sectonHeader-0=108.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	elevate	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ele	SUF|1+0|=ted		White	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=whi	SUF|1+1|=ite		blood	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=blo	SUF|1+2|=ood	 white_blood
+O	white blood_cell
+B-entity		white	T025	T059	T024	T025	T059	T025	T059	ctext-0=white	sectonHeader-0=108.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		White	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	ctext-12=cell	ctext-17=count	uniTok|1+2|=EEEEE	beforecontext-0=context-ed
+I-entity		blood	T025	T059	T024	T025	T059	T025	T059	ctext-0=white	sectonHeader-0=108.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		White	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	ctext-12=cell	ctext-17=count	uniTok|1+2|=EEEEE	beforecontext-0=context-ed
+I-entity		cell	T025	T059	T024	T025	T059	T025	T059	ctext-0=white	sectonHeader-0=108.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		White	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	ctext-12=cell	ctext-17=count	uniTok|1+2|=EEEEE	beforecontext-0=context-ed
+I-entity		count	T025	T059	T024	T025	T059	T025	T059	ctext-0=white	sectonHeader-0=108.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		White	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	ctext-12=cell	ctext-17=count	uniTok|1+2|=EEEEE	beforecontext-0=context-ed
+O	blood Elevated_white cell_count
+O	cell white_blood count_:
+O	count blood_cell
+O	: cell_count
+
+
+O	Leukemoid reactions_associated
+O	reactions associated_with
+O	associated Leukemoid_reactions with_alcoholic
+O	with reactions_associated alcoholic_hepatitis
+O	alcoholic associated_with
+O	hepatitis with_alcoholic
+

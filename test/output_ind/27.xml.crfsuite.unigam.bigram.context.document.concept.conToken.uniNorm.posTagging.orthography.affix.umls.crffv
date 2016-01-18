@@ -1,0 +1,34 @@
+
+O	Urinary albumin_excretion
+B-entity		Urinary >_20
+I-entity		albumin >_20
+I-entity		excretion >_20
+I-entity		rate >_20
+O	albumin excretion_rate
+O	excretion Urinary_albumin rate_>
+O	rate albumin_excretion >_20
+B-labrefrangemod		>	ctext-1=>	excretion	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=exc	SUF|1-2|=ion		rate	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rat	SUF|1-1|=ate		MCG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mcg	SUF|1+2|=mcg	 excretion_rate 20_mcg
+B-labvalmod		20 rate_> mcg_/
+O	mcg >_20 /_min
+B-labvalmod		mcg/min	ctext-4=/ >_20 or_albumin
+O	/ 20_mcg min_or
+O	min mcg_/ or_albumin
+B-labintermod		or /_min albumin_to
+O	albumin min_or to_creatinine
+B-entity		albumin min_or >_/
+I-entity		to min_or >_/
+I-entity		creatinine min_or >_/
+I-entity		ratio min_or >_/
+O	to or_albumin creatinine_ratio
+O	creatinine albumin_to ratio_>
+O	ratio to_creatinine >_/
+O	> creatinine_ratio /_=
+B-labrefrangemod		>/=	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA creatinine_ratio 30_mg
+O	/ ratio_> =_30
+O	= >_/ 30_mg
+B-labvalmod		30 /_= mg_/
+O	mg =_30 /_g
+B-labvalmod		mg/g	ctext-3=/	uniTok|1+2|=EEEEE	ctext-4=g	Mg	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	G	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE =_30
+O	/ 30_mg
+O	g mg_/
+

@@ -1,0 +1,17 @@
+
+O	Aspirin or_thienopyridines
+O	or thienopyridines_(
+O	thienopyridines Aspirin_or (_Activated
+O	( or_thienopyridines Activated_Partial
+O	Activated thienopyridines_( Partial_-
+B-entity		Activated	T059	T059	ctext-0=Activated	sectonHeader-0=141.xml-testSeg	thienopyridine	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=thi	SUF|1-2|=nes		activate	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Act	SUF|1+0|=ted		partial	pos|1+1|=JJ	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Par	SUF|1+1|=ial		ctext-10=Partial	ctext-17=-	ctext-18=Thromboplastin	ctext-33=Time	beforecontext-2=context-no thienopyridines_( :_Unaffected
+I-entity		Partial-Thromboplastin	T059	T059	ctext-0=Activated	sectonHeader-0=141.xml-testSeg	thienopyridine	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=thi	SUF|1-2|=nes		activate	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Act	SUF|1+0|=ted		partial	pos|1+1|=JJ	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Par	SUF|1+1|=ial		ctext-10=Partial	ctext-17=-	ctext-18=Thromboplastin	ctext-33=Time	beforecontext-2=context-no thienopyridines_( :_Unaffected
+I-entity		Time	T059	T059	ctext-0=Activated	sectonHeader-0=141.xml-testSeg	thienopyridine	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=thi	SUF|1-2|=nes		activate	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Act	SUF|1+0|=ted		partial	pos|1+1|=JJ	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Par	SUF|1+1|=ial		ctext-10=Partial	ctext-17=-	ctext-18=Thromboplastin	ctext-33=Time	beforecontext-2=context-no thienopyridines_( :_Unaffected
+O	Partial (_Activated -_Thromboplastin
+O	- Activated_Partial Thromboplastin_Time
+O	Thromboplastin Partial_- Time_:
+O	Time -_Thromboplastin :_Unaffected
+O	: Thromboplastin_Time Unaffected_)
+B-labintermod		Unaffected	ctext-0=Unaffected	sectonHeader-0=141.xml-testSeg	time	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Tim	SUF|1-2|=ime		unaffected	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Una	SUF|1+0|=ted		uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-no Time_:
+O	) :_Unaffected
+

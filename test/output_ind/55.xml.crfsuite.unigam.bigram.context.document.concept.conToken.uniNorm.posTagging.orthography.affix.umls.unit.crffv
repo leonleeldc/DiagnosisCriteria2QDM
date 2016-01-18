@@ -1,0 +1,11 @@
+
+B-labintermod		Elevated or_rising
+B-labintermod		or	beforecontext-0=context-ed rising_streptococcal
+B-labintermod		rising	beforecontext-0=context-ed Elevated_or streptococcal_antibody
+O	streptococcal or_rising antibody_titer
+B-entity		streptococcal	beforecontext-0=context-ed or_rising
+I-entity		antibody	beforecontext-0=context-ed or_rising
+I-entity		tite	beforecontext-0=context-ed or_rising
+O	antibody rising_streptococcal
+O	titer streptococcal_antibody
+

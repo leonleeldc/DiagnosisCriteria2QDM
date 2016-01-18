@@ -1,0 +1,15 @@
+
+O	Leukopenia (_WBC
+O	( WBC_count
+O	WBC Leukopenia_( count_<
+B-entity	WBC count  Leukopenia_( <_4,000
+I-entity	WBC count  Leukopenia_( <_4,000
+O	count (_WBC <_4,000
+B-labrefrangemod	< 	ctext-1=<	WBC	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=WBC	SUF|1-2|=WBC		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		cell	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=lls	 WBC_count 4,000_cells
+B-labvalmod	4,000  count_< cells_/
+O	cells <_4,000 /_mm3
+B-labvalmod	cells/mm3 	ctext-6=/ <_4,000
+O	/ 4,000_cells mm3_)
+O	mm3 cells_/
+O	) /_mm3
+

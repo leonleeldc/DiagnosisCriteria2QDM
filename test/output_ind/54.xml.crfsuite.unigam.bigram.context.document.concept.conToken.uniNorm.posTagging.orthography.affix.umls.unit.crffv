@@ -1,0 +1,13 @@
+
+B-labintermod		Positive	postcontext-0=context-ro throat_culture
+O	throat culture_or
+B-entity		throat	C1280698	T023	C0430400	T059	C1280698	T023	C0848397	T059 or_rapid
+I-entity		culture	C1280698	T023	C0430400	T059	C1280698	T023	C0848397	T059 or_rapid
+O	culture Positive_throat or_rapid
+B-labintermod		or	beforecontext-0=context-ro throat_culture rapid_antigen
+B-labintermod		rapid	beforecontext-0=context-ro culture_or antigen_test
+O	antigen or_rapid
+B-entity		antigen	C0022885	T059	C0729856	T059	beforecontext-0=context-ro or_rapid
+I-entity		test	C0022885	T059	C0729856	T059	beforecontext-0=context-ro or_rapid
+O	test rapid_antigen
+

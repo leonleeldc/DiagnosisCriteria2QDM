@@ -1,0 +1,15 @@
+
+O	AEA IgA_a
+B-entity		AEA	T059	ctext-0=AEA	sectonHeader-0=137.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AEA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AEA	SUF|1+0|=AEA		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		A	pos|1+2|=.	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=IgA	uniTok|1+-2|=EEEEE	ctext-8=a (_PPV
+I-entity		IgA	T059	ctext-0=AEA	sectonHeader-0=137.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AEA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AEA	SUF|1+0|=AEA		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		A	pos|1+2|=.	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=IgA	uniTok|1+-2|=EEEEE	ctext-8=a (_PPV
+I-entity		a	T059	ctext-0=AEA	sectonHeader-0=137.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AEA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AEA	SUF|1+0|=AEA		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		A	pos|1+2|=.	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=IgA	uniTok|1+-2|=EEEEE	ctext-8=a (_PPV
+O	IgA a_(
+O	a AEA_IgA (_PPV
+O	( IgA_a PPV_:
+O	PPV a_( :_98
+O	: (_PPV 98_-
+O	98 PPV_: -_100
+O	- :_98 100_)
+O	100 98_-
+O	) -_100
+

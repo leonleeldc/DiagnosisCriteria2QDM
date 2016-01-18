@@ -1,0 +1,26 @@
+
+O	Serum triglycerides_>
+B-entity		Serum	T059	T059	ctext-0=Serum	sectonHeader-0=23.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serum	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=rum		triglyceride	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tri	SUF|1+1|=des		ctext-6=triglycerides	uniTok|1+-2|=EEEEE >_/
+I-entity		triglycerides	T059	T059	ctext-0=Serum	sectonHeader-0=23.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serum	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=rum		triglyceride	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tri	SUF|1+1|=des		ctext-6=triglycerides	uniTok|1+-2|=EEEEE >_/
+O	triglycerides >_/
+O	> Serum_triglycerides /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=23.xml-testSeg	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		triglyceride	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=tri	SUF|1-1|=des		ctext-1=/	ctext-2=equal_symbol Serum_triglycerides 150_mg
+O	/ triglycerides_> =_150
+O	= >_/ 150_mg
+B-labvalmod		150	ctext-0=150	sectonHeader-0=23.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA /_= mg_/
+O	mg =_150 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=23.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL =_150 (_>
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=23.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	ctext-1=/	ctext-2=equal_symbol dL_( 1.7_mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod		1.7	ctext-0=1.7	sectonHeader-0=23.xml-testSeg	num	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 /_= mmol_/
+O	mmol =_1.7 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=23.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	uniTok|1+2|=EEEEE =_1.7
+O	/ 1.7_mmol L_)
+O	L mmol_/
+O	) /_L
+

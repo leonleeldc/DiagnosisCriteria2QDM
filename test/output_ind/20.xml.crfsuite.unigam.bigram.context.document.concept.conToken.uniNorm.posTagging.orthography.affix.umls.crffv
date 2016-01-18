@@ -1,0 +1,16 @@
+
+O	Neutrophil count_>
+B-entity		Neutrophil	C0200633	T059  >_10
+I-entity		count >_10
+O	count >_10
+B-labrefrangemod		>	ctext-1=>	neutrophil	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Neu	SUF|1-2|=hil		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	beforecontext-0=context-ro Neutrophil_count 10_x
+O	10 count_> x_109
+B-labvalmod		10	ctext-4=x	beforecontext-0=context-ro count_> /_l
+I-labvalmod		x	ctext-4=x	beforecontext-0=context-ro count_> /_l
+I-labvalmod		109	ctext-4=x	beforecontext-0=context-ro count_> /_l
+O	x >_10 109_/
+O	109 10_x /_l
+O	/ x_109
+B-labvalmod		/l	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=l	L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro x_109
+O	l 109_/
+

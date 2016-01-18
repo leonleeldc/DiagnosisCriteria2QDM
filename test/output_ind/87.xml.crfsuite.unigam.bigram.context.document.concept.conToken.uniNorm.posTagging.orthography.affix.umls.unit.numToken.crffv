@@ -1,0 +1,61 @@
+
+O	These markers_may
+O	markers may_be
+O	may These_markers be_normal
+O	be markers_may normal_in
+O	normal may_be in_patients
+O	in be_normal patients_with
+O	patients normal_in with_the
+O	with in_patients the_monostotic
+O	the patients_with monostotic_form
+O	monostotic with_the form_of
+O	form the_monostotic of_Paget
+O	of monostotic_form Paget_'s
+O	Paget form_of 's_disease
+O	's of_Paget disease_(
+O	disease Paget_'s (_15
+O	( 's_disease 15_%
+O	15 disease_( %_of
+O	% (_15 of_patients
+O	of 15_% patients_)
+O	patients %_of
+O	) of_patients
+
+
+O	therefore ,_serum
+O	, serum_bone
+B-anatomical		serum	ctext-0=serum	sectonHeader-0=87.xml-testSeg	therefore	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=the	SUF|1-2|=ore		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		bone	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bon	SUF|1+1|=one		beforecontext-0=context-her	postcontext-1=context-if therefore_, bone_-
+B-entity		serum	T059	T059	T044	ctext-0=serum	sectonHeader-0=87.xml-testSeg	therefore	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=the	SUF|1-2|=ore		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		bone	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bon	SUF|1+1|=one		ctext-6=bone	ctext-10=-	ctext-11=specific	ctext-20=alkaline	ctext-29=phosphatase	beforecontext-0=context-her therefore_, measurements_may
+I-entity		bone-specific	T059	T059	T044	ctext-0=serum	sectonHeader-0=87.xml-testSeg	therefore	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=the	SUF|1-2|=ore		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		bone	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bon	SUF|1+1|=one		ctext-6=bone	ctext-10=-	ctext-11=specific	ctext-20=alkaline	ctext-29=phosphatase	beforecontext-0=context-her therefore_, measurements_may
+I-entity		alkaline	T059	T059	T044	ctext-0=serum	sectonHeader-0=87.xml-testSeg	therefore	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=the	SUF|1-2|=ore		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		bone	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bon	SUF|1+1|=one		ctext-6=bone	ctext-10=-	ctext-11=specific	ctext-20=alkaline	ctext-29=phosphatase	beforecontext-0=context-her therefore_, measurements_may
+I-entity		phosphatase	T059	T059	T044	ctext-0=serum	sectonHeader-0=87.xml-testSeg	therefore	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=the	SUF|1-2|=ore		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		bone	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bon	SUF|1+1|=one		ctext-6=bone	ctext-10=-	ctext-11=specific	ctext-20=alkaline	ctext-29=phosphatase	beforecontext-0=context-her therefore_, measurements_may
+O	bone ,_serum -_specific
+O	- serum_bone specific_alkaline
+O	specific bone_- alkaline_phosphatase
+O	alkaline -_specific phosphatase_measurements
+O	phosphatase specific_alkaline measurements_may
+O	measurements alkaline_phosphatase may_be
+O	may phosphatase_measurements be_useful
+O	be measurements_may useful_.
+O	useful may_be
+O	. be_useful
+
+
+O	Urinary hydroxyproline_is
+O	hydroxyproline is_no
+O	is Urinary_hydroxyproline no_longer
+O	no hydroxyproline_is longer_considered
+O	longer is_no considered_an
+O	considered no_longer an_accurate
+O	an longer_considered accurate_marker
+O	accurate considered_an marker_of
+O	marker an_accurate of_activity
+O	of accurate_marker activity_or
+O	activity marker_of or_extent
+O	or of_activity extent_of
+O	extent activity_or of_the
+O	of or_extent the_disease
+O	the extent_of disease_.
+O	disease of_the
+O	. the_disease
+

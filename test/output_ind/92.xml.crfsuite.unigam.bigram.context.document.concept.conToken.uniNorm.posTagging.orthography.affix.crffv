@@ -1,0 +1,11 @@
+
+B-labintermod	Increased  Urinary_Free
+O	Urinary Free_Cortisol
+O	Free Increased_Urinary Cortisol_(
+B-entity	Cortisol 	beforecontext-0=context-ed Urinary_Free (_three
+O	( Free_Cortisol three_24h
+O	three Cortisol_( 24h_collections
+O	24h (_three collections_)
+O	collections three_24h
+O	) 24h_collections
+

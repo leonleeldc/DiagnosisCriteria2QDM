@@ -1,0 +1,2745 @@
+
+B-labintermod		Increased	postcontext-1=context-no number_of
+O	number of_lymphocytes
+O	of Increased_number lymphocytes_and
+B-entity		lymphocytes	C0200635	T059	beforecontext-0=context-ed	postcontext-1=context-no number_of and_mononuclear
+B-labintermod		and	beforecontext-0=context-ed	postcontext-1=context-no of_lymphocytes mononuclear_cells
+O	mononuclear lymphocytes_and cells_>
+B-entity		mononuclear	beforecontext-0=context-ed lymphocytes_and >_5000
+I-entity		cells	beforecontext-0=context-ed lymphocytes_and >_5000
+O	cells and_mononuclear >_5000
+O	> mononuclear_cells 5000_/
+B-labvalmod		5000	unit	beforecontext-0=context-ed	beforecontext-1=context-no cells_> /_mm3
+O	/ >_5000 mm3_(
+B-labvalmod		/mm3	unit	ctext-1=/	beforecontext-0=context-ed	beforecontext-1=context-no >_5000 (_autoreactive
+O	mm3 5000_/ (_autoreactive
+O	( /_mm3 autoreactive_lymphocytic
+O	autoreactive mm3_( lymphocytic_)
+O	lymphocytic (_autoreactive
+O	) autoreactive_lymphocytic
+
+
+O	,
+
+
+O	A1 Raised_RCM
+B-labintermod		Raised RCM_or
+B-entity		RCM	beforecontext-0=context-ed A1_Raised or_haemoglobin
+B-labintermod		or	beforecontext-0=context-ed Raised_RCM haemoglobin_(
+B-entity		haemoglobin	beforecontext-0=context-ed RCM_or (_Hb
+O	( or_haemoglobin Hb_)
+B-entity		Hb	beforecontext-0=context-ed haemoglobin_(
+O	) (_Hb
+
+
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE 18.5_(
+B-labvalmod		18.5 (_males
+O	( >_18.5 males_)
+O	males 18.5_( )_,
+O	) (_males ,_>
+O	, males_) >_16.5
+B-labrefrangemod		>	unit	ctext-1=> )_, 16.5_(
+B-labvalmod		16.5 ,_> (_females
+O	( >_16.5 females_)
+O	females 16.5_(
+O	) (_females
+
+
+O	Diabetes ,_aged
+O	, aged_40
+O	aged Diabetes_, 40_-
+O	40 ,_aged -_75
+O	- aged_40 75_y
+O	75 40_- y_,
+O	y -_75 ,_with
+O	, 75_y with_LDL
+O	with y_, LDL_-
+O	LDL ,_with -_C
+B-entity		LDL-C	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=els		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed ,_with levels_of
+O	- with_LDL C_levels
+O	C LDL_- levels_of
+O	levels -_C of_70
+O	of C_levels 70_-
+O	70 levels_of -_189
+B-labvalmod		70-189	ctext-3=-	beforecontext-0=context-ed levels_of mg_/
+O	- of_70 189_mg
+O	189 70_- mg_/
+O	mg -_189 /_dL
+B-labvalmod		mg/dL	ctext-3=/	uniTok|1+2|=EEEEE	beforecontext-0=context-ed -_189
+O	/ 189_mg
+O	dL mg_/
+
+
+O	High -_intensity
+O	- intensity_statin
+O	intensity High_- statin_therapy
+O	statin -_intensity therapy_*
+O	therapy intensity_statin *_is
+O	* statin_therapy is_recommended
+O	is therapy_* recommended_for
+O	recommended *_is for_patients
+O	for is_recommended patients_with
+O	patients recommended_for with_known
+O	with for_patients known_ASCVD
+O	known patients_with ASCVD_,
+O	ASCVD with_known ,_LDL
+O	, known_ASCVD LDL_-
+O	LDL ASCVD_, -_C
+B-entity		LDL-C	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=els		beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient ASCVD_, levels_>
+O	- ,_LDL C_levels
+O	C LDL_- levels_>
+O	levels -_C >_190
+B-labrefrangemod		>	unit	ctext-1=>	C	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient C_levels 190_mg
+B-labvalmod		190	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient levels_> mg_/
+O	mg >_190 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient >_190 ,_and
+O	/ 190_mg dL_,
+O	dL mg_/ ,_and
+O	, /_dL and_DM
+O	and dL_, DM_,
+O	DM ,_and ,_with
+O	, and_DM with_10
+O	with DM_, 10_-
+O	10 ,_with -_y
+O	- with_10 y_risk
+O	y 10_- risk_>
+O	risk -_y >_7.5
+O	> y_risk 7.5_%
+O	7.5 risk_> %_.
+O	% >_7.5
+O	. 7.5_%
+
+
+O	Moderate -_dose
+O	- dose_statin
+O	dose Moderate_- statin_therapy
+O	statin -_dose therapy_*
+O	therapy dose_statin *_*
+O	* statin_therapy *_is
+O	* therapy_* is_recommended
+O	is *_* recommended_for
+O	recommended *_is for_the
+O	for is_recommended the_other
+O	the recommended_for other_treatment
+O	other for_the treatment_groups
+O	treatment the_other groups_(
+O	groups other_treatment (_patients
+O	( treatment_groups patients_with
+O	patients groups_( with_DM
+O	with (_patients DM_but
+O	DM patients_with but_with
+O	but with_DM with_10
+O	with DM_but 10_-
+O	10 but_with -_y
+O	- with_10 y_risk
+O	y 10_- risk_<
+O	risk -_y <_7.5
+O	< y_risk 7.5_%
+O	7.5 risk_< %_and
+O	% <_7.5 and_those
+O	and 7.5_% those_without
+O	those %_and without_DM
+O	without and_those DM_who
+O	DM those_without who_have
+O	who without_DM have_a
+O	have DM_who a_10
+O	a who_have 10_-
+O	10 have_a -_y
+O	- a_10 y_risk
+O	y 10_- risk_>
+O	risk -_y >_7.5
+O	> y_risk 7.5_%
+O	7.5 risk_> %_)
+O	% >_7.5 )_.
+O	) 7.5_%
+O	. %_)
+
+
+O	The expert_panel
+O	expert panel_did
+O	panel The_expert did_not
+O	did expert_panel not_recommend
+O	not panel_did recommend_for
+O	recommend did_not for_or
+O	for not_recommend or_against
+O	or recommend_for against_LDL
+O	against for_or LDL_-
+O	LDL or_against -_C
+B-entity		LDL-C	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	goal	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=goa	SUF|1+1|=als		OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-but	postcontext-1=context-ed	beforecontext-2=context-not	postcontext-3=context-her	beforecontext-4=context-no or_against goals_or
+O	- against_LDL C_goals
+O	C LDL_- goals_or
+O	goals -_C or_targets
+O	or C_goals targets_but
+O	targets goals_or but_rather
+O	but or_targets rather_recommends
+O	rather targets_but recommends_that
+O	recommends but_rather that_lipids
+O	that rather_recommends lipids_be
+O	lipids recommends_that be_checked
+O	be that_lipids checked_at
+O	checked lipids_be at_baseline
+O	at be_checked baseline_and
+O	baseline checked_at and_then
+O	and at_baseline then_4
+O	then baseline_and 4_-
+O	4 and_then -_12
+O	- then_4 12_wk
+O	12 4_- wk_after
+O	wk -_12 after_initiating
+O	after 12_wk initiating_statin
+O	initiating wk_after statin_therapy
+O	statin after_initiating therapy_to
+O	therapy initiating_statin to_assess
+O	to statin_therapy assess_adherence
+O	assess therapy_to adherence_and
+O	adherence to_assess and_response
+O	and assess_adherence response_to
+O	response adherence_and to_therapy
+O	to and_response therapy_.
+O	therapy response_to
+O	. to_therapy
+
+
+O	Individuals receiving_high
+O	receiving high_-
+O	high Individuals_receiving -_dose
+O	- receiving_high dose_statin
+O	dose high_- statin_therapy
+O	statin -_dose therapy_would
+O	therapy dose_statin would_be
+O	would statin_therapy be_expected
+O	be therapy_would expected_to
+O	expected would_be to_lower
+O	to be_expected lower_their
+O	lower expected_to their_LDL
+O	their to_lower LDL_-
+O	LDL lower_their -_C
+B-entity		LDL-C	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		by	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her lower_their level_by
+O	- their_LDL C_level
+O	C LDL_- level_by
+O	level -_C by_>
+O	by C_level >_50
+B-labintermod		by	unit	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod		>50%	unit	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod		from	unit	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod		their	unit	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod		baseline	unit	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod		level	unit	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+B-labrefrangemod		>	unit	ctext-1=>	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her level_by 50_%
+O	50 by_> %_from
+O	% >_50 from_their
+O	from 50_% their_baseline
+O	their %_from baseline_level
+O	baseline from_their level_,
+O	level their_baseline ,_and
+O	, baseline_level and_those
+O	and level_, those_receiving
+O	those ,_and receiving_moderate
+O	receiving and_those moderate_-
+O	moderate those_receiving -_dose
+O	- receiving_moderate dose_statin
+O	dose moderate_- statin_therapy
+O	statin -_dose therapy_would
+O	therapy dose_statin would_be
+O	would statin_therapy be_expected
+O	be therapy_would expected_to
+O	expected would_be to_lower
+O	to be_expected lower_their
+O	lower expected_to their_LDL
+O	their to_lower LDL_-
+O	LDL lower_their -_C
+B-entity		LDL-C	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		by	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her lower_their level_by
+O	- their_LDL C_level
+O	C LDL_- level_by
+O	level -_C by_30
+O	by C_level 30_%
+B-labintermod		by	ctext-6=%	ctext-7=-	ctext-10=%	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her C_level
+I-labintermod		30%-49%	ctext-6=%	ctext-7=-	ctext-10=%	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her C_level
+O	30 level_by %_-
+O	% by_30 -_49
+O	- 30_% 49_%
+O	49 %_- %_.
+O	% -_49
+O	. 49_%
+
+
+O	Persistent biliary_obstruction
+O	biliary obstruction_(
+O	obstruction Persistent_biliary (_conjugated
+O	( biliary_obstruction conjugated_bilirubin
+O	conjugated obstruction_( bilirubin_level
+B-entity		conjugated obstruction_( level_>
+I-entity		bilirubin obstruction_( level_>
+O	bilirubin (_conjugated level_>
+O	level conjugated_bilirubin >_5
+B-labrefrangemod		>	unit	ctext-1=>	bilirubin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=bil	SUF|1-2|=bin		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed bilirubin_level 5_mg
+B-labvalmod		5	ctext-1=5	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ed level_> mg_/
+O	mg >_5 /_dl
+B-labvalmod		mg/dl	ctext-3=/	beforecontext-0=context-ed >_5 _86
+O	/ 5_mg dl_
+O	dl mg_/ _86
+O	[ /_dl 86_umol
+B-labvalmod		86	unit	beforecontext-0=context-ed dl_ umol_per
+O	umol _86 per_liter
+B-labvalmod		umol	unit	beforecontext-0=context-ed _86 _)
+I-labvalmod		per	unit	beforecontext-0=context-ed _86 _)
+I-labvalmod		liter	unit	beforecontext-0=context-ed _86 _)
+O	per 86_umol liter_
+O	liter umol_per _)
+O	] per_liter
+O	) liter_
+
+
+
+
+B-entity		AST	C0201899	T059 >_>
+O	> >_>
+O	> AST_> >_ALT
+O	> >_> ALT_:
+B-entity		ALT	C0201836	T059 >_>
+O	: >_ALT
+
+
+O	Both usually_<
+O	usually <_300
+B-labrefrangemod		<	unit	ctext-1=<	both	pos|1-2|=DT	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Bot	SUF|1-2|=oth		usually	pos|1-1|=RB	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=usu	SUF|1-1|=lly		IU	pos|1+2|=NNS	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS Both_usually 300_IU
+B-labvalmod		300 usually_< IU_/
+O	IU <_300 /_L
+B-labvalmod		IU/L	ctext-3=/	uniTok|1+2|=EEEEE	ctext-4=L	IU	pos|1-2|=NNS	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_300
+O	/ 300_IU
+O	L IU_/
+
+
+O	Alkaline phosphatase_(
+B-entity		Alkaline	C1149880	T044	C0201850	T059 (_ALP
+I-entity		phosphatase	C1149880	T044	C0201850	T059 (_ALP
+O	phosphatase (_ALP
+O	( Alkaline_phosphatase ALP_)
+B-entity		ALP	C0201850	T059 phosphatase_( )_and
+O	) (_ALP and_g
+O	and ALP_) g_-
+O	g )_and -_glutamyl
+B-entity		g-glutamyl	ctext-1=g	ctext-2=- )_and (_GGT
+I-entity		transpeptidase	ctext-1=g	ctext-2=- )_and (_GGT
+O	- and_g glutamyl_transpeptidase
+O	glutamyl g_- transpeptidase_(
+O	transpeptidase -_glutamyl (_GGT
+O	( glutamyl_transpeptidase GGT_)
+B-entity		GGT	C0202035	T059 transpeptidase_( )_:
+O	) (_GGT
+O	: GGT_)
+
+
+O	Both usually_elevated
+O	usually elevated_to
+B-labintermod		elevated Both_usually to_a
+O	to usually_elevated a_variable
+O	a elevated_to variable_degree
+O	variable to_a
+O	degree a_variable
+
+
+B-labintermod		Elevated white_blood
+O	white blood_cell
+B-entity		white	C0005767	T024	C1269647	T025	C0023516	T025	C0023508	T059	C0005767	T024	C0005773	T025	C0009555	T059	C1269647	T025	C0007584	T059	beforecontext-0=context-ed
+I-entity		blood	C0005767	T024	C1269647	T025	C0023516	T025	C0023508	T059	C0005767	T024	C0005773	T025	C0009555	T059	C1269647	T025	C0007584	T059	beforecontext-0=context-ed
+I-entity		cell	C0005767	T024	C1269647	T025	C0023516	T025	C0023508	T059	C0005767	T024	C0005773	T025	C0009555	T059	C1269647	T025	C0007584	T059	beforecontext-0=context-ed
+I-entity		count	C0005767	T024	C1269647	T025	C0023516	T025	C0023508	T059	C0005767	T024	C0005773	T025	C0009555	T059	C1269647	T025	C0007584	T059	beforecontext-0=context-ed
+O	blood Elevated_white cell_count
+O	cell white_blood count_:
+O	count blood_cell
+O	: cell_count
+
+
+O	Leukemoid reactions_associated
+O	reactions associated_with
+O	associated Leukemoid_reactions with_alcoholic
+O	with reactions_associated alcoholic_hepatitis
+O	alcoholic associated_with
+O	hepatitis with_alcoholic
+
+
+B-entity		Platelets	C0032181	T059	postcontext-0=context-ed	postcontext-1=context-no (_normal
+O	( normal_to
+O	normal Platelets_( to_markedly
+B-labintermod		normal Platelets_(
+I-labintermod		to Platelets_(
+I-labintermod		markedly Platelets_(
+I-labintermod		decreased Platelets_(
+O	to (_normal markedly_decreased
+O	markedly normal_to decreased_)
+O	decreased to_markedly
+O	) markedly_decreased
+
+
+O	Platelet count_>
+B-entity		Platelet	C0005821	T025	C0005821	T025	C0032181	T059 >_400
+I-entity		count	C0005821	T025	C0005821	T025	C0032181	T059 >_400
+O	count >_400
+B-labrefrangemod		>	unit	ctext-1=>	platelet	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=let		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN Platelet_count 400_x
+O	400 count_> x_109
+B-labvalmod		400	unit	ctext-5=x count_> /_l
+I-labvalmod		x	unit	ctext-5=x count_> /_l
+I-labvalmod		109	unit	ctext-5=x count_> /_l
+O	x >_400 109_/
+O	109 400_x /_l
+O	/ x_109
+B-labvalmod		/l	unit	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=l	L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE x_109
+O	l 109_/
+
+
+O	Electrolyte abnormalities_:
+O	abnormalities
+O	: Electrolyte_abnormalities
+
+
+B-labintermod		low potassium_,
+B-entity		potassium	C0202194	T059 ,_magnesium
+O	, low_potassium magnesium_and
+B-entity		magnesium	C0373675	T059 potassium_, and_phosphorus
+B-labintermod		and ,_magnesium
+B-entity		phosphorus	C0523826	T059 magnesium_and
+
+
+
+
+O	A second_option
+O	second option_is
+O	option A_second is_the
+O	is second_option the_detection
+O	the option_is detection_of
+B-labintermod		the option_is virus_and
+I-labintermod		detection option_is virus_and
+I-labintermod		of option_is virus_and
+O	detection is_the of_virus
+O	of the_detection virus_and
+B-entity		virus detection_of and_/
+O	and of_virus /_or
+B-labintermod		and/or	ctext-4=/ of_virus antigen_in
+O	/ virus_and or_antigen
+O	or and_/ antigen_in
+B-entity		antigen /_or in_the
+O	in or_antigen the_faeces
+O	the antigen_in faeces_.
+B-anatomical		faeces in_the
+O	. the_faeces
+
+
+
+
+
+
+O	At the_onset
+O	the onset_of
+O	onset At_the of_disease
+O	of the_onset disease_,
+O	disease onset_of ,_the
+O	, of_disease the_presence
+O	the disease_, presence_of
+B-labintermod		the	postcontext-0=context-ed disease_, IgG_anti-HAV
+I-labintermod		presence	postcontext-0=context-ed disease_, IgG_anti-HAV
+I-labintermod		of	postcontext-0=context-ed disease_, IgG_anti-HAV
+O	presence ,_the of_IgG
+O	of the_presence IgG_anti-HAV
+O	IgG presence_of anti-HAV_is
+B-entity		IgG	postcontext-0=context-ed presence_of is_always
+I-entity		anti-HAV	postcontext-0=context-ed presence_of is_always
+O	anti-HAV of_IgG is_always
+O	is IgG_anti-HAV always_accompanied
+O	always anti-HAV_is accompanied_by
+O	accompanied is_always by_the
+O	by always_accompanied the_presence
+O	the accompanied_by presence_of
+B-labintermod		the	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+I-labintermod		presence	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+I-labintermod		of	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+O	presence by_the of_IgM
+O	of the_presence IgM_anti-HAV
+O	IgM presence_of anti-HAV_.
+B-entity		IgM	beforecontext-0=context-ed presence_of
+I-entity		anti-HAV	beforecontext-0=context-ed presence_of
+O	anti-HAV of_IgM
+O	. IgM_anti-HAV
+
+
+O	As IgG_anti-HAV
+O	IgG anti-HAV_persists
+B-entity		IgG	postcontext-0=context-if persists_lifelong
+I-entity		anti-HAV	postcontext-0=context-if persists_lifelong
+O	anti-HAV As_IgG persists_lifelong
+B-labintermod		persists	postcontext-0=context-if IgG_anti-HAV lifelong_after
+O	lifelong anti-HAV_persists after_acute
+O	after persists_lifelong acute_infection
+O	acute lifelong_after infection_,
+O	infection after_acute ,_detection
+O	, acute_infection detection_of
+O	detection infection_, of_IgG
+B-labintermod		detection	beforecontext-0=context-if infection_, IgG_anti-HAV
+I-labintermod		of	beforecontext-0=context-if infection_, IgG_anti-HAV
+O	of ,_detection IgG_anti-HAV
+O	IgG detection_of anti-HAV_alone
+B-entity		IgG	postcontext-0=context-if detection_of alone_indicates
+I-entity		anti-HAV	postcontext-0=context-if detection_of alone_indicates
+O	anti-HAV of_IgG alone_indicates
+O	alone IgG_anti-HAV indicates_past
+O	indicates anti-HAV_alone past_infection
+O	past alone_indicates infection_.
+O	infection indicates_past
+O	. past_infection
+
+
+B-entity		Urea	C0523961	T059 <_6.5
+B-labrefrangemod		<	unit	ctext-1=<	uniTok|1+-2|=EEEEE	urea	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ure	SUF|1-1|=rea		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 6.5_mmol
+B-labvalmod		6.5 Urea_< mmol_/
+O	mmol <_6.5 /_L
+B-labvalmod		mmol/L	ctext-5=/	uniTok|1+2|=EEEEE	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_6.5
+O	/ 6.5_mmol
+O	L mmol_/
+
+
+B-entity		Haemoglobin >_/
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	uniTok|1+-2|=EEEEE	ctext-2=/	ctext-3=equal_symbol	G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR 13_g
+O	/ Haemoglobin_> =_13
+O	= >_/ 13_g
+B-labvalmod		13 /_= g_/
+O	g =_13 /_dl
+B-labvalmod		g/dl	ctext-1=g	ctext-2=/ =_13 (_men
+O	/ 13_g dl_(
+O	dl g_/ (_men
+O	( /_dl men_)
+O	men dl_(
+O	) (_men
+
+
+B-labintermod		or >_/
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	uniTok|1+-2|=EEEEE	ctext-2=/	ctext-3=equal_symbol	G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR 12_g
+O	/ or_> =_12
+O	= >_/ 12_g
+B-labvalmod		12 /_= g_/
+O	g =_12 /_dl
+B-labvalmod		g/dl	ctext-1=g	ctext-2=/ =_12 (_women
+O	/ 12_g dl_(
+O	dl g_/ (_women
+O	( /_dl women_)
+O	women dl_(
+O	) (_women
+
+
+O	Blood Urea_mmol
+B-entity		Blood	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059 mmol_/
+I-entity		Urea	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059 mmol_/
+O	Urea mmol_/
+O	mmol Blood_Urea /_L
+B-labvalmod		mmol/L	ctext-5=/	uniTok|1+2|=EEEEE	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE Blood_Urea
+O	/ Urea_mmol
+O	L mmol_/
+
+
+B-entity		Haemoglobin
+
+
+B-entity		WBC	C0023508	T059 >_12
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+-2|=EEEEE	WBC	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=WBC	SUF|1-1|=WBC		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN 12_x
+O	12 WBC_> x_109
+B-labvalmod		12	unit	ctext-4=x WBC_> /_l
+I-labvalmod		x	unit	ctext-4=x WBC_> /_l
+I-labvalmod		109	unit	ctext-4=x WBC_> /_l
+O	x >_12 109_/
+O	109 12_x /_l
+O	/ x_109
+B-labvalmod		/l	unit	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=l	L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE x_109
+O	l 109_/
+
+
+B-labintermod		Elevated	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no serum_ferritin
+O	serum ferritin_not
+B-entity		serum	C0373607	T059	C0696113	T059	beforecontext-0=context-ed	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no not_explained
+I-entity		ferritin	C0373607	T059	C0696113	T059	beforecontext-0=context-ed	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no not_explained
+O	ferritin Elevated_serum not_explained
+O	not serum_ferritin explained_by
+O	explained ferritin_not by_another
+O	by not_explained another_cause
+O	another explained_by
+O	cause by_another
+
+
+B-labintermod		Increased	postcontext-0=context-ro stainable_hepatocellular
+O	stainable hepatocellular_iron
+O	hepatocellular Increased_stainable iron_(
+B-entity		hepatocellular	beforecontext-1=context-ed Increased_stainable (_Scheuer
+I-entity		iron	beforecontext-1=context-ed Increased_stainable (_Scheuer
+O	iron stainable_hepatocellular (_Scheuer
+O	( hepatocellular_iron Scheuer_grade
+O	Scheuer iron_( grade_3
+O	grade (_Scheuer 3_or
+O	3 Scheuer_grade or_4
+O	or grade_3 4_)
+O	4 3_or
+O	) or_4
+
+
+
+
+
+
+
+
+O	B -_Diagnosis
+O	- Diagnosis_of
+O	Diagnosis B_- of_iron
+O	of -_Diagnosis iron_overload
+B-entity		iron	C0337439	T059	beforecontext-1=context-no Diagnosis_of overload_:
+B-labintermod		overload	beforecontext-0=context-ro	beforecontext-1=context-no of_iron :_1
+O	: iron_overload 1_plus
+O	1 overload_: plus_2
+O	plus :_1 2_,
+O	2 1_plus ,_or
+O	, plus_2 or_1
+O	or 2_, 1_plus
+O	1 ,_or plus_3
+O	plus or_1 3_,
+O	3 1_plus ,_below
+O	, plus_3
+O	below 3_,
+
+
+B-labintermod		Increased	postcontext-0=context-ro	postcontext-2=context-her hepatic_iron
+O	hepatic iron_by
+B-entity		hepatic	beforecontext-1=context-ed	postcontext-2=context-her by_either
+I-entity		iron	beforecontext-1=context-ed	postcontext-2=context-her by_either
+O	iron Increased_hepatic by_either
+O	by hepatic_iron either_a
+O	either iron_by a_or
+O	a by_either or_b
+O	or either_a b_,
+O	b a_or ,_below
+O	, or_b
+O	below b_,
+
+
+
+
+
+
+B-labintermod		Elevated	postcontext-1=context-since level_of
+O	level of_fasting
+O	of Elevated_level fasting_serum
+O	fasting level_of serum_gastrin
+B-entity		fasting	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+I-entity		serum	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+I-entity		gastrin	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+O	serum of_fasting gastrin_(
+O	gastrin fasting_serum (_>
+O	( serum_gastrin >_100
+B-labrefrangemod		>	unit	ctext-1=>	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		PG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since gastrin_( 100_pg
+B-labvalmod		100	beforecontext-0=context-ed	postcontext-1=context-since (_> pg_/
+O	pg >_100 /_mL
+B-labvalmod		pg/mL	ctext-3=/	beforecontext-0=context-ed	postcontext-1=context-since >_100 until_1994
+O	/ 100_pg mL_until
+O	mL pg_/ until_1994
+O	until /_mL 1994_,
+O	1994 mL_until ,_>
+O	, until_1994 >_200
+B-labrefrangemod		>	unit	ctext-1=>	PG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since 1994_, 200_pg
+B-labvalmod		200	beforecontext-0=context-ed	postcontext-1=context-since ,_> pg_/
+O	pg >_200 /_mL
+B-labvalmod		pg/mL	ctext-3=/	beforecontext-0=context-ed	postcontext-1=context-since >_200 since_1994
+O	/ 200_pg mL_since
+O	mL pg_/ since_1994
+O	since /_mL 1994_)
+O	1994 mL_since )_;
+O	) since_1994
+O	; 1994_)
+
+
+B-labintermod		Low	postcontext-0=context-ro serum_erythropoietin
+B-anatomical		serum	postcontext-0=context-ro erythropoietin_(
+B-entity		erythropoietin	C0202001	T059 Low_serum (_EPO
+O	( serum_erythropoietin EPO_)
+B-entity		EPO	C0202001	T059	beforecontext-0=context-ro erythropoietin_(
+O	) (_EPO
+
+
+
+
+
+
+O	Patients taking_Proton
+O	taking Proton_Pump
+O	Proton Patients_taking Pump_Inhibitors
+O	Pump taking_Proton Inhibitors_(
+O	Inhibitors Proton_Pump (_PPIs
+O	( Pump_Inhibitors PPIs_)
+O	PPIs Inhibitors_( )_,
+O	) (_PPIs ,_those
+O	, PPIs_) those_who
+O	those )_, who_have
+O	who ,_those have_undergone
+O	have those_who undergone_massive
+O	undergone who_have massive_small
+O	massive have_undergone small_bowel
+O	small undergone_massive bowel_resection
+O	bowel massive_small resection_,
+O	resection small_bowel ,_or
+O	, bowel_resection or_those
+O	or resection_, those_who
+O	those ,_or who_have
+O	who or_those have_renal
+O	have those_who renal_insufficiency
+O	renal who_have insufficiency_,
+O	insufficiency have_renal ,_G
+O	, renal_insufficiency G_-
+O	G insufficiency_, -_cell
+O	- ,_G cell_hyperplasia
+O	cell G_- hyperplasia_,
+O	hyperplasia -_cell ,_or
+O	, cell_hyperplasia or_gastric
+O	or hyperplasia_, gastric_outlet
+O	gastric ,_or outlet_obstruction
+O	outlet or_gastric obstruction_may
+O	obstruction gastric_outlet may_have
+O	may outlet_obstruction have_gastrin
+O	have obstruction_may gastrin_levels
+B-entity		gastrin	C0202036	T059	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient may_have levels_between
+O	levels have_gastrin between_150
+O	between gastrin_levels 150_and
+B-labintermod		between	ctext-24=/	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		150	ctext-24=/	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		and	ctext-24=/	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		1000	ctext-24=/	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		pg/mL	ctext-24=/	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+B-labvalmod		150	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient levels_between and_1000
+O	and between_150 1000_pg
+B-labvalmod		1000	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient 150_and pg_/
+B-labvalmod		pg/mL	ctext-4=/	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient Hence_,
+O	pg and_1000 /_mL
+O	/ 1000_pg mL_Hence
+O	mL pg_/ Hence_,
+O	Hence /_mL ,_for
+O	, mL_Hence for_patients
+O	for Hence_, patients_with
+O	patients ,_for with_suspected
+O	with for_patients suspected_ZES
+O	suspected patients_with ZES_with
+O	ZES with_suspected with_an
+O	with suspected_ZES an_equivocal
+O	an ZES_with equivocal_fasting
+B-labintermod		equivocal	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient with_an fasting_serum
+O	fasting an_equivocal serum_gastrin
+B-entity		fasting	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+I-entity		serum	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+I-entity		gastrin	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+I-entity		concentration	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+O	serum equivocal_fasting gastrin_concentration
+O	gastrin fasting_serum concentration_,
+O	concentration serum_gastrin ,_a
+O	, gastrin_concentration a_secretin
+O	a concentration_, secretin_stimulation
+O	secretin ,_a stimulation_test
+O	stimulation a_secretin test_should
+O	test secretin_stimulation should_be
+O	should stimulation_test be_performed
+O	be test_should
+O	performed should_be
+
+
+B-labintermod		Low serum_ceruloplasmin
+O	serum ceruloplasmin_levels
+B-entity		serum	C2946261	T121	C1318404	T034	C0474679	T059 <_20
+I-entity		ceruloplasmin	C2946261	T121	C1318404	T034	C0474679	T059 <_20
+I-entity		levels	C2946261	T121	C1318404	T034	C0474679	T059 <_20
+O	ceruloplasmin Low_serum levels_<
+O	levels serum_ceruloplasmin <_20
+B-labrefrangemod		<	unit	ctext-1=<	ceruloplasmin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cer	SUF|1-2|=min		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA ceruloplasmin_levels 20_mg
+B-labvalmod		20 levels_< mg_/
+O	mg <_20 /_dL
+B-labvalmod		mg/dL	ctext-3=/ <_20 (_Normal
+O	/ 20_mg dL_(
+O	dL mg_/ (_Normal
+O	( /_dL Normal_range
+O	Normal dL_( range_20
+O	range (_Normal 20_-
+O	20 Normal_range -_50
+O	- range_20 50_mg
+O	50 20_- mg_/
+O	mg -_50 /_dL
+O	/ 50_mg dL_)
+O	dL mg_/ )_.
+O	) /_dL
+O	. dL_)
+
+
+B-labintermod		High	postcontext-0=context-ro liver_copper
+B-anatomical		liver	C1278929	T023	postcontext-0=context-ro copper_levels
+O	copper High_liver levels_>
+B-entity		copper	C2946261	T121	C0373587	T059	postcontext-0=context-ro High_liver >_250
+I-entity		levels	C2946261	T121	C0373587	T059	postcontext-0=context-ro High_liver >_250
+O	levels liver_copper >_250
+B-labrefrangemod		>	unit	ctext-1=>	copper	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cop	SUF|1-2|=per		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		microgram	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mic	SUF|1+2|=ams		postcontext-0=context-ro copper_levels 250_micrograms
+B-labvalmod		250	postcontext-0=context-ro levels_> micrograms_/
+O	micrograms >_250 /_g
+B-labvalmod		micrograms/g	ctext-11=/	ctext-12=g	microgram	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mic	SUF|1-2|=ams		G	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	dry	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=dry	SUF|1+1|=dry		weight	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=wei	SUF|1+2|=ght	 >_250 dry_weight
+O	/ 250_micrograms g_dry
+O	g micrograms_/ dry_weight
+O	dry /_g weight_(
+O	weight g_dry (_Normal
+O	( dry_weight Normal_range
+O	Normal weight_( range_<
+O	range (_Normal <_35
+O	< Normal_range 35_micrograms
+O	35 range_< micrograms_/
+O	micrograms <_35 /_g
+O	/ 35_micrograms g_dry
+O	g micrograms_/ dry_weight
+O	dry /_g weight_)
+O	weight g_dry )_.
+O	) dry_weight
+O	. weight_)
+
+
+B-labintermod		High	postcontext-0=context-ro 24_hr
+O	24 hr_urinary
+B-time		24	postcontext-0=context-ro urinary_copper
+I-time		hr	postcontext-0=context-ro urinary_copper
+O	hr High_24 urinary_copper
+B-anatomical		urinary	postcontext-0=context-ro 24_hr copper_levels
+O	copper hr_urinary levels_>
+B-entity		copper	C2946261	T121	C0373587	T059	postcontext-0=context-ro hr_urinary >_100
+I-entity		levels	C2946261	T121	C0373587	T059	postcontext-0=context-ro hr_urinary >_100
+O	levels urinary_copper >_100
+B-labrefrangemod		>	unit	ctext-1=>	copper	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cop	SUF|1-2|=per		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		microgram	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mic	SUF|1+2|=ams		postcontext-0=context-ro copper_levels 100_micrograms
+B-labvalmod		100	postcontext-0=context-ro levels_> micrograms_/
+O	micrograms >_100 /_d
+B-labvalmod		micrograms	ctext-12=/	ctext-13=d >_100
+I-labvalmod		/d	ctext-12=/	ctext-13=d >_100
+O	/ 100_micrograms d_or
+O	d micrograms_/ or_>
+B-labintermod		or	beforecontext-0=context-ro /_d >_1.6
+B-labrefrangemod		>	unit	ctext-1=>	D	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		postcontext-0=context-ro d_or 1.6_mmol
+B-labvalmod		1.6	beforecontext-0=context-ro or_> mmol_/
+O	mmol >_1.6 /_d
+B-labvalmod		mmol/d	ctext-5=/	ctext-6=d	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		D	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	normal	pos|1+2|=JJ	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Nor	SUF|1+2|=mal		beforecontext-0=context-ro >_1.6 (_Normal
+O	/ 1.6_mmol d_(
+O	d mmol_/ (_Normal
+O	( /_d Normal_range
+O	Normal d_( range_<
+O	range (_Normal <_50
+O	< Normal_range 50_micrograms
+O	50 range_< micrograms_/
+O	micrograms <_50 /_d
+O	/ 50_micrograms d_or
+O	d micrograms_/ or_<
+O	or /_d <_0.8
+O	< d_or 0.8_mmol
+O	0.8 or_< mmol_/
+O	mmol <_0.8 /_d
+O	/ 0.8_mmol d_)
+O	d mmol_/ )_.
+O	) /_d
+O	. d_)
+
+
+
+
+O	AGA IgA_(
+B-entity		AGA	postcontext-0=context-if (_Specificity
+I-entity		IgA	postcontext-0=context-if (_Specificity
+O	IgA (_Specificity
+O	( AGA_IgA Specificity_:
+O	Specificity IgA_( :_65
+O	: (_Specificity 65_-
+O	65 Specificity_: -_100
+O	- :_65 100_)
+O	100 65_-
+O	) -_100
+
+
+O	AEA IgA_a
+B-entity		AEA	ctext-9=a	AEA	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=AEA	SUF|1-2|=AEA		IgA	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	STCLS|1-1-5|=MIXEDCAPS	PRE|1-1|=IgA	SUF|1-1|=IgA		A	pos|1+0|=.	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	PPV	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=PPV	SUF|1+2|=PPV	 (_PPV
+I-entity		IgA	ctext-9=a	AEA	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=AEA	SUF|1-2|=AEA		IgA	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	STCLS|1-1-5|=MIXEDCAPS	PRE|1-1|=IgA	SUF|1-1|=IgA		A	pos|1+0|=.	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	PPV	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=PPV	SUF|1+2|=PPV	 (_PPV
+I-entity		a	ctext-9=a	AEA	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=AEA	SUF|1-2|=AEA		IgA	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	STCLS|1-1-5|=MIXEDCAPS	PRE|1-1|=IgA	SUF|1-1|=IgA		A	pos|1+0|=.	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	PPV	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=PPV	SUF|1+2|=PPV	 (_PPV
+O	IgA a_(
+O	a AEA_IgA (_PPV
+O	( IgA_a PPV_:
+O	PPV a_( :_98
+O	: (_PPV 98_-
+O	98 PPV_: -_100
+O	- :_98 100_)
+O	100 98_-
+O	) -_100
+
+
+
+
+O	Serologic Screening_Tests
+B-entity		Serologic	C0022885	T059	C0036743	T059	postcontext-1=context-no for_the
+I-entity		Screening	C0022885	T059	C0036743	T059	postcontext-1=context-no for_the
+I-entity		Tests	C0022885	T059	C0036743	T059	postcontext-1=context-no for_the
+O	Screening Tests_for
+O	Tests Serologic_Screening for_the
+O	for Screening_Tests the_Diagnosis
+O	the Tests_for Diagnosis_of
+O	Diagnosis for_the of_CD
+O	of the_Diagnosis
+O	CD Diagnosis_of
+
+
+O	Raised red_cell
+B-labintermod		sed
+I-labintermod		re
+O	red cell_mass
+B-entity		cell	ctext-12=(	beforecontext-0=context-ed
+I-entity		mass	ctext-12=(	beforecontext-0=context-ed
+I-entity		(R	ctext-12=(	beforecontext-0=context-ed
+O	cell Raised_red mass_(
+O	mass red_cell (_RCM
+O	( cell_mass RCM_)
+O	RCM mass_( )_,
+O	) (_RCM ,_male
+B-entity		),	ctext-1=)	ctext-2=,	beforecontext-0=context-ed (_RCM
+O	, RCM_) male_>
+O	male )_, >_36
+O	> ,_male 36_ml
+O	36 male_> ml_/
+B-labrefrangemod		6	beforecontext-0=context-ed ml_/
+B-labvalmod		ml	beforecontext-0=context-ed >_36 /_kg
+O	/ 36_ml kg_,
+O	kg ml_/ ,_female
+B-labvalmod		kg,	ctext-3=,	beforecontext-0=context-ed ml_/
+I-labvalmod		f	ctext-3=,	beforecontext-0=context-ed ml_/
+O	, /_kg female_>
+O	female kg_, >_32
+O	> ,_female 32_ml
+O	32 female_> ml_/
+B-labrefrangemod		2	beforecontext-0=context-ed ml_/
+B-labvalmod		ml	beforecontext-0=context-ed >_32 /_kg
+O	/ 32_ml
+O	kg ml_/
+
+
+O	Vitamin K_deficiency
+O	K deficiency_or
+B-labintermod		deficiency	C0162429	T047	postcontext-0=context-ro	righttermin-1=context-ed Vitamin_K or_use
+O	or K_deficiency use_of
+O	use deficiency_or of_vitamin
+O	of or_use vitamin_K
+O	vitamin use_of K_antagonist
+B-entity		vitamin	C0202194	T059	C0042879	T059	ctext-9=K	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	vitamin	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=vit	SUF|1-1|=min		K	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	antagonist	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ant	SUF|1+1|=ist		postcontext-0=context-ro	righttermin-1=context-ed use_of antagonist_(
+I-entity		K	C0202194	T059	C0042879	T059	ctext-9=K	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	vitamin	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=vit	SUF|1-1|=min		K	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	antagonist	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ant	SUF|1+1|=ist		postcontext-0=context-ro	righttermin-1=context-ed use_of antagonist_(
+O	K of_vitamin antagonist_(
+O	antagonist vitamin_K (_Prothrombin
+O	( K_antagonist Prothrombin_Time
+O	Prothrombin antagonist_( Time_:
+B-entity		Prothrombin	C0033707	T059	righttermin-1=context-ed antagonist_( :_Prolonged
+I-entity		Time	C0033707	T059	righttermin-1=context-ed antagonist_( :_Prolonged
+O	Time (_Prothrombin :_Prolonged
+O	: Prothrombin_Time Prolonged_)
+B-labintermod		Prolonged	beforecontext-0=context-ro Time_:
+O	) :_Prolonged
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O	Serum B12_>
+B-entity		Serum >_900
+I-entity		B12 >_900
+O	B12 >_900
+B-labrefrangemod		>	unit	ctext-1=>	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		B12	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-1|=INITCAPS	STCLS|1-1-9|=HASDIGIT	STCLS|1-1-11|=ALPHANUMERIC	STCLS|1-1-13|=LETTERS_NUMBERS	PRE|1-1|=B12	SUF|1-1|=B12		PG	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA Serum_B12 900_pg
+B-labvalmod		900 B12_> pg_/
+O	pg >_900 /_ml
+B-labvalmod		pg/ml	ctext-3=/ >_900 or_unbound
+O	/ 900_pg ml_or
+O	ml pg_/ or_unbound
+B-labintermod		or /_ml unbound_B12
+O	unbound ml_or B12_binding
+O	B12 or_unbound binding_capacity
+B-entity		B12 or_unbound >_220
+I-entity		binding or_unbound >_220
+I-entity		capacity or_unbound >_220
+O	binding unbound_B12 capacity_>
+O	capacity B12_binding >_220
+B-labrefrangemod		>	unit	ctext-1=>	bind	pos|1-2|=VBG	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=bin	SUF|1-2|=ing		capacity	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cap	SUF|1-1|=ity		PG	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA binding_capacity 220_pg
+B-labvalmod		220 capacity_> pg_/
+O	pg >_220 /_ml
+B-labvalmod		pg/ml	ctext-3=/	uniTok|1+2|=EEEEE >_220
+O	/ 220_pg
+O	ml pg_/
+
+
+B-labintermod		Raised RCM_or
+B-entity		RCM	beforecontext-0=context-ed or_hematocrit
+B-labintermod		or	beforecontext-0=context-ed Raised_RCM hematocrit_(
+B-entity		hematocrit	C0018935	T059	beforecontext-0=context-ed RCM_or (_HCT
+O	( or_hematocrit HCT_)
+B-entity		HCT	C0018935	T059	beforecontext-0=context-ed hematocrit_(
+O	) (_HCT
+
+
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE 0.60_(
+B-labvalmod		0.60 (_males
+O	( >_0.60 males_)
+O	males 0.60_( )_,
+O	) (_males ,_>
+O	, males_) >_0.56
+B-labrefrangemod		>	unit	ctext-1=> )_, 0.56_(
+B-labvalmod		0.56 ,_> (_females
+O	( >_0.56 females_)
+O	females 0.56_(
+O	) (_females
+
+
+B-labintermod		Exclusion	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no of_active
+O	of active_viral
+O	active Exclusion_of viral_infection
+O	viral of_active infection_both
+O	infection active_viral both_in
+O	both viral_infection in_pericardial
+O	in infection_both pericardial_effusion
+O	pericardial both_in effusion_and
+O	effusion in_pericardial and_endomyocardial
+B-labintermod		and	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no pericardial_effusion endomyocardial_/
+O	endomyocardial effusion_and /_epimyocardial
+O	/ and_endomyocardial epimyocardial_biopsies
+O	epimyocardial endomyocardial_/ biopsies_(
+O	biopsies /_epimyocardial (_no
+O	( epimyocardial_biopsies no_virus
+O	no biopsies_( virus_isolation
+O	virus (_no isolation_,
+O	isolation no_virus ,_no
+O	, virus_isolation no_IgM
+B-labintermod		no	postcontext-0=context-ro	postcontext-1=context-negative isolation_, IgM_-
+B-entity		IgM	C0202084	T059	postcontext-0=context-ro	postcontext-1=context-negative	beforecontext-2=context-no ,_no -_titer
+O	- no_IgM titer_against
+O	titer IgM_- against_cardiotropic
+O	against -_titer cardiotropic_viruses
+O	cardiotropic titer_against viruses_in
+O	viruses against_cardiotropic in_pericardial
+O	in cardiotropic_viruses pericardial_effusion
+O	pericardial viruses_in effusion_,
+O	effusion in_pericardial ,_and
+O	, pericardial_effusion and_negative
+B-labintermod		and	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no effusion_, negative_PCR
+B-labintermod		negative	beforecontext-0=context-ro	beforecontext-2=context-no ,_and PCR_for
+B-entity		PCR	C0032520	T059	beforecontext-0=context-ro	beforecontext-1=context-negative	beforecontext-2=context-no and_negative for_major
+O	for negative_PCR major_cardiotropic
+O	major PCR_for cardiotropic_viruses
+O	cardiotropic for_major viruses_)
+O	viruses major_cardiotropic )_;
+O	) cardiotropic_viruses
+O	; viruses_)
+
+
+O	Neutrophil count_>
+B-entity		Neutrophil	C0027950	T025	C0027950	T025	C0200633	T059 >_10
+I-entity		count	C0027950	T025	C0027950	T025	C0200633	T059 >_10
+O	count >_10
+B-labrefrangemod		>	unit	ctext-1=>	neutrophil	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Neu	SUF|1-2|=hil		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	beforecontext-0=context-ro Neutrophil_count 10_x
+O	10 count_> x_109
+B-labvalmod		10	unit	ctext-4=x	beforecontext-0=context-ro count_> /_l
+I-labvalmod		x	unit	ctext-4=x	beforecontext-0=context-ro count_> /_l
+I-labvalmod		109	unit	ctext-4=x	beforecontext-0=context-ro count_> /_l
+O	x >_10 109_/
+O	109 10_x /_l
+O	/ x_109
+B-labvalmod		/l	unit	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=l	L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro x_109
+O	l 109_/
+
+
+B-labintermod		Low	postcontext-0=context-ro serum_EPO
+O	serum EPO_or
+B-entity		serum	postcontext-0=context-ro or_characteristic
+I-entity		EPO	postcontext-0=context-ro or_characteristic
+O	EPO Low_serum or_characteristic
+B-labintermod		or	postcontext-0=context-ro serum_EPO characteristic_burst
+O	characteristic EPO_or burst_forming
+O	burst or_characteristic forming_units
+B-entity		burst	ctext-21=- or_characteristic (_BFU
+I-entity		forming	ctext-21=- or_characteristic (_BFU
+I-entity		units	ctext-21=- or_characteristic (_BFU
+I-entity		-	ctext-21=- or_characteristic (_BFU
+I-entity		erythroid	ctext-21=- or_characteristic (_BFU
+O	forming characteristic_burst units_-
+O	units burst_forming -_erythroid
+O	- forming_units erythroid_(
+O	erythroid units_- (_BFU
+O	( -_erythroid BFU_-
+O	BFU erythroid_( -_E
+B-entity		BFU-E	C1257771	T025	ctext-4=-	ctext-5=E	BFU	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=BFU	SUF|1-2|=BFU		E	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	uniTok|1+2|=EEEEE	beforecontext-0=context-ro erythroid_(
+O	- (_BFU E_)
+O	E BFU_-
+O	) -_E
+
+
+B-labintermod		growth
+
+
+
+
+O	Serum triglycerides_>
+B-entity		Serum	C0202236	T059	C0542495	T059 >_/
+I-entity		triglycerides	C0202236	T059	C0542495	T059 >_/
+O	triglycerides >_/
+O	> Serum_triglycerides /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA Serum_triglycerides 150_mg
+O	/ triglycerides_> =_150
+O	= >_/ 150_mg
+B-labvalmod		150 /_= mg_/
+O	mg =_150 /_dL
+B-labvalmod		mg/dL	ctext-3=/ =_150 (_>
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 dL_( 1.7_mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod		1.7 /_= mmol_/
+O	mmol =_1.7 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE =_1.7
+O	/ 1.7_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	HDL -_Cholesterol
+B-entity		HDL-Cholesterol	ctext-4=-	uniTok|1+-2|=EEEEE <_40
+O	- Cholesterol_<
+O	Cholesterol HDL_- <_40
+B-labrefrangemod		<	unit	ctext-1=<	cholesterol	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Cho	SUF|1-1|=rol		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro -_Cholesterol 40_mg
+B-labvalmod		40	beforecontext-0=context-ro Cholesterol_< mg_/
+O	mg <_40 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ro <_40 (_<
+O	/ 40_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.0
+B-labrefrangemod		<	unit	ctext-1=<	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 1.0_mmol
+B-labvalmod		1.0	beforecontext-0=context-ro (_< mmol_/
+O	mmol <_1.0 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro <_1.0 )_in
+O	/ 1.0_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_men
+O	in L_) men_and
+O	men )_in and_<
+B-labintermod		and	beforecontext-0=context-ro in_men <_50
+B-labrefrangemod		<	unit	ctext-1=<	MEN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=men	SUF|1-2|=men		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro men_and 50_mg
+B-labvalmod		50	beforecontext-0=context-ro and_< mg_/
+O	mg <_50 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ro <_50 (_<
+O	/ 50_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.3
+B-labrefrangemod		<	unit	ctext-1=<	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 1.3_mmol
+B-labvalmod		1.3	beforecontext-0=context-ro (_< mmol_/
+O	mmol <_1.3 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro <_1.3 )_in
+O	/ 1.3_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_women
+O	in L_)
+O	women )_in
+
+
+O	Fasting glucose_110
+B-entity		Fasting 110_to
+I-entity		glucose 110_to
+O	glucose 110_to
+B-labvalmod		110 Fasting_glucose to_126
+O	to glucose_110 126_mg
+B-labvalmod		126 110_to mg_/
+O	mg to_126 /_dL
+B-labvalmod		mg/dL	ctext-3=/ to_126 (_6.1
+O	/ 126_mg dL_(
+O	dL mg_/ (_6.1
+O	( /_dL 6.1_to
+B-labvalmod		6.1 dL_( to_7.0
+O	to (_6.1 7.0_mmol
+B-labvalmod		7.0 6.1_to mmol_/
+O	mmol to_7.0 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE to_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	( 100_mg
+B-labvalmod		100 mg_/
+O	mg (_100 /_dL
+B-labvalmod		mg/dL	ctext-3=/ (_100 _>
+O	/ 100_mg dL_
+O	dL mg_/ _>
+O	[ /_dL >_/
+O	> dL_ /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 dL_ 5.6_mmol
+O	/ _> =_5.6
+O	= >_/ 5.6_mmol
+B-labvalmod		5.6 /_= mmol_/
+O	mmol =_5.6 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE =_5.6
+O	/ 5.6_mmol L_
+O	L mmol_/
+O	] /_L
+
+
+O	may be_applicable
+O	be applicable_)
+O	applicable may_be
+O	) be_applicable
+
+
+O	Serum triglycerides_150
+B-entity		Serum	C0202236	T059	C0542495	T059 150_mg
+I-entity		triglycerides	C0202236	T059	C0542495	T059 150_mg
+O	triglycerides 150_mg
+B-labvalmod		150 Serum_triglycerides mg_/
+O	mg triglycerides_150 /_dL
+B-labvalmod		mg/dL	ctext-3=/ triglycerides_150 (_>
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 dL_( 1.7_mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod		1.7 /_= mmol_/
+O	mmol =_1.7 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE =_1.7
+O	/ 1.7_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+B-labintermod		or	postcontext-0=context-ro HDL_cholesterol
+O	HDL cholesterol_<
+B-entity		HDL	C0428472	T059	C1445957	T059	C0428472	T059	C0428472	T059 <_36
+I-entity		cholesterol	C0428472	T059	C1445957	T059	C0428472	T059	C0428472	T059 <_36
+O	cholesterol or_HDL <_36
+B-labrefrangemod		<	unit	ctext-1=<	HDL	pos|1-2|=NNP	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=HDL	SUF|1-2|=HDL		cholesterol	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cho	SUF|1-1|=rol		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro HDL_cholesterol 36_mg
+B-labvalmod		36	beforecontext-0=context-ro cholesterol_< mg_/
+O	mg <_36 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ro <_36 (_<
+O	/ 36_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_0.9
+B-labrefrangemod		<	unit	ctext-1=<	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 0.9_mmol
+B-labvalmod		0.9	beforecontext-0=context-ro (_< mmol_/
+O	mmol <_0.9 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro <_0.9 )_in
+O	/ 0.9_mmol l_)
+O	l mmol_/ )_in
+O	) /_l in_men
+O	in l_) men_and
+O	men )_in and_<
+B-labintermod		and	beforecontext-0=context-ro in_men <_40
+B-labrefrangemod		<	unit	ctext-1=<	MEN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=men	SUF|1-2|=men		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro men_and 40_mg
+B-labvalmod		40	beforecontext-0=context-ro and_< mg_/
+O	mg <_40 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ro <_40 (_<
+O	/ 40_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.0
+B-labrefrangemod		<	unit	ctext-1=<	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 1.0_mmol
+B-labvalmod		1.0	beforecontext-0=context-ro (_< mmol_/
+O	mmol <_1.0 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro <_1.0 )_in
+O	/ 1.0_mmol l_)
+O	l mmol_/ )_in
+O	) /_l in_women
+O	in l_) women_.
+O	women )_in
+O	. in_women
+
+
+O	Urinary albumin_excretion
+B-entity		Urinary >_20
+I-entity		albumin >_20
+I-entity		excretion >_20
+I-entity		rate >_20
+O	albumin excretion_rate
+O	excretion Urinary_albumin rate_>
+O	rate albumin_excretion >_20
+B-labrefrangemod		>	unit	ctext-1=>	excretion	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=exc	SUF|1-2|=ion		rate	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rat	SUF|1-1|=ate		MCG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mcg	SUF|1+2|=mcg	 excretion_rate 20_mcg
+B-labvalmod		20 rate_> mcg_/
+O	mcg >_20 /_min
+B-labvalmod		mcg/min	ctext-4=/ >_20 or_albumin
+O	/ 20_mcg min_or
+O	min mcg_/ or_albumin
+B-labintermod		or /_min albumin_to
+O	albumin min_or to_creatinine
+B-entity		albumin min_or >_/
+I-entity		to min_or >_/
+I-entity		creatinine min_or >_/
+I-entity		ratio min_or >_/
+O	to or_albumin creatinine_ratio
+O	creatinine albumin_to ratio_>
+O	ratio to_creatinine >_/
+O	> creatinine_ratio /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA creatinine_ratio 30_mg
+O	/ ratio_> =_30
+O	= >_/ 30_mg
+B-labvalmod		30 /_= mg_/
+O	mg =_30 /_g
+B-labvalmod		mg/g	ctext-3=/	uniTok|1+2|=EEEEE	ctext-4=g	Mg	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	G	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE =_30
+O	/ 30_mg
+O	g mg_/
+
+
+B-labintermod		Raised triglycerides_(
+B-entity		triglycerides	C0202236	T059	beforecontext-0=context-ed (_TG
+O	( Raised_triglycerides TG_)
+B-entity		TG	beforecontext-0=context-ed triglycerides_(
+O	) (_TG
+
+
+O	level
+O	:
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	ctext-2=/	uniTok|1+-2|=EEEEE	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 150_mg
+O	/ =_150
+O	= >_/ 150_mg
+B-labvalmod		150	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no /_= mg_/
+O	mg =_150 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no =_150 (_1.7
+O	/ 150_mg dL_(
+O	dL mg_/ (_1.7
+O	( /_dL 1.7_mmol
+B-labvalmod		1.7	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.7 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.7 )_,
+O	/ 1.7_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_specific
+B-labintermod		or	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no )_, specific_treatment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+
+
+B-labintermod		Reduced	postcontext-0=context-ro HDL_cholesterol
+O	HDL cholesterol_:
+B-entity		HDL	C0428472	T059	C1445957	T059	C0428472	T059	C0428472	T059	beforecontext-1=context-ed
+I-entity		cholesterol	C0428472	T059	C1445957	T059	C0428472	T059	C0428472	T059	beforecontext-1=context-ed
+O	cholesterol Reduced_HDL
+O	: HDL_cholesterol
+
+
+B-labrefrangemod		<	unit	ctext-1=<	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 40_mg
+B-labvalmod		40	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no mg_/
+O	mg <_40 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no <_40 (_1.03
+O	/ 40_mg dL_(
+O	dL mg_/ (_1.03
+O	( /_dL 1.03_mmol
+B-labvalmod		1.03	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.03 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.03 )_in
+O	/ 1.03_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_males
+O	in L_) males_and
+O	males )_in and_<
+B-labintermod		and	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no in_males <_50
+B-labrefrangemod		<	unit	ctext-1=<	male	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mal	SUF|1-2|=les		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no males_and 50_mg
+B-labvalmod		50	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no and_< mg_/
+O	mg <_50 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no <_50 (_1.29
+O	/ 50_mg dL_(
+O	dL mg_/ (_1.29
+O	( /_dL 1.29_mmol
+B-labvalmod		1.29	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.29 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.29 )_in
+O	/ 1.29_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_females
+O	in L_) females_,
+O	females )_in ,_or
+O	, in_females or_specific
+B-labintermod		or	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no females_, specific_treatment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+
+
+O	Tuberculosis ,_Borrelia
+O	, Borrelia_burgdorferi
+O	Borrelia Tuberculosis_, burgdorferi_,
+O	burgdorferi ,_Borrelia ,_Chlamydia
+O	, Borrelia_burgdorferi Chlamydia_pneumoniae
+O	Chlamydia burgdorferi_, pneumoniae_,
+O	pneumoniae ,_Chlamydia ,_and
+O	, Chlamydia_pneumoniae and_other
+B-labintermod		and	postcontext-0=context-ed	postcontext-1=context-her pneumoniae_, other_bacterial
+O	other ,_and bacterial_infection
+O	bacterial and_other infection_excluded
+O	infection other_bacterial excluded_by
+B-labintermod		excluded	beforecontext-1=context-her bacterial_infection by_PCR
+O	by infection_excluded PCR_and
+B-entity		PCR	C0032520	T059	beforecontext-0=context-ed	beforecontext-1=context-her excluded_by and_/
+O	and by_PCR /_or
+O	/ PCR_and or_cultures
+O	or and_/ cultures_;
+B-entity		cultures	C2242979	T059	beforecontext-0=context-ed	beforecontext-1=context-her /_or
+O	; or_cultures
+
+
+B-labintermod		Raised fasting_plasma
+O	fasting plasma_glucose
+B-entity		fasting	beforecontext-0=context-ed (_FPG
+I-entity		plasma	beforecontext-0=context-ed (_FPG
+I-entity		glucose	beforecontext-0=context-ed (_FPG
+O	plasma Raised_fasting glucose_(
+O	glucose fasting_plasma (_FPG
+O	( plasma_glucose FPG_)
+B-entity		FPG	beforecontext-0=context-ed glucose_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	ctext-2=/	uniTok|1+-2|=EEEEE	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no 100_mg
+O	/ =_100
+O	= >_/ 100_mg
+B-labvalmod		100	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no /_= mg_/
+O	mg =_100 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no =_100 (_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod		5.6	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no dL_( mmol_/
+O	mmol (_5.6 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no (_5.6 )_,
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_previously
+B-labintermod		or	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no )_, previously_diagnosed
+O	previously ,_or diagnosed_type
+O	diagnosed or_previously type_2
+O	type previously_diagnosed 2_diabetes
+O	2 diagnosed_type diabetes_.
+O	diabetes type_2
+O	. 2_diabetes
+
+
+O	If above_5.6
+B-labintermod		above 5.6_mmol
+B-labvalmod		5.6 If_above mmol_/
+O	mmol above_5.6 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA above_5.6 or_100
+O	/ 5.6_mmol L_or
+O	L mmol_/ or_100
+O	or /_L 100_mg
+B-labvalmod		100 L_or mg_/
+O	mg or_100 /_dL
+B-labvalmod		mg/dL	ctext-3=/ or_100 ,_oral
+O	/ 100_mg dL_,
+O	dL mg_/ ,_oral
+O	, /_dL oral_glucose
+O	oral dL_, glucose_tolerance
+B-entity		oral dL_,
+I-entity		glucose dL_,
+I-entity		tolerance dL_,
+I-entity		test dL_,
+O	glucose ,_oral tolerance_test
+O	tolerance oral_glucose test_(
+O	test glucose_tolerance (_OGTT
+O	( tolerance_test OGTT_)
+B-entity		OGTT test_(
+O	) (_OGTT
+
+
+O	is strongly_recommended
+O	strongly recommended_but
+O	recommended is_strongly but_is
+O	but strongly_recommended is_not
+O	is recommended_but not_necessary
+O	not but_is necessary_to
+O	necessary is_not to_define
+O	to not_necessary define_presence
+O	define necessary_to presence_of
+O	presence to_define of_the
+O	of define_presence the_syndrome
+O	the presence_of
+O	syndrome of_the
+
+
+O	evidence of_elevated
+O	of elevated_cardiac
+B-labintermod		elevated	postcontext-0=context-ro evidence_of cardiac_enzymes
+O	cardiac of_elevated enzymes_(
+B-entity		cardiac	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine
+I-entity		enzymes	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine
+O	enzymes elevated_cardiac (_creatine
+O	( cardiac_enzymes creatine_kinase
+O	creatine enzymes_( kinase_-
+O	kinase (_creatine -_MB
+O	- creatine_kinase MB_fraction
+O	MB kinase_- fraction_,
+O	fraction -_MB ,_or
+O	, MB_fraction or_troponin
+B-labintermod		or	postcontext-0=context-ro	beforecontext-1=context-ed fraction_, troponin_I
+O	troponin ,_or I_or
+O	I or_troponin or_T
+B-labintermod		or	postcontext-0=context-ro	beforecontext-1=context-ed troponin_I T_)
+O	T I_or )_or
+O	) or_T
+B-labintermod		or	postcontext-0=context-ro	beforecontext-1=context-ed T_)
+
+
+
+
+
+
+
+
+O	Fasting Plasma_Glucose
+B-entity		Fasting (_FPG
+I-entity		Plasma (_FPG
+I-entity		Glucose (_FPG
+O	Plasma Glucose_(
+O	Glucose Fasting_Plasma (_FPG
+O	( Plasma_Glucose FPG_)
+B-entity		FPG Glucose_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	ctext-2=/	uniTok|1+-2|=EEEEE	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA 126_mg
+O	/ =_126
+O	= >_/ 126_mg
+B-labvalmod		126 /_= mg_/
+O	mg =_126 /_dl
+B-labvalmod		mg/dl	ctext-3=/ =_126 (_7.0
+O	/ 126_mg dl_(
+O	dl mg_/ (_7.0
+O	( /_dl 7.0_mmol
+B-labvalmod		7.0 dl_( mmol_/
+O	mmol (_7.0 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_7.0
+O	/ 7.0_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+O	Two -_hour
+B-time		Two-hour	ctext-4=-	uniTok|1+-2|=EEEEE glucose_>
+I-time		postload	ctext-4=-	uniTok|1+-2|=EEEEE glucose_>
+O	- hour_postload
+O	hour Two_- postload_glucose
+O	postload -_hour glucose_>
+B-entity		glucose	C0202042	T059 hour_postload >_/
+O	> postload_glucose /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA postload_glucose 200_mg
+O	/ glucose_> =_200
+O	= >_/ 200_mg
+B-labvalmod		200 /_= mg_/
+O	mg =_200 /_dl
+B-labvalmod		mg/dl	ctext-3=/ =_200 (_11.1
+O	/ 200_mg dl_(
+O	dl mg_/ (_11.1
+O	( /_dl 11.1_mmol
+B-labvalmod		11.1 dl_( mmol_/
+O	mmol (_11.1 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_11.1
+O	/ 11.1_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+O	during an_Oral
+O	an Oral_Glucose
+O	Oral during_an Glucose_Tolerance
+B-entity		Oral during_an (_OGTT
+I-entity		Glucose during_an (_OGTT
+I-entity		Tolerance during_an (_OGTT
+I-entity		Test during_an (_OGTT
+O	Glucose an_Oral Tolerance_Test
+O	Tolerance Oral_Glucose Test_(
+O	Test Glucose_Tolerance (_OGTT
+O	( Tolerance_Test OGTT_)
+B-entity		OGTT Test_( )_.
+O	) (_OGTT
+O	. OGTT_)
+
+
+
+
+
+
+O	Fasting glucose_level
+B-entity		Fasting level_>
+I-entity		glucose level_>
+O	glucose level_>
+O	level Fasting_glucose >_/
+O	> glucose_level /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA glucose_level 100_mg
+O	/ level_> =_100
+O	= >_/ 100_mg
+B-labvalmod		100 /_= mg_/
+O	mg =_100 /_dL
+B-labvalmod		mg/dL	ctext-3=/ =_100 (_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod		5.6 dL_( mmol_/
+O	mmol (_5.6 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and	 (_5.6 )_and
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_and
+O	) /_L and_<
+B-labintermod		and L_) <_126
+B-labrefrangemod		<	unit	ctext-1=<	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_and 126_mg
+B-labvalmod		126 and_< mg_/
+O	mg <_126 /_dL
+B-labvalmod		mg/dL	ctext-3=/ <_126 (_7.0
+O	/ 126_mg dL_(
+O	dL mg_/ (_7.0
+O	( /_dL 7.0_mmol
+B-labvalmod		7.0 dL_( mmol_/
+O	mmol (_7.0 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	Biopsies of_the
+O	of the_esophageal
+O	the Biopsies_of esophageal_mucosa
+O	esophageal of_the mucosa_reveal
+O	mucosa the_esophageal reveal_a
+O	reveal esophageal_mucosa a_dense
+O	a mucosa_reveal dense_eosinophilic
+O	dense reveal_a eosinophilic_infiltration
+O	eosinophilic a_dense infiltration_(
+O	infiltration dense_eosinophilic (_ie
+O	( eosinophilic_infiltration ie_,
+O	ie infiltration_( ,_>
+O	, (_ie >_/
+O	> ie_, /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	eosinophil	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=eos	SUF|1+2|=ils		beforecontext-0=context-no ie_, 20_eosinophils
+O	/ ,_> =_20
+O	= >_/ 20_eosinophils
+B-labvalmod		20	beforecontext-0=context-no /_= eosinophils_/
+B-entity		eosinophils	C0200638	T059	beforecontext-0=context-no =_20 /_HPF
+B-labvalmod		eosinophils/HPF	ctext-12=/	beforecontext-0=context-no =_20 )_.
+O	/ 20_eosinophils HPF_)
+O	HPF eosinophils_/ )_.
+O	) /_HPF
+O	. HPF_)
+
+
+
+
+O	Acute (_active
+O	( active_)
+O	active Acute_(
+O	) (_active
+
+
+O	myocarditis
+O	:
+
+
+O	a clear_-
+O	clear -_cut
+O	- a_clear cut_infiltrate
+O	cut clear_- infiltrate_(
+B-entity		infiltrate	C0332448	T046	postcontext-0=context-ed	postcontext-1=context-if -_cut (_diffuse
+O	( cut_infiltrate diffuse_,
+O	diffuse infiltrate_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod		or	postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_)
+O	confluent focal_or )_of
+O	) or_confluent of_>
+O	of confluent_) >_14
+B-labrefrangemod		>	unit	ctext-1=>	of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes		postcontext-0=context-ed	beforecontext-1=context-if )_of 14_leukocytes
+B-labvalmod		14	postcontext-0=context-ed	beforecontext-1=context-if of_> leukocytes_/
+O	leukocytes >_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-11=/	postcontext-0=context-ed	beforecontext-1=context-if >_14 (_preferably
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_preferably
+O	( /_mm2 preferably_activated
+O	preferably mm2_( activated_T
+B-labintermod		activated	beforecontext-1=context-if (_preferably T_cells
+O	T preferably_activated cells_)
+B-entity		T	C0040715	T049	C0007634	T025	C0040715	T049	C0039194	T025	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+I-entity		cells	C0040715	T049	C0007634	T025	C0040715	T049	C0039194	T025	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+
+
+
+
+
+
+
+
+
+
+B-entity		ANA or_SMA
+B-labintermod		or SMA_>
+B-entity		SMA ANA_or >_/
+O	> or_SMA /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol or_SMA 1_:
+O	/ SMA_> =_1
+O	= >_/ 1_:
+O	1 /_= :_8
+B-labvalmod		1:8	ctext-1=1	ctext-2=PUNC_COLON	uniTok|1+2|=EEEEE	ctext-3=8	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE /_=
+O	: =_1
+O	8 1_:
+
+
+
+
+
+
+B-labintermod		or SLA_Positive
+B-entity		SLA
+B-labintermod		Positive or_SLA
+
+
+
+
+
+
+O	Serum Cr_increased
+B-entity		Serum	postcontext-0=context-ed increased_1.5
+I-entity		Cr	postcontext-0=context-ed increased_1.5
+O	Cr increased_1.5
+O	increased Serum_Cr 1.5_times
+B-labintermod		increased Serum_Cr
+I-labintermod		1.5 Serum_Cr
+I-labintermod		times Serum_Cr
+O	1.5 Cr_increased times_*
+O	times increased_1.5
+O	* 1.5_times
+
+
+
+
+B-labintermod		Positive	postcontext-0=context-ro blood_culture
+O	blood culture_:
+B-entity		blood	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro :_Typical
+I-entity		culture	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro :_Typical
+O	culture Positive_blood :_Typical
+O	: blood_culture Typical_microorganism
+O	Typical culture_: microorganism_for
+O	microorganism :_Typical for_infective
+O	for Typical_microorganism infective_endocarditis
+O	infective microorganism_for endocarditis_from
+O	endocarditis for_infective from_two
+O	from infective_endocarditis two_separate
+O	two endocarditis_from separate_blood
+O	separate from_two blood_cultures
+O	blood two_separate
+O	cultures separate_blood
+
+
+O	Chronic myocarditis_:
+O	myocarditis
+O	: Chronic_myocarditis
+
+
+O	an infiltrate_of
+B-entity		infiltrate	C0332448	T046	postcontext-0=context-ed	postcontext-1=context-if of_>
+O	of an_infiltrate >_14
+B-labrefrangemod		>	unit	ctext-1=>	infiltrate	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inf	SUF|1-2|=ate		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes		postcontext-0=context-ed	postcontext-1=context-if infiltrate_of 14_leukocytes
+B-labvalmod		14	postcontext-0=context-ed	postcontext-1=context-if of_> leukocytes_/
+O	leukocytes >_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-11=/	postcontext-0=context-ed	postcontext-1=context-if >_14 (_diffuse
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_diffuse
+O	( /_mm2 diffuse_,
+O	diffuse mm2_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod		or	postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_,
+O	confluent focal_or ,_preferably
+O	, or_confluent preferably_activated
+O	preferably confluent_, activated_T
+B-labintermod		preferably	beforecontext-1=context-if confluent_, T_cells
+I-labintermod		activated	beforecontext-1=context-if confluent_, T_cells
+O	activated ,_preferably T_cells
+O	T preferably_activated cells_)
+B-entity		T	C0040715	T049	C1269647	T025	C0040715	T049	C0039194	T025	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+I-entity		cells	C0040715	T049	C1269647	T025	C0040715	T049	C0039194	T025	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+
+
+
+
+O	Single positive_blood
+B-labintermod		positive blood_culture
+O	blood Single_positive culture_for
+B-entity		blood	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059 Single_positive for_Coxiella
+I-entity		culture	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059 Single_positive for_Coxiella
+O	culture positive_blood for_Coxiella
+O	for blood_culture Coxiella_burnetii
+O	Coxiella culture_for burnetii_or
+O	burnetii for_Coxiella or_phase
+O	or Coxiella_burnetii phase_I
+O	phase burnetii_or I_IgG
+O	I or_phase IgG_antibody
+B-entity		IgG	C0202087	T059 phase_I antibody_titer
+O	antibody I_IgG titer_of
+O	titer IgG_antibody of_>
+O	of antibody_titer >_1
+B-labrefrangemod		>	unit	ctext-1=>	titer	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tit	SUF|1-2|=ter		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA titer_of 1_:
+O	1 of_>
+O	: >_1
+
+
+O	800
+
+
+O	Microbiologic evidence_:
+O	evidence
+O	: Microbiologic_evidence
+
+
+B-labintermod		positive	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no blood_culture
+O	blood culture_but
+B-entity		blood	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no but_not
+I-entity		culture	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no but_not
+O	culture positive_blood but_not
+O	but blood_culture not_meeting
+O	not culture_but meeting_major
+O	meeting but_not major_criterion
+O	major not_meeting criterion_as
+O	criterion meeting_major as_noted
+O	as major_criterion noted_previouslyc
+O	noted criterion_as previouslyc_or
+O	previouslyc as_noted or_serologic
+O	or noted_previouslyc serologic_evidence
+O	serologic previouslyc_or evidence_of
+O	evidence or_serologic of_active
+O	of serologic_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_infective
+O	with organism_consistent infective_endocarditis
+O	infective consistent_with
+O	endocarditis with_infective
+
+
+B-labintermod		Elevated	postcontext-0=context-ro acute_phase
+O	acute phase_reactant
+B-entity		acute	postcontext-0=context-ro	beforecontext-1=context-ed (_C
+I-entity		phase	postcontext-0=context-ro	beforecontext-1=context-ed (_C
+I-entity		reactant	postcontext-0=context-ro	beforecontext-1=context-ed (_C
+O	phase Elevated_acute reactant_(
+O	reactant acute_phase (_C
+O	( phase_reactant C_-
+O	C reactant_( -_reactive
+B-entity		C-reactive	ctext-1=C	ctext-2=-	beforecontext-1=context-ed reactant_( or_erythrocyte
+I-entity		protein	ctext-1=C	ctext-2=-	beforecontext-1=context-ed reactant_( or_erythrocyte
+O	- (_C reactive_protein
+O	reactive C_- protein_or
+O	protein -_reactive or_erythrocyte
+B-labintermod		or	beforecontext-0=context-ro	beforecontext-1=context-ed reactive_protein erythrocyte_sedimentation
+O	erythrocyte protein_or sedimentation_rate
+B-entity		erythrocyte	C0014792	T025	C0014792	T025	C0005833	T059	C1176468	T059	C0200704	T059	beforecontext-0=context-ro	beforecontext-1=context-ed protein_or
+I-entity		sedimentation	C0014792	T025	C0014792	T025	C0005833	T059	C1176468	T059	C0200704	T059	beforecontext-0=context-ro	beforecontext-1=context-ed protein_or
+I-entity		rate	C0014792	T025	C0014792	T025	C0005833	T059	C1176468	T059	C0200704	T059	beforecontext-0=context-ro	beforecontext-1=context-ed protein_or
+O	sedimentation or_erythrocyte rate_)
+O	rate erythrocyte_sedimentation
+O	) sedimentation_rate
+
+
+
+
+B-labintermod		Elevated or_rising
+B-labintermod		or	beforecontext-0=context-ed rising_streptococcal
+B-labintermod		rising	beforecontext-0=context-ed Elevated_or streptococcal_antibody
+O	streptococcal or_rising antibody_titer
+B-entity		streptococcal	beforecontext-0=context-ed or_rising
+I-entity		antibody	beforecontext-0=context-ed or_rising
+I-entity		tite	beforecontext-0=context-ed or_rising
+O	antibody rising_streptococcal
+O	titer streptococcal_antibody
+
+
+O	2 positive_cultures
+B-labintermod		positive cultures_of
+O	cultures 2_positive of_blood
+B-entity		cultures	C0430400	T059	C0005767	T024	C0430400	T059	C0200949	T059 2_positive samples_drawn
+I-entity		of	C0430400	T059	C0005767	T024	C0430400	T059	C0200949	T059 2_positive samples_drawn
+I-entity		blood	C0430400	T059	C0005767	T024	C0430400	T059	C0200949	T059 2_positive samples_drawn
+O	of positive_cultures blood_samples
+O	blood cultures_of samples_drawn
+O	samples of_blood drawn_>
+O	drawn blood_samples >_12
+B-time		>12	unit	ctext-2=> ,_or
+I-time		hours	unit	ctext-2=> ,_or
+I-time		apart	unit	ctext-2=> ,_or
+O	> samples_drawn 12_hours
+O	12 drawn_> hours_apart
+O	hours >_12 apart_,
+O	apart 12_hours ,_or
+O	, hours_apart
+B-labintermod		or apart_,
+
+
+O	Microbiological evidence_:
+O	evidence
+O	: Microbiological_evidence
+
+
+B-labintermod		positive	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no blood_culture
+O	blood culture_but
+B-entity		blood	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no but_does
+I-entity		culture	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no but_does
+O	culture positive_blood but_does
+O	but blood_culture does_not
+O	does culture_but not_meet
+O	not but_does meet_a
+O	meet does_not a_major
+O	a not_meet major_criterion
+O	major meet_a criterion_as
+O	criterion a_major as_noted
+O	as major_criterion noted_above
+O	noted criterion_as above_or
+O	above as_noted or_serological
+O	or noted_above serological_evidence
+O	serological above_or evidence_of
+O	evidence or_serological of_active
+O	of serological_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_IE
+O	with organism_consistent
+O	IE consistent_with
+
+
+B-labintermod		Elevated	postcontext-0=context-ro blood_urea
+O	blood urea_nitrogen
+B-entity		blood	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059	C0005845	T059	C0523961	T059	beforecontext-1=context-ed :_Blood
+I-entity		urea	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059	C0005845	T059	C0523961	T059	beforecontext-1=context-ed :_Blood
+I-entity		nitrogen	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059	C0005845	T059	C0523961	T059	beforecontext-1=context-ed :_Blood
+O	urea Elevated_blood nitrogen_:
+O	nitrogen blood_urea :_Blood
+O	: urea_nitrogen Blood_urea
+O	Blood nitrogen_: urea_nitrogen
+B-entity		Blood	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059	C0005845	T059	C0523961	T059	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+I-entity		urea	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059	C0005845	T059	C0523961	T059	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+I-entity		nitrogen	C0005767	T024	C0523961	T059	C0005767	T024	C0005845	T059	C0005845	T059	C0523961	T059	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+O	urea :_Blood nitrogen_>
+O	nitrogen Blood_urea >_/
+O	> urea_nitrogen /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro	beforecontext-1=context-ed urea_nitrogen 20_mg
+O	/ nitrogen_> =_20
+O	= >_/ 20_mg
+B-labvalmod		20	beforecontext-0=context-ro	beforecontext-1=context-ed /_= mg_/
+O	mg =_20 /_dl
+B-labvalmod		mg/dl	ctext-3=/	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed =_20
+O	/ 20_mg
+O	dl mg_/
+
+
+O	Hypoxemia :_Ratio
+O	: Ratio_of
+O	Ratio Hypoxemia_: of_partial
+B-entity		Ratio Hypoxemia_: <_250
+I-entity		of Hypoxemia_: <_250
+I-entity		partial Hypoxemia_: <_250
+I-entity		pressure Hypoxemia_: <_250
+I-entity		of Hypoxemia_: <_250
+I-entity		oxygen Hypoxemia_: <_250
+I-entity		in Hypoxemia_: <_250
+I-entity		arterial Hypoxemia_: <_250
+I-entity		blood Hypoxemia_: <_250
+I-entity		to Hypoxemia_: <_250
+I-entity		fraction Hypoxemia_: <_250
+I-entity		of Hypoxemia_: <_250
+I-entity		inspired Hypoxemia_: <_250
+I-entity		oxygen Hypoxemia_: <_250
+O	of :_Ratio partial_pressure
+O	partial Ratio_of pressure_of
+O	pressure of_partial of_oxygen
+O	of partial_pressure oxygen_in
+O	oxygen pressure_of in_arterial
+O	in of_oxygen arterial_blood
+O	arterial oxygen_in blood_to
+O	blood in_arterial to_fraction
+O	to arterial_blood fraction_of
+O	fraction blood_to of_inspired
+O	of to_fraction inspired_oxygen
+O	inspired fraction_of oxygen_<
+O	oxygen of_inspired <_250
+B-labrefrangemod		<	unit	ctext-1=<	inspire	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ins	SUF|1-2|=red		oxygen	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=oxy	SUF|1-1|=gen		mm	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	beforecontext-0=context-ed inspired_oxygen 250_mm
+B-labvalmod		250	beforecontext-0=context-ed oxygen_< mm_Hg
+O	mm <_250
+B-labvalmod		mm	beforecontext-0=context-ed <_250
+I-labvalmod		Hg	beforecontext-0=context-ed <_250
+O	Hg 250_mm
+
+
+O	No myocarditis_:
+O	myocarditis
+O	: No_myocarditis
+
+
+B-labintermod		No infiltrating_cells
+O	infiltrating cells_or
+B-entity		infiltrating or_<
+I-entity		cells or_<
+O	cells No_infiltrating or_<
+O	or infiltrating_cells <_14
+B-labrefrangemod		<	unit	ctext-1=<	cell	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cel	SUF|1-2|=lls		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes	 cells_or 14_leukocytes
+B-labvalmod		14 or_< leukocytes_/
+O	leukocytes <_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-11=/ <_14
+O	/ 14_leukocytes mm2_.
+O	mm2 leukocytes_/
+O	. /_mm2
+
+
+O	Thrombocytopenia
+O	:
+
+
+B-labrefrangemod		<	unit	ctext-1=<	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	platelet	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pla	SUF|1+2|=ets	 100,000_platelets
+B-labvalmod		100,000 platelets_/
+B-entity		platelets	C0032181	T059 <_100,000 /_mm3
+B-labvalmod		platelets/mm3	ctext-10=/	uniTok|1+2|=EEEEE <_100,000
+O	/ 100,000_platelets
+O	mm3 platelets_/
+
+
+O	Leukopenia :_White
+O	: White_-
+O	White Leukopenia_: -_cell
+B-entity		White-cell	ctext-6=- Leukopenia_:
+I-entity		count	ctext-6=- Leukopenia_:
+O	- :_White cell_count
+O	cell White_- count_<
+O	count -_cell <_4000
+B-labrefrangemod		<	unit	ctext-1=<	cell	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cel	SUF|1-2|=ell		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt	 cell_count 4000_/
+B-labvalmod		4000	unit count_< /_mm3
+O	/ <_4000
+B-labvalmod		/mm3	unit	ctext-1=/	uniTok|1+2|=EEEEE <_4000
+O	mm3 4000_/
+
+
+O	Lactic acidosis_:
+O	acidosis :_Lactic
+O	: Lactic_acidosis Lactic_acid
+O	Lactic acidosis_: acid_level
+B-entity		Lactic acidosis_: >_/
+I-entity		acid acidosis_: >_/
+I-entity		level acidosis_: >_/
+O	acid :_Lactic level_>
+O	level Lactic_acid >_/
+O	> acid_level /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 acid_level 4_mmol
+O	/ level_> =_4
+O	= >_/ 4_mmol
+B-labvalmod		4	ctext-1=4	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 /_= mmol_/
+O	mmol =_4 /_liter
+B-labvalmod		mmol/liter	ctext-5=/	uniTok|1+2|=EEEEE =_4
+O	/ 4_mmol
+O	liter mmol_/
+
+
+
+
+
+
+
+
+
+
+O	Leukocytosis :_Leukocyte
+O	: Leukocyte_count
+O	Leukocyte Leukocytosis_: count_>
+B-entity		Leukocyte	C0023516	T025	C0023516	T025	C0023508	T059 Leukocytosis_:
+I-entity		count	C0023516	T025	C0023516	T025	C0023508	T059 Leukocytosis_:
+O	count :_Leukocyte
+B-labrefrangemod		>	unit	ctext-1=>	leukocyte	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=yte		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE Leukocyte_count
+
+
+B-labvalmod		20,000	unit /_mm3
+O	/
+B-labvalmod		/mm3	unit	ctext-1=/	uniTok|1+-2|=EEEEE	uniTok|1+2|=EEEEE
+O	mm3 20,000_/
+
+
+O	A sudden_inexplicable
+B-labintermod		A	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+I-labintermod		sudden	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+I-labintermod		inexplicable	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+I-labintermod		drop	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+O	sudden inexplicable_drop
+O	inexplicable A_sudden drop_in
+O	drop sudden_inexplicable in_haematocrit
+O	in inexplicable_drop haematocrit_or
+B-entity		haematocrit	C0018935	T059	beforecontext-0=context-ro drop_in or_platelet
+B-labintermod		or	beforecontext-0=context-ro in_haematocrit platelet_values
+B-entity		platelet	C0005821	T025	beforecontext-0=context-ro haematocrit_or
+O	values or_platelet
+
+
+B-labintermod		Increasing
+B-entity		ESR	C1176468	T059
+
+
+B-anatomical		Renal	C0022646	T023 ,_Creatinine
+O	, Creatinine_(
+B-entity		Creatinine	C0201975	T059 Renal_, (_mg
+O	( ,_Creatinine mg_/
+O	mg Creatinine_( /_dL
+B-labvalmod		mg/dL	ctext-3=/ Creatinine_( )_:
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_5.0
+B-labrefrangemod		>	unit	ctext-1=>	OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_: 5.0_or
+B-labvalmod		5.0 :_> or_<
+B-labintermod		or >_5.0 <_200
+B-labrefrangemod		<	unit	ctext-1=<	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	uniTok|1+2|=EEEEE 5.0_or
+B-labvalmod		200 or_<
+
+
+O	Presence of_viral
+B-labintermod		Presence by_PCR
+I-labintermod		of by_PCR
+I-labintermod		viral by_PCR
+I-labintermod		genome by_PCR
+O	of viral_genome
+O	viral Presence_of genome_by
+O	genome of_viral by_PCR
+O	by viral_genome PCR_or
+B-entity		PCR	C0032520	T059	beforecontext-0=context-no genome_by or_in
+B-labintermod		or	beforecontext-0=context-no by_PCR in_situ
+O	in PCR_or situ_hybridisation
+B-labintermod		in	beforecontext-0=context-no PCR_or hybridisation_.
+I-labintermod		situ	beforecontext-0=context-no PCR_or hybridisation_.
+O	situ or_in hybridisation_.
+B-entity		hybridisation	C0020202	T045	beforecontext-0=context-no in_situ
+O	. situ_hybridisation
+
+
+B-anatomical		Liver	C0023884	T023 ,_Bilirubin
+O	, Bilirubin_(
+B-entity		Bilirubin	C0201913	T059 Liver_, (_mg
+O	( ,_Bilirubin mg_/
+O	mg Bilirubin_( /_dL
+B-labvalmod		mg/dL	ctext-3=/ Bilirubin_( )_:
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_12.0
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+2|=EEEEE )_:
+B-labvalmod		12.0 :_>
+
+
+O	Uremia (_BUN
+O	( BUN_level
+B-entity		BUN	C0005845	T059 Uremia_( level_>
+O	level (_BUN >_/
+O	> BUN_level /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA BUN_level 20_mg
+O	/ level_> =_20
+O	= >_/ 20_mg
+B-labvalmod		20 /_= mg_/
+O	mg =_20 /_dl
+B-labvalmod		mg/dl	ctext-3=/ =_20
+O	/ 20_mg dl_)
+O	dl mg_/
+O	) /_dl
+
+
+O	Leukopenia (_WBC
+O	( WBC_count
+O	WBC Leukopenia_( count_<
+B-entity		WBC	C0023508	T059	C0023508	T059	C0023508	T059 Leukopenia_( <_4,000
+I-entity		count	C0023508	T059	C0023508	T059	C0023508	T059 Leukopenia_( <_4,000
+O	count (_WBC <_4,000
+B-labrefrangemod		<	unit	ctext-1=<	WBC	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=WBC	SUF|1-2|=WBC		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		cell	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=lls	 WBC_count 4,000_cells
+B-labvalmod		4,000 count_< cells_/
+O	cells <_4,000 /_mm3
+B-labvalmod		cells/mm3	ctext-6=/ <_4,000
+O	/ 4,000_cells mm3_)
+O	mm3 cells_/
+O	) /_mm3
+
+
+
+
+O	Urine volume_9.3
+B-entity		Urine	C1278293	T059 9.3_mL
+I-entity		volume	C1278293	T059 9.3_mL
+O	volume 9.3_mL
+B-labvalmod		9.3 Urine_volume mL_/
+O	mL volume_9.3 /_kg
+B-labvalmod		mL/kg	ctext-3=/ volume_9.3 body_weight
+O	/ 9.3_mL kg_body
+O	kg mL_/ body_weight
+O	body /_kg weight_per
+B-labvalmod		body /_kg for_8
+I-labvalmod		weight /_kg for_8
+I-labvalmod		per /_kg for_8
+I-labvalmod		hour /_kg for_8
+O	weight kg_body per_hour
+O	per body_weight hour_for
+O	hour weight_per for_8
+O	for per_hour 8_h
+B-time		for	ctext-5=8	uniTok|1+2|=EEEEE	ctext-7=h	for	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=for	SUF|1-2|=for		H	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE per_hour
+I-time		8	ctext-5=8	uniTok|1+2|=EEEEE	ctext-7=h	for	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=for	SUF|1-2|=for		H	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE per_hour
+I-time		h	ctext-5=8	uniTok|1+2|=EEEEE	ctext-7=h	for	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=for	SUF|1-2|=for		H	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE per_hour
+O	8 hour_for
+O	h for_8
+
+
+
+
+O	Urea nitrogen_>
+B-entity		Urea >_1.00
+I-entity		nitrogen >_1.00
+O	nitrogen >_1.00
+B-labrefrangemod		>	unit	ctext-1=>	urea	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ure	SUF|1-2|=rea		nitrogen	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=nit	SUF|1-1|=gen		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ro Urea_nitrogen 1.00_g
+B-labvalmod		1.00	beforecontext-0=context-ro nitrogen_> g_/
+O	g >_1.00 /_L
+B-labvalmod		g/L	ctext-1=g	ctext-2=/	ctext-3=L	G	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	urea	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ure	SUF|1+2|=rea		beforecontext-0=context-ro >_1.00 or_urea
+O	/ 1.00_g L_or
+O	L g_/ or_urea
+B-labintermod		or	beforecontext-0=context-ro /_L urea_>
+B-entity		urea	C0523961	T059	beforecontext-0=context-ro L_or >_0.60
+B-labrefrangemod		>	unit	ctext-1=>	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	urea	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ure	SUF|1-1|=rea		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ro or_urea 0.60_g
+B-labvalmod		0.60	beforecontext-0=context-ro urea_> g_/
+O	g >_0.60 /_L
+B-labvalmod		g/L	ctext-1=g	ctext-2=/	uniTok|1+2|=EEEEE	ctext-3=L	G	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro >_0.60
+O	/ 0.60_g
+O	L g_/
+
+
+B-entity		Bilirubin	C0201913	T059 >_60
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+-2|=EEEEE	bilirubin	pos|1-1|=NNP	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Bil	SUF|1-1|=bin		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA 60_mg
+B-labvalmod		60 Bilirubin_> mg_/
+O	mg >_60 /_L
+B-labvalmod		mg/L	ctext-3=/	ctext-4=L	Mg	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	A	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR >_60 or_a
+O	/ 60_mg L_or
+O	L mg_/ or_a
+B-labintermod		or /_L a_twofold
+O	a L_or twofold_increase
+O	twofold or_a increase_in
+B-labintermod		twofold or_a in_alkaline
+I-labintermod		increase or_a in_alkaline
+O	increase a_twofold in_alkaline
+O	in twofold_increase alkaline_phosphatase
+O	alkaline increase_in phosphatase_in
+B-entity		alkaline	C1149880	T044	C0201850	T059 increase_in in_serum
+I-entity		phosphatase	C1149880	T044	C0201850	T059 increase_in in_serum
+O	phosphatase in_alkaline in_serum
+O	in alkaline_phosphatase serum_and
+B-anatomical		serum phosphatase_in
+O	and in_serum
+
+
+
+
+
+
+
+
+B-entity		Platelets	C0032181	T059	postcontext-0=context-ed <_20000
+B-labrefrangemod		<	unit	ctext-1=<	uniTok|1+-2|=EEEEE	platelet	pos|1-1|=NNS	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pla	SUF|1-1|=ets		postcontext-0=context-ed 20000_/
+B-labvalmod		20000	unit	postcontext-0=context-ed Platelets_< /_mL
+O	/ <_20000 mL_or
+B-labvalmod		/mL	unit	ctext-1=/	postcontext-0=context-ed <_20000 or_evidence
+O	mL 20000_/ or_evidence
+B-labintermod		or	postcontext-0=context-ed /_mL evidence_of
+O	evidence mL_or of_ongoing
+O	of or_evidence ongoing_disseminated
+O	ongoing evidence_of disseminated_intravascular
+B-labintermod		ongoing evidence_of intravascular_coagulation
+I-labintermod		disseminated evidence_of intravascular_coagulation
+O	disseminated of_ongoing intravascular_coagulation
+O	intravascular ongoing_disseminated
+B-entity		intravascular	beforecontext-0=context-ed ongoing_disseminated
+I-entity		coagulation	beforecontext-0=context-ed ongoing_disseminated
+O	coagulation disseminated_intravascular
+
+
+
+
+O	at least_1,000
+O	least 1,000_Sezary
+O	1,000 at_least Sezary_cells
+O	Sezary least_1,000 cells_per
+O	cells 1,000_Sezary per_mm3
+O	per Sezary_cells mm3_of
+O	mm3 cells_per of_peripheral
+O	of per_mm3 peripheral_blood
+O	peripheral mm3_of blood_,
+O	blood of_peripheral ,_an
+O	, peripheral_blood an_increased
+O	an blood_, increased_population
+O	increased ,_an population_of
+B-labintermod		increased	beforecontext-1=context-her	postcontext-2=context-presenting ,_an of_CD4
+I-labintermod		population	beforecontext-1=context-her	postcontext-2=context-presenting ,_an of_CD4
+O	population an_increased of_CD4
+O	of increased_population CD4_+
+O	CD4 population_of +_/
+B-entity		CD4+/CD7-	ctext-4=+	ctext-5=/	ctext-9=-	cd7	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-1|=INITCAPS	STCLS|1-1-9|=HASDIGIT	STCLS|1-1-11|=ALPHANUMERIC	STCLS|1-1-13|=LETTERS_NUMBERS	PRE|1-1|=CD7	SUF|1-1|=CD7		in	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	peripheral	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=ral		beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting population_of in_peripheral
+O	+ of_CD4 /_CD7
+O	/ CD4_+ CD7_-
+O	CD7 +_/ -_in
+O	- /_CD7 in_peripheral
+O	in CD7_- peripheral_blood
+O	peripheral -_in blood_with
+O	blood in_peripheral with_remarkable
+O	with peripheral_blood remarkable_predominance
+O	remarkable blood_with predominance_of
+O	predominance with_remarkable of_CD4
+O	of remarkable_predominance CD4_+
+O	CD4 predominance_of +_cells
+O	+ of_CD4 cells_in
+O	cells CD4_+ in_relation
+O	in +_cells relation_to
+O	relation cells_in to_CD8
+O	to in_relation CD8_+
+O	CD8 relation_to +_(
+O	+ to_CD8 (_CD4
+O	( CD8_+ CD4_/
+O	CD4 +_( /_CD8
+B-entity		CD4/CD8	ctext-4=/	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting +_( >_10
+I-entity		ratio	ctext-4=/	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting +_( >_10
+O	/ (_CD4 CD8_ratio
+O	CD8 CD4_/ ratio_>
+O	ratio /_CD8 >_10
+B-labrefrangemod		>	unit	ctext-1=>	cd8	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-1|=INITCAPS	STCLS|1-2-9|=HASDIGIT	STCLS|1-2-11|=ALPHANUMERIC	STCLS|1-2-13|=LETTERS_NUMBERS	PRE|1-2|=CD8	SUF|1-2|=CD8		ratio	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rat	SUF|1-1|=tio		beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting CD8_ratio 10_)
+B-labvalmod		10	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting ratio_> )_,
+O	) >_10 ,_Sezary
+O	, 10_) Sezary_cells
+O	Sezary )_, cells_with
+O	cells ,_Sezary with_a
+O	with Sezary_cells a_diameter
+O	a cells_with diameter_>
+O	diameter with_a >_14
+O	> a_diameter 14_um
+O	14 diameter_> um_representing
+O	um >_14 representing_>
+O	representing 14_um >_20
+B-labrefrangemod		>	unit	ctext-1=>	UM	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	represent	pos|1-1|=VBG	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rep	SUF|1-1|=ing		beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting um_representing 20_%
+O	20 representing_> %_of
+B-labvalmod		20%	ctext-3=%	of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	the	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=the	SUF|1+2|=the		beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting representing_> of_the
+O	% >_20 of_the
+O	of 20_% the_circulating
+O	the %_of circulating_lymphocytes
+O	circulating of_the lymphocytes_and
+B-entity		circulating	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting of_the and_,
+I-entity		lymphocytes	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting of_the and_,
+O	lymphocytes the_circulating and_,
+O	and circulating_lymphocytes ,_some
+O	, lymphocytes_and some_markers
+O	some and_, markers_like
+O	markers ,_some like_CD2
+O	like some_markers CD2_,
+O	CD2 markers_like ,_CD3
+O	, like_CD2 CD3_,
+O	CD3 CD2_, ,_CD4
+O	, ,_CD3 CD4_and
+O	CD4 CD3_, and_CD5
+O	and ,_CD4 CD5_must
+O	CD5 CD4_and must_be
+O	must and_CD5 be_absent
+O	be CD5_must absent_.
+O	absent must_be
+O	. be_absent
+
+
+O	Laboratory tests_None
+O	tests None_of
+O	None Laboratory_tests of_the
+O	of tests_None the_available
+O	the None_of available_tests
+O	available of_the tests_will
+O	tests the_available will_confirm
+O	will available_tests confirm_the
+O	confirm tests_will the_diagnosis
+O	the will_confirm diagnosis_,
+O	diagnosis confirm_the ,_but
+O	, the_diagnosis but_thyroid
+O	but diagnosis_, thyroid_-
+O	thyroid ,_but -_function
+O	- but_thyroid function_tests
+O	function thyroid_- tests_and
+O	tests -_function and_tests
+O	and function_tests tests_for
+O	tests tests_and for_thyroid
+O	for and_tests thyroid_antibodies
+O	thyroid tests_for antibodies_may
+O	antibodies for_thyroid may_be
+O	may thyroid_antibodies be_advisable
+O	be antibodies_may advisable_because
+O	advisable may_be because_of
+O	because be_advisable of_the
+O	of advisable_because the_increased
+O	the because_of increased_association
+O	increased of_the association_between
+O	association the_increased between_alopecia
+O	between increased_association alopecia_areata
+O	alopecia association_between areata_and
+O	areata between_alopecia and_thyroid
+O	and alopecia_areata thyroid_autoimmunity
+O	thyroid areata_and autoimmunity_;
+O	autoimmunity and_thyroid
+O	; thyroid_autoimmunity
+
+
+O	abnormal results_of
+O	results of_thyroid
+O	of abnormal_results thyroid_-
+O	thyroid results_of -_function
+O	- of_thyroid function_tests
+O	function thyroid_- tests_,
+O	tests -_function ,_the
+O	, function_tests the_presence
+O	the tests_, presence_of
+B-labintermod		presence	C0392148	T061	beforecontext-0=context-ro	postcontext-1=context-her	postcontext-2=context-his	beforecontext-3=context-no ,_the of_thyroid
+O	of the_presence thyroid_autoantibodies
+O	thyroid presence_of autoantibodies_,
+B-entity		thyroid	C0040132	T023	C0040132	T023	C0523376	T059	beforecontext-0=context-ro	postcontext-1=context-her	postcontext-2=context-his	beforecontext-3=context-no presence_of ,_or
+I-entity		autoantibodies	C0040132	T023	C0040132	T023	C0523376	T059	beforecontext-0=context-ro	postcontext-1=context-her	postcontext-2=context-his	beforecontext-3=context-no presence_of ,_or
+O	autoantibodies of_thyroid ,_or
+O	, thyroid_autoantibodies or_both
+O	or autoantibodies_, both_further
+O	both ,_or further_support
+O	further or_both support_a
+O	support both_further a_clinical
+O	a further_support clinical_or
+O	clinical support_a or_histologic
+O	or a_clinical histologic_working
+O	histologic clinical_or working_diagnosis
+O	working or_histologic diagnosis_of
+O	diagnosis histologic_working of_alopecia
+O	of working_diagnosis alopecia_areata
+O	alopecia diagnosis_of
+O	areata of_alopecia
+
+
+B-labintermod		Raised serum_IgE
+B-anatomical		serum	beforecontext-0=context-ed
+B-entity		IgE	C0202086	T059	beforecontext-0=context-ed Raised_serum
+
+
+O	Atopy (_IgE
+O	( IgE_reactivity
+B-entity		IgE	C0202086	T059 Atopy_( reactivity_)
+O	reactivity (_IgE
+O	) IgE_reactivity
+
+
+O	There are_many
+O	are many_biochemical
+O	many There_are biochemical_markers
+O	biochemical are_many markers_for
+O	markers many_biochemical for_Paget
+O	for biochemical_markers Paget_'s
+O	Paget markers_for 's_disease
+O	's for_Paget disease_,
+O	disease Paget_'s ,_but
+O	, 's_disease but_the
+O	but disease_, the_two
+O	the ,_but two_most
+O	two but_the most_important
+O	most the_two important_are
+O	important two_most are_total
+O	are most_important total_serum
+O	total important_are serum_alkaline
+B-anatomical		serum	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no are_total alkaline_phosphatase
+O	alkaline total_serum phosphatase_and
+B-entity		alkaline	C1149880	T044	C0201850	T059	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no total_serum and_urinary
+I-entity		phosphatase	C1149880	T044	C0201850	T059	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no total_serum and_urinary
+O	phosphatase serum_alkaline and_urinary
+O	and alkaline_phosphatase urinary_pyridinoline
+B-anatomical		urinary	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no phosphatase_and pyridinoline_.
+B-entity		pyridinoline	C1266245	T059	beforecontext-0=context-but	beforecontext-1=context-her and_urinary
+O	. urinary_pyridinoline
+
+
+O	These markers_may
+O	markers may_be
+O	may These_markers be_normal
+O	be markers_may normal_in
+O	normal may_be in_patients
+O	in be_normal patients_with
+O	patients normal_in with_the
+O	with in_patients the_monostotic
+O	the patients_with monostotic_form
+O	monostotic with_the form_of
+O	form the_monostotic of_Paget
+O	of monostotic_form Paget_'s
+O	Paget form_of 's_disease
+O	's of_Paget disease_(
+O	disease Paget_'s (_15
+O	( 's_disease 15_%
+O	15 disease_( %_of
+O	% (_15 of_patients
+O	of 15_% patients_)
+O	patients %_of
+O	) of_patients
+
+
+O	therefore ,_serum
+O	, serum_bone
+B-anatomical		serum	beforecontext-0=context-her	postcontext-1=context-if therefore_, bone_-
+B-entity		serum	C1149880	T044	C0036776	T059	C0201850	T059	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+I-entity		bone-specific	C1149880	T044	C0036776	T059	C0201850	T059	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+I-entity		alkaline	C1149880	T044	C0036776	T059	C0201850	T059	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+I-entity		phosphatase	C1149880	T044	C0036776	T059	C0201850	T059	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+O	bone ,_serum -_specific
+O	- serum_bone specific_alkaline
+O	specific bone_- alkaline_phosphatase
+O	alkaline -_specific phosphatase_measurements
+O	phosphatase specific_alkaline measurements_may
+O	measurements alkaline_phosphatase may_be
+O	may phosphatase_measurements be_useful
+O	be measurements_may useful_.
+O	useful may_be
+O	. be_useful
+
+
+O	Urinary hydroxyproline_is
+O	hydroxyproline is_no
+O	is Urinary_hydroxyproline no_longer
+O	no hydroxyproline_is longer_considered
+O	longer is_no considered_an
+O	considered no_longer an_accurate
+O	an longer_considered accurate_marker
+O	accurate considered_an marker_of
+O	marker an_accurate of_activity
+O	of accurate_marker activity_or
+O	activity marker_of or_extent
+O	or of_activity extent_of
+O	extent activity_or of_the
+O	of or_extent the_disease
+O	the extent_of disease_.
+O	disease of_the
+O	. the_disease
+
+
+
+
+
+
+
+
+O	The finding_of
+O	finding of_a
+O	of The_finding a_normal
+O	a finding_of normal_level
+O	normal of_a level_of
+O	level a_normal of_albumin
+O	of normal_level albumin_-
+O	albumin level_of -_adjusted
+O	- of_albumin adjusted_or
+O	adjusted albumin_- or_ionized
+O	or -_adjusted ionized_serum
+B-labintermod		ionized	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient adjusted_or serum_calcium
+O	serum or_ionized calcium_and
+B-entity		serum	C0201925	T059	C0728876	T059	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient or_ionized and_an
+I-entity		calcium	C0201925	T059	C0728876	T059	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient or_ionized and_an
+O	calcium ionized_serum and_an
+O	and serum_calcium an_elevated
+O	an calcium_and elevated_level
+B-labintermod		elevated	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient and_an level_of
+O	level an_elevated of_PTH
+O	of elevated_level PTH_in
+B-entity		PTH	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient level_of in_patients
+O	in of_PTH patients_with
+O	patients PTH_in with_no
+O	with in_patients no_other
+O	no patients_with other_causes
+O	other with_no causes_of
+O	causes no_other of_secondary
+O	of other_causes secondary_hyperparathyroidism
+O	secondary causes_of hyperparathyroidism_is
+O	hyperparathyroidism of_secondary is_consistent
+O	is secondary_hyperparathyroidism consistent_with
+O	consistent hyperparathyroidism_is with_normocalcemic
+O	with is_consistent normocalcemic_primary
+O	normocalcemic consistent_with primary_hyperparathyroidism
+O	primary with_normocalcemic hyperparathyroidism_.
+O	hyperparathyroidism normocalcemic_primary
+O	. primary_hyperparathyroidism
+
+
+
+
+O	Serum calcium_level
+B-entity		Serum	C0201925	T059	C0728876	T059 level_>
+I-entity		calcium	C0201925	T059	C0728876	T059 level_>
+O	calcium level_>
+O	level Serum_calcium >_1.0
+B-labrefrangemod		>	unit	ctext-1=>	calcium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cal	SUF|1-2|=ium		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA calcium_level 1.0_mg
+B-labvalmod		1.0 level_> mg_/
+O	mg >_1.0 /_dl
+B-labvalmod		mg/dl	ctext-3=/ >_1.0 (_0.25
+O	/ 1.0_mg dl_(
+O	dl mg_/ (_0.25
+O	( /_dl 0.25_mmol
+B-labvalmod		0.25 dl_( mmol_/
+O	mmol (_0.25 /_liter
+B-labvalmod		mmol/liter	ctext-5=/ (_0.25
+O	/ 0.25_mmol liter_)
+O	liter mmol_/
+O	) /_liter
+
+
+B-labrefrangemod		above	postcontext-0=context-no upper_limit
+O	upper limit_of
+B-labintermod		upper
+I-labintermod		limit
+I-labintermod		of
+I-labintermod		normal
+I-labintermod		range
+O	limit above_upper of_normal
+O	of upper_limit normal_range
+O	normal limit_of
+O	range of_normal
+
+
+
+
+
+
+B-labintermod		Increased Urinary_Free
+O	Urinary Free_Cortisol
+O	Free Increased_Urinary Cortisol_(
+B-entity		Cortisol	C0201968	T059	beforecontext-0=context-ed Urinary_Free (_three
+O	( Free_Cortisol three_24h
+O	three Cortisol_( 24h_collections
+B-time		three	beforecontext-0=context-ed Cortisol_(
+I-time		24h	beforecontext-0=context-ed Cortisol_(
+I-time		collections	beforecontext-0=context-ed Cortisol_(
+O	24h (_three collections_)
+O	collections three_24h
+O	) 24h_collections
+
+
+B-labintermod		Lack of_suppression
+O	of suppression_after
+O	suppression Lack_of after_low
+B-entity		suppression	C0221103	T046	C0022885	T059	C0221103	T046	C0201782	T059	ctext-22=- Lack_of
+I-entity		after	C0221103	T046	C0022885	T059	C0221103	T046	C0201782	T059	ctext-22=- Lack_of
+I-entity		low-dose	C0221103	T046	C0022885	T059	C0221103	T046	C0201782	T059	ctext-22=- Lack_of
+I-entity		dexamethasone	C0221103	T046	C0022885	T059	C0221103	T046	C0201782	T059	ctext-22=- Lack_of
+I-entity		testing	C0221103	T046	C0022885	T059	C0221103	T046	C0201782	T059	ctext-22=- Lack_of
+O	after of_suppression low_-
+O	low suppression_after -_dose
+O	- after_low dose_dexamethasone
+O	dose low_- dexamethasone_testing
+O	dexamethasone -_dose
+O	testing dose_dexamethasone
+
+
+B-labintermod		Increased '_late
+O	' late_-
+O	late Increased_' -_evening
+O	- '_late evening_'
+O	evening late_- '_salivary
+O	' -_evening salivary_cortisol
+B-anatomical		salivary	beforecontext-0=context-ed evening_' cortisol_(
+B-entity		cortisol	C0201968	T059	beforecontext-0=context-ed '_salivary (_test
+O	( salivary_cortisol test_incompletely
+O	test cortisol_( incompletely_evaluated
+O	incompletely (_test
+O	evaluated test_incompletely
+
+
+B-entity		Testosterone	C0202227	T059
+B-labintermod		deficiency	C0162429	T047	beforecontext-0=context-ro
+
+
+
+
+O	Dopamine agonist_-
+B-entity		Dopamine	postcontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-if	postcontext-3=context-is-not	postcontext-4=context-no -_resistant
+I-entity		agonist	postcontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-if	postcontext-3=context-is-not	postcontext-4=context-no -_resistant
+O	agonist -_resistant
+O	- Dopamine_agonist resistant_microadenoma
+O	resistant agonist_- microadenoma_in
+O	microadenoma -_resistant in_a
+O	in resistant_microadenoma a_woman
+O	a microadenoma_in woman_seeking
+O	woman in_a seeking_fertility
+O	seeking a_woman fertility_,
+O	fertility woman_seeking ,_if
+O	, seeking_fertility if_ovulation
+O	if fertility_, ovulation_induction
+O	ovulation ,_if induction_is
+O	induction if_ovulation is_not
+O	is ovulation_induction not_appropriate
+O	not induction_is
+O	appropriate is_not
+
+
+O	Urine osmolality_>
+B-entity		Urine	C0201803	T059	C0740085	T059 >_100
+I-entity		osmolality	C0201803	T059	C0740085	T059 >_100
+O	osmolality >_100
+B-labrefrangemod		>	unit	ctext-1=>	urine	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Uri	SUF|1-2|=ine		osmolality	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=osm	SUF|1-1|=ity		mOsm	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	PRE|1+2|=mOs	SUF|1+2|=Osm	 Urine_osmolality 100_mOsm
+B-labvalmod		100	unit osmolality_> mOsm_per
+O	mOsm >_100 per_kg
+B-labvalmod		mOsm	unit >_100 (_100
+I-labvalmod		per	unit >_100 (_100
+I-labvalmod		kg	unit >_100 (_100
+O	per 100_mOsm kg_(
+O	kg mOsm_per (_100
+O	( per_kg 100_mmol
+B-labvalmod		100	unit kg_( mmol_per
+O	mmol (_100 per_kg
+B-labvalmod		mmol	unit (_100
+I-labvalmod		per	unit (_100
+I-labvalmod		kg	unit (_100
+O	per 100_mmol kg_)
+O	kg mmol_per
+O	) per_kg
+
+
+O	LDL -_C
+B-entity		LDL-C	ctext-4=-	uniTok|1+-2|=EEEEE	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel	 level_>
+O	- C_level
+O	C LDL_- level_>
+O	level -_C >_190
+B-labrefrangemod		>	unit	ctext-1=>	C	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA C_level 190_mg
+B-labvalmod		190 level_> mg_/
+O	mg >_190 /_dL
+B-labvalmod		mg/dL	ctext-3=/	uniTok|1+2|=EEEEE >_190
+O	/ 190_mg
+O	dL mg_/
+

@@ -1,0 +1,13 @@
+
+B-entity		Platelets	T059	ctext-0=Platelets	sectonHeader-0=109.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	platelet	pos|1+0|=NNS	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pla	SUF|1+0|=ets		normal	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nor	SUF|1+2|=mal		postcontext-0=context-ed	postcontext-1=context-no (_normal
+O	( normal_to
+O	normal Platelets_( to_markedly
+B-labintermod		normal	ctext-0=normal	sectonHeader-0=109.xml-testSeg	platelet	pos|1-2|=NNS	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=ets		normal	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=nor	SUF|1+0|=mal		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	markedly	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mar	SUF|1+2|=dly		ctext-7=to	ctext-10=markedly	ctext-19=decreased	uniTok|1+2|=EEEEE Platelets_(
+I-labintermod		to	ctext-0=normal	sectonHeader-0=109.xml-testSeg	platelet	pos|1-2|=NNS	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=ets		normal	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=nor	SUF|1+0|=mal		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	markedly	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mar	SUF|1+2|=dly		ctext-7=to	ctext-10=markedly	ctext-19=decreased	uniTok|1+2|=EEEEE Platelets_(
+I-labintermod		markedly	ctext-0=normal	sectonHeader-0=109.xml-testSeg	platelet	pos|1-2|=NNS	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=ets		normal	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=nor	SUF|1+0|=mal		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	markedly	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mar	SUF|1+2|=dly		ctext-7=to	ctext-10=markedly	ctext-19=decreased	uniTok|1+2|=EEEEE Platelets_(
+I-labintermod		decreased	ctext-0=normal	sectonHeader-0=109.xml-testSeg	platelet	pos|1-2|=NNS	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=ets		normal	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=nor	SUF|1+0|=mal		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	markedly	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mar	SUF|1+2|=dly		ctext-7=to	ctext-10=markedly	ctext-19=decreased	uniTok|1+2|=EEEEE Platelets_(
+O	to (_normal markedly_decreased
+O	markedly normal_to decreased_)
+O	decreased to_markedly
+O	) markedly_decreased
+

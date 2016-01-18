@@ -1,0 +1,23 @@
+
+O	evidence of_elevated
+O	of elevated_cardiac
+B-labintermod	elevated 	postcontext-0=context-ro evidence_of cardiac_enzymes
+O	cardiac of_elevated enzymes_(
+B-entity	cardiac enzymes 	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine
+I-entity	cardiac enzymes 	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine
+O	enzymes elevated_cardiac (_creatine
+O	( cardiac_enzymes creatine_kinase
+O	creatine enzymes_( kinase_-
+O	kinase (_creatine -_MB
+O	- creatine_kinase MB_fraction
+O	MB kinase_- fraction_,
+O	fraction -_MB ,_or
+O	, MB_fraction or_troponin
+B-labintermod	or 	postcontext-0=context-ro	beforecontext-1=context-ed fraction_, troponin_I
+O	troponin ,_or I_or
+O	I or_troponin or_T
+B-labintermod	or 	postcontext-0=context-ro	beforecontext-1=context-ed troponin_I T_)
+O	T I_or )_or
+O	) or_T
+B-labintermod	or 	postcontext-0=context-ro	beforecontext-1=context-ed T_)
+

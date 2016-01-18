@@ -1,0 +1,28 @@
+
+O	There are_many
+O	are many_biochemical
+O	many There_are biochemical_markers
+O	biochemical are_many markers_for
+O	markers many_biochemical for_Paget
+O	for biochemical_markers Paget_'s
+O	Paget markers_for 's_disease
+O	's for_Paget disease_,
+O	disease Paget_'s ,_but
+O	, 's_disease but_the
+O	but disease_, the_two
+O	the ,_but two_most
+O	two but_the most_important
+O	most the_two important_are
+O	important two_most are_total
+O	are most_important total_serum
+O	total important_are serum_alkaline
+B-anatomical		serum	ctext-0=serum	sectonHeader-0=86.xml-testSeg	ARE	pos|1-2|=VBP	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=are	SUF|1-2|=are		total	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=tot	SUF|1-1|=tal		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		alkaline	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alk	SUF|1+1|=ine		phosphatase	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pho	SUF|1+2|=ase		beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no are_total alkaline_phosphatase
+O	alkaline total_serum phosphatase_and
+B-entity		alkaline	T059	T044	ctext-0=alkaline	sectonHeader-0=86.xml-testSeg	total	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tot	SUF|1-2|=tal		serum	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ser	SUF|1-1|=rum		alkaline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-9=phosphatase	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no total_serum and_urinary
+I-entity		phosphatase	T059	T044	ctext-0=alkaline	sectonHeader-0=86.xml-testSeg	total	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tot	SUF|1-2|=tal		serum	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ser	SUF|1-1|=rum		alkaline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-9=phosphatase	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no total_serum and_urinary
+O	phosphatase serum_alkaline and_urinary
+O	and alkaline_phosphatase urinary_pyridinoline
+B-anatomical		urinary	ctext-0=urinary	sectonHeader-0=86.xml-testSeg	phosphatase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pho	SUF|1-2|=ase		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		urinary	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=uri	SUF|1+0|=ary		pyridinoline	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pyr	SUF|1+1|=ine		beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no phosphatase_and pyridinoline_.
+B-entity		pyridinoline	T059	ctext-0=pyridinoline	sectonHeader-0=86.xml-testSeg	and	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=and	SUF|1-2|=and		urinary	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=uri	SUF|1-1|=ary		pyridinoline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pyr	SUF|1+0|=ine		uniTok|1+2|=EEEEE	beforecontext-0=context-but	beforecontext-1=context-her and_urinary
+O	. urinary_pyridinoline
+

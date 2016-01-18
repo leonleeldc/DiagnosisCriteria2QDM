@@ -1,0 +1,34 @@
+
+O	Urinary albumin_excretion
+B-entity		Urinary	T059	T059	ctext-0=Urinary	sectonHeader-0=27.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urinary	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ary		albumin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alb	SUF|1+1|=min		excretion	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=exc	SUF|1+2|=ion		ctext-8=albumin	uniTok|1+-2|=EEEEE	ctext-16=excretion	ctext-26=rate >_20
+I-entity		albumin	T059	T059	ctext-0=Urinary	sectonHeader-0=27.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urinary	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ary		albumin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alb	SUF|1+1|=min		excretion	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=exc	SUF|1+2|=ion		ctext-8=albumin	uniTok|1+-2|=EEEEE	ctext-16=excretion	ctext-26=rate >_20
+I-entity		excretion	T059	T059	ctext-0=Urinary	sectonHeader-0=27.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urinary	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ary		albumin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alb	SUF|1+1|=min		excretion	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=exc	SUF|1+2|=ion		ctext-8=albumin	uniTok|1+-2|=EEEEE	ctext-16=excretion	ctext-26=rate >_20
+I-entity		rate	T059	T059	ctext-0=Urinary	sectonHeader-0=27.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urinary	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ary		albumin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alb	SUF|1+1|=min		excretion	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=exc	SUF|1+2|=ion		ctext-8=albumin	uniTok|1+-2|=EEEEE	ctext-16=excretion	ctext-26=rate >_20
+O	albumin excretion_rate
+O	excretion Urinary_albumin rate_>
+O	rate albumin_excretion >_20
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=27.xml-testSeg	excretion	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=exc	SUF|1-2|=ion		rate	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rat	SUF|1-1|=ate		MCG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mcg	SUF|1+2|=mcg	 excretion_rate 20_mcg
+B-labvalmod		20	ctext-0=20	sectonHeader-0=27.xml-testSeg	num	rate	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=rat	SUF|1-2|=ate		MCG	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mcg	SUF|1+1|=mcg	 rate_> mcg_/
+O	mcg >_20 /_min
+B-labvalmod		mcg/min	ctext-0=mcg	sectonHeader-0=27.xml-testSeg	MCG	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mcg	SUF|1+0|=mcg		MIN	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=min	SUF|1+2|=min		ctext-3=/	ctext-4=min >_20 or_albumin
+O	/ 20_mcg min_or
+O	min mcg_/ or_albumin
+B-labintermod		or	ctext-0=or	sectonHeader-0=27.xml-testSeg	MIN	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=min	SUF|1-1|=min		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	albumin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alb	SUF|1+1|=min		to	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA /_min albumin_to
+O	albumin min_or to_creatinine
+B-entity		albumin	T059	T123	ctext-0=albumin	sectonHeader-0=27.xml-testSeg	MIN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=min	SUF|1-2|=min		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	albumin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alb	SUF|1+0|=min		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	creatinine	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cre	SUF|1+2|=ine		ctext-8=to	ctext-11=creatinine	ctext-22=ratio min_or >_/
+I-entity		to	T059	T123	ctext-0=albumin	sectonHeader-0=27.xml-testSeg	MIN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=min	SUF|1-2|=min		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	albumin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alb	SUF|1+0|=min		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	creatinine	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cre	SUF|1+2|=ine		ctext-8=to	ctext-11=creatinine	ctext-22=ratio min_or >_/
+I-entity		creatinine	T059	T123	ctext-0=albumin	sectonHeader-0=27.xml-testSeg	MIN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=min	SUF|1-2|=min		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	albumin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alb	SUF|1+0|=min		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	creatinine	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cre	SUF|1+2|=ine		ctext-8=to	ctext-11=creatinine	ctext-22=ratio min_or >_/
+I-entity		ratio	T059	T123	ctext-0=albumin	sectonHeader-0=27.xml-testSeg	MIN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=min	SUF|1-2|=min		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	albumin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alb	SUF|1+0|=min		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	creatinine	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cre	SUF|1+2|=ine		ctext-8=to	ctext-11=creatinine	ctext-22=ratio min_or >_/
+O	to or_albumin creatinine_ratio
+O	creatinine albumin_to ratio_>
+O	ratio to_creatinine >_/
+O	> creatinine_ratio /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=27.xml-testSeg	creatinine	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cre	SUF|1-2|=ine		ratio	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rat	SUF|1-1|=tio		ctext-1=/	ctext-2=equal_symbol creatinine_ratio 30_mg
+O	/ ratio_> =_30
+O	= >_/ 30_mg
+B-labvalmod		30	ctext-0=30	sectonHeader-0=27.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA /_= mg_/
+O	mg =_30 /_g
+B-labvalmod		mg/g	ctext-0=mg	sectonHeader-0=27.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	G	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-2=/	uniTok|1+2|=EEEEE	ctext-3=g	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE =_30
+O	/ 30_mg
+O	g mg_/
+

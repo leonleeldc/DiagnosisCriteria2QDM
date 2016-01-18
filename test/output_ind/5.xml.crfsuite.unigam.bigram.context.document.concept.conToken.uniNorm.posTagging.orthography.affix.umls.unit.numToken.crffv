@@ -1,0 +1,33 @@
+
+O	Chronic myocarditis_:
+O	myocarditis
+O	: Chronic_myocarditis
+
+
+O	an infiltrate_of
+B-entity		infiltrate	T046	ctext-0=infiltrate	sectonHeader-0=5.xml-testSeg	uniTok|1-2|=SSSSS	an	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	infiltrate	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=inf	SUF|1+0|=ate		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	postcontext-0=context-ed	postcontext-1=context-if of_>
+O	of an_infiltrate >_14
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=5.xml-testSeg	infiltrate	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inf	SUF|1-2|=ate		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes		postcontext-0=context-ed	postcontext-1=context-if infiltrate_of 14_leukocytes
+B-labvalmod		14	ctext-0=14	sectonHeader-0=5.xml-testSeg	num	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	leukocyte	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=leu	SUF|1+1|=tes		postcontext-0=context-ed	postcontext-1=context-if of_> leukocytes_/
+O	leukocytes >_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-0=leukocytes	sectonHeader-0=5.xml-testSeg	leukocyte	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=leu	SUF|1+0|=tes		mm2	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm2	SUF|1+2|=mm2		ctext-10=/	ctext-11=mm2	postcontext-0=context-ed	postcontext-1=context-if >_14 (_diffuse
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_diffuse
+O	( /_mm2 diffuse_,
+O	diffuse mm2_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod		or	ctext-0=or	sectonHeader-0=5.xml-testSeg	focal	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=foc	SUF|1-1|=cal		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	confluent	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=con	SUF|1+1|=ent		postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_,
+O	confluent focal_or ,_preferably
+O	, or_confluent preferably_activated
+O	preferably confluent_, activated_T
+B-labintermod		preferably	ctext-0=preferably	sectonHeader-0=5.xml-testSeg	confluent	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=con	SUF|1-2|=ent		preferably	pos|1+0|=RB	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pre	SUF|1+0|=bly		activate	pos|1+1|=VBN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=act	SUF|1+1|=ted		T	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	ctext-11=activated	beforecontext-1=context-if confluent_, T_cells
+I-labintermod		activated	ctext-0=preferably	sectonHeader-0=5.xml-testSeg	confluent	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=con	SUF|1-2|=ent		preferably	pos|1+0|=RB	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pre	SUF|1+0|=bly		activate	pos|1+1|=VBN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=act	SUF|1+1|=ted		T	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	ctext-11=activated	beforecontext-1=context-if confluent_, T_cells
+O	activated ,_preferably T_cells
+O	T preferably_activated cells_)
+B-entity		T	T049	T025	T025	ctext-0=T	sectonHeader-0=5.xml-testSeg	preferably	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=bly		activate	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=act	SUF|1-1|=ted		T	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		ctext-2=cells	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+I-entity		cells	T049	T025	T025	ctext-0=T	sectonHeader-0=5.xml-testSeg	preferably	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=bly		activate	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=act	SUF|1-1|=ted		T	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		ctext-2=cells	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+

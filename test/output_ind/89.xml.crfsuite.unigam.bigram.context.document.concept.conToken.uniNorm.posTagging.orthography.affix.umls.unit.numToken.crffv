@@ -1,0 +1,40 @@
+
+O	The finding_of
+O	finding of_a
+O	of The_finding a_normal
+O	a finding_of normal_level
+O	normal of_a level_of
+O	level a_normal of_albumin
+O	of normal_level albumin_-
+O	albumin level_of -_adjusted
+O	- of_albumin adjusted_or
+O	adjusted albumin_- or_ionized
+O	or -_adjusted ionized_serum
+B-labintermod		ionized	ctext-0=ionized	sectonHeader-0=89.xml-testSeg	adjust	pos|1-2|=VBN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=adj	SUF|1-2|=ted		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	ionize	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ion	SUF|1+0|=zed		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		calcium	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cal	SUF|1+2|=ium		postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient adjusted_or serum_calcium
+O	serum or_ionized calcium_and
+B-entity		serum	T059	T121	ctext-0=serum	sectonHeader-0=89.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	ionize	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ion	SUF|1-1|=zed		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		calcium	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cal	SUF|1+1|=ium		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-6=calcium	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient or_ionized and_an
+I-entity		calcium	T059	T121	ctext-0=serum	sectonHeader-0=89.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	ionize	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ion	SUF|1-1|=zed		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		calcium	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cal	SUF|1+1|=ium		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-6=calcium	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient or_ionized and_an
+O	calcium ionized_serum and_an
+O	and serum_calcium an_elevated
+O	an calcium_and elevated_level
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=89.xml-testSeg	and	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=and	SUF|1-2|=and		an	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	elevate	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient and_an level_of
+O	level an_elevated of_PTH
+O	of elevated_level PTH_in
+B-entity		PTH	ctext-0=PTH	sectonHeader-0=89.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PTH	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=PTH	SUF|1+0|=PTH		in	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	patient	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pat	SUF|1+2|=nts		postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient level_of in_patients
+O	in of_PTH patients_with
+O	patients PTH_in with_no
+O	with in_patients no_other
+O	no patients_with other_causes
+O	other with_no causes_of
+O	causes no_other of_secondary
+O	of other_causes secondary_hyperparathyroidism
+O	secondary causes_of hyperparathyroidism_is
+O	hyperparathyroidism of_secondary is_consistent
+O	is secondary_hyperparathyroidism consistent_with
+O	consistent hyperparathyroidism_is with_normocalcemic
+O	with is_consistent normocalcemic_primary
+O	normocalcemic consistent_with primary_hyperparathyroidism
+O	primary with_normocalcemic hyperparathyroidism_.
+O	hyperparathyroidism normocalcemic_primary
+O	. primary_hyperparathyroidism
+

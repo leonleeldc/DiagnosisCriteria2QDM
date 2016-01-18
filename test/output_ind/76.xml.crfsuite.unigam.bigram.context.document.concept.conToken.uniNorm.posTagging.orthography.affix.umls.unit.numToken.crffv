@@ -1,0 +1,20 @@
+
+O	Urea nitrogen_>
+B-entity		Urea	T109	ctext-0=Urea	sectonHeader-0=76.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urea	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ure	SUF|1+0|=rea		nitrogen	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=nit	SUF|1+1|=gen		ctext-5=nitrogen	uniTok|1+-2|=EEEEE >_1.00
+I-entity		nitrogen	T109	ctext-0=Urea	sectonHeader-0=76.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urea	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ure	SUF|1+0|=rea		nitrogen	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=nit	SUF|1+1|=gen		ctext-5=nitrogen	uniTok|1+-2|=EEEEE >_1.00
+O	nitrogen >_1.00
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=76.xml-testSeg	urea	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ure	SUF|1-2|=rea		nitrogen	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=nit	SUF|1-1|=gen		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ro Urea_nitrogen 1.00_g
+B-labvalmod		1.00	ctext-0=1.00	sectonHeader-0=76.xml-testSeg	num	nitrogen	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=nit	SUF|1-2|=gen		G	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	beforecontext-0=context-ro nitrogen_> g_/
+O	g >_1.00 /_L
+B-labvalmod		g/L	ctext-0=g	sectonHeader-0=76.xml-testSeg	G	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-1=/	ctext-2=L	beforecontext-0=context-ro >_1.00 or_urea
+O	/ 1.00_g L_or
+O	L g_/ or_urea
+B-labintermod		or	ctext-0=or	sectonHeader-0=76.xml-testSeg	L	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	STCLS|1-1-6|=SINGLECHAR	STCLS|1-1-14|=ROMAN	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		beforecontext-0=context-ro /_L urea_>
+B-entity		urea	T109	ctext-0=urea	sectonHeader-0=76.xml-testSeg	L	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	urea	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ure	SUF|1+0|=rea		beforecontext-0=context-ro L_or >_0.60
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=76.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	urea	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ure	SUF|1-1|=rea		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ro or_urea 0.60_g
+B-labvalmod		0.60	ctext-0=0.60	sectonHeader-0=76.xml-testSeg	num	urea	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ure	SUF|1-2|=rea		G	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	beforecontext-0=context-ro urea_> g_/
+O	g >_0.60 /_L
+B-labvalmod		g/L	ctext-0=g	sectonHeader-0=76.xml-testSeg	G	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=L	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro >_0.60
+O	/ 0.60_g
+O	L g_/
+

@@ -1,0 +1,20 @@
+
+O	Lactic acidosis_:
+O	acidosis :_Lactic
+O	: Lactic_acidosis Lactic_acid
+O	Lactic acidosis_: acid_level
+B-entity		Lactic acidosis_: >_/
+I-entity		acid acidosis_: >_/
+I-entity		level acidosis_: >_/
+O	acid :_Lactic level_>
+O	level Lactic_acid >_/
+O	> acid_level /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 acid_level 4_mmol
+O	/ level_> =_4
+O	= >_/ 4_mmol
+B-labvalmod		4	ctext-1=4	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 /_= mmol_/
+O	mmol =_4 /_liter
+B-labvalmod		mmol/liter	ctext-5=/	uniTok|1+2|=EEEEE =_4
+O	/ 4_mmol
+O	liter mmol_/
+

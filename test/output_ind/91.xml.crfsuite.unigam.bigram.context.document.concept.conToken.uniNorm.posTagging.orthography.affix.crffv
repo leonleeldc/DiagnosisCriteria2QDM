@@ -1,0 +1,18 @@
+
+O	Creatinine clearance_(
+B-entity	Creatinine clearance 	righttermin-0=context-ed (_calculated
+I-entity	Creatinine clearance 	righttermin-0=context-ed (_calculated
+O	clearance (_calculated
+O	( Creatinine_clearance calculated_)
+O	calculated clearance_(
+O	) (_calculated
+
+
+B-labintermod	Reduced  to_<
+O	to <_60
+B-labrefrangemod	< 	ctext-1=<	reduce	pos|1-2|=VBN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Red	SUF|1-2|=ced		to	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	ml	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	beforecontext-0=context-ed Reduced_to 60_ml
+B-labvalmod	60 	beforecontext-0=context-ed to_< ml_/
+O	ml <_60 /_min
+O	/ 60_ml
+O	min ml_/
+

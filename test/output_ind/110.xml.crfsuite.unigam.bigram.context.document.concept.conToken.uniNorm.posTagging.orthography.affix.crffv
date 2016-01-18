@@ -1,0 +1,13 @@
+
+O	Electrolyte abnormalities_:
+O	abnormalities
+O	: Electrolyte_abnormalities
+
+
+B-labintermod	low  potassium_,
+B-entity	potassium  ,_magnesium
+O	, low_potassium magnesium_and
+B-entity	magnesium  potassium_, and_phosphorus
+B-labintermod	and  ,_magnesium
+B-entity	phosphorus  magnesium_and
+

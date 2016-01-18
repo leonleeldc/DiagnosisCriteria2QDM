@@ -1,0 +1,16 @@
+
+O	Disseminated intravascular_coagulation
+O	intravascular coagulation_:
+O	coagulation Disseminated_intravascular
+O	: intravascular_coagulation
+
+
+O	( Prothrombin_Time
+O	Prothrombin Time_:
+B-entity		Prothrombin	T059	ctext-0=Prothrombin	sectonHeader-0=142.xml-testSeg	uniTok|1-2|=SSSSS	prothrombin	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pro	SUF|1+0|=bin		time	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Tim	SUF|1+1|=ime		ctext-12=Time	righttermin-1=context-ed :_Prolonged
+I-entity		Time	T059	ctext-0=Prothrombin	sectonHeader-0=142.xml-testSeg	uniTok|1-2|=SSSSS	prothrombin	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pro	SUF|1+0|=bin		time	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Tim	SUF|1+1|=ime		ctext-12=Time	righttermin-1=context-ed :_Prolonged
+O	Time (_Prothrombin :_Prolonged
+O	: Prothrombin_Time Prolonged_)
+B-labintermod		Prolonged	ctext-0=Prolonged	sectonHeader-0=142.xml-testSeg	time	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Tim	SUF|1-2|=ime		prolong	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pro	SUF|1+0|=ged		uniTok|1+2|=EEEEE	beforecontext-0=context-ro Time_:
+O	) :_Prolonged
+

@@ -1,0 +1,40 @@
+
+B-labintermod		High	postcontext-0=context-ro 24_hr
+O	24 hr_urinary
+O	hr High_24 urinary_copper
+O	urinary 24_hr copper_levels
+O	copper hr_urinary levels_>
+B-entity		copper	C0373587	T059 	postcontext-0=context-ro hr_urinary >_100
+I-entity		levels	postcontext-0=context-ro hr_urinary >_100
+O	levels urinary_copper >_100
+B-labrefrangemod		>	ctext-1=>	copper	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cop	SUF|1-2|=per		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		microgram	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mic	SUF|1+2|=ams		postcontext-0=context-ro copper_levels 100_micrograms
+B-labvalmod		100	postcontext-0=context-ro levels_> micrograms_/
+O	micrograms >_100 /_d
+B-labvalmod		micrograms	ctext-12=/	ctext-13=d >_100
+I-labvalmod		/d	ctext-12=/	ctext-13=d >_100
+O	/ 100_micrograms d_or
+O	d micrograms_/ or_>
+B-labintermod		or	beforecontext-0=context-ro /_d >_1.6
+B-labrefrangemod		>	ctext-1=>	D	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		postcontext-0=context-ro d_or 1.6_mmol
+B-labvalmod		1.6	beforecontext-0=context-ro or_> mmol_/
+O	mmol >_1.6 /_d
+B-labvalmod		mmol/d	ctext-5=/	ctext-6=d	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		D	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	normal	pos|1+2|=JJ	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Nor	SUF|1+2|=mal		beforecontext-0=context-ro >_1.6 (_Normal
+O	/ 1.6_mmol d_(
+O	d mmol_/ (_Normal
+O	( /_d Normal_range
+O	Normal d_( range_<
+O	range (_Normal <_50
+O	< Normal_range 50_micrograms
+O	50 range_< micrograms_/
+O	micrograms <_50 /_d
+O	/ 50_micrograms d_or
+O	d micrograms_/ or_<
+O	or /_d <_0.8
+O	< d_or 0.8_mmol
+O	0.8 or_< mmol_/
+O	mmol <_0.8 /_d
+O	/ 0.8_mmol d_)
+O	d mmol_/ )_.
+O	) /_d
+O	. d_)
+

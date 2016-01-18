@@ -1,0 +1,21 @@
+
+O	2 positive_cultures
+B-labintermod		positive	ctext-0=positive	sectonHeader-0=56.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pos	SUF|1+0|=ive		culture	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=res		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA cultures_of
+O	cultures 2_positive of_blood
+B-entity		cultures	T059	T059	T024	ctext-0=cultures	sectonHeader-0=56.xml-testSeg	positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		culture	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cul	SUF|1+0|=res		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	blood	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=blo	SUF|1+2|=ood		ctext-9=of	ctext-12=blood 2_positive samples_drawn
+I-entity		of	T059	T059	T024	ctext-0=cultures	sectonHeader-0=56.xml-testSeg	positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		culture	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cul	SUF|1+0|=res		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	blood	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=blo	SUF|1+2|=ood		ctext-9=of	ctext-12=blood 2_positive samples_drawn
+I-entity		blood	T059	T059	T024	ctext-0=cultures	sectonHeader-0=56.xml-testSeg	positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		culture	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cul	SUF|1+0|=res		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	blood	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=blo	SUF|1+2|=ood		ctext-9=of	ctext-12=blood 2_positive samples_drawn
+O	of positive_cultures blood_samples
+O	blood cultures_of samples_drawn
+O	samples of_blood drawn_>
+O	drawn blood_samples >_12
+B-time		>12	unit	ctext-1=>	ctext-2=12	num	ctext-5=hours	ctext-11=apart ,_or
+I-time		hours	unit	ctext-1=>	ctext-2=12	num	ctext-5=hours	ctext-11=apart ,_or
+I-time		apart	unit	ctext-1=>	ctext-2=12	num	ctext-5=hours	ctext-11=apart ,_or
+O	> samples_drawn 12_hours
+O	12 drawn_> hours_apart
+O	hours >_12 apart_,
+O	apart 12_hours ,_or
+O	, hours_apart
+B-labintermod		or	ctext-0=or	sectonHeader-0=56.xml-testSeg	apart	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=apa	SUF|1-2|=art		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE apart_,
+

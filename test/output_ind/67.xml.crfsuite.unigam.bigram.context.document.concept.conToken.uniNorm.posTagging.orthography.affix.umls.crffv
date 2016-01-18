@@ -1,0 +1,15 @@
+
+O	A sudden_inexplicable
+B-labintermod		A	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+I-labintermod		sudden	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+I-labintermod		inexplicable	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+I-labintermod		drop	ctext-1=A	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE in_haematocrit
+O	sudden inexplicable_drop
+O	inexplicable A_sudden drop_in
+O	drop sudden_inexplicable in_haematocrit
+O	in inexplicable_drop haematocrit_or
+B-entity		haematocrit	C0018935	T059 	C0518014	T034 	beforecontext-0=context-ro drop_in or_platelet
+B-labintermod		or	beforecontext-0=context-ro in_haematocrit platelet_values
+B-entity		platelet	C0005821	T025 	beforecontext-0=context-ro haematocrit_or
+O	values or_platelet
+

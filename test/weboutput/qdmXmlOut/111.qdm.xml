@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QualityMeasureDocument xmlns="http://www.w3.org/2001/XMLSchema-instance">
+<sourceOf typeCode="PRCN">
+<conjunctionCode code="AND"/>
+<act classCode="ACT" isCriterionInd="true" moodCode="EVN">
+<templateId root="8a4d92b2-397a-48d2-0139-c61d57a55046"/>
+<id/>
+<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" displayName="Results"/>
+<sourceOf typeCode="COMP">
+<observation classCode="OBS" isCriterionInd="true" moodCode="EVN">
+<code code="2.16.840.1.113883.3.464.1003.198.12.1013" codeSystem="2.16.840.1.113883.3.560.101.1" displayName="null Laboratory Test Grouping Value Set"/>
+<title>Laboratory Test, Result:null Laboratory Test (result)</title>
+<statusCode code="completed"/>
+<sourceOf typeCode="REFR">
+<observation classCode="OBS" isCriterionInd="true" moodCode="EVN">
+<templateId root="2.16.840.1.113883.3.560.1.1019.3" xsitype="ANYNonNull"/>
+<code code="385676005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="result"/>
+</observation>
+</sourceOf>
+<sourceOf typeCode="DURING">
+<observation classCode="OBS" isCriterionInd="true" moodCode="EVN">
+<id root="8a4d92b2-397a-48d2-0139-c61d57a5503f"/>
+<title>Measurement Period</title>
+<value/>
+</observation>
+</sourceOf>
+</observation>
+</sourceOf>
+</act>
+</sourceOf>
+</QualityMeasureDocument>

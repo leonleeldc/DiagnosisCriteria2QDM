@@ -1,0 +1,18 @@
+
+O	2 positive_cultures
+B-labintermod		positive cultures_of
+O	cultures 2_positive of_blood
+B-entity		cultures	C0200949	T059  2_positive samples_drawn
+I-entity		of 2_positive samples_drawn
+I-entity		blood 2_positive samples_drawn
+O	of positive_cultures blood_samples
+O	blood cultures_of samples_drawn
+O	samples of_blood drawn_>
+O	drawn blood_samples >_12
+O	> samples_drawn 12_hours
+O	12 drawn_> hours_apart
+O	hours >_12 apart_,
+O	apart 12_hours ,_or
+O	, hours_apart
+B-labintermod		or apart_,
+

@@ -1,0 +1,16 @@
+
+O	Uremia (_BUN
+O	( BUN_level
+B-entity		BUN	C0005845	T059 Uremia_( level_>
+O	level (_BUN >_/
+O	> BUN_level /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA BUN_level 20_mg
+O	/ level_> =_20
+O	= >_/ 20_mg
+B-labvalmod		20 /_= mg_/
+O	mg =_20 /_dl
+B-labvalmod		mg/dl	ctext-3=/ =_20
+O	/ 20_mg dl_)
+O	dl mg_/
+O	) /_dl
+

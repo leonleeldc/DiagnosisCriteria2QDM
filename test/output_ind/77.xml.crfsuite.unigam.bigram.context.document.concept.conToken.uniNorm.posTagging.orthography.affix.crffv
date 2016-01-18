@@ -1,0 +1,23 @@
+
+B-entity	Bilirubin  >_60
+B-labrefrangemod	> 	ctext-1=>	uniTok|1+-2|=EEEEE	bilirubin	pos|1-1|=NNP	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Bil	SUF|1-1|=bin		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA 60_mg
+B-labvalmod	60  Bilirubin_> mg_/
+O	mg >_60 /_L
+B-labvalmod	mg/L 	ctext-3=/	ctext-4=L	Mg	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	A	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR >_60 or_a
+O	/ 60_mg L_or
+O	L mg_/ or_a
+B-labintermod	or  /_L a_twofold
+O	a L_or twofold_increase
+O	twofold or_a increase_in
+B-labintermod	twofold increase  or_a in_alkaline
+I-labintermod	twofold increase  or_a in_alkaline
+O	increase a_twofold in_alkaline
+O	in twofold_increase alkaline_phosphatase
+O	alkaline increase_in phosphatase_in
+B-entity	alkaline phosphatase  increase_in in_serum
+I-entity	alkaline phosphatase  increase_in in_serum
+O	phosphatase in_alkaline in_serum
+O	in alkaline_phosphatase serum_and
+O	serum phosphatase_in
+O	and in_serum
+

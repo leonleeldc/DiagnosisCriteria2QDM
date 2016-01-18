@@ -1,0 +1,10 @@
+
+B-entity		IgG	C0202087	T059 	postcontext-0=context-no >_upper
+B-labrefrangemod		>	ctext-1=>	uniTok|1+-2|=EEEEE	IGG	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	STCLS|1-1-5|=MIXEDCAPS	PRE|1-1|=IgG	SUF|1-1|=IgG		upper	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=upp	SUF|1+1|=per		normal	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nor	SUF|1+2|=mal		postcontext-0=context-no upper_normal
+O	upper IgG_> normal_limit
+B-labintermod		upper IgG_>
+I-labintermod		normal IgG_>
+I-labintermod		limit IgG_>
+O	normal >_upper
+O	limit upper_normal
+

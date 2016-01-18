@@ -1,0 +1,22 @@
+
+B-labintermod	Raised  RCM_or
+B-entity	RCM 	beforecontext-0=context-ed or_hematocrit
+B-labintermod	or 	beforecontext-0=context-ed Raised_RCM hematocrit_(
+B-entity	hematocrit 	beforecontext-0=context-ed RCM_or (_HCT
+O	( or_hematocrit HCT_)
+B-entity	HCT 	beforecontext-0=context-ed hematocrit_(
+O	) (_HCT
+
+
+B-labrefrangemod	> 	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE 0.60_(
+B-labvalmod	0.60  (_males
+O	( >_0.60 males_)
+O	males 0.60_( )_,
+O	) (_males ,_>
+O	, males_) >_0.56
+B-labrefrangemod	> 	ctext-1=> )_, 0.56_(
+B-labvalmod	0.56  ,_> (_females
+O	( >_0.56 females_)
+O	females 0.56_(
+O	) (_females
+

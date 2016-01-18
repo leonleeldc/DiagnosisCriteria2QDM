@@ -1,0 +1,10 @@
+
+O	Blood Urea_mmol
+B-entity		Blood	T024	T059	T123	ctext-0=Blood	sectonHeader-0=118.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	blood	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Ure	SUF|1+1|=rea		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		ctext-6=Urea	uniTok|1+-2|=EEEEE mmol_/
+I-entity		Urea	T024	T059	T123	ctext-0=Blood	sectonHeader-0=118.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	blood	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Ure	SUF|1+1|=rea		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		ctext-6=Urea	uniTok|1+-2|=EEEEE mmol_/
+O	Urea mmol_/
+O	mmol Blood_Urea /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=118.xml-testSeg	blood	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Blo	SUF|1-2|=ood		urea	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ure	SUF|1-1|=rea		mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	uniTok|1+2|=EEEEE	ctext-5=L	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE Blood_Urea
+O	/ Urea_mmol
+O	L mmol_/
+

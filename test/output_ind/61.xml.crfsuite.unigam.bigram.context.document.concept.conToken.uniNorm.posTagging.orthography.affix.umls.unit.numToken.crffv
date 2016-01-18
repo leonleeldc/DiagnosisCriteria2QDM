@@ -1,0 +1,15 @@
+
+O	Leukopenia :_White
+O	: White_-
+O	White Leukopenia_: -_cell
+B-entity		White-cell	T025	ctext-0=White	sectonHeader-0=61.xml-testSeg	leukopenia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=nia		White	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Whi	SUF|1+0|=ite		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-5=-	ctext-6=cell	ctext-11=count Leukopenia_:
+I-entity		count	T025	ctext-0=White	sectonHeader-0=61.xml-testSeg	leukopenia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=nia		White	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Whi	SUF|1+0|=ite		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-5=-	ctext-6=cell	ctext-11=count Leukopenia_:
+O	- :_White cell_count
+O	cell White_- count_<
+O	count -_cell <_4000
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=61.xml-testSeg	cell	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cel	SUF|1-2|=ell		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt	 cell_count 4000_/
+B-labvalmod		4000	unit	ctext-0=4000	sectonHeader-0=61.xml-testSeg	num	Count	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cou	SUF|1-2|=unt		mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3	 count_< /_mm3
+O	/ <_4000
+B-labvalmod		/mm3	unit	ctext-0=/	sectonHeader-0=61.xml-testSeg	mm3	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-9|=HASDIGIT	STCLS|1+1-11|=ALPHANUMERIC	STCLS|1+1-13|=LETTERS_NUMBERS	PRE|1+1|=mm3	SUF|1+1|=mm3		uniTok|1+2|=EEEEE	ctext-1=mm3	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_4000
+O	mm3 4000_/
+

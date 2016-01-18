@@ -1,0 +1,29 @@
+
+O	Alkaline phosphatase_(
+B-entity		Alkaline	T059	T044	ctext-0=Alkaline	sectonHeader-0=107.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	alkaline	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		ctext-9=phosphatase	uniTok|1+-2|=EEEEE (_ALP
+I-entity		phosphatase	T059	T044	ctext-0=Alkaline	sectonHeader-0=107.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	alkaline	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		ctext-9=phosphatase	uniTok|1+-2|=EEEEE (_ALP
+O	phosphatase (_ALP
+O	( Alkaline_phosphatase ALP_)
+B-entity		ALP	T059	ctext-0=ALP	sectonHeader-0=107.xml-testSeg	phosphatase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pho	SUF|1-2|=ase		ALP	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=ALP	SUF|1+0|=ALP		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and	 phosphatase_( )_and
+O	) (_ALP and_g
+O	and ALP_) g_-
+O	g )_and -_glutamyl
+B-entity		g-glutamyl	ctext-0=g	sectonHeader-0=107.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		G	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	glutamyl	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=glu	SUF|1+2|=myl		ctext-1=-	ctext-2=glutamyl	ctext-11=transpeptidase )_and (_GGT
+I-entity		transpeptidase	ctext-0=g	sectonHeader-0=107.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		G	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	glutamyl	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=glu	SUF|1+2|=myl		ctext-1=-	ctext-2=glutamyl	ctext-11=transpeptidase )_and (_GGT
+O	- and_g glutamyl_transpeptidase
+O	glutamyl g_- transpeptidase_(
+O	transpeptidase -_glutamyl (_GGT
+O	( glutamyl_transpeptidase GGT_)
+B-entity		GGT	T059	ctext-0=GGT	sectonHeader-0=107.xml-testSeg	transpeptidase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tra	SUF|1-2|=ase		GGT	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=GGT	SUF|1+0|=GGT	 transpeptidase_( )_:
+O	) (_GGT
+O	: GGT_)
+
+
+O	Both usually_elevated
+O	usually elevated_to
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=107.xml-testSeg	both	pos|1-2|=DT	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Bot	SUF|1-2|=oth		usually	pos|1-1|=RB	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=usu	SUF|1-1|=lly		elevate	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	A	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR Both_usually to_a
+O	to usually_elevated a_variable
+O	a elevated_to variable_degree
+O	variable to_a
+O	degree a_variable
+

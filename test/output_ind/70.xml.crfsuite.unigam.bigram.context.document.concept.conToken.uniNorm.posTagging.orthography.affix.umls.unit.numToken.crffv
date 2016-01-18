@@ -1,0 +1,14 @@
+
+B-anatomical		Liver	T023	ctext-0=Liver	sectonHeader-0=70.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	liver	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Liv	SUF|1+0|=ver		bilirubin	pos|1+2|=NNP	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Bil	SUF|1+2|=bin	 ,_Bilirubin
+O	, Bilirubin_(
+B-entity		Bilirubin	T059	ctext-0=Bilirubin	sectonHeader-0=70.xml-testSeg	liver	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Liv	SUF|1-2|=ver		bilirubin	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Bil	SUF|1+0|=bin		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA Liver_, (_mg
+O	( ,_Bilirubin mg_/
+O	mg Bilirubin_( /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=70.xml-testSeg	bilirubin	pos|1-2|=NNP	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Bil	SUF|1-2|=bin		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL Bilirubin_( )_:
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_12.0
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=70.xml-testSeg	uniTok|1+2|=EEEEE )_:
+B-labvalmod		12.0	ctext-0=12.0	sectonHeader-0=70.xml-testSeg	num	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE :_>
+

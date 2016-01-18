@@ -1,0 +1,17 @@
+
+O	Aspirin or_thienopyridines
+O	or thienopyridines_(
+O	thienopyridines Aspirin_or (_Activated
+O	( or_thienopyridines Activated_Partial
+O	Activated thienopyridines_( Partial_-
+B-entity		Activated	C0030605	T059 	ctext-18=-	beforecontext-2=context-no thienopyridines_( :_Unaffected
+I-entity		Partial-Thromboplastin	ctext-18=-	beforecontext-2=context-no thienopyridines_( :_Unaffected
+I-entity		Time	ctext-18=-	beforecontext-2=context-no thienopyridines_( :_Unaffected
+O	Partial (_Activated -_Thromboplastin
+O	- Activated_Partial Thromboplastin_Time
+O	Thromboplastin Partial_- Time_:
+O	Time -_Thromboplastin :_Unaffected
+O	: Thromboplastin_Time Unaffected_)
+B-labintermod		Unaffected	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-no Time_:
+O	) :_Unaffected
+

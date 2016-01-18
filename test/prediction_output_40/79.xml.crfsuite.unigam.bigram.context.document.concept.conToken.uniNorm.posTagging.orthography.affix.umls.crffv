@@ -1,0 +1,12 @@
+B-entity	B-entity
+B-labrefrangemod	O
+B-labvalmod	O
+O	O
+B-labvalmod	O
+O	O
+B-labintermod	O
+B-labvalmod	B-labrefrangemod
+B-labvalmod	B-labvalmod
+O	O
+B-labvalmod	O
+O	O

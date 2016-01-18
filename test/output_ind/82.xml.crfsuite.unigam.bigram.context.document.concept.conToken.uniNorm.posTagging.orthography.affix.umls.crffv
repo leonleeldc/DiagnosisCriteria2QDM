@@ -1,0 +1,86 @@
+
+O	at least_1,000
+O	least 1,000_Sezary
+O	1,000 at_least Sezary_cells
+O	Sezary least_1,000 cells_per
+O	cells 1,000_Sezary per_mm3
+O	per Sezary_cells mm3_of
+O	mm3 cells_per of_peripheral
+O	of per_mm3 peripheral_blood
+O	peripheral mm3_of blood_,
+O	blood of_peripheral ,_an
+O	, peripheral_blood an_increased
+O	an blood_, increased_population
+O	increased ,_an population_of
+B-labintermod		increased	beforecontext-1=context-her	postcontext-2=context-presenting ,_an of_CD4
+I-labintermod		population	beforecontext-1=context-her	postcontext-2=context-presenting ,_an of_CD4
+O	population an_increased of_CD4
+O	of increased_population CD4_+
+O	CD4 population_of +_/
+B-entity		CD4+/CD7-	ctext-4=+	ctext-5=/	ctext-9=-	cd7	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-1|=INITCAPS	STCLS|1-1-9|=HASDIGIT	STCLS|1-1-11|=ALPHANUMERIC	STCLS|1-1-13|=LETTERS_NUMBERS	PRE|1-1|=CD7	SUF|1-1|=CD7		in	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	peripheral	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=ral		beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting population_of in_peripheral
+O	+ of_CD4 /_CD7
+O	/ CD4_+ CD7_-
+O	CD7 +_/ -_in
+O	- /_CD7 in_peripheral
+O	in CD7_- peripheral_blood
+O	peripheral -_in blood_with
+O	blood in_peripheral with_remarkable
+O	with peripheral_blood remarkable_predominance
+O	remarkable blood_with predominance_of
+O	predominance with_remarkable of_CD4
+O	of remarkable_predominance CD4_+
+O	CD4 predominance_of +_cells
+O	+ of_CD4 cells_in
+O	cells CD4_+ in_relation
+O	in +_cells relation_to
+O	relation cells_in to_CD8
+O	to in_relation CD8_+
+O	CD8 relation_to +_(
+O	+ to_CD8 (_CD4
+O	( CD8_+ CD4_/
+O	CD4 +_( /_CD8
+B-entity		CD4/CD8	ctext-4=/	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting +_( >_10
+I-entity		ratio	ctext-4=/	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting +_( >_10
+O	/ (_CD4 CD8_ratio
+O	CD8 CD4_/ ratio_>
+O	ratio /_CD8 >_10
+B-labrefrangemod		>	ctext-1=>	cd8	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-1|=INITCAPS	STCLS|1-2-9|=HASDIGIT	STCLS|1-2-11|=ALPHANUMERIC	STCLS|1-2-13|=LETTERS_NUMBERS	PRE|1-2|=CD8	SUF|1-2|=CD8		ratio	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rat	SUF|1-1|=tio		beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting CD8_ratio 10_)
+B-labvalmod		10	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting ratio_> )_,
+O	) >_10 ,_Sezary
+O	, 10_) Sezary_cells
+O	Sezary )_, cells_with
+O	cells ,_Sezary with_a
+O	with Sezary_cells a_diameter
+O	a cells_with diameter_>
+O	diameter with_a >_14
+O	> a_diameter 14_um
+O	14 diameter_> um_representing
+O	um >_14 representing_>
+O	representing 14_um >_20
+B-labrefrangemod		>	ctext-1=>	UM	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	represent	pos|1-1|=VBG	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=rep	SUF|1-1|=ing		beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting um_representing 20_%
+O	20 representing_> %_of
+B-labvalmod		20%	ctext-3=%	of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	the	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=the	SUF|1+2|=the		beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting representing_> of_the
+O	% >_20 of_the
+O	of 20_% the_circulating
+O	the %_of circulating_lymphocytes
+O	circulating of_the lymphocytes_and
+B-entity		circulating	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting of_the and_,
+I-entity		lymphocytes	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting of_the and_,
+O	lymphocytes the_circulating and_,
+O	and circulating_lymphocytes ,_some
+O	, lymphocytes_and some_markers
+O	some and_, markers_like
+O	markers ,_some like_CD2
+O	like some_markers CD2_,
+O	CD2 markers_like ,_CD3
+O	, like_CD2 CD3_,
+O	CD3 CD2_, ,_CD4
+O	, ,_CD3 CD4_and
+O	CD4 CD3_, and_CD5
+O	and ,_CD4 CD5_must
+O	CD5 CD4_and must_be
+O	must and_CD5 be_absent
+O	be CD5_must absent_.
+O	absent must_be
+O	. be_absent
+

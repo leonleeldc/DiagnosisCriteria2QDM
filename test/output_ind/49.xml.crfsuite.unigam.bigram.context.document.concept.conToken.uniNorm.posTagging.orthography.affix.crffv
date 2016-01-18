@@ -1,0 +1,18 @@
+
+B-labintermod	Positive 	postcontext-0=context-ro blood_culture
+O	blood culture_:
+B-entity	blood culture 	postcontext-0=context-ro :_Typical
+I-entity	blood culture 	postcontext-0=context-ro :_Typical
+O	culture Positive_blood :_Typical
+O	: blood_culture Typical_microorganism
+O	Typical culture_: microorganism_for
+O	microorganism :_Typical for_infective
+O	for Typical_microorganism infective_endocarditis
+O	infective microorganism_for endocarditis_from
+O	endocarditis for_infective from_two
+O	from infective_endocarditis two_separate
+O	two endocarditis_from separate_blood
+O	separate from_two blood_cultures
+O	blood two_separate
+O	cultures separate_blood
+

@@ -1,0 +1,33 @@
+
+O	Microbiological evidence_:
+O	evidence
+O	: Microbiological_evidence
+
+
+B-labintermod	positive 	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no blood_culture
+O	blood culture_but
+B-entity	blood culture 	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no but_does
+I-entity	blood culture 	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no but_does
+O	culture positive_blood but_does
+O	but blood_culture does_not
+O	does culture_but not_meet
+O	not but_does meet_a
+O	meet does_not a_major
+O	a not_meet major_criterion
+O	major meet_a criterion_as
+O	criterion a_major as_noted
+O	as major_criterion noted_above
+O	noted criterion_as above_or
+O	above as_noted or_serological
+O	or noted_above serological_evidence
+O	serological above_or evidence_of
+O	evidence or_serological of_active
+O	of serological_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_IE
+O	with organism_consistent
+O	IE consistent_with
+

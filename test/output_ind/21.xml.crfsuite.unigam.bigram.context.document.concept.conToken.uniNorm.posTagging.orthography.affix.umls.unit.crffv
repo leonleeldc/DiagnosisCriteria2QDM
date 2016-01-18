@@ -1,0 +1,28 @@
+
+B-labintermod		Low	postcontext-0=context-ro serum_EPO
+O	serum EPO_or
+B-entity		serum	postcontext-0=context-ro or_characteristic
+I-entity		EPO	postcontext-0=context-ro or_characteristic
+O	EPO Low_serum or_characteristic
+B-labintermod		or	postcontext-0=context-ro serum_EPO characteristic_burst
+O	characteristic EPO_or burst_forming
+O	burst or_characteristic forming_units
+B-entity		burst	ctext-21=- or_characteristic (_BFU
+I-entity		forming	ctext-21=- or_characteristic (_BFU
+I-entity		units	ctext-21=- or_characteristic (_BFU
+I-entity		-	ctext-21=- or_characteristic (_BFU
+I-entity		erythroid	ctext-21=- or_characteristic (_BFU
+O	forming characteristic_burst units_-
+O	units burst_forming -_erythroid
+O	- forming_units erythroid_(
+O	erythroid units_- (_BFU
+O	( -_erythroid BFU_-
+O	BFU erythroid_( -_E
+B-entity		BFU-E	C1257771	T025	ctext-4=-	ctext-5=E	BFU	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=BFU	SUF|1-2|=BFU		E	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	uniTok|1+2|=EEEEE	beforecontext-0=context-ro erythroid_(
+O	- (_BFU E_)
+O	E BFU_-
+O	) -_E
+
+
+B-labintermod		growth
+

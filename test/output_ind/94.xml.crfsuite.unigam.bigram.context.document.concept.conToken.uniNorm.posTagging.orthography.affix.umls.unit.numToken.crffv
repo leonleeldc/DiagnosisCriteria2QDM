@@ -1,0 +1,14 @@
+
+B-labintermod		Increased	ctext-0=Increased	sectonHeader-0=94.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	increase	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Inc	SUF|1+0|=sed		late	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lat	SUF|1+2|=ate	 '_late
+O	' late_-
+O	late Increased_' -_evening
+O	- '_late evening_'
+O	evening late_- '_salivary
+O	' -_evening salivary_cortisol
+B-anatomical		salivary	ctext-0=salivary	sectonHeader-0=94.xml-testSeg	even	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=eve	SUF|1-2|=ing		salivary	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=sal	SUF|1+0|=ary		cortisol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cor	SUF|1+1|=sol		beforecontext-0=context-ed evening_' cortisol_(
+B-entity		cortisol	T059	ctext-0=cortisol	sectonHeader-0=94.xml-testSeg	salivary	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=sal	SUF|1-1|=ary		cortisol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cor	SUF|1+0|=sol		test	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tes	SUF|1+2|=est		beforecontext-0=context-ed '_salivary (_test
+O	( salivary_cortisol test_incompletely
+O	test cortisol_( incompletely_evaluated
+O	incompletely (_test
+O	evaluated test_incompletely
+

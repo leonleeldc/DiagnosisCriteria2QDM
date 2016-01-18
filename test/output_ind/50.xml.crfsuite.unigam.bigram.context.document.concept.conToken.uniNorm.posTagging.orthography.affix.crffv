@@ -1,0 +1,21 @@
+
+O	Persistently positive_blood
+B-labintermod	positive 	postcontext-0=context-ro	postcontext-1=context-ed blood_culture
+O	blood Persistently_positive culture_,
+B-entity	blood culture 	postcontext-0=context-ro	postcontext-1=context-ed Persistently_positive ,_defined
+I-entity	blood culture 	postcontext-0=context-ro	postcontext-1=context-ed Persistently_positive ,_defined
+O	culture positive_blood ,_defined
+O	, blood_culture defined_as
+O	defined culture_, as_recovery
+O	as ,_defined recovery_of
+O	recovery defined_as of_a
+O	of as_recovery a_microorganism
+O	a recovery_of microorganism_consistent
+O	microorganism of_a consistent_with
+O	consistent a_microorganism with_infective
+O	with microorganism_consistent infective_endocarditis
+O	infective consistent_with endocarditis_from
+O	endocarditis with_infective from_:
+O	from infective_endocarditis
+O	: endocarditis_from
+

@@ -1,0 +1,69 @@
+
+O	The criteria_for
+O	criteria for_severe
+O	for The_criteria severe_acute
+O	severe criteria_for acute_pancreatitis
+O	acute for_severe pancreatitis_were
+O	pancreatitis severe_acute were_defined
+O	were acute_pancreatitis defined_as
+O	defined pancreatitis_were as_organ
+O	as were_defined organ_failure
+O	organ defined_as failure_of
+O	failure as_organ of_at
+O	of organ_failure at_least
+O	at failure_of least_one
+O	least of_at one_organ
+O	one at_least organ_system
+O	organ least_one system_(
+O	system one_organ (_systolic
+O	( organ_system systolic_blood
+O	systolic system_( blood_pressure
+O	blood (_systolic pressure_<
+O	pressure systolic_blood <_90
+O	< blood_pressure 90_mm
+O	90 pressure_< mm_Hg
+O	mm <_90 Hg_,
+O	Hg 90_mm ,_PaO2
+O	, mm_Hg PaO2_<
+O	PaO2 Hg_, <_60
+O	< ,_PaO2 60_mm
+O	60 PaO2_< mm_Hg
+O	mm <_60 Hg_,
+O	Hg 60_mm ,_creatinine
+O	, mm_Hg creatinine_>
+B-entity		creatinine	C0010294	T109 	T123 	C0201975	T059 	postcontext-0=context-ro	beforecontext-1=context-ed Hg_, >_2.0
+B-labrefrangemod		>	ctext-1=>	creatinine	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cre	SUF|1-1|=ine		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed ,_creatinine 2.0_mg
+B-labvalmod		2.0	postcontext-0=context-ro	beforecontext-1=context-ed creatinine_> mg_/
+O	mg >_2.0 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-ro	beforecontext-1=context-ed >_2.0 after_rehydration
+O	/ 2.0_mg dL_after
+O	dL mg_/ after_rehydration
+O	after /_dL rehydration_,
+O	rehydration dL_after ,_and
+O	, after_rehydration and_gastrointestinal
+O	and rehydration_, gastrointestinal_bleeding
+O	gastrointestinal ,_and bleeding_>
+O	bleeding and_gastrointestinal >_500
+O	> gastrointestinal_bleeding 500_mL
+O	500 bleeding_> mL_/
+O	mL >_500 /_24
+O	/ 500_mL 24_h
+O	24 mL_/ h_)
+O	h /_24 )_and
+O	) 24_h and_the
+O	and h_) the_presence
+O	the )_and presence_of
+O	presence and_the of_local
+O	of the_presence local_complications
+O	local presence_of complications_such
+O	complications of_local such_as
+O	such local_complications as_necrosis
+O	as complications_such necrosis_,
+O	necrosis such_as ,_pseudocyst
+O	, as_necrosis pseudocyst_,
+O	pseudocyst necrosis_, ,_and
+O	, ,_pseudocyst and_abscess
+O	and pseudocyst_, abscess_.
+O	abscess ,_and
+O	. and_abscess
+

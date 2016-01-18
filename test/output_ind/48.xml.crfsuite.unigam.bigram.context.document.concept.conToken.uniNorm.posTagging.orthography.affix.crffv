@@ -1,0 +1,13 @@
+
+O	Serum Cr_increased
+B-entity	Serum Cr 	postcontext-0=context-ed increased_1.5
+I-entity	Serum Cr 	postcontext-0=context-ed increased_1.5
+O	Cr increased_1.5
+O	increased Serum_Cr 1.5_times
+B-labintermod	increased 1.5 times  Serum_Cr
+I-labintermod	increased 1.5 times  Serum_Cr
+I-labintermod	increased 1.5 times  Serum_Cr
+O	1.5 Cr_increased times_*
+O	times increased_1.5
+O	* 1.5_times
+

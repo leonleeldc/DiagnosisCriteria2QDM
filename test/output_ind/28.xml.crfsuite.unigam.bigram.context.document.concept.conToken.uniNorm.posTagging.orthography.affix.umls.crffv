@@ -1,0 +1,37 @@
+
+B-labintermod		Raised triglycerides_(
+B-entity		triglycerides	C0202236	T059 	beforecontext-0=context-ed (_TG
+O	( Raised_triglycerides TG_)
+B-entity		TG	beforecontext-0=context-ed triglycerides_(
+O	) (_TG
+
+
+O	level
+O	:
+
+
+O	> /_=
+B-labrefrangemod		>/=	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	ctext-2=/	uniTok|1+-2|=EEEEE	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 150_mg
+O	/ =_150
+O	= >_/ 150_mg
+B-labvalmod		150	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no /_= mg_/
+O	mg =_150 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no =_150 (_1.7
+O	/ 150_mg dL_(
+O	dL mg_/ (_1.7
+O	( /_dL 1.7_mmol
+B-labvalmod		1.7	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.7 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.7 )_,
+O	/ 1.7_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_specific
+B-labintermod		or	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no )_, specific_treatment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+

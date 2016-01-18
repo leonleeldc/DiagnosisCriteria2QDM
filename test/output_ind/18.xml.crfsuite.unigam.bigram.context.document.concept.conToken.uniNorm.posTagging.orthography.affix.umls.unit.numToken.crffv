@@ -1,0 +1,26 @@
+
+O	Serum B12_>
+B-entity		Serum	ctext-0=Serum	sectonHeader-0=18.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serum	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=rum		B12	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-1|=INITCAPS	STCLS|1+1-9|=HASDIGIT	STCLS|1+1-11|=ALPHANUMERIC	STCLS|1+1-13|=LETTERS_NUMBERS	PRE|1+1|=B12	SUF|1+1|=B12		ctext-6=B12	uniTok|1+-2|=EEEEE >_900
+I-entity		B12	ctext-0=Serum	sectonHeader-0=18.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serum	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=rum		B12	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-1|=INITCAPS	STCLS|1+1-9|=HASDIGIT	STCLS|1+1-11|=ALPHANUMERIC	STCLS|1+1-13|=LETTERS_NUMBERS	PRE|1+1|=B12	SUF|1+1|=B12		ctext-6=B12	uniTok|1+-2|=EEEEE >_900
+O	B12 >_900
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=18.xml-testSeg	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		B12	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-1|=INITCAPS	STCLS|1-1-9|=HASDIGIT	STCLS|1-1-11|=ALPHANUMERIC	STCLS|1-1-13|=LETTERS_NUMBERS	PRE|1-1|=B12	SUF|1-1|=B12		PG	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA Serum_B12 900_pg
+B-labvalmod		900	ctext-0=900	sectonHeader-0=18.xml-testSeg	num	B12	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-1|=INITCAPS	STCLS|1-2-9|=HASDIGIT	STCLS|1-2-11|=ALPHANUMERIC	STCLS|1-2-13|=LETTERS_NUMBERS	PRE|1-2|=B12	SUF|1-2|=B12		PG	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA B12_> pg_/
+O	pg >_900 /_ml
+B-labvalmod		pg/ml	ctext-0=pg	sectonHeader-0=18.xml-testSeg	PG	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	ml	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=ml >_900 or_unbound
+O	/ 900_pg ml_or
+O	ml pg_/ or_unbound
+B-labintermod		or	ctext-0=or	sectonHeader-0=18.xml-testSeg	ml	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	STCLS|1-1-14|=ROMAN	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	unbind	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=unb	SUF|1+1|=und		B12	pos|1+2|=NN	capital|1+2|=1	STCLS|1+2-1|=INITCAPS	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=B12	SUF|1+2|=B12	 /_ml unbound_B12
+O	unbound ml_or B12_binding
+O	B12 or_unbound binding_capacity
+B-entity		B12	ctext-0=B12	sectonHeader-0=18.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	unbind	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=unb	SUF|1-1|=und		B12	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-1|=INITCAPS	STCLS|1+0-9|=HASDIGIT	STCLS|1+0-11|=ALPHANUMERIC	STCLS|1+0-13|=LETTERS_NUMBERS	PRE|1+0|=B12	SUF|1+0|=B12		bind	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bin	SUF|1+1|=ing		capacity	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cap	SUF|1+2|=ity		ctext-4=binding	ctext-12=capacity or_unbound >_220
+I-entity		binding	ctext-0=B12	sectonHeader-0=18.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	unbind	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=unb	SUF|1-1|=und		B12	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-1|=INITCAPS	STCLS|1+0-9|=HASDIGIT	STCLS|1+0-11|=ALPHANUMERIC	STCLS|1+0-13|=LETTERS_NUMBERS	PRE|1+0|=B12	SUF|1+0|=B12		bind	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bin	SUF|1+1|=ing		capacity	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cap	SUF|1+2|=ity		ctext-4=binding	ctext-12=capacity or_unbound >_220
+I-entity		capacity	ctext-0=B12	sectonHeader-0=18.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	unbind	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=unb	SUF|1-1|=und		B12	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-1|=INITCAPS	STCLS|1+0-9|=HASDIGIT	STCLS|1+0-11|=ALPHANUMERIC	STCLS|1+0-13|=LETTERS_NUMBERS	PRE|1+0|=B12	SUF|1+0|=B12		bind	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=bin	SUF|1+1|=ing		capacity	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cap	SUF|1+2|=ity		ctext-4=binding	ctext-12=capacity or_unbound >_220
+O	binding unbound_B12 capacity_>
+O	capacity B12_binding >_220
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=18.xml-testSeg	bind	pos|1-2|=VBG	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=bin	SUF|1-2|=ing		capacity	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cap	SUF|1-1|=ity		PG	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA binding_capacity 220_pg
+B-labvalmod		220	ctext-0=220	sectonHeader-0=18.xml-testSeg	num	capacity	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cap	SUF|1-2|=ity		PG	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA capacity_> pg_/
+O	pg >_220 /_ml
+B-labvalmod		pg/ml	ctext-0=pg	sectonHeader-0=18.xml-testSeg	PG	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	ml	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-2=/	uniTok|1+2|=EEEEE	ctext-3=ml	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE >_220
+O	/ 220_pg
+O	ml pg_/
+

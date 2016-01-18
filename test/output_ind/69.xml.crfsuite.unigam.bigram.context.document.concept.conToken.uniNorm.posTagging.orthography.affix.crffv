@@ -1,0 +1,17 @@
+
+O	Renal ,_Creatinine
+O	, Creatinine_(
+B-entity	Creatinine  Renal_, (_mg
+O	( ,_Creatinine mg_/
+O	mg Creatinine_( /_dL
+B-labvalmod	mg/dL 	ctext-3=/ Creatinine_( )_:
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_5.0
+B-labrefrangemod	> 	ctext-1=>	OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_: 5.0_or
+B-labvalmod	5.0  :_> or_<
+B-labintermod	or  >_5.0 <_200
+B-labrefrangemod	< 	ctext-1=<	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	uniTok|1+2|=EEEEE 5.0_or
+B-labvalmod	200  or_<
+

@@ -1,0 +1,15 @@
+
+O	Leukopenia :_White
+O	: White_-
+O	White Leukopenia_: -_cell
+B-entity		White-cell	ctext-6=- Leukopenia_:
+I-entity		count	ctext-6=- Leukopenia_:
+O	- :_White cell_count
+O	cell White_- count_<
+O	count -_cell <_4000
+B-labrefrangemod		<	unit	ctext-1=<	cell	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cel	SUF|1-2|=ell		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt	 cell_count 4000_/
+B-labvalmod		4000	unit count_< /_mm3
+O	/ <_4000
+B-labvalmod		/mm3	unit	ctext-1=/	uniTok|1+2|=EEEEE <_4000
+O	mm3 4000_/
+

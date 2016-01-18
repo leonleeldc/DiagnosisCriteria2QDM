@@ -1,0 +1,29 @@
+
+O	Glycated hemoglobin_level
+B-entity		Glycated	postcontext-1=context-previous of_5.7
+I-entity		hemoglobin	postcontext-1=context-previous of_5.7
+I-entity		level	postcontext-1=context-previous of_5.7
+O	hemoglobin level_of
+O	level Glycated_hemoglobin of_5.7
+O	of hemoglobin_level 5.7_%
+O	5.7 level_of %_or
+B-labvalmod		5.7%	ctext-4=%	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	more	pos|1+2|=RBR	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mor	SUF|1+2|=ore		beforecontext-0=context-ed	postcontext-1=context-previous level_of or_more
+O	% of_5.7 or_more
+O	or 5.7_% more_or
+O	more %_or or_impaired
+B-labintermod		or	beforecontext-0=context-ed	postcontext-1=context-previous or_more impaired_fasting
+B-labintermod		impaired	C0684336	T046 	beforecontext-0=context-ed	postcontext-1=context-previous more_or fasting_glucose
+O	fasting or_impaired glucose_or
+B-entity		fasting	beforecontext-0=context-ed	postcontext-1=context-previous or_impaired or_impaired
+I-entity		glucose	beforecontext-0=context-ed	postcontext-1=context-previous or_impaired or_impaired
+O	glucose impaired_fasting or_impaired
+B-labintermod		or	beforecontext-0=context-ed	postcontext-1=context-previous fasting_glucose impaired_glucose
+B-labintermod		impaired	beforecontext-0=context-ed	postcontext-1=context-previous glucose_or glucose_tolerance
+O	glucose or_impaired tolerance_on
+B-entity		glucose	beforecontext-0=context-ed	postcontext-1=context-previous or_impaired on_previous
+I-entity		tolerance	beforecontext-0=context-ed	postcontext-1=context-previous or_impaired on_previous
+O	tolerance impaired_glucose on_previous
+O	on glucose_tolerance previous_testing
+O	previous tolerance_on
+O	testing on_previous
+

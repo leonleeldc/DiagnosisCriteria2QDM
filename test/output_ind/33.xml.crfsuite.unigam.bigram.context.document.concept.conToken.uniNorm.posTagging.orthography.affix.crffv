@@ -1,0 +1,29 @@
+
+O	Symptoms of_diabetes
+O	of diabetes_plus
+O	diabetes Symptoms_of plus_casual
+O	plus of_diabetes casual_plasma
+O	casual diabetes_plus plasma_glucose
+O	plasma plus_casual glucose_concentration
+B-entity	plasma glucose concentration  plus_casual >_/
+I-entity	plasma glucose concentration  plus_casual >_/
+I-entity	plasma glucose concentration  plus_casual >_/
+O	glucose casual_plasma concentration_>
+O	concentration plasma_glucose >_/
+O	> glucose_concentration /_=
+B-labrefrangemod	>/= 	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA glucose_concentration 200_mg
+O	/ concentration_> =_200
+O	= >_/ 200_mg
+B-labvalmod	200  /_= mg_/
+O	mg =_200 /_dl
+B-labvalmod	mg/dl 	ctext-3=/ =_200 (_11.1
+O	/ 200_mg dl_(
+O	dl mg_/ (_11.1
+O	( /_dl 11.1_mmol
+B-labvalmod	11.1  dl_( mmol_/
+O	mmol (_11.1 /_l
+B-labvalmod	mmol/l 	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_11.1
+O	/ 11.1_mmol l_)
+O	l mmol_/
+O	) /_l
+

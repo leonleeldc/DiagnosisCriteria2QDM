@@ -1,0 +1,2644 @@
+
+B-labintermod	Increased 	postcontext-1=context-no number_of	numb	umbe	mber	ber_	er_o	r_of
+O	number of_lymphocytes
+O	of Increased_number lymphocytes_and
+O	lymphocytes number_of and_mononuclear
+B-labintermod	and 	beforecontext-0=context-ed	postcontext-1=context-no of_lymphocytes mononuclear_cells	of_l	f_ly	_lym	lymp	ymph	mpho	phoc	hocy	ocyt	cyte	ytes	mono	onon	nonu	onuc	nucl	ucle	clea	lear	ear_	ar_c	r_ce	_cel	cell	ells
+O	mononuclear lymphocytes_and cells_>
+B-entity	mononuclear cells 	beforecontext-0=context-ed lymphocytes_and >_5000	lymp	ymph	mpho	phoc	hocy	ocyt	cyte	ytes	tes_	es_a	s_an	_and	>_50	_500	5000
+I-entity	mononuclear cells 	beforecontext-0=context-ed lymphocytes_and >_5000	lymp	ymph	mpho	phoc	hocy	ocyt	cyte	ytes	tes_	es_a	s_an	_and	>_50	_500	5000
+O	cells and_mononuclear >_5000
+O	> mononuclear_cells 5000_/
+B-labvalmod	5000 	beforecontext-0=context-ed	beforecontext-1=context-no cells_> /_mm3	cell	ells	lls_	ls_>	/_mm	_mm3
+O	/ >_5000 mm3_(
+B-labvalmod	/mm3 	beforecontext-0=context-ed	beforecontext-1=context-no >_5000 (_autoreactive	>_50	_500	5000	(_au	_aut	auto	utor	tore	orea	reac	eact	acti	ctiv	tive
+O	mm3 5000_/ (_autoreactive
+O	( /_mm3 autoreactive_lymphocytic
+O	autoreactive mm3_( lymphocytic_)
+O	lymphocytic (_autoreactive
+O	) autoreactive_lymphocytic
+
+
+O	,
+
+
+O	A1 Raised_RCM
+B-labintermod	Raised  RCM_or	RCM_	CM_o	M_or
+B-entity	RCM 	beforecontext-0=context-ed A1_Raised or_haemoglobin	A1_R	1_Ra	_Rai	Rais	aise	ised	or_h	r_ha	_hae	haem	aemo	emog	mogl	oglo	glob	lobi	obin
+B-labintermod	or 	beforecontext-0=context-ed Raised_RCM haemoglobin_(	Rais	aise	ised	sed_	ed_R	d_RC	_RCM	haem	aemo	emog	mogl	oglo	glob	lobi	obin	bin_	in_(
+B-entity	haemoglobin 	beforecontext-0=context-ed RCM_or (_Hb	RCM_	CM_o	M_or	(_Hb
+O	( or_haemoglobin Hb_)
+B-entity	Hb 	beforecontext-0=context-ed haemoglobin_(	haem	aemo	emog	mogl	oglo	glob	lobi	obin	bin_	in_(
+O	) (_Hb
+
+
+B-labrefrangemod	>  18.5_(	18.5	8.5_	.5_(
+B-labvalmod	18.5  (_males	(_ma	_mal	male	ales
+O	( >_18.5 males_)
+O	males 18.5_( )_,
+O	) (_males ,_>
+O	, males_) >_16.5
+B-labrefrangemod	>  )_, 16.5_(	16.5	6.5_	.5_(
+B-labvalmod	16.5  ,_> (_females	(_fe	_fem	fema	emal	male	ales
+O	( >_16.5 females_)
+O	females 16.5_(
+O	) (_females
+
+
+O	Diabetes ,_aged
+O	, aged_40
+O	aged Diabetes_, 40_-
+O	40 ,_aged -_75
+O	- aged_40 75_y
+O	75 40_- y_,
+O	y -_75 ,_with
+O	, 75_y with_LDL
+O	with y_, LDL_-
+O	LDL ,_with -_C
+B-entity	LDL-C 	beforecontext-0=context-ed ,_with levels_of	,_wi	_wit	with	leve	evel	vels	els_	ls_o	s_of
+O	- with_LDL C_levels
+O	C LDL_- levels_of
+O	levels -_C of_70
+O	of C_levels 70_-
+O	70 levels_of -_189
+B-labvalmod	70-189 	beforecontext-0=context-ed levels_of mg_/	leve	evel	vels	els_	ls_o	s_of	mg_/
+O	- of_70 189_mg
+O	189 70_- mg_/
+O	mg -_189 /_dL
+B-labvalmod	mg/dL 	beforecontext-0=context-ed -_189	-_18	_189
+O	/ 189_mg
+O	dL mg_/
+
+
+O	High -_intensity
+O	- intensity_statin
+O	intensity High_- statin_therapy
+O	statin -_intensity therapy_*
+O	therapy intensity_statin *_is
+O	* statin_therapy is_recommended
+O	is therapy_* recommended_for
+O	recommended *_is for_patients
+O	for is_recommended patients_with
+O	patients recommended_for with_known
+O	with for_patients known_ASCVD
+O	known patients_with ASCVD_,
+O	ASCVD with_known ,_LDL
+O	, known_ASCVD LDL_-
+O	LDL ASCVD_, -_C
+B-entity	LDL-C 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient ASCVD_, levels_>	ASCV	SCVD	CVD_	VD_,	leve	evel	vels	els_	ls_>
+O	- ,_LDL C_levels
+O	C LDL_- levels_>
+O	levels -_C >_190
+B-labrefrangemod	> 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient C_levels 190_mg	C_le	_lev	leve	evel	vels	190_	90_m	0_mg
+B-labvalmod	190 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient levels_> mg_/	leve	evel	vels	els_	ls_>	mg_/
+O	mg >_190 /_dL
+B-labvalmod	mg/dL 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient >_190 ,_and	>_19	_190	,_an	_and
+O	/ 190_mg dL_,
+O	dL mg_/ ,_and
+O	, /_dL and_DM
+O	and dL_, DM_,
+O	DM ,_and ,_with
+O	, and_DM with_10
+O	with DM_, 10_-
+O	10 ,_with -_y
+O	- with_10 y_risk
+O	y 10_- risk_>
+O	risk -_y >_7.5
+O	> y_risk 7.5_%
+O	7.5 risk_> %_.
+O	% >_7.5
+O	. 7.5_%
+
+
+O	Moderate -_dose
+O	- dose_statin
+O	dose Moderate_- statin_therapy
+O	statin -_dose therapy_*
+O	therapy dose_statin *_*
+O	* statin_therapy *_is
+O	* therapy_* is_recommended
+O	is *_* recommended_for
+O	recommended *_is for_the
+O	for is_recommended the_other
+O	the recommended_for other_treatment
+O	other for_the treatment_groups
+O	treatment the_other groups_(
+O	groups other_treatment (_patients
+O	( treatment_groups patients_with
+O	patients groups_( with_DM
+O	with (_patients DM_but
+O	DM patients_with but_with
+O	but with_DM with_10
+O	with DM_but 10_-
+O	10 but_with -_y
+O	- with_10 y_risk
+O	y 10_- risk_<
+O	risk -_y <_7.5
+O	< y_risk 7.5_%
+O	7.5 risk_< %_and
+O	% <_7.5 and_those
+O	and 7.5_% those_without
+O	those %_and without_DM
+O	without and_those DM_who
+O	DM those_without who_have
+O	who without_DM have_a
+O	have DM_who a_10
+O	a who_have 10_-
+O	10 have_a -_y
+O	- a_10 y_risk
+O	y 10_- risk_>
+O	risk -_y >_7.5
+O	> y_risk 7.5_%
+O	7.5 risk_> %_)
+O	% >_7.5 )_.
+O	) 7.5_%
+O	. %_)
+
+
+O	The expert_panel
+O	expert panel_did
+O	panel The_expert did_not
+O	did expert_panel not_recommend
+O	not panel_did recommend_for
+O	recommend did_not for_or
+O	for not_recommend or_against
+O	or recommend_for against_LDL
+O	against for_or LDL_-
+O	LDL or_against -_C
+B-entity	LDL-C 	postcontext-0=context-but	postcontext-1=context-ed	beforecontext-2=context-not	postcontext-3=context-her	beforecontext-4=context-no or_against goals_or	or_a	r_ag	_aga	agai	gain	ains	inst	goal	oals	als_	ls_o	s_or
+O	- against_LDL C_goals
+O	C LDL_- goals_or
+O	goals -_C or_targets
+O	or C_goals targets_but
+O	targets goals_or but_rather
+O	but or_targets rather_recommends
+O	rather targets_but recommends_that
+O	recommends but_rather that_lipids
+O	that rather_recommends lipids_be
+O	lipids recommends_that be_checked
+O	be that_lipids checked_at
+O	checked lipids_be at_baseline
+O	at be_checked baseline_and
+O	baseline checked_at and_then
+O	and at_baseline then_4
+O	then baseline_and 4_-
+O	4 and_then -_12
+O	- then_4 12_wk
+O	12 4_- wk_after
+O	wk -_12 after_initiating
+O	after 12_wk initiating_statin
+O	initiating wk_after statin_therapy
+O	statin after_initiating therapy_to
+O	therapy initiating_statin to_assess
+O	to statin_therapy assess_adherence
+O	assess therapy_to adherence_and
+O	adherence to_assess and_response
+O	and assess_adherence response_to
+O	response adherence_and to_therapy
+O	to and_response therapy_.
+O	therapy response_to
+O	. to_therapy
+
+
+O	Individuals receiving_high
+O	receiving high_-
+O	high Individuals_receiving -_dose
+O	- receiving_high dose_statin
+O	dose high_- statin_therapy
+O	statin -_dose therapy_would
+O	therapy dose_statin would_be
+O	would statin_therapy be_expected
+O	be therapy_would expected_to
+O	expected would_be to_lower
+O	to be_expected lower_their
+O	lower expected_to their_LDL
+O	their to_lower LDL_-
+O	LDL lower_their -_C
+B-entity	LDL-C 	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her lower_their level_by	lowe	ower	wer_	er_t	r_th	_the	thei	heir	leve	evel	vel_	el_b	l_by
+O	- their_LDL C_level
+O	C LDL_- level_by
+O	level -_C by_>
+O	by C_level >_50
+B-labintermod	by >50% from their baseline level 	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and	C_le	_lev	leve	evel	,_an	_and
+I-labintermod	by >50% from their baseline level 	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and	C_le	_lev	leve	evel	,_an	_and
+I-labintermod	by >50% from their baseline level 	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and	C_le	_lev	leve	evel	,_an	_and
+I-labintermod	by >50% from their baseline level 	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and	C_le	_lev	leve	evel	,_an	_and
+I-labintermod	by >50% from their baseline level 	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and	C_le	_lev	leve	evel	,_an	_and
+I-labintermod	by >50% from their baseline level 	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and	C_le	_lev	leve	evel	,_an	_and
+B-labrefrangemod	> 	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her level_by 50_%	leve	evel	vel_	el_b	l_by	50_%
+O	50 by_> %_from
+O	% >_50 from_their
+O	from 50_% their_baseline
+O	their %_from baseline_level
+O	baseline from_their level_,
+O	level their_baseline ,_and
+O	, baseline_level and_those
+O	and level_, those_receiving
+O	those ,_and receiving_moderate
+O	receiving and_those moderate_-
+O	moderate those_receiving -_dose
+O	- receiving_moderate dose_statin
+O	dose moderate_- statin_therapy
+O	statin -_dose therapy_would
+O	therapy dose_statin would_be
+O	would statin_therapy be_expected
+O	be therapy_would expected_to
+O	expected would_be to_lower
+O	to be_expected lower_their
+O	lower expected_to their_LDL
+O	their to_lower LDL_-
+O	LDL lower_their -_C
+B-entity	LDL-C 	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her lower_their level_by	lowe	ower	wer_	er_t	r_th	_the	thei	heir	leve	evel	vel_	el_b	l_by
+O	- their_LDL C_level
+O	C LDL_- level_by
+O	level -_C by_30
+O	by C_level 30_%
+B-labintermod	by 30%-49% 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her C_level	C_le	_lev	leve	evel
+I-labintermod	by 30%-49% 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her C_level	C_le	_lev	leve	evel
+O	30 level_by %_-
+O	% by_30 -_49
+O	- 30_% 49_%
+O	49 %_- %_.
+O	% -_49
+O	. 49_%
+
+
+O	Persistent biliary_obstruction
+O	biliary obstruction_(
+O	obstruction Persistent_biliary (_conjugated
+O	( biliary_obstruction conjugated_bilirubin
+O	conjugated obstruction_( bilirubin_level
+B-entity	conjugated bilirubin  obstruction_( level_>	obst	bstr	stru	truc	ruct	ucti	ctio	tion	ion_	on_(	leve	evel	vel_	el_>
+I-entity	conjugated bilirubin  obstruction_( level_>	obst	bstr	stru	truc	ruct	ucti	ctio	tion	ion_	on_(	leve	evel	vel_	el_>
+O	bilirubin (_conjugated level_>
+O	level conjugated_bilirubin >_5
+B-labrefrangemod	> 	beforecontext-0=context-ed bilirubin_level 5_mg	bili	ilir	liru	irub	rubi	ubin	bin_	in_l	n_le	_lev	leve	evel	5_mg
+B-labvalmod	5 	beforecontext-0=context-ed level_> mg_/	leve	evel	vel_	el_>	mg_/
+O	mg >_5 /_dl
+B-labvalmod	mg/dl 	beforecontext-0=context-ed >_5 _86
+O	/ 5_mg dl_
+O	dl mg_/ _86
+O	[ /_dl 86_umol
+B-labvalmod	86 	beforecontext-0=context-ed dl_ umol_per	umol	mol_	ol_p	l_pe	_per
+O	umol _86 per_liter
+B-labvalmod	umol per liter 	beforecontext-0=context-ed _86 _)
+I-labvalmod	umol per liter 	beforecontext-0=context-ed _86 _)
+I-labvalmod	umol per liter 	beforecontext-0=context-ed _86 _)
+O	per 86_umol liter_
+O	liter umol_per _)
+O	] per_liter
+O	) liter_
+
+
+
+
+O	AST >_>
+O	> >_>
+O	> AST_> >_ALT
+O	> >_> ALT_:
+O	ALT >_>
+O	: >_ALT
+
+
+O	Both usually_<
+O	usually <_300
+B-labrefrangemod	<  Both_usually 300_IU	Both	oth_	th_u	h_us	_usu	usua	sual	uall	ally	300_	00_I	0_IU
+B-labvalmod	300  usually_< IU_/	usua	sual	uall	ally	lly_	ly_<	IU_/
+O	IU <_300 /_L
+B-labvalmod	IU/L  <_300	<_30	_300
+O	/ 300_IU
+O	L IU_/
+
+
+O	Alkaline phosphatase_(
+O	phosphatase (_ALP
+O	( Alkaline_phosphatase ALP_)
+O	ALP phosphatase_( )_and
+O	) (_ALP and_g
+O	and ALP_) g_-
+O	g )_and -_glutamyl
+B-entity	g-glutamyl transpeptidase  )_and (_GGT	)_an	_and	(_GG	_GGT
+I-entity	g-glutamyl transpeptidase  )_and (_GGT	)_an	_and	(_GG	_GGT
+O	- and_g glutamyl_transpeptidase
+O	glutamyl g_- transpeptidase_(
+O	transpeptidase -_glutamyl (_GGT
+O	( glutamyl_transpeptidase GGT_)
+O	GGT transpeptidase_( )_:
+O	) (_GGT
+O	: GGT_)
+
+
+O	Both usually_elevated
+O	usually elevated_to
+B-labintermod	elevated  Both_usually to_a	Both	oth_	th_u	h_us	_usu	usua	sual	uall	ally	to_a
+O	to usually_elevated a_variable
+O	a elevated_to variable_degree
+O	variable to_a
+O	degree a_variable
+
+
+B-labintermod	Elevated  white_blood	whit	hite	ite_	te_b	e_bl	_blo	bloo	lood
+O	white blood_cell
+O	blood Elevated_white cell_count
+O	cell white_blood count_:
+O	count blood_cell
+O	: cell_count
+
+
+O	Leukemoid reactions_associated
+O	reactions associated_with
+O	associated Leukemoid_reactions with_alcoholic
+O	with reactions_associated alcoholic_hepatitis
+O	alcoholic associated_with
+O	hepatitis with_alcoholic
+
+
+O	Platelets (_normal
+O	( normal_to
+O	normal Platelets_( to_markedly
+B-labintermod	normal to markedly decreased  Platelets_(	Plat	late	atel	tele	elet	lets	ets_	ts_(
+I-labintermod	normal to markedly decreased  Platelets_(	Plat	late	atel	tele	elet	lets	ets_	ts_(
+I-labintermod	normal to markedly decreased  Platelets_(	Plat	late	atel	tele	elet	lets	ets_	ts_(
+I-labintermod	normal to markedly decreased  Platelets_(	Plat	late	atel	tele	elet	lets	ets_	ts_(
+O	to (_normal markedly_decreased
+O	markedly normal_to decreased_)
+O	decreased to_markedly
+O	) markedly_decreased
+
+
+O	Platelet count_>
+O	count >_400
+B-labrefrangemod	>  Platelet_count 400_x	Plat	late	atel	tele	elet	let_	et_c	t_co	_cou	coun	ount	400_	00_x
+O	400 count_> x_109
+B-labvalmod	400 x 109  count_> /_l	coun	ount	unt_	nt_>
+I-labvalmod	400 x 109  count_> /_l	coun	ount	unt_	nt_>
+I-labvalmod	400 x 109  count_> /_l	coun	ount	unt_	nt_>
+O	x >_400 109_/
+O	109 400_x /_l
+O	/ x_109
+B-labvalmod	/l  x_109	x_10	_109
+O	l 109_/
+
+
+O	Electrolyte abnormalities_:
+O	abnormalities
+O	: Electrolyte_abnormalities
+
+
+B-labintermod	low  potassium_,	pota	otas	tass	assi	ssiu	sium	ium_	um_,
+O	potassium ,_magnesium
+O	, low_potassium magnesium_and
+O	magnesium potassium_, and_phosphorus
+B-labintermod	and  ,_magnesium	,_ma	_mag	magn	agne	gnes	nesi	esiu	sium	phos	hosp	osph	spho	phor	horu	orus
+O	phosphorus magnesium_and
+
+
+
+
+O	A second_option
+O	second option_is
+O	option A_second is_the
+O	is second_option the_detection
+O	the option_is detection_of
+B-labintermod	the detection of  option_is virus_and	opti	ptio	tion	ion_	on_i	n_is	viru	irus	rus_	us_a	s_an	_and
+I-labintermod	the detection of  option_is virus_and	opti	ptio	tion	ion_	on_i	n_is	viru	irus	rus_	us_a	s_an	_and
+I-labintermod	the detection of  option_is virus_and	opti	ptio	tion	ion_	on_i	n_is	viru	irus	rus_	us_a	s_an	_and
+O	detection is_the of_virus
+O	of the_detection virus_and
+B-entity	virus  detection_of and_/	dete	etec	tect	ecti	ctio	tion	ion_	on_o	n_of	and_	nd_/
+O	and of_virus /_or
+B-labintermod	and/or  of_virus antigen_in	of_v	f_vi	_vir	viru	irus	anti	ntig	tige	igen	gen_	en_i	n_in
+O	/ virus_and or_antigen
+O	or and_/ antigen_in
+B-entity	antigen  /_or in_the	/_or	in_t	n_th	_the
+O	in or_antigen the_faeces
+O	the antigen_in faeces_.
+O	faeces in_the
+O	. the_faeces
+
+
+
+
+
+
+O	At the_onset
+O	the onset_of
+O	onset At_the of_disease
+O	of the_onset disease_,
+O	disease onset_of ,_the
+O	, of_disease the_presence
+O	the disease_, presence_of
+B-labintermod	the presence of 	postcontext-0=context-ed disease_, IgG_anti-HAV	dise	isea	seas	ease	ase_	se_,	IgG_	gG_a	G_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed disease_, IgG_anti-HAV	dise	isea	seas	ease	ase_	se_,	IgG_	gG_a	G_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed disease_, IgG_anti-HAV	dise	isea	seas	ease	ase_	se_,	IgG_	gG_a	G_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+O	presence ,_the of_IgG
+O	of the_presence IgG_anti-HAV
+O	IgG presence_of anti-HAV_is
+B-entity	IgG anti-HAV 	postcontext-0=context-ed presence_of is_always	pres	rese	esen	senc	ence	nce_	ce_o	e_of	is_a	s_al	_alw	alwa	lway	ways
+I-entity	IgG anti-HAV 	postcontext-0=context-ed presence_of is_always	pres	rese	esen	senc	ence	nce_	ce_o	e_of	is_a	s_al	_alw	alwa	lway	ways
+O	anti-HAV of_IgG is_always
+O	is IgG_anti-HAV always_accompanied
+O	always anti-HAV_is accompanied_by
+O	accompanied is_always by_the
+O	by always_accompanied the_presence
+O	the accompanied_by presence_of
+B-labintermod	the presence of 	postcontext-0=context-ed accompanied_by IgM_anti-HAV	acco	ccom	comp	ompa	mpan	pani	anie	nied	ied_	ed_b	d_by	IgM_	gM_a	M_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed accompanied_by IgM_anti-HAV	acco	ccom	comp	ompa	mpan	pani	anie	nied	ied_	ed_b	d_by	IgM_	gM_a	M_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed accompanied_by IgM_anti-HAV	acco	ccom	comp	ompa	mpan	pani	anie	nied	ied_	ed_b	d_by	IgM_	gM_a	M_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+O	presence by_the of_IgM
+O	of the_presence IgM_anti-HAV
+O	IgM presence_of anti-HAV_.
+B-entity	IgM anti-HAV 	beforecontext-0=context-ed presence_of	pres	rese	esen	senc	ence	nce_	ce_o	e_of
+I-entity	IgM anti-HAV 	beforecontext-0=context-ed presence_of	pres	rese	esen	senc	ence	nce_	ce_o	e_of
+O	anti-HAV of_IgM
+O	. IgM_anti-HAV
+
+
+O	As IgG_anti-HAV
+O	IgG anti-HAV_persists
+B-entity	IgG anti-HAV 	postcontext-0=context-if persists_lifelong	pers	ersi	rsis	sist	ists	sts_	ts_l	s_li	_lif	life	ifel	felo	elon	long
+I-entity	IgG anti-HAV 	postcontext-0=context-if persists_lifelong	pers	ersi	rsis	sist	ists	sts_	ts_l	s_li	_lif	life	ifel	felo	elon	long
+O	anti-HAV As_IgG persists_lifelong
+B-labintermod	persists 	postcontext-0=context-if IgG_anti-HAV lifelong_after	IgG_	gG_a	G_an	_ant	anti	nti-	ti-H	i-HA	-HAV	life	ifel	felo	elon	long	ong_	ng_a	g_af	_aft	afte	fter
+O	lifelong anti-HAV_persists after_acute
+O	after persists_lifelong acute_infection
+O	acute lifelong_after infection_,
+O	infection after_acute ,_detection
+O	, acute_infection detection_of
+O	detection infection_, of_IgG
+B-labintermod	detection of 	beforecontext-0=context-if infection_, IgG_anti-HAV	infe	nfec	fect	ecti	ctio	tion	ion_	on_,	IgG_	gG_a	G_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+I-labintermod	detection of 	beforecontext-0=context-if infection_, IgG_anti-HAV	infe	nfec	fect	ecti	ctio	tion	ion_	on_,	IgG_	gG_a	G_an	_ant	anti	nti-	ti-H	i-HA	-HAV
+O	of ,_detection IgG_anti-HAV
+O	IgG detection_of anti-HAV_alone
+B-entity	IgG anti-HAV 	postcontext-0=context-if detection_of alone_indicates	dete	etec	tect	ecti	ctio	tion	ion_	on_o	n_of	alon	lone	one_	ne_i	e_in	_ind	indi	ndic	dica	icat	cate	ates
+I-entity	IgG anti-HAV 	postcontext-0=context-if detection_of alone_indicates	dete	etec	tect	ecti	ctio	tion	ion_	on_o	n_of	alon	lone	one_	ne_i	e_in	_ind	indi	ndic	dica	icat	cate	ates
+O	anti-HAV of_IgG alone_indicates
+O	alone IgG_anti-HAV indicates_past
+O	indicates anti-HAV_alone past_infection
+O	past alone_indicates infection_.
+O	infection indicates_past
+O	. past_infection
+
+
+O	Urea <_6.5
+B-labrefrangemod	<  6.5_mmol	Urea	6.5_	.5_m	5_mm	_mmo	mmol
+B-labvalmod	6.5  Urea_< mmol_/	Urea	rea_	ea_<	mmol	mol_	ol_/
+O	mmol <_6.5 /_L
+B-labvalmod	mmol/L  <_6.5	<_6.	_6.5
+O	/ 6.5_mmol
+O	L mmol_/
+
+
+B-entity	Haemoglobin  >_/
+O	> /_=
+B-labrefrangemod	>/=  13_g	Haem	aemo	emog	mogl	oglo	glob	lobi	obin	13_g
+O	/ Haemoglobin_> =_13
+O	= >_/ 13_g
+B-labvalmod	13  /_= g_/
+O	g =_13 /_dl
+B-labvalmod	g/dl  =_13 (_men	=_13	(_me	_men
+O	/ 13_g dl_(
+O	dl g_/ (_men
+O	( /_dl men_)
+O	men dl_(
+O	) (_men
+
+
+B-labintermod	or  >_/
+O	> /_=
+B-labrefrangemod	>/=  12_g	12_g
+O	/ or_> =_12
+O	= >_/ 12_g
+B-labvalmod	12  /_= g_/
+O	g =_12 /_dl
+B-labvalmod	g/dl  =_12 (_women	=_12	(_wo	_wom	wome	omen
+O	/ 12_g dl_(
+O	dl g_/ (_women
+O	( /_dl women_)
+O	women dl_(
+O	) (_women
+
+
+O	Blood Urea_mmol
+O	Urea mmol_/
+O	mmol Blood_Urea /_L
+B-labvalmod	mmol/L  Blood_Urea	Bloo	lood	ood_	od_U	d_Ur	_Ure	Urea
+O	/ Urea_mmol
+O	L mmol_/
+
+
+B-entity	Haemoglobin 
+
+
+O	WBC >_12
+B-labrefrangemod	>  12_x	12_x
+O	12 WBC_> x_109
+B-labvalmod	12 x 109  WBC_> /_l	WBC_	BC_>
+I-labvalmod	12 x 109  WBC_> /_l	WBC_	BC_>
+I-labvalmod	12 x 109  WBC_> /_l	WBC_	BC_>
+O	x >_12 109_/
+O	109 12_x /_l
+O	/ x_109
+B-labvalmod	/l  x_109	x_10	_109
+O	l 109_/
+
+
+B-labintermod	Elevated 	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no serum_ferritin	seru	erum	rum_	um_f	m_fe	_fer	ferr	erri	rrit	riti	itin
+O	serum ferritin_not
+O	ferritin Elevated_serum not_explained
+O	not serum_ferritin explained_by
+O	explained ferritin_not by_another
+O	by not_explained another_cause
+O	another explained_by
+O	cause by_another
+
+
+B-labintermod	Increased 	postcontext-0=context-ro stainable_hepatocellular	stai	tain	aina	inab	nabl	able	ble_	le_h	e_he	_hep	hepa	epat	pato	atoc	toce	ocel	cell	ellu	llul	lula	ular
+O	stainable hepatocellular_iron
+O	hepatocellular Increased_stainable iron_(
+B-entity	hepatocellular iron 	beforecontext-1=context-ed Increased_stainable (_Scheuer	Incr	ncre	crea	reas	ease	ased	sed_	ed_s	d_st	_sta	stai	tain	aina	inab	nabl	able	(_Sc	_Sch	Sche	cheu	heue	euer
+I-entity	hepatocellular iron 	beforecontext-1=context-ed Increased_stainable (_Scheuer	Incr	ncre	crea	reas	ease	ased	sed_	ed_s	d_st	_sta	stai	tain	aina	inab	nabl	able	(_Sc	_Sch	Sche	cheu	heue	euer
+O	iron stainable_hepatocellular (_Scheuer
+O	( hepatocellular_iron Scheuer_grade
+O	Scheuer iron_( grade_3
+O	grade (_Scheuer 3_or
+O	3 Scheuer_grade or_4
+O	or grade_3 4_)
+O	4 3_or
+O	) or_4
+
+
+
+
+
+
+
+
+O	B -_Diagnosis
+O	- Diagnosis_of
+O	Diagnosis B_- of_iron
+O	of -_Diagnosis iron_overload
+O	iron Diagnosis_of overload_:
+B-labintermod	overload 	beforecontext-0=context-ro	beforecontext-1=context-no of_iron :_1	of_i	f_ir	_iro	iron
+O	: iron_overload 1_plus
+O	1 overload_: plus_2
+O	plus :_1 2_,
+O	2 1_plus ,_or
+O	, plus_2 or_1
+O	or 2_, 1_plus
+O	1 ,_or plus_3
+O	plus or_1 3_,
+O	3 1_plus ,_below
+O	, plus_3
+O	below 3_,
+
+
+B-labintermod	Increased 	postcontext-0=context-ro	postcontext-2=context-her hepatic_iron	hepa	epat	pati	atic	tic_	ic_i	c_ir	_iro	iron
+O	hepatic iron_by
+B-entity	hepatic iron 	beforecontext-1=context-ed	postcontext-2=context-her by_either	Incr	ncre	crea	reas	ease	ased	by_e	y_ei	_eit	eith	ithe	ther
+I-entity	hepatic iron 	beforecontext-1=context-ed	postcontext-2=context-her by_either	Incr	ncre	crea	reas	ease	ased	by_e	y_ei	_eit	eith	ithe	ther
+O	iron Increased_hepatic by_either
+O	by hepatic_iron either_a
+O	either iron_by a_or
+O	a by_either or_b
+O	or either_a b_,
+O	b a_or ,_below
+O	, or_b
+O	below b_,
+
+
+
+
+
+
+B-labintermod	Elevated 	postcontext-1=context-since level_of	leve	evel	vel_	el_o	l_of
+O	level of_fasting
+O	of Elevated_level fasting_serum
+O	fasting level_of serum_gastrin
+B-entity	fasting serum gastrin 	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>	leve	evel	vel_	el_o	l_of
+I-entity	fasting serum gastrin 	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>	leve	evel	vel_	el_o	l_of
+I-entity	fasting serum gastrin 	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>	leve	evel	vel_	el_o	l_of
+O	serum of_fasting gastrin_(
+O	gastrin fasting_serum (_>
+O	( serum_gastrin >_100
+B-labrefrangemod	> 	beforecontext-0=context-ed	postcontext-1=context-since gastrin_( 100_pg	gast	astr	stri	trin	rin_	in_(	100_	00_p	0_pg
+B-labvalmod	100 	beforecontext-0=context-ed	postcontext-1=context-since (_> pg_/	pg_/
+O	pg >_100 /_mL
+B-labvalmod	pg/mL 	beforecontext-0=context-ed	postcontext-1=context-since >_100 until_1994	>_10	_100	unti	ntil	til_	il_1	l_19	_199	1994
+O	/ 100_pg mL_until
+O	mL pg_/ until_1994
+O	until /_mL 1994_,
+O	1994 mL_until ,_>
+O	, until_1994 >_200
+B-labrefrangemod	> 	beforecontext-0=context-ed	postcontext-1=context-since 1994_, 200_pg	1994	994_	94_,	200_	00_p	0_pg
+B-labvalmod	200 	beforecontext-0=context-ed	postcontext-1=context-since ,_> pg_/	pg_/
+O	pg >_200 /_mL
+B-labvalmod	pg/mL 	beforecontext-0=context-ed	postcontext-1=context-since >_200 since_1994	>_20	_200	sinc	ince	nce_	ce_1	e_19	_199	1994
+O	/ 200_pg mL_since
+O	mL pg_/ since_1994
+O	since /_mL 1994_)
+O	1994 mL_since )_;
+O	) since_1994
+O	; 1994_)
+
+
+B-labintermod	Low 	postcontext-0=context-ro serum_erythropoietin	seru	erum	rum_	um_e	m_er	_ery	eryt	ryth	ythr	thro	hrop	ropo	opoi	poie	oiet	ieti	etin
+O	serum erythropoietin_(
+O	erythropoietin Low_serum (_EPO
+O	( serum_erythropoietin EPO_)
+O	EPO erythropoietin_(
+O	) (_EPO
+
+
+
+
+
+
+O	Patients taking_Proton
+O	taking Proton_Pump
+O	Proton Patients_taking Pump_Inhibitors
+O	Pump taking_Proton Inhibitors_(
+O	Inhibitors Proton_Pump (_PPIs
+O	( Pump_Inhibitors PPIs_)
+O	PPIs Inhibitors_( )_,
+O	) (_PPIs ,_those
+O	, PPIs_) those_who
+O	those )_, who_have
+O	who ,_those have_undergone
+O	have those_who undergone_massive
+O	undergone who_have massive_small
+O	massive have_undergone small_bowel
+O	small undergone_massive bowel_resection
+O	bowel massive_small resection_,
+O	resection small_bowel ,_or
+O	, bowel_resection or_those
+O	or resection_, those_who
+O	those ,_or who_have
+O	who or_those have_renal
+O	have those_who renal_insufficiency
+O	renal who_have insufficiency_,
+O	insufficiency have_renal ,_G
+O	, renal_insufficiency G_-
+O	G insufficiency_, -_cell
+O	- ,_G cell_hyperplasia
+O	cell G_- hyperplasia_,
+O	hyperplasia -_cell ,_or
+O	, cell_hyperplasia or_gastric
+O	or hyperplasia_, gastric_outlet
+O	gastric ,_or outlet_obstruction
+O	outlet or_gastric obstruction_may
+O	obstruction gastric_outlet may_have
+O	may outlet_obstruction have_gastrin
+O	have obstruction_may gastrin_levels
+O	gastrin may_have levels_between
+O	levels have_gastrin between_150
+O	between gastrin_levels 150_and
+B-labintermod	between 150 and 1000 pg/mL 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,	gast	astr	stri	trin	rin_	in_l	n_le	_lev	leve	evel	vels	Henc	ence	nce_	ce_,
+I-labintermod	between 150 and 1000 pg/mL 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,	gast	astr	stri	trin	rin_	in_l	n_le	_lev	leve	evel	vels	Henc	ence	nce_	ce_,
+I-labintermod	between 150 and 1000 pg/mL 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,	gast	astr	stri	trin	rin_	in_l	n_le	_lev	leve	evel	vels	Henc	ence	nce_	ce_,
+I-labintermod	between 150 and 1000 pg/mL 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,	gast	astr	stri	trin	rin_	in_l	n_le	_lev	leve	evel	vels	Henc	ence	nce_	ce_,
+I-labintermod	between 150 and 1000 pg/mL 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,	gast	astr	stri	trin	rin_	in_l	n_le	_lev	leve	evel	vels	Henc	ence	nce_	ce_,
+B-labvalmod	150 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient levels_between and_1000	leve	evel	vels	els_	ls_b	s_be	_bet	betw	etwe	twee	ween	and_	nd_1	d_10	_100	1000
+O	and between_150 1000_pg
+B-labvalmod	1000 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient 150_and pg_/	150_	50_a	0_an	_and	pg_/
+B-labvalmod	pg/mL 	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient Hence_,	Henc	ence	nce_	ce_,
+O	pg and_1000 /_mL
+O	/ 1000_pg mL_Hence
+O	mL pg_/ Hence_,
+O	Hence /_mL ,_for
+O	, mL_Hence for_patients
+O	for Hence_, patients_with
+O	patients ,_for with_suspected
+O	with for_patients suspected_ZES
+O	suspected patients_with ZES_with
+O	ZES with_suspected with_an
+O	with suspected_ZES an_equivocal
+O	an ZES_with equivocal_fasting
+B-labintermod	equivocal 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient with_an fasting_serum	with	ith_	th_a	h_an	fast	asti	stin	ting	ing_	ng_s	g_se	_ser	seru	erum
+O	fasting an_equivocal serum_gastrin
+B-entity	fasting serum gastrin concentration 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a	an_e	n_eq	_equ	equi	quiv	uivo	ivoc	voca	ocal
+I-entity	fasting serum gastrin concentration 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a	an_e	n_eq	_equ	equi	quiv	uivo	ivoc	voca	ocal
+I-entity	fasting serum gastrin concentration 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a	an_e	n_eq	_equ	equi	quiv	uivo	ivoc	voca	ocal
+I-entity	fasting serum gastrin concentration 	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a	an_e	n_eq	_equ	equi	quiv	uivo	ivoc	voca	ocal
+O	serum equivocal_fasting gastrin_concentration
+O	gastrin fasting_serum concentration_,
+O	concentration serum_gastrin ,_a
+O	, gastrin_concentration a_secretin
+O	a concentration_, secretin_stimulation
+O	secretin ,_a stimulation_test
+O	stimulation a_secretin test_should
+O	test secretin_stimulation should_be
+O	should stimulation_test be_performed
+O	be test_should
+O	performed should_be
+
+
+B-labintermod	Low  serum_ceruloplasmin	seru	erum	rum_	um_c	m_ce	_cer	ceru	erul	rulo	ulop	lopl	opla	plas	lasm	asmi	smin
+O	serum ceruloplasmin_levels
+O	ceruloplasmin Low_serum levels_<
+O	levels serum_ceruloplasmin <_20
+B-labrefrangemod	<  ceruloplasmin_levels 20_mg	ceru	erul	rulo	ulop	lopl	opla	plas	lasm	asmi	smin	min_	in_l	n_le	_lev	leve	evel	vels	20_m	0_mg
+B-labvalmod	20  levels_< mg_/	leve	evel	vels	els_	ls_<	mg_/
+O	mg <_20 /_dL
+B-labvalmod	mg/dL  <_20 (_Normal	<_20	(_No	_Nor	Norm	orma	rmal
+O	/ 20_mg dL_(
+O	dL mg_/ (_Normal
+O	( /_dL Normal_range
+O	Normal dL_( range_20
+O	range (_Normal 20_-
+O	20 Normal_range -_50
+O	- range_20 50_mg
+O	50 20_- mg_/
+O	mg -_50 /_dL
+O	/ 50_mg dL_)
+O	dL mg_/ )_.
+O	) /_dL
+O	. dL_)
+
+
+B-labintermod	High 	postcontext-0=context-ro liver_copper	live	iver	ver_	er_c	r_co	_cop	copp	oppe	pper
+O	liver copper_levels
+O	copper High_liver levels_>
+O	levels liver_copper >_250
+B-labrefrangemod	> 	postcontext-0=context-ro copper_levels 250_micrograms	copp	oppe	pper	per_	er_l	r_le	_lev	leve	evel	vels	250_	50_m	0_mi	_mic	micr	icro	crog	rogr	ogra	gram	rams
+B-labvalmod	250 	postcontext-0=context-ro levels_> micrograms_/	leve	evel	vels	els_	ls_>	micr	icro	crog	rogr	ogra	gram	rams	ams_	ms_/
+O	micrograms >_250 /_g
+B-labvalmod	micrograms/g  >_250 dry_weight	>_25	_250	dry_	ry_w	y_we	_wei	weig	eigh	ight
+O	/ 250_micrograms g_dry
+O	g micrograms_/ dry_weight
+O	dry /_g weight_(
+O	weight g_dry (_Normal
+O	( dry_weight Normal_range
+O	Normal weight_( range_<
+O	range (_Normal <_35
+O	< Normal_range 35_micrograms
+O	35 range_< micrograms_/
+O	micrograms <_35 /_g
+O	/ 35_micrograms g_dry
+O	g micrograms_/ dry_weight
+O	dry /_g weight_)
+O	weight g_dry )_.
+O	) dry_weight
+O	. weight_)
+
+
+B-labintermod	High 	postcontext-0=context-ro 24_hr	24_h	4_hr
+O	24 hr_urinary
+O	hr High_24 urinary_copper
+O	urinary 24_hr copper_levels
+O	copper hr_urinary levels_>
+O	levels urinary_copper >_100
+B-labrefrangemod	> 	postcontext-0=context-ro copper_levels 100_micrograms	copp	oppe	pper	per_	er_l	r_le	_lev	leve	evel	vels	100_	00_m	0_mi	_mic	micr	icro	crog	rogr	ogra	gram	rams
+B-labvalmod	100 	postcontext-0=context-ro levels_> micrograms_/	leve	evel	vels	els_	ls_>	micr	icro	crog	rogr	ogra	gram	rams	ams_	ms_/
+O	micrograms >_100 /_d
+B-labvalmod	micrograms /d  >_100	>_10	_100
+I-labvalmod	micrograms /d  >_100	>_10	_100
+O	/ 100_micrograms d_or
+O	d micrograms_/ or_>
+B-labintermod	or 	beforecontext-0=context-ro /_d >_1.6	>_1.	_1.6
+B-labrefrangemod	> 	postcontext-0=context-ro d_or 1.6_mmol	d_or	1.6_	.6_m	6_mm	_mmo	mmol
+B-labvalmod	1.6 	beforecontext-0=context-ro or_> mmol_/	or_>	mmol	mol_	ol_/
+O	mmol >_1.6 /_d
+B-labvalmod	mmol/d 	beforecontext-0=context-ro >_1.6 (_Normal	>_1.	_1.6	(_No	_Nor	Norm	orma	rmal
+O	/ 1.6_mmol d_(
+O	d mmol_/ (_Normal
+O	( /_d Normal_range
+O	Normal d_( range_<
+O	range (_Normal <_50
+O	< Normal_range 50_micrograms
+O	50 range_< micrograms_/
+O	micrograms <_50 /_d
+O	/ 50_micrograms d_or
+O	d micrograms_/ or_<
+O	or /_d <_0.8
+O	< d_or 0.8_mmol
+O	0.8 or_< mmol_/
+O	mmol <_0.8 /_d
+O	/ 0.8_mmol d_)
+O	d mmol_/ )_.
+O	) /_d
+O	. d_)
+
+
+
+
+O	AGA IgA_(
+B-entity	AGA IgA 	postcontext-0=context-if (_Specificity	(_Sp	_Spe	Spec	peci	ecif	cifi	ific	fici	icit	city
+I-entity	AGA IgA 	postcontext-0=context-if (_Specificity	(_Sp	_Spe	Spec	peci	ecif	cifi	ific	fici	icit	city
+O	IgA (_Specificity
+O	( AGA_IgA Specificity_:
+O	Specificity IgA_( :_65
+O	: (_Specificity 65_-
+O	65 Specificity_: -_100
+O	- :_65 100_)
+O	100 65_-
+O	) -_100
+
+
+O	AEA IgA_a
+B-entity	AEA IgA a  (_PPV	(_PP	_PPV
+I-entity	AEA IgA a  (_PPV	(_PP	_PPV
+I-entity	AEA IgA a  (_PPV	(_PP	_PPV
+O	IgA a_(
+O	a AEA_IgA (_PPV
+O	( IgA_a PPV_:
+O	PPV a_( :_98
+O	: (_PPV 98_-
+O	98 PPV_: -_100
+O	- :_98 100_)
+O	100 98_-
+O	) -_100
+
+
+
+
+O	Serologic Screening_Tests
+O	Screening Tests_for
+O	Tests Serologic_Screening for_the
+O	for Screening_Tests the_Diagnosis
+O	the Tests_for Diagnosis_of
+O	Diagnosis for_the of_CD
+O	of the_Diagnosis
+O	CD Diagnosis_of
+
+
+O	Raised red_cell
+B-labintermod	sed re 
+I-labintermod	sed re 
+O	red cell_mass
+B-entity	cell mass (R 	beforecontext-0=context-ed
+I-entity	cell mass (R 	beforecontext-0=context-ed
+I-entity	cell mass (R 	beforecontext-0=context-ed
+O	cell Raised_red mass_(
+O	mass red_cell (_RCM
+O	( cell_mass RCM_)
+O	RCM mass_( )_,
+O	) (_RCM ,_male
+B-entity	), 	beforecontext-0=context-ed (_RCM	(_RC	_RCM
+O	, RCM_) male_>
+O	male )_, >_36
+O	> ,_male 36_ml
+O	36 male_> ml_/
+B-labrefrangemod	6 	beforecontext-0=context-ed ml_/	ml_/
+B-labvalmod	ml 	beforecontext-0=context-ed >_36 /_kg	>_36	/_kg
+O	/ 36_ml kg_,
+O	kg ml_/ ,_female
+B-labvalmod	kg, f 	beforecontext-0=context-ed ml_/	ml_/
+I-labvalmod	kg, f 	beforecontext-0=context-ed ml_/	ml_/
+O	, /_kg female_>
+O	female kg_, >_32
+O	> ,_female 32_ml
+O	32 female_> ml_/
+B-labrefrangemod	2 	beforecontext-0=context-ed ml_/	ml_/
+B-labvalmod	ml 	beforecontext-0=context-ed >_32 /_kg	>_32	/_kg
+O	/ 32_ml
+O	kg ml_/
+
+
+O	Vitamin K_deficiency
+O	K deficiency_or
+O	deficiency Vitamin_K or_use
+O	or K_deficiency use_of
+O	use deficiency_or of_vitamin
+O	of or_use vitamin_K
+O	vitamin use_of K_antagonist
+O	K of_vitamin antagonist_(
+O	antagonist vitamin_K (_Prothrombin
+O	( K_antagonist Prothrombin_Time
+O	Prothrombin antagonist_( Time_:
+O	Time (_Prothrombin :_Prolonged
+O	: Prothrombin_Time Prolonged_)
+B-labintermod	Prolonged 	beforecontext-0=context-ro Time_:	Time	ime_	me_:
+O	) :_Prolonged
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O	Serum B12_>
+B-entity	Serum B12  >_900	>_90	_900
+I-entity	Serum B12  >_900	>_90	_900
+O	B12 >_900
+B-labrefrangemod	>  Serum_B12 900_pg	Seru	erum	rum_	um_B	m_B1	_B12	900_	00_p	0_pg
+B-labvalmod	900  B12_> pg_/	B12_	12_>	pg_/
+O	pg >_900 /_ml
+B-labvalmod	pg/ml  >_900 or_unbound	>_90	_900	or_u	r_un	_unb	unbo	nbou	boun	ound
+O	/ 900_pg ml_or
+O	ml pg_/ or_unbound
+B-labintermod	or  /_ml unbound_B12	/_ml	unbo	nbou	boun	ound	und_	nd_B	d_B1	_B12
+O	unbound ml_or B12_binding
+O	B12 or_unbound binding_capacity
+B-entity	B12 binding capacity  or_unbound >_220	or_u	r_un	_unb	unbo	nbou	boun	ound	>_22	_220
+I-entity	B12 binding capacity  or_unbound >_220	or_u	r_un	_unb	unbo	nbou	boun	ound	>_22	_220
+I-entity	B12 binding capacity  or_unbound >_220	or_u	r_un	_unb	unbo	nbou	boun	ound	>_22	_220
+O	binding unbound_B12 capacity_>
+O	capacity B12_binding >_220
+B-labrefrangemod	>  binding_capacity 220_pg	bind	indi	ndin	ding	ing_	ng_c	g_ca	_cap	capa	apac	paci	acit	city	220_	20_p	0_pg
+B-labvalmod	220  capacity_> pg_/	capa	apac	paci	acit	city	ity_	ty_>	pg_/
+O	pg >_220 /_ml
+B-labvalmod	pg/ml  >_220	>_22	_220
+O	/ 220_pg
+O	ml pg_/
+
+
+B-labintermod	Raised  RCM_or	RCM_	CM_o	M_or
+B-entity	RCM 	beforecontext-0=context-ed or_hematocrit	Rais	aise	ised	or_h	r_he	_hem	hema	emat	mato	atoc	tocr	ocri	crit
+B-labintermod	or 	beforecontext-0=context-ed Raised_RCM hematocrit_(	Rais	aise	ised	sed_	ed_R	d_RC	_RCM	hema	emat	mato	atoc	tocr	ocri	crit	rit_	it_(
+O	hematocrit RCM_or (_HCT
+O	( or_hematocrit HCT_)
+O	HCT hematocrit_(
+O	) (_HCT
+
+
+B-labrefrangemod	>  0.60_(	0.60	.60_	60_(
+B-labvalmod	0.60  (_males	(_ma	_mal	male	ales
+O	( >_0.60 males_)
+O	males 0.60_( )_,
+O	) (_males ,_>
+O	, males_) >_0.56
+B-labrefrangemod	>  )_, 0.56_(	0.56	.56_	56_(
+B-labvalmod	0.56  ,_> (_females	(_fe	_fem	fema	emal	male	ales
+O	( >_0.56 females_)
+O	females 0.56_(
+O	) (_females
+
+
+B-labintermod	Exclusion 	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no of_active	of_a	f_ac	_act	acti	ctiv	tive
+O	of active_viral
+O	active Exclusion_of viral_infection
+O	viral of_active infection_both
+O	infection active_viral both_in
+O	both viral_infection in_pericardial
+O	in infection_both pericardial_effusion
+O	pericardial both_in effusion_and
+O	effusion in_pericardial and_endomyocardial
+B-labintermod	and 	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no pericardial_effusion endomyocardial_/	peri	eric	rica	icar	card	ardi	rdia	dial	ial_	al_e	l_ef	_eff	effu	ffus	fusi	usio	sion	endo	ndom	domy	omyo	myoc	yoca	ocar	card	ardi	rdia	dial	ial_	al_/
+O	endomyocardial effusion_and /_epimyocardial
+O	/ and_endomyocardial epimyocardial_biopsies
+O	epimyocardial endomyocardial_/ biopsies_(
+O	biopsies /_epimyocardial (_no
+O	( epimyocardial_biopsies no_virus
+O	no biopsies_( virus_isolation
+O	virus (_no isolation_,
+O	isolation no_virus ,_no
+O	, virus_isolation no_IgM
+B-labintermod	no 	postcontext-0=context-ro	postcontext-1=context-negative isolation_, IgM_-	isol	sola	olat	lati	atio	tion	ion_	on_,	IgM_	gM_-
+O	IgM ,_no -_titer
+O	- no_IgM titer_against
+O	titer IgM_- against_cardiotropic
+O	against -_titer cardiotropic_viruses
+O	cardiotropic titer_against viruses_in
+O	viruses against_cardiotropic in_pericardial
+O	in cardiotropic_viruses pericardial_effusion
+O	pericardial viruses_in effusion_,
+O	effusion in_pericardial ,_and
+O	, pericardial_effusion and_negative
+B-labintermod	and 	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no effusion_, negative_PCR	effu	ffus	fusi	usio	sion	ion_	on_,	nega	egat	gati	ativ	tive	ive_	ve_P	e_PC	_PCR
+B-labintermod	negative 	beforecontext-0=context-ro	beforecontext-2=context-no ,_and PCR_for	,_an	_and	PCR_	CR_f	R_fo	_for
+O	PCR and_negative for_major
+O	for negative_PCR major_cardiotropic
+O	major PCR_for cardiotropic_viruses
+O	cardiotropic for_major viruses_)
+O	viruses major_cardiotropic )_;
+O	) cardiotropic_viruses
+O	; viruses_)
+
+
+O	Neutrophil count_>
+O	count >_10
+B-labrefrangemod	> 	beforecontext-0=context-ro Neutrophil_count 10_x	Neut	eutr	utro	trop	roph	ophi	phil	hil_	il_c	l_co	_cou	coun	ount	10_x
+O	10 count_> x_109
+B-labvalmod	10 x 109 	beforecontext-0=context-ro count_> /_l	coun	ount	unt_	nt_>
+I-labvalmod	10 x 109 	beforecontext-0=context-ro count_> /_l	coun	ount	unt_	nt_>
+I-labvalmod	10 x 109 	beforecontext-0=context-ro count_> /_l	coun	ount	unt_	nt_>
+O	x >_10 109_/
+O	109 10_x /_l
+O	/ x_109
+B-labvalmod	/l 	beforecontext-0=context-ro x_109	x_10	_109
+O	l 109_/
+
+
+B-labintermod	Low 	postcontext-0=context-ro serum_EPO	seru	erum	rum_	um_E	m_EP	_EPO
+O	serum EPO_or
+B-entity	serum EPO 	postcontext-0=context-ro or_characteristic	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic
+I-entity	serum EPO 	postcontext-0=context-ro or_characteristic	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic
+O	EPO Low_serum or_characteristic
+B-labintermod	or 	postcontext-0=context-ro serum_EPO characteristic_burst	seru	erum	rum_	um_E	m_EP	_EPO	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic	tic_	ic_b	c_bu	_bur	burs	urst
+O	characteristic EPO_or burst_forming
+O	burst or_characteristic forming_units
+B-entity	burst forming units - erythroid  or_characteristic (_BFU	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic	(_BF	_BFU
+I-entity	burst forming units - erythroid  or_characteristic (_BFU	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic	(_BF	_BFU
+I-entity	burst forming units - erythroid  or_characteristic (_BFU	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic	(_BF	_BFU
+I-entity	burst forming units - erythroid  or_characteristic (_BFU	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic	(_BF	_BFU
+I-entity	burst forming units - erythroid  or_characteristic (_BFU	or_c	r_ch	_cha	char	hara	arac	ract	acte	cter	teri	eris	rist	isti	stic	(_BF	_BFU
+O	forming characteristic_burst units_-
+O	units burst_forming -_erythroid
+O	- forming_units erythroid_(
+O	erythroid units_- (_BFU
+O	( -_erythroid BFU_-
+O	BFU erythroid_( -_E
+O	- (_BFU E_)
+O	E BFU_-
+O	) -_E
+
+
+B-labintermod	growth 
+
+
+
+
+O	Serum triglycerides_>
+O	triglycerides >_/
+O	> Serum_triglycerides /_=
+B-labrefrangemod	>/=  Serum_triglycerides 150_mg	Seru	erum	rum_	um_t	m_tr	_tri	trig	rigl	igly	glyc	lyce	ycer	ceri	erid	ride	ides	150_	50_m	0_mg
+O	/ triglycerides_> =_150
+O	= >_/ 150_mg
+B-labvalmod	150  /_= mg_/	mg_/
+O	mg =_150 /_dL
+B-labvalmod	mg/dL  =_150 (_>	=_15	_150
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod	>/=  dL_( 1.7_mmol	dL_(	1.7_	.7_m	7_mm	_mmo	mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod	1.7  /_= mmol_/	mmol	mol_	ol_/
+O	mmol =_1.7 /_L
+B-labvalmod	mmol/L  =_1.7	=_1.	_1.7
+O	/ 1.7_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	HDL -_Cholesterol
+B-entity	HDL-Cholesterol  <_40	<_40
+O	- Cholesterol_<
+O	Cholesterol HDL_- <_40
+B-labrefrangemod	< 	beforecontext-0=context-ro -_Cholesterol 40_mg	-_Ch	_Cho	Chol	hole	oles	lest	este	ster	tero	erol	40_m	0_mg
+B-labvalmod	40 	beforecontext-0=context-ro Cholesterol_< mg_/	Chol	hole	oles	lest	este	ster	tero	erol	rol_	ol_<	mg_/
+O	mg <_40 /_dL
+B-labvalmod	mg/dL 	beforecontext-0=context-ro <_40 (_<	<_40
+O	/ 40_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.0
+B-labrefrangemod	< 	beforecontext-0=context-ro dL_( 1.0_mmol	dL_(	1.0_	.0_m	0_mm	_mmo	mmol
+B-labvalmod	1.0 	beforecontext-0=context-ro (_< mmol_/	mmol	mol_	ol_/
+O	mmol <_1.0 /_L
+B-labvalmod	mmol/L 	beforecontext-0=context-ro <_1.0 )_in	<_1.	_1.0	)_in
+O	/ 1.0_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_men
+O	in L_) men_and
+O	men )_in and_<
+B-labintermod	and 	beforecontext-0=context-ro in_men <_50	in_m	n_me	_men	<_50
+B-labrefrangemod	< 	beforecontext-0=context-ro men_and 50_mg	men_	en_a	n_an	_and	50_m	0_mg
+B-labvalmod	50 	beforecontext-0=context-ro and_< mg_/	and_	nd_<	mg_/
+O	mg <_50 /_dL
+B-labvalmod	mg/dL 	beforecontext-0=context-ro <_50 (_<	<_50
+O	/ 50_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.3
+B-labrefrangemod	< 	beforecontext-0=context-ro dL_( 1.3_mmol	dL_(	1.3_	.3_m	3_mm	_mmo	mmol
+B-labvalmod	1.3 	beforecontext-0=context-ro (_< mmol_/	mmol	mol_	ol_/
+O	mmol <_1.3 /_L
+B-labvalmod	mmol/L 	beforecontext-0=context-ro <_1.3 )_in	<_1.	_1.3	)_in
+O	/ 1.3_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_women
+O	in L_)
+O	women )_in
+
+
+O	Fasting glucose_110
+B-entity	Fasting glucose  110_to	110_	10_t	0_to
+I-entity	Fasting glucose  110_to	110_	10_t	0_to
+O	glucose 110_to
+B-labvalmod	110  Fasting_glucose to_126	Fast	asti	stin	ting	ing_	ng_g	g_gl	_glu	gluc	luco	ucos	cose	to_1	o_12	_126
+O	to glucose_110 126_mg
+B-labvalmod	126  110_to mg_/	110_	10_t	0_to	mg_/
+O	mg to_126 /_dL
+B-labvalmod	mg/dL  to_126 (_6.1	to_1	o_12	_126	(_6.	_6.1
+O	/ 126_mg dL_(
+O	dL mg_/ (_6.1
+O	( /_dL 6.1_to
+B-labvalmod	6.1  dL_( to_7.0	dL_(	to_7	o_7.	_7.0
+O	to (_6.1 7.0_mmol
+B-labvalmod	7.0  6.1_to mmol_/	6.1_	.1_t	1_to	mmol	mol_	ol_/
+O	mmol to_7.0 /_L
+B-labvalmod	mmol/L  to_7.0	to_7	o_7.	_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	( 100_mg
+B-labvalmod	100  mg_/	mg_/
+O	mg (_100 /_dL
+B-labvalmod	mg/dL  (_100 _>	(_10	_100
+O	/ 100_mg dL_
+O	dL mg_/ _>
+O	[ /_dL >_/
+O	> dL_ /_=
+B-labrefrangemod	>/=  dL_ 5.6_mmol	5.6_	.6_m	6_mm	_mmo	mmol
+O	/ _> =_5.6
+O	= >_/ 5.6_mmol
+B-labvalmod	5.6  /_= mmol_/	mmol	mol_	ol_/
+O	mmol =_5.6 /_L
+B-labvalmod	mmol/L  =_5.6	=_5.	_5.6
+O	/ 5.6_mmol L_
+O	L mmol_/
+O	] /_L
+
+
+O	may be_applicable
+O	be applicable_)
+O	applicable may_be
+O	) be_applicable
+
+
+O	Serum triglycerides_150
+O	triglycerides 150_mg
+B-labvalmod	150  Serum_triglycerides mg_/	Seru	erum	rum_	um_t	m_tr	_tri	trig	rigl	igly	glyc	lyce	ycer	ceri	erid	ride	ides	mg_/
+O	mg triglycerides_150 /_dL
+B-labvalmod	mg/dL  triglycerides_150 (_>	trig	rigl	igly	glyc	lyce	ycer	ceri	erid	ride	ides	des_	es_1	s_15	_150
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod	>/=  dL_( 1.7_mmol	dL_(	1.7_	.7_m	7_mm	_mmo	mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod	1.7  /_= mmol_/	mmol	mol_	ol_/
+O	mmol =_1.7 /_l
+B-labvalmod	mmol/l  =_1.7	=_1.	_1.7
+O	/ 1.7_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+B-labintermod	or 	postcontext-0=context-ro HDL_cholesterol	HDL_	DL_c	L_ch	_cho	chol	hole	oles	lest	este	ster	tero	erol
+O	HDL cholesterol_<
+O	cholesterol or_HDL <_36
+B-labrefrangemod	< 	beforecontext-0=context-ro HDL_cholesterol 36_mg	HDL_	DL_c	L_ch	_cho	chol	hole	oles	lest	este	ster	tero	erol	36_m	6_mg
+B-labvalmod	36 	beforecontext-0=context-ro cholesterol_< mg_/	chol	hole	oles	lest	este	ster	tero	erol	rol_	ol_<	mg_/
+O	mg <_36 /_dL
+B-labvalmod	mg/dL 	beforecontext-0=context-ro <_36 (_<	<_36
+O	/ 36_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_0.9
+B-labrefrangemod	< 	beforecontext-0=context-ro dL_( 0.9_mmol	dL_(	0.9_	.9_m	9_mm	_mmo	mmol
+B-labvalmod	0.9 	beforecontext-0=context-ro (_< mmol_/	mmol	mol_	ol_/
+O	mmol <_0.9 /_l
+B-labvalmod	mmol/l 	beforecontext-0=context-ro <_0.9 )_in	<_0.	_0.9	)_in
+O	/ 0.9_mmol l_)
+O	l mmol_/ )_in
+O	) /_l in_men
+O	in l_) men_and
+O	men )_in and_<
+B-labintermod	and 	beforecontext-0=context-ro in_men <_40	in_m	n_me	_men	<_40
+B-labrefrangemod	< 	beforecontext-0=context-ro men_and 40_mg	men_	en_a	n_an	_and	40_m	0_mg
+B-labvalmod	40 	beforecontext-0=context-ro and_< mg_/	and_	nd_<	mg_/
+O	mg <_40 /_dL
+B-labvalmod	mg/dL 	beforecontext-0=context-ro <_40 (_<	<_40
+O	/ 40_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.0
+B-labrefrangemod	< 	beforecontext-0=context-ro dL_( 1.0_mmol	dL_(	1.0_	.0_m	0_mm	_mmo	mmol
+B-labvalmod	1.0 	beforecontext-0=context-ro (_< mmol_/	mmol	mol_	ol_/
+O	mmol <_1.0 /_l
+B-labvalmod	mmol/l 	beforecontext-0=context-ro <_1.0 )_in	<_1.	_1.0	)_in
+O	/ 1.0_mmol l_)
+O	l mmol_/ )_in
+O	) /_l in_women
+O	in l_) women_.
+O	women )_in
+O	. in_women
+
+
+O	Urinary albumin_excretion
+B-entity	Urinary albumin excretion rate  >_20	>_20
+I-entity	Urinary albumin excretion rate  >_20	>_20
+I-entity	Urinary albumin excretion rate  >_20	>_20
+I-entity	Urinary albumin excretion rate  >_20	>_20
+O	albumin excretion_rate
+O	excretion Urinary_albumin rate_>
+O	rate albumin_excretion >_20
+B-labrefrangemod	>  excretion_rate 20_mcg	excr	xcre	cret	reti	etio	tion	ion_	on_r	n_ra	_rat	rate	20_m	0_mc	_mcg
+B-labvalmod	20  rate_> mcg_/	rate	ate_	te_>	mcg_	cg_/
+O	mcg >_20 /_min
+B-labvalmod	mcg/min  >_20 or_albumin	>_20	or_a	r_al	_alb	albu	lbum	bumi	umin
+O	/ 20_mcg min_or
+O	min mcg_/ or_albumin
+B-labintermod	or  /_min albumin_to	/_mi	_min	albu	lbum	bumi	umin	min_	in_t	n_to
+O	albumin min_or to_creatinine
+B-entity	albumin to creatinine ratio  min_or >_/	min_	in_o	n_or
+I-entity	albumin to creatinine ratio  min_or >_/	min_	in_o	n_or
+I-entity	albumin to creatinine ratio  min_or >_/	min_	in_o	n_or
+I-entity	albumin to creatinine ratio  min_or >_/	min_	in_o	n_or
+O	to or_albumin creatinine_ratio
+O	creatinine albumin_to ratio_>
+O	ratio to_creatinine >_/
+O	> creatinine_ratio /_=
+B-labrefrangemod	>/=  creatinine_ratio 30_mg	crea	reat	eati	atin	tini	inin	nine	ine_	ne_r	e_ra	_rat	rati	atio	30_m	0_mg
+O	/ ratio_> =_30
+O	= >_/ 30_mg
+B-labvalmod	30  /_= mg_/	mg_/
+O	mg =_30 /_g
+B-labvalmod	mg/g  =_30	=_30
+O	/ 30_mg
+O	g mg_/
+
+
+B-labintermod	Raised  triglycerides_(	trig	rigl	igly	glyc	lyce	ycer	ceri	erid	ride	ides	des_	es_(
+O	triglycerides (_TG
+O	( Raised_triglycerides TG_)
+B-entity	TG 	beforecontext-0=context-ed triglycerides_(	trig	rigl	igly	glyc	lyce	ycer	ceri	erid	ride	ides	des_	es_(
+O	) (_TG
+
+
+O	level
+O	:
+
+
+O	> /_=
+B-labrefrangemod	>/= 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 150_mg	150_	50_m	0_mg
+O	/ =_150
+O	= >_/ 150_mg
+B-labvalmod	150 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no /_= mg_/	mg_/
+O	mg =_150 /_dL
+B-labvalmod	mg/dL 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no =_150 (_1.7	=_15	_150	(_1.	_1.7
+O	/ 150_mg dL_(
+O	dL mg_/ (_1.7
+O	( /_dL 1.7_mmol
+B-labvalmod	1.7 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/	dL_(	mmol	mol_	ol_/
+O	mmol (_1.7 /_L
+B-labvalmod	mmol/L 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.7 )_,	(_1.	_1.7
+O	/ 1.7_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_specific
+B-labintermod	or 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no )_, specific_treatment	spec	peci	ecif	cifi	ific	fic_	ic_t	c_tr	_tre	trea	reat	eatm	atme	tmen	ment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+
+
+B-labintermod	Reduced 	postcontext-0=context-ro HDL_cholesterol	HDL_	DL_c	L_ch	_cho	chol	hole	oles	lest	este	ster	tero	erol
+O	HDL cholesterol_:
+O	cholesterol Reduced_HDL
+O	: HDL_cholesterol
+
+
+B-labrefrangemod	< 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 40_mg	40_m	0_mg
+B-labvalmod	40 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no mg_/	mg_/
+O	mg <_40 /_dL
+B-labvalmod	mg/dL 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no <_40 (_1.03	<_40	(_1.	_1.0	1.03
+O	/ 40_mg dL_(
+O	dL mg_/ (_1.03
+O	( /_dL 1.03_mmol
+B-labvalmod	1.03 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/	dL_(	mmol	mol_	ol_/
+O	mmol (_1.03 /_L
+B-labvalmod	mmol/L 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.03 )_in	(_1.	_1.0	1.03	)_in
+O	/ 1.03_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_males
+O	in L_) males_and
+O	males )_in and_<
+B-labintermod	and 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no in_males <_50	in_m	n_ma	_mal	male	ales	<_50
+B-labrefrangemod	< 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no males_and 50_mg	male	ales	les_	es_a	s_an	_and	50_m	0_mg
+B-labvalmod	50 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no and_< mg_/	and_	nd_<	mg_/
+O	mg <_50 /_dL
+B-labvalmod	mg/dL 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no <_50 (_1.29	<_50	(_1.	_1.2	1.29
+O	/ 50_mg dL_(
+O	dL mg_/ (_1.29
+O	( /_dL 1.29_mmol
+B-labvalmod	1.29 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/	dL_(	mmol	mol_	ol_/
+O	mmol (_1.29 /_L
+B-labvalmod	mmol/L 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.29 )_in	(_1.	_1.2	1.29	)_in
+O	/ 1.29_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_females
+O	in L_) females_,
+O	females )_in ,_or
+O	, in_females or_specific
+B-labintermod	or 	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no females_, specific_treatment	fema	emal	male	ales	les_	es_,	spec	peci	ecif	cifi	ific	fic_	ic_t	c_tr	_tre	trea	reat	eatm	atme	tmen	ment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+
+
+O	Tuberculosis ,_Borrelia
+O	, Borrelia_burgdorferi
+O	Borrelia Tuberculosis_, burgdorferi_,
+O	burgdorferi ,_Borrelia ,_Chlamydia
+O	, Borrelia_burgdorferi Chlamydia_pneumoniae
+O	Chlamydia burgdorferi_, pneumoniae_,
+O	pneumoniae ,_Chlamydia ,_and
+O	, Chlamydia_pneumoniae and_other
+B-labintermod	and 	postcontext-0=context-ed	postcontext-1=context-her pneumoniae_, other_bacterial	pneu	neum	eumo	umon	moni	onia	niae	iae_	ae_,	othe	ther	her_	er_b	r_ba	_bac	bact	acte	cter	teri	eria	rial
+O	other ,_and bacterial_infection
+O	bacterial and_other infection_excluded
+O	infection other_bacterial excluded_by
+B-labintermod	excluded 	beforecontext-1=context-her bacterial_infection by_PCR	bact	acte	cter	teri	eria	rial	ial_	al_i	l_in	_inf	infe	nfec	fect	ecti	ctio	tion	by_P	y_PC	_PCR
+O	by infection_excluded PCR_and
+O	PCR excluded_by and_/
+O	and by_PCR /_or
+O	/ PCR_and or_cultures
+O	or and_/ cultures_;
+O	cultures /_or
+O	; or_cultures
+
+
+B-labintermod	Raised  fasting_plasma	fast	asti	stin	ting	ing_	ng_p	g_pl	_pla	plas	lasm	asma
+O	fasting plasma_glucose
+B-entity	fasting plasma glucose 	beforecontext-0=context-ed (_FPG	Rais	aise	ised	(_FP	_FPG
+I-entity	fasting plasma glucose 	beforecontext-0=context-ed (_FPG	Rais	aise	ised	(_FP	_FPG
+I-entity	fasting plasma glucose 	beforecontext-0=context-ed (_FPG	Rais	aise	ised	(_FP	_FPG
+O	plasma Raised_fasting glucose_(
+O	glucose fasting_plasma (_FPG
+O	( plasma_glucose FPG_)
+B-entity	FPG 	beforecontext-0=context-ed glucose_(	gluc	luco	ucos	cose	ose_	se_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod	>/= 	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no 100_mg	100_	00_m	0_mg
+O	/ =_100
+O	= >_/ 100_mg
+B-labvalmod	100 	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no /_= mg_/	mg_/
+O	mg =_100 /_dL
+B-labvalmod	mg/dL 	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no =_100 (_5.6	=_10	_100	(_5.	_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod	5.6 	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no dL_( mmol_/	dL_(	mmol	mol_	ol_/
+O	mmol (_5.6 /_L
+B-labvalmod	mmol/L 	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no (_5.6 )_,	(_5.	_5.6
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_previously
+B-labintermod	or 	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no )_, previously_diagnosed	prev	revi	evio	viou	ious	ousl	usly	sly_	ly_d	y_di	_dia	diag	iagn	agno	gnos	nose	osed
+O	previously ,_or diagnosed_type
+O	diagnosed or_previously type_2
+O	type previously_diagnosed 2_diabetes
+O	2 diagnosed_type diabetes_.
+O	diabetes type_2
+O	. 2_diabetes
+
+
+O	If above_5.6
+B-labintermod	above  5.6_mmol	5.6_	.6_m	6_mm	_mmo	mmol
+B-labvalmod	5.6  If_above mmol_/	If_a	f_ab	_abo	abov	bove	mmol	mol_	ol_/
+O	mmol above_5.6 /_L
+B-labvalmod	mmol/L  above_5.6 or_100	abov	bove	ove_	ve_5	e_5.	_5.6	or_1	r_10	_100
+O	/ 5.6_mmol L_or
+O	L mmol_/ or_100
+O	or /_L 100_mg
+B-labvalmod	100  L_or mg_/	L_or	mg_/
+O	mg or_100 /_dL
+B-labvalmod	mg/dL  or_100 ,_oral	or_1	r_10	_100	,_or	_ora	oral
+O	/ 100_mg dL_,
+O	dL mg_/ ,_oral
+O	, /_dL oral_glucose
+O	oral dL_, glucose_tolerance
+B-entity	oral glucose tolerance test  dL_,	dL_,
+I-entity	oral glucose tolerance test  dL_,	dL_,
+I-entity	oral glucose tolerance test  dL_,	dL_,
+I-entity	oral glucose tolerance test  dL_,	dL_,
+O	glucose ,_oral tolerance_test
+O	tolerance oral_glucose test_(
+O	test glucose_tolerance (_OGTT
+O	( tolerance_test OGTT_)
+B-entity	OGTT  test_(	test	est_	st_(
+O	) (_OGTT
+
+
+O	is strongly_recommended
+O	strongly recommended_but
+O	recommended is_strongly but_is
+O	but strongly_recommended is_not
+O	is recommended_but not_necessary
+O	not but_is necessary_to
+O	necessary is_not to_define
+O	to not_necessary define_presence
+O	define necessary_to presence_of
+O	presence to_define of_the
+O	of define_presence the_syndrome
+O	the presence_of
+O	syndrome of_the
+
+
+O	evidence of_elevated
+O	of elevated_cardiac
+B-labintermod	elevated 	postcontext-0=context-ro evidence_of cardiac_enzymes	evid	vide	iden	denc	ence	nce_	ce_o	e_of	card	ardi	rdia	diac	iac_	ac_e	c_en	_enz	enzy	nzym	zyme	ymes
+O	cardiac of_elevated enzymes_(
+B-entity	cardiac enzymes 	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine	of_e	f_el	_ele	elev	leva	evat	vate	ated	(_cr	_cre	crea	reat	eati	atin	tine
+I-entity	cardiac enzymes 	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine	of_e	f_el	_ele	elev	leva	evat	vate	ated	(_cr	_cre	crea	reat	eati	atin	tine
+O	enzymes elevated_cardiac (_creatine
+O	( cardiac_enzymes creatine_kinase
+O	creatine enzymes_( kinase_-
+O	kinase (_creatine -_MB
+O	- creatine_kinase MB_fraction
+O	MB kinase_- fraction_,
+O	fraction -_MB ,_or
+O	, MB_fraction or_troponin
+B-labintermod	or 	postcontext-0=context-ro	beforecontext-1=context-ed fraction_, troponin_I	frac	ract	acti	ctio	tion	ion_	on_,	trop	ropo	opon	poni	onin	nin_	in_I
+O	troponin ,_or I_or
+O	I or_troponin or_T
+B-labintermod	or 	postcontext-0=context-ro	beforecontext-1=context-ed troponin_I T_)	trop	ropo	opon	poni	onin	nin_	in_I
+O	T I_or )_or
+O	) or_T
+B-labintermod	or 	postcontext-0=context-ro	beforecontext-1=context-ed T_)
+
+
+
+
+
+
+
+
+O	Fasting Plasma_Glucose
+B-entity	Fasting Plasma Glucose  (_FPG	(_FP	_FPG
+I-entity	Fasting Plasma Glucose  (_FPG	(_FP	_FPG
+I-entity	Fasting Plasma Glucose  (_FPG	(_FP	_FPG
+O	Plasma Glucose_(
+O	Glucose Fasting_Plasma (_FPG
+O	( Plasma_Glucose FPG_)
+B-entity	FPG  Glucose_(	Gluc	luco	ucos	cose	ose_	se_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod	>/=  126_mg	126_	26_m	6_mg
+O	/ =_126
+O	= >_/ 126_mg
+B-labvalmod	126  /_= mg_/	mg_/
+O	mg =_126 /_dl
+B-labvalmod	mg/dl  =_126 (_7.0	=_12	_126	(_7.	_7.0
+O	/ 126_mg dl_(
+O	dl mg_/ (_7.0
+O	( /_dl 7.0_mmol
+B-labvalmod	7.0  dl_( mmol_/	dl_(	mmol	mol_	ol_/
+O	mmol (_7.0 /_l
+B-labvalmod	mmol/l  (_7.0	(_7.	_7.0
+O	/ 7.0_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+O	Two -_hour
+O	- hour_postload
+O	hour Two_- postload_glucose
+O	postload -_hour glucose_>
+O	glucose hour_postload >_/
+O	> postload_glucose /_=
+B-labrefrangemod	>/=  postload_glucose 200_mg	post	ostl	stlo	tloa	load	oad_	ad_g	d_gl	_glu	gluc	luco	ucos	cose	200_	00_m	0_mg
+O	/ glucose_> =_200
+O	= >_/ 200_mg
+B-labvalmod	200  /_= mg_/	mg_/
+O	mg =_200 /_dl
+B-labvalmod	mg/dl  =_200 (_11.1	=_20	_200	(_11	_11.	11.1
+O	/ 200_mg dl_(
+O	dl mg_/ (_11.1
+O	( /_dl 11.1_mmol
+B-labvalmod	11.1  dl_( mmol_/	dl_(	mmol	mol_	ol_/
+O	mmol (_11.1 /_l
+B-labvalmod	mmol/l  (_11.1	(_11	_11.	11.1
+O	/ 11.1_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+O	during an_Oral
+O	an Oral_Glucose
+O	Oral during_an Glucose_Tolerance
+B-entity	Oral Glucose Tolerance Test  during_an (_OGTT	duri	urin	ring	ing_	ng_a	g_an	(_OG	_OGT	OGTT
+I-entity	Oral Glucose Tolerance Test  during_an (_OGTT	duri	urin	ring	ing_	ng_a	g_an	(_OG	_OGT	OGTT
+I-entity	Oral Glucose Tolerance Test  during_an (_OGTT	duri	urin	ring	ing_	ng_a	g_an	(_OG	_OGT	OGTT
+I-entity	Oral Glucose Tolerance Test  during_an (_OGTT	duri	urin	ring	ing_	ng_a	g_an	(_OG	_OGT	OGTT
+O	Glucose an_Oral Tolerance_Test
+O	Tolerance Oral_Glucose Test_(
+O	Test Glucose_Tolerance (_OGTT
+O	( Tolerance_Test OGTT_)
+B-entity	OGTT  Test_( )_.	Test	est_	st_(
+O	) (_OGTT
+O	. OGTT_)
+
+
+
+
+
+
+O	Fasting glucose_level
+B-entity	Fasting glucose  level_>	leve	evel	vel_	el_>
+I-entity	Fasting glucose  level_>	leve	evel	vel_	el_>
+O	glucose level_>
+O	level Fasting_glucose >_/
+O	> glucose_level /_=
+B-labrefrangemod	>/=  glucose_level 100_mg	gluc	luco	ucos	cose	ose_	se_l	e_le	_lev	leve	evel	100_	00_m	0_mg
+O	/ level_> =_100
+O	= >_/ 100_mg
+B-labvalmod	100  /_= mg_/	mg_/
+O	mg =_100 /_dL
+B-labvalmod	mg/dL  =_100 (_5.6	=_10	_100	(_5.	_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod	5.6  dL_( mmol_/	dL_(	mmol	mol_	ol_/
+O	mmol (_5.6 /_L
+B-labvalmod	mmol/L  (_5.6 )_and	(_5.	_5.6	)_an	_and
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_and
+O	) /_L and_<
+B-labintermod	and  L_) <_126	<_12	_126
+B-labrefrangemod	<  )_and 126_mg	)_an	_and	126_	26_m	6_mg
+B-labvalmod	126  and_< mg_/	and_	nd_<	mg_/
+O	mg <_126 /_dL
+B-labvalmod	mg/dL  <_126 (_7.0	<_12	_126	(_7.	_7.0
+O	/ 126_mg dL_(
+O	dL mg_/ (_7.0
+O	( /_dL 7.0_mmol
+B-labvalmod	7.0  dL_( mmol_/	dL_(	mmol	mol_	ol_/
+O	mmol (_7.0 /_L
+B-labvalmod	mmol/L  (_7.0	(_7.	_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	Biopsies of_the
+O	of the_esophageal
+O	the Biopsies_of esophageal_mucosa
+O	esophageal of_the mucosa_reveal
+O	mucosa the_esophageal reveal_a
+O	reveal esophageal_mucosa a_dense
+O	a mucosa_reveal dense_eosinophilic
+O	dense reveal_a eosinophilic_infiltration
+O	eosinophilic a_dense infiltration_(
+O	infiltration dense_eosinophilic (_ie
+O	( eosinophilic_infiltration ie_,
+O	ie infiltration_( ,_>
+O	, (_ie >_/
+O	> ie_, /_=
+B-labrefrangemod	>/= 	beforecontext-0=context-no ie_, 20_eosinophils	ie_,	20_e	0_eo	_eos	eosi	osin	sino	inop	noph	ophi	phil	hils
+O	/ ,_> =_20
+O	= >_/ 20_eosinophils
+B-labvalmod	20 	beforecontext-0=context-no /_= eosinophils_/	eosi	osin	sino	inop	noph	ophi	phil	hils	ils_	ls_/
+O	eosinophils =_20 /_HPF
+B-labvalmod	eosinophils/HPF 	beforecontext-0=context-no =_20 )_.	=_20
+O	/ 20_eosinophils HPF_)
+O	HPF eosinophils_/ )_.
+O	) /_HPF
+O	. HPF_)
+
+
+
+
+O	Acute (_active
+O	( active_)
+O	active Acute_(
+O	) (_active
+
+
+O	myocarditis
+O	:
+
+
+O	a clear_-
+O	clear -_cut
+O	- a_clear cut_infiltrate
+O	cut clear_- infiltrate_(
+O	infiltrate -_cut (_diffuse
+O	( cut_infiltrate diffuse_,
+O	diffuse infiltrate_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod	or 	postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_)	,_fo	_foc	foca	ocal	conf	onfl	nflu	flue	luen	uent	ent_	nt_)
+O	confluent focal_or )_of
+O	) or_confluent of_>
+O	of confluent_) >_14
+B-labrefrangemod	> 	postcontext-0=context-ed	beforecontext-1=context-if )_of 14_leukocytes	)_of	14_l	4_le	_leu	leuk	euko	ukoc	kocy	ocyt	cyte	ytes
+B-labvalmod	14 	postcontext-0=context-ed	beforecontext-1=context-if of_> leukocytes_/	of_>	leuk	euko	ukoc	kocy	ocyt	cyte	ytes	tes_	es_/
+O	leukocytes >_14 /_mm2
+B-labvalmod	leukocytes/mm2 	postcontext-0=context-ed	beforecontext-1=context-if >_14 (_preferably	>_14	(_pr	_pre	pref	refe	efer	fera	erab	rabl	ably
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_preferably
+O	( /_mm2 preferably_activated
+O	preferably mm2_( activated_T
+B-labintermod	activated 	beforecontext-1=context-if (_preferably T_cells	(_pr	_pre	pref	refe	efer	fera	erab	rabl	ably	T_ce	_cel	cell	ells
+O	T preferably_activated cells_)
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+
+
+
+
+
+
+
+
+
+
+B-entity	ANA  or_SMA	or_S	r_SM	_SMA
+B-labintermod	or  SMA_>	SMA_	MA_>
+B-entity	SMA  ANA_or >_/	ANA_	NA_o	A_or
+O	> or_SMA /_=
+B-labrefrangemod	>/=  or_SMA 1_:	or_S	r_SM	_SMA
+O	/ SMA_> =_1
+O	= >_/ 1_:
+O	1 /_= :_8
+B-labvalmod	1:8  /_=
+O	: =_1
+O	8 1_:
+
+
+
+
+
+
+B-labintermod	or  SLA_Positive	SLA_	LA_P	A_Po	_Pos	Posi	osit	siti	itiv	tive
+B-entity	SLA 	Posi	osit	siti	itiv	tive
+B-labintermod	Positive  or_SLA	or_S	r_SL	_SLA
+
+
+
+
+
+
+O	Serum Cr_increased
+B-entity	Serum Cr 	postcontext-0=context-ed increased_1.5	incr	ncre	crea	reas	ease	ased	sed_	ed_1	d_1.	_1.5
+I-entity	Serum Cr 	postcontext-0=context-ed increased_1.5	incr	ncre	crea	reas	ease	ased	sed_	ed_1	d_1.	_1.5
+O	Cr increased_1.5
+O	increased Serum_Cr 1.5_times
+B-labintermod	increased 1.5 times  Serum_Cr	Seru	erum	rum_	um_C	m_Cr
+I-labintermod	increased 1.5 times  Serum_Cr	Seru	erum	rum_	um_C	m_Cr
+I-labintermod	increased 1.5 times  Serum_Cr	Seru	erum	rum_	um_C	m_Cr
+O	1.5 Cr_increased times_*
+O	times increased_1.5
+O	* 1.5_times
+
+
+
+
+B-labintermod	Positive 	postcontext-0=context-ro blood_culture	bloo	lood	ood_	od_c	d_cu	_cul	cult	ultu	ltur	ture
+O	blood culture_:
+O	culture Positive_blood :_Typical
+O	: blood_culture Typical_microorganism
+O	Typical culture_: microorganism_for
+O	microorganism :_Typical for_infective
+O	for Typical_microorganism infective_endocarditis
+O	infective microorganism_for endocarditis_from
+O	endocarditis for_infective from_two
+O	from infective_endocarditis two_separate
+O	two endocarditis_from separate_blood
+O	separate from_two blood_cultures
+O	blood two_separate
+O	cultures separate_blood
+
+
+O	Chronic myocarditis_:
+O	myocarditis
+O	: Chronic_myocarditis
+
+
+O	an infiltrate_of
+O	infiltrate of_>
+O	of an_infiltrate >_14
+B-labrefrangemod	> 	postcontext-0=context-ed	postcontext-1=context-if infiltrate_of 14_leukocytes	infi	nfil	filt	iltr	ltra	trat	rate	ate_	te_o	e_of	14_l	4_le	_leu	leuk	euko	ukoc	kocy	ocyt	cyte	ytes
+B-labvalmod	14 	postcontext-0=context-ed	postcontext-1=context-if of_> leukocytes_/	of_>	leuk	euko	ukoc	kocy	ocyt	cyte	ytes	tes_	es_/
+O	leukocytes >_14 /_mm2
+B-labvalmod	leukocytes/mm2 	postcontext-0=context-ed	postcontext-1=context-if >_14 (_diffuse	>_14	(_di	_dif	diff	iffu	ffus	fuse
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_diffuse
+O	( /_mm2 diffuse_,
+O	diffuse mm2_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod	or 	postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_,	,_fo	_foc	foca	ocal	conf	onfl	nflu	flue	luen	uent	ent_	nt_,
+O	confluent focal_or ,_preferably
+O	, or_confluent preferably_activated
+O	preferably confluent_, activated_T
+B-labintermod	preferably activated 	beforecontext-1=context-if confluent_, T_cells	conf	onfl	nflu	flue	luen	uent	ent_	nt_,	T_ce	_cel	cell	ells
+I-labintermod	preferably activated 	beforecontext-1=context-if confluent_, T_cells	conf	onfl	nflu	flue	luen	uent	ent_	nt_,	T_ce	_cel	cell	ells
+O	activated ,_preferably T_cells
+O	T preferably_activated cells_)
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+
+
+
+
+O	Single positive_blood
+B-labintermod	positive  blood_culture	Sing	ingl	ngle	bloo	lood	ood_	od_c	d_cu	_cul	cult	ultu	ltur	ture
+O	blood Single_positive culture_for
+O	culture positive_blood for_Coxiella
+O	for blood_culture Coxiella_burnetii
+O	Coxiella culture_for burnetii_or
+O	burnetii for_Coxiella or_phase
+O	or Coxiella_burnetii phase_I
+O	phase burnetii_or I_IgG
+O	I or_phase IgG_antibody
+O	IgG phase_I antibody_titer
+O	antibody I_IgG titer_of
+O	titer IgG_antibody of_>
+O	of antibody_titer >_1
+B-labrefrangemod	>  titer_of 1_:	tite	iter	ter_	er_o	r_of
+O	1 of_>
+O	: >_1
+
+
+O	800
+
+
+O	Microbiologic evidence_:
+O	evidence
+O	: Microbiologic_evidence
+
+
+B-labintermod	positive 	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no blood_culture	bloo	lood	ood_	od_c	d_cu	_cul	cult	ultu	ltur	ture
+O	blood culture_but
+O	culture positive_blood but_not
+O	but blood_culture not_meeting
+O	not culture_but meeting_major
+O	meeting but_not major_criterion
+O	major not_meeting criterion_as
+O	criterion meeting_major as_noted
+O	as major_criterion noted_previouslyc
+O	noted criterion_as previouslyc_or
+O	previouslyc as_noted or_serologic
+O	or noted_previouslyc serologic_evidence
+O	serologic previouslyc_or evidence_of
+O	evidence or_serologic of_active
+O	of serologic_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_infective
+O	with organism_consistent infective_endocarditis
+O	infective consistent_with
+O	endocarditis with_infective
+
+
+B-labintermod	Elevated 	postcontext-0=context-ro acute_phase	acut	cute	ute_	te_p	e_ph	_pha	phas	hase
+O	acute phase_reactant
+B-entity	acute phase reactant 	postcontext-0=context-ro	beforecontext-1=context-ed (_C	Elev	leva	evat	vate	ated
+I-entity	acute phase reactant 	postcontext-0=context-ro	beforecontext-1=context-ed (_C	Elev	leva	evat	vate	ated
+I-entity	acute phase reactant 	postcontext-0=context-ro	beforecontext-1=context-ed (_C	Elev	leva	evat	vate	ated
+O	phase Elevated_acute reactant_(
+O	reactant acute_phase (_C
+O	( phase_reactant C_-
+O	C reactant_( -_reactive
+B-entity	C-reactive protein 	beforecontext-1=context-ed reactant_( or_erythrocyte	reac	eact	acta	ctan	tant	ant_	nt_(	or_e	r_er	_ery	eryt	ryth	ythr	thro	hroc	rocy	ocyt	cyte
+I-entity	C-reactive protein 	beforecontext-1=context-ed reactant_( or_erythrocyte	reac	eact	acta	ctan	tant	ant_	nt_(	or_e	r_er	_ery	eryt	ryth	ythr	thro	hroc	rocy	ocyt	cyte
+O	- (_C reactive_protein
+O	reactive C_- protein_or
+O	protein -_reactive or_erythrocyte
+B-labintermod	or 	beforecontext-0=context-ro	beforecontext-1=context-ed reactive_protein erythrocyte_sedimentation	reac	eact	acti	ctiv	tive	ive_	ve_p	e_pr	_pro	prot	rote	otei	tein	eryt	ryth	ythr	thro	hroc	rocy	ocyt	cyte	yte_	te_s	e_se	_sed	sedi	edim	dime	imen	ment	enta	ntat	tati	atio	tion
+O	erythrocyte protein_or sedimentation_rate
+O	sedimentation or_erythrocyte rate_)
+O	rate erythrocyte_sedimentation
+O	) sedimentation_rate
+
+
+
+
+B-labintermod	Elevated  or_rising	or_r	r_ri	_ris	risi	isin	sing
+B-labintermod	or 	beforecontext-0=context-ed rising_streptococcal	Elev	leva	evat	vate	ated	risi	isin	sing	ing_	ng_s	g_st	_str	stre	trep	rept	epto	ptoc	toco	ococ	cocc	occa	ccal
+B-labintermod	rising 	beforecontext-0=context-ed Elevated_or streptococcal_antibody	Elev	leva	evat	vate	ated	ted_	ed_o	d_or	stre	trep	rept	epto	ptoc	toco	ococ	cocc	occa	ccal	cal_	al_a	l_an	_ant	anti	ntib	tibo	ibod	body
+O	streptococcal or_rising antibody_titer
+B-entity	streptococcal antibody tite 	beforecontext-0=context-ed or_rising	or_r	r_ri	_ris	risi	isin	sing
+I-entity	streptococcal antibody tite 	beforecontext-0=context-ed or_rising	or_r	r_ri	_ris	risi	isin	sing
+I-entity	streptococcal antibody tite 	beforecontext-0=context-ed or_rising	or_r	r_ri	_ris	risi	isin	sing
+O	antibody rising_streptococcal
+O	titer streptococcal_antibody
+
+
+O	2 positive_cultures
+B-labintermod	positive  cultures_of	cult	ultu	ltur	ture	ures	res_	es_o	s_of
+O	cultures 2_positive of_blood
+O	of positive_cultures blood_samples
+O	blood cultures_of samples_drawn
+O	samples of_blood drawn_>
+O	drawn blood_samples >_12
+O	> samples_drawn 12_hours
+O	12 drawn_> hours_apart
+O	hours >_12 apart_,
+O	apart 12_hours ,_or
+O	, hours_apart
+B-labintermod	or  apart_,	apar	part	art_	rt_,
+
+
+O	Microbiological evidence_:
+O	evidence
+O	: Microbiological_evidence
+
+
+B-labintermod	positive 	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no blood_culture	bloo	lood	ood_	od_c	d_cu	_cul	cult	ultu	ltur	ture
+O	blood culture_but
+O	culture positive_blood but_does
+O	but blood_culture does_not
+O	does culture_but not_meet
+O	not but_does meet_a
+O	meet does_not a_major
+O	a not_meet major_criterion
+O	major meet_a criterion_as
+O	criterion a_major as_noted
+O	as major_criterion noted_above
+O	noted criterion_as above_or
+O	above as_noted or_serological
+O	or noted_above serological_evidence
+O	serological above_or evidence_of
+O	evidence or_serological of_active
+O	of serological_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_IE
+O	with organism_consistent
+O	IE consistent_with
+
+
+B-labintermod	Elevated 	postcontext-0=context-ro blood_urea	bloo	lood	ood_	od_u	d_ur	_ure	urea
+O	blood urea_nitrogen
+O	urea Elevated_blood nitrogen_:
+O	nitrogen blood_urea :_Blood
+O	: urea_nitrogen Blood_urea
+O	Blood nitrogen_: urea_nitrogen
+O	urea :_Blood nitrogen_>
+O	nitrogen Blood_urea >_/
+O	> urea_nitrogen /_=
+B-labrefrangemod	>/= 	beforecontext-0=context-ro	beforecontext-1=context-ed urea_nitrogen 20_mg	urea	rea_	ea_n	a_ni	_nit	nitr	itro	trog	roge	ogen	20_m	0_mg
+O	/ nitrogen_> =_20
+O	= >_/ 20_mg
+B-labvalmod	20 	beforecontext-0=context-ro	beforecontext-1=context-ed /_= mg_/	mg_/
+O	mg =_20 /_dl
+B-labvalmod	mg/dl 	beforecontext-0=context-ro	beforecontext-1=context-ed =_20	=_20
+O	/ 20_mg
+O	dl mg_/
+
+
+O	Hypoxemia :_Ratio
+O	: Ratio_of
+O	Ratio Hypoxemia_: of_partial
+B-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen  Hypoxemia_: <_250	Hypo	ypox	poxe	oxem	xemi	emia	mia_	ia_:	<_25	_250
+O	of :_Ratio partial_pressure
+O	partial Ratio_of pressure_of
+O	pressure of_partial of_oxygen
+O	of partial_pressure oxygen_in
+O	oxygen pressure_of in_arterial
+O	in of_oxygen arterial_blood
+O	arterial oxygen_in blood_to
+O	blood in_arterial to_fraction
+O	to arterial_blood fraction_of
+O	fraction blood_to of_inspired
+O	of to_fraction inspired_oxygen
+O	inspired fraction_of oxygen_<
+O	oxygen of_inspired <_250
+B-labrefrangemod	< 	beforecontext-0=context-ed inspired_oxygen 250_mm	insp	nspi	spir	pire	ired	red_	ed_o	d_ox	_oxy	oxyg	xyge	ygen	250_	50_m	0_mm
+B-labvalmod	250 	beforecontext-0=context-ed oxygen_< mm_Hg	oxyg	xyge	ygen	gen_	en_<	mm_H	m_Hg
+O	mm <_250
+B-labvalmod	mm Hg 	beforecontext-0=context-ed <_250	<_25	_250
+I-labvalmod	mm Hg 	beforecontext-0=context-ed <_250	<_25	_250
+O	Hg 250_mm
+
+
+O	No myocarditis_:
+O	myocarditis
+O	: No_myocarditis
+
+
+B-labintermod	No  infiltrating_cells	infi	nfil	filt	iltr	ltra	trat	rati	atin	ting	ing_	ng_c	g_ce	_cel	cell	ells
+O	infiltrating cells_or
+B-entity	infiltrating cells  or_<	or_<
+I-entity	infiltrating cells  or_<	or_<
+O	cells No_infiltrating or_<
+O	or infiltrating_cells <_14
+B-labrefrangemod	<  cells_or 14_leukocytes	cell	ells	lls_	ls_o	s_or	14_l	4_le	_leu	leuk	euko	ukoc	kocy	ocyt	cyte	ytes
+B-labvalmod	14  or_< leukocytes_/	or_<	leuk	euko	ukoc	kocy	ocyt	cyte	ytes	tes_	es_/
+O	leukocytes <_14 /_mm2
+B-labvalmod	leukocytes/mm2  <_14	<_14
+O	/ 14_leukocytes mm2_.
+O	mm2 leukocytes_/
+O	. /_mm2
+
+
+O	Thrombocytopenia
+O	:
+
+
+B-labrefrangemod	<  100,000_platelets	100,	00,0	0,00	,000	000_	00_p	0_pl	_pla	plat	late	atel	tele	elet	lets
+B-labvalmod	100,000  platelets_/	plat	late	atel	tele	elet	lets	ets_	ts_/
+O	platelets <_100,000 /_mm3
+B-labvalmod	platelets/mm3  <_100,000	<_10	_100	100,	00,0	0,00	,000
+O	/ 100,000_platelets
+O	mm3 platelets_/
+
+
+O	Leukopenia :_White
+O	: White_-
+O	White Leukopenia_: -_cell
+B-entity	White-cell count  Leukopenia_:	Leuk	euko	ukop	kope	open	peni	enia	nia_	ia_:
+I-entity	White-cell count  Leukopenia_:	Leuk	euko	ukop	kope	open	peni	enia	nia_	ia_:
+O	- :_White cell_count
+O	cell White_- count_<
+O	count -_cell <_4000
+B-labrefrangemod	<  cell_count 4000_/	cell	ell_	ll_c	l_co	_cou	coun	ount	4000	000_	00_/
+B-labvalmod	4000  count_< /_mm3	coun	ount	unt_	nt_<	/_mm	_mm3
+O	/ <_4000
+B-labvalmod	/mm3  <_4000	<_40	_400	4000
+O	mm3 4000_/
+
+
+O	Lactic acidosis_:
+O	acidosis :_Lactic
+O	: Lactic_acidosis Lactic_acid
+O	Lactic acidosis_: acid_level
+B-entity	Lactic acid level  acidosis_: >_/	acid	cido	idos	dosi	osis	sis_	is_:
+I-entity	Lactic acid level  acidosis_: >_/	acid	cido	idos	dosi	osis	sis_	is_:
+I-entity	Lactic acid level  acidosis_: >_/	acid	cido	idos	dosi	osis	sis_	is_:
+O	acid :_Lactic level_>
+O	level Lactic_acid >_/
+O	> acid_level /_=
+B-labrefrangemod	>/=  acid_level 4_mmol	acid	cid_	id_l	d_le	_lev	leve	evel	4_mm	_mmo	mmol
+O	/ level_> =_4
+O	= >_/ 4_mmol
+B-labvalmod	4  /_= mmol_/	mmol	mol_	ol_/
+O	mmol =_4 /_liter
+B-labvalmod	mmol/liter  =_4
+O	/ 4_mmol
+O	liter mmol_/
+
+
+
+
+
+
+
+
+
+
+O	Leukocytosis :_Leukocyte
+O	: Leukocyte_count
+O	Leukocyte Leukocytosis_: count_>
+O	count :_Leukocyte
+B-labrefrangemod	>  Leukocyte_count	Leuk	euko	ukoc	kocy	ocyt	cyte	yte_	te_c	e_co	_cou	coun	ount
+
+
+B-labvalmod	20,000  /_mm3	/_mm	_mm3
+O	/
+B-labvalmod	/mm3 	20,0	0,00	,000
+O	mm3 20,000_/
+
+
+O	A sudden_inexplicable
+B-labintermod	A sudden inexplicable drop  in_haematocrit	in_h	n_ha	_hae	haem	aema	emat	mato	atoc	tocr	ocri	crit
+I-labintermod	A sudden inexplicable drop  in_haematocrit	in_h	n_ha	_hae	haem	aema	emat	mato	atoc	tocr	ocri	crit
+I-labintermod	A sudden inexplicable drop  in_haematocrit	in_h	n_ha	_hae	haem	aema	emat	mato	atoc	tocr	ocri	crit
+I-labintermod	A sudden inexplicable drop  in_haematocrit	in_h	n_ha	_hae	haem	aema	emat	mato	atoc	tocr	ocri	crit
+O	sudden inexplicable_drop
+O	inexplicable A_sudden drop_in
+O	drop sudden_inexplicable in_haematocrit
+O	in inexplicable_drop haematocrit_or
+O	haematocrit drop_in or_platelet
+B-labintermod	or 	beforecontext-0=context-ro in_haematocrit platelet_values	in_h	n_ha	_hae	haem	aema	emat	mato	atoc	tocr	ocri	crit	plat	late	atel	tele	elet	let_	et_v	t_va	_val	valu	alue	lues
+O	platelet haematocrit_or
+O	values or_platelet
+
+
+B-labintermod	Increasing 
+O	ESR
+
+
+O	Renal ,_Creatinine
+O	, Creatinine_(
+O	Creatinine Renal_, (_mg
+O	( ,_Creatinine mg_/
+O	mg Creatinine_( /_dL
+B-labvalmod	mg/dL  Creatinine_( )_:	Crea	reat	eati	atin	tini	inin	nine	ine_	ne_(
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_5.0
+B-labrefrangemod	>  )_: 5.0_or	5.0_	.0_o	0_or
+B-labvalmod	5.0  :_> or_<	or_<
+B-labintermod	or  >_5.0 <_200	>_5.	_5.0	<_20	_200
+B-labrefrangemod	<  5.0_or	5.0_	.0_o	0_or
+B-labvalmod	200  or_<	or_<
+
+
+O	Presence of_viral
+B-labintermod	Presence of viral genome  by_PCR	by_P	y_PC	_PCR
+I-labintermod	Presence of viral genome  by_PCR	by_P	y_PC	_PCR
+I-labintermod	Presence of viral genome  by_PCR	by_P	y_PC	_PCR
+I-labintermod	Presence of viral genome  by_PCR	by_P	y_PC	_PCR
+O	of viral_genome
+O	viral Presence_of genome_by
+O	genome of_viral by_PCR
+O	by viral_genome PCR_or
+O	PCR genome_by or_in
+B-labintermod	or 	beforecontext-0=context-no by_PCR in_situ	by_P	y_PC	_PCR	in_s	n_si	_sit	situ
+O	in PCR_or situ_hybridisation
+B-labintermod	in situ 	beforecontext-0=context-no PCR_or hybridisation_.	PCR_	CR_o	R_or	hybr	ybri	brid	ridi	idis	disa	isat	sati	atio	tion	ion_	on_.
+I-labintermod	in situ 	beforecontext-0=context-no PCR_or hybridisation_.	PCR_	CR_o	R_or	hybr	ybri	brid	ridi	idis	disa	isat	sati	atio	tion	ion_	on_.
+O	situ or_in hybridisation_.
+O	hybridisation in_situ
+O	. situ_hybridisation
+
+
+O	Liver ,_Bilirubin
+O	, Bilirubin_(
+O	Bilirubin Liver_, (_mg
+O	( ,_Bilirubin mg_/
+O	mg Bilirubin_( /_dL
+B-labvalmod	mg/dL  Bilirubin_( )_:	Bili	ilir	liru	irub	rubi	ubin	bin_	in_(
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_12.0
+B-labrefrangemod	>  )_:	12.0
+B-labvalmod	12.0  :_>
+
+
+O	Uremia (_BUN
+O	( BUN_level
+O	BUN Uremia_( level_>
+O	level (_BUN >_/
+O	> BUN_level /_=
+B-labrefrangemod	>/=  BUN_level 20_mg	BUN_	UN_l	N_le	_lev	leve	evel	20_m	0_mg
+O	/ level_> =_20
+O	= >_/ 20_mg
+B-labvalmod	20  /_= mg_/	mg_/
+O	mg =_20 /_dl
+B-labvalmod	mg/dl  =_20	=_20
+O	/ 20_mg dl_)
+O	dl mg_/
+O	) /_dl
+
+
+O	Leukopenia (_WBC
+O	( WBC_count
+O	WBC Leukopenia_( count_<
+O	count (_WBC <_4,000
+B-labrefrangemod	<  WBC_count 4,000_cells	WBC_	BC_c	C_co	_cou	coun	ount	4,00	,000	000_	00_c	0_ce	_cel	cell	ells
+B-labvalmod	4,000  count_< cells_/	coun	ount	unt_	nt_<	cell	ells	lls_	ls_/
+O	cells <_4,000 /_mm3
+B-labvalmod	cells/mm3  <_4,000	<_4,	_4,0	4,00	,000
+O	/ 4,000_cells mm3_)
+O	mm3 cells_/
+O	) /_mm3
+
+
+
+
+O	Urine volume_9.3
+O	volume 9.3_mL
+B-labvalmod	9.3  Urine_volume mL_/	Urin	rine	ine_	ne_v	e_vo	_vol	volu	olum	lume	mL_/
+O	mL volume_9.3 /_kg
+B-labvalmod	mL/kg  volume_9.3 body_weight	volu	olum	lume	ume_	me_9	e_9.	_9.3	body	ody_	dy_w	y_we	_wei	weig	eigh	ight
+O	/ 9.3_mL kg_body
+O	kg mL_/ body_weight
+O	body /_kg weight_per
+B-labvalmod	body weight per hour  /_kg for_8	/_kg	for_	or_8
+I-labvalmod	body weight per hour  /_kg for_8	/_kg	for_	or_8
+I-labvalmod	body weight per hour  /_kg for_8	/_kg	for_	or_8
+I-labvalmod	body weight per hour  /_kg for_8	/_kg	for_	or_8
+O	weight kg_body per_hour
+O	per body_weight hour_for
+O	hour weight_per for_8
+O	for per_hour 8_h
+O	8 hour_for
+O	h for_8
+
+
+
+
+O	Urea nitrogen_>
+B-entity	Urea nitrogen  >_1.00	>_1.	_1.0	1.00
+I-entity	Urea nitrogen  >_1.00	>_1.	_1.0	1.00
+O	nitrogen >_1.00
+B-labrefrangemod	> 	beforecontext-0=context-ro Urea_nitrogen 1.00_g	Urea	rea_	ea_n	a_ni	_nit	nitr	itro	trog	roge	ogen	1.00	.00_	00_g
+B-labvalmod	1.00 	beforecontext-0=context-ro nitrogen_> g_/	nitr	itro	trog	roge	ogen	gen_	en_>
+O	g >_1.00 /_L
+B-labvalmod	g/L 	beforecontext-0=context-ro >_1.00 or_urea	>_1.	_1.0	1.00	or_u	r_ur	_ure	urea
+O	/ 1.00_g L_or
+O	L g_/ or_urea
+B-labintermod	or 	beforecontext-0=context-ro /_L urea_>	urea	rea_	ea_>
+O	urea L_or >_0.60
+B-labrefrangemod	> 	beforecontext-0=context-ro or_urea 0.60_g	or_u	r_ur	_ure	urea	0.60	.60_	60_g
+B-labvalmod	0.60 	beforecontext-0=context-ro urea_> g_/	urea	rea_	ea_>
+O	g >_0.60 /_L
+B-labvalmod	g/L 	beforecontext-0=context-ro >_0.60	>_0.	_0.6	0.60
+O	/ 0.60_g
+O	L g_/
+
+
+O	Bilirubin >_60
+B-labrefrangemod	>  60_mg	Bili	ilir	liru	irub	rubi	ubin	60_m	0_mg
+B-labvalmod	60  Bilirubin_> mg_/	Bili	ilir	liru	irub	rubi	ubin	bin_	in_>	mg_/
+O	mg >_60 /_L
+B-labvalmod	mg/L  >_60 or_a	>_60	or_a
+O	/ 60_mg L_or
+O	L mg_/ or_a
+B-labintermod	or  /_L a_twofold	a_tw	_two	twof	wofo	ofol	fold
+O	a L_or twofold_increase
+O	twofold or_a increase_in
+B-labintermod	twofold increase  or_a in_alkaline	or_a	in_a	n_al	_alk	alka	lkal	kali	alin	line
+I-labintermod	twofold increase  or_a in_alkaline	or_a	in_a	n_al	_alk	alka	lkal	kali	alin	line
+O	increase a_twofold in_alkaline
+O	in twofold_increase alkaline_phosphatase
+O	alkaline increase_in phosphatase_in
+O	phosphatase in_alkaline in_serum
+O	in alkaline_phosphatase serum_and
+O	serum phosphatase_in
+O	and in_serum
+
+
+
+
+
+
+
+
+O	Platelets <_20000
+B-labrefrangemod	< 	postcontext-0=context-ed 20000_/	Plat	late	atel	tele	elet	lets	2000	0000	000_	00_/
+B-labvalmod	20000 	postcontext-0=context-ed Platelets_< /_mL	Plat	late	atel	tele	elet	lets	ets_	ts_<	/_mL
+O	/ <_20000 mL_or
+B-labvalmod	/mL 	postcontext-0=context-ed <_20000 or_evidence	<_20	_200	2000	0000	or_e	r_ev	_evi	evid	vide	iden	denc	ence
+O	mL 20000_/ or_evidence
+B-labintermod	or 	postcontext-0=context-ed /_mL evidence_of	/_mL	evid	vide	iden	denc	ence	nce_	ce_o	e_of
+O	evidence mL_or of_ongoing
+O	of or_evidence ongoing_disseminated
+O	ongoing evidence_of disseminated_intravascular
+B-labintermod	ongoing disseminated  evidence_of intravascular_coagulation	evid	vide	iden	denc	ence	nce_	ce_o	e_of	intr	ntra	trav	rava	avas	vasc	ascu	scul	cula	ular	lar_	ar_c	r_co	_coa	coag	oagu	agul	gula	ulat	lati	atio	tion
+I-labintermod	ongoing disseminated  evidence_of intravascular_coagulation	evid	vide	iden	denc	ence	nce_	ce_o	e_of	intr	ntra	trav	rava	avas	vasc	ascu	scul	cula	ular	lar_	ar_c	r_co	_coa	coag	oagu	agul	gula	ulat	lati	atio	tion
+O	disseminated of_ongoing intravascular_coagulation
+O	intravascular ongoing_disseminated
+B-entity	intravascular coagulation 	beforecontext-0=context-ed ongoing_disseminated	ongo	ngoi	goin	oing	ing_	ng_d	g_di	_dis	diss	isse	ssem	semi	emin	mina	inat	nate	ated
+I-entity	intravascular coagulation 	beforecontext-0=context-ed ongoing_disseminated	ongo	ngoi	goin	oing	ing_	ng_d	g_di	_dis	diss	isse	ssem	semi	emin	mina	inat	nate	ated
+O	coagulation disseminated_intravascular
+
+
+
+
+O	at least_1,000
+O	least 1,000_Sezary
+O	1,000 at_least Sezary_cells
+O	Sezary least_1,000 cells_per
+O	cells 1,000_Sezary per_mm3
+O	per Sezary_cells mm3_of
+O	mm3 cells_per of_peripheral
+O	of per_mm3 peripheral_blood
+O	peripheral mm3_of blood_,
+O	blood of_peripheral ,_an
+O	, peripheral_blood an_increased
+O	an blood_, increased_population
+O	increased ,_an population_of
+B-labintermod	increased population 	beforecontext-1=context-her	postcontext-2=context-presenting ,_an of_CD4	,_an	of_C	f_CD	_CD4
+I-labintermod	increased population 	beforecontext-1=context-her	postcontext-2=context-presenting ,_an of_CD4	,_an	of_C	f_CD	_CD4
+O	population an_increased of_CD4
+O	of increased_population CD4_+
+O	CD4 population_of +_/
+B-entity	CD4+/CD7- 	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting population_of in_peripheral	popu	opul	pula	ulat	lati	atio	tion	ion_	on_o	n_of	in_p	n_pe	_per	peri	erip	riph	iphe	pher	hera	eral
+O	+ of_CD4 /_CD7
+O	/ CD4_+ CD7_-
+O	CD7 +_/ -_in
+O	- /_CD7 in_peripheral
+O	in CD7_- peripheral_blood
+O	peripheral -_in blood_with
+O	blood in_peripheral with_remarkable
+O	with peripheral_blood remarkable_predominance
+O	remarkable blood_with predominance_of
+O	predominance with_remarkable of_CD4
+O	of remarkable_predominance CD4_+
+O	CD4 predominance_of +_cells
+O	+ of_CD4 cells_in
+O	cells CD4_+ in_relation
+O	in +_cells relation_to
+O	relation cells_in to_CD8
+O	to in_relation CD8_+
+O	CD8 relation_to +_(
+O	+ to_CD8 (_CD4
+O	( CD8_+ CD4_/
+O	CD4 +_( /_CD8
+B-entity	CD4/CD8 ratio 	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting +_( >_10	>_10
+I-entity	CD4/CD8 ratio 	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting +_( >_10	>_10
+O	/ (_CD4 CD8_ratio
+O	CD8 CD4_/ ratio_>
+O	ratio /_CD8 >_10
+B-labrefrangemod	> 	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting CD8_ratio 10_)	CD8_	D8_r	8_ra	_rat	rati	atio	10_)
+B-labvalmod	10 	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting ratio_> )_,	rati	atio	tio_	io_>
+O	) >_10 ,_Sezary
+O	, 10_) Sezary_cells
+O	Sezary )_, cells_with
+O	cells ,_Sezary with_a
+O	with Sezary_cells a_diameter
+O	a cells_with diameter_>
+O	diameter with_a >_14
+O	> a_diameter 14_um
+O	14 diameter_> um_representing
+O	um >_14 representing_>
+O	representing 14_um >_20
+B-labrefrangemod	> 	beforecontext-0=context-ed	beforecontext-1=context-her	postcontext-2=context-presenting um_representing 20_%	um_r	m_re	_rep	repr	epre	pres	rese	esen	sent	enti	ntin	ting	20_%
+O	20 representing_> %_of
+B-labvalmod	20% 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting representing_> of_the	repr	epre	pres	rese	esen	sent	enti	ntin	ting	ing_	ng_>	of_t	f_th	_the
+O	% >_20 of_the
+O	of 20_% the_circulating
+O	the %_of circulating_lymphocytes
+O	circulating of_the lymphocytes_and
+B-entity	circulating lymphocytes 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting of_the and_,	of_t	f_th	_the	and_	nd_,
+I-entity	circulating lymphocytes 	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-presenting of_the and_,	of_t	f_th	_the	and_	nd_,
+O	lymphocytes the_circulating and_,
+O	and circulating_lymphocytes ,_some
+O	, lymphocytes_and some_markers
+O	some and_, markers_like
+O	markers ,_some like_CD2
+O	like some_markers CD2_,
+O	CD2 markers_like ,_CD3
+O	, like_CD2 CD3_,
+O	CD3 CD2_, ,_CD4
+O	, ,_CD3 CD4_and
+O	CD4 CD3_, and_CD5
+O	and ,_CD4 CD5_must
+O	CD5 CD4_and must_be
+O	must and_CD5 be_absent
+O	be CD5_must absent_.
+O	absent must_be
+O	. be_absent
+
+
+O	Laboratory tests_None
+O	tests None_of
+O	None Laboratory_tests of_the
+O	of tests_None the_available
+O	the None_of available_tests
+O	available of_the tests_will
+O	tests the_available will_confirm
+O	will available_tests confirm_the
+O	confirm tests_will the_diagnosis
+O	the will_confirm diagnosis_,
+O	diagnosis confirm_the ,_but
+O	, the_diagnosis but_thyroid
+O	but diagnosis_, thyroid_-
+O	thyroid ,_but -_function
+O	- but_thyroid function_tests
+O	function thyroid_- tests_and
+O	tests -_function and_tests
+O	and function_tests tests_for
+O	tests tests_and for_thyroid
+O	for and_tests thyroid_antibodies
+O	thyroid tests_for antibodies_may
+O	antibodies for_thyroid may_be
+O	may thyroid_antibodies be_advisable
+O	be antibodies_may advisable_because
+O	advisable may_be because_of
+O	because be_advisable of_the
+O	of advisable_because the_increased
+O	the because_of increased_association
+O	increased of_the association_between
+O	association the_increased between_alopecia
+O	between increased_association alopecia_areata
+O	alopecia association_between areata_and
+O	areata between_alopecia and_thyroid
+O	and alopecia_areata thyroid_autoimmunity
+O	thyroid areata_and autoimmunity_;
+O	autoimmunity and_thyroid
+O	; thyroid_autoimmunity
+
+
+O	abnormal results_of
+O	results of_thyroid
+O	of abnormal_results thyroid_-
+O	thyroid results_of -_function
+O	- of_thyroid function_tests
+O	function thyroid_- tests_,
+O	tests -_function ,_the
+O	, function_tests the_presence
+O	the tests_, presence_of
+O	presence ,_the of_thyroid
+O	of the_presence thyroid_autoantibodies
+O	thyroid presence_of autoantibodies_,
+O	autoantibodies of_thyroid ,_or
+O	, thyroid_autoantibodies or_both
+O	or autoantibodies_, both_further
+O	both ,_or further_support
+O	further or_both support_a
+O	support both_further a_clinical
+O	a further_support clinical_or
+O	clinical support_a or_histologic
+O	or a_clinical histologic_working
+O	histologic clinical_or working_diagnosis
+O	working or_histologic diagnosis_of
+O	diagnosis histologic_working of_alopecia
+O	of working_diagnosis alopecia_areata
+O	alopecia diagnosis_of
+O	areata of_alopecia
+
+
+B-labintermod	Raised  serum_IgE	seru	erum	rum_	um_I	m_Ig	_IgE
+O	serum
+O	IgE Raised_serum
+
+
+O	Atopy (_IgE
+O	( IgE_reactivity
+O	IgE Atopy_( reactivity_)
+O	reactivity (_IgE
+O	) IgE_reactivity
+
+
+O	There are_many
+O	are many_biochemical
+O	many There_are biochemical_markers
+O	biochemical are_many markers_for
+O	markers many_biochemical for_Paget
+O	for biochemical_markers Paget_'s
+O	Paget markers_for 's_disease
+O	's for_Paget disease_,
+O	disease Paget_'s ,_but
+O	, 's_disease but_the
+O	but disease_, the_two
+O	the ,_but two_most
+O	two but_the most_important
+O	most the_two important_are
+O	important two_most are_total
+O	are most_important total_serum
+O	total important_are serum_alkaline
+O	serum are_total alkaline_phosphatase
+O	alkaline total_serum phosphatase_and
+O	phosphatase serum_alkaline and_urinary
+O	and alkaline_phosphatase urinary_pyridinoline
+O	urinary phosphatase_and pyridinoline_.
+O	pyridinoline and_urinary
+O	. urinary_pyridinoline
+
+
+O	These markers_may
+O	markers may_be
+O	may These_markers be_normal
+O	be markers_may normal_in
+O	normal may_be in_patients
+O	in be_normal patients_with
+O	patients normal_in with_the
+O	with in_patients the_monostotic
+O	the patients_with monostotic_form
+O	monostotic with_the form_of
+O	form the_monostotic of_Paget
+O	of monostotic_form Paget_'s
+O	Paget form_of 's_disease
+O	's of_Paget disease_(
+O	disease Paget_'s (_15
+O	( 's_disease 15_%
+O	15 disease_( %_of
+O	% (_15 of_patients
+O	of 15_% patients_)
+O	patients %_of
+O	) of_patients
+
+
+O	therefore ,_serum
+O	, serum_bone
+O	serum therefore_, bone_-
+O	bone ,_serum -_specific
+O	- serum_bone specific_alkaline
+O	specific bone_- alkaline_phosphatase
+O	alkaline -_specific phosphatase_measurements
+O	phosphatase specific_alkaline measurements_may
+O	measurements alkaline_phosphatase may_be
+O	may phosphatase_measurements be_useful
+O	be measurements_may useful_.
+O	useful may_be
+O	. be_useful
+
+
+O	Urinary hydroxyproline_is
+O	hydroxyproline is_no
+O	is Urinary_hydroxyproline no_longer
+O	no hydroxyproline_is longer_considered
+O	longer is_no considered_an
+O	considered no_longer an_accurate
+O	an longer_considered accurate_marker
+O	accurate considered_an marker_of
+O	marker an_accurate of_activity
+O	of accurate_marker activity_or
+O	activity marker_of or_extent
+O	or of_activity extent_of
+O	extent activity_or of_the
+O	of or_extent the_disease
+O	the extent_of disease_.
+O	disease of_the
+O	. the_disease
+
+
+
+
+
+
+
+
+O	The finding_of
+O	finding of_a
+O	of The_finding a_normal
+O	a finding_of normal_level
+O	normal of_a level_of
+O	level a_normal of_albumin
+O	of normal_level albumin_-
+O	albumin level_of -_adjusted
+O	- of_albumin adjusted_or
+O	adjusted albumin_- or_ionized
+O	or -_adjusted ionized_serum
+B-labintermod	ionized 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient adjusted_or serum_calcium	adju	djus	just	uste	sted	ted_	ed_o	d_or	seru	erum	rum_	um_c	m_ca	_cal	calc	alci	lciu	cium
+O	serum or_ionized calcium_and
+O	calcium ionized_serum and_an
+O	and serum_calcium an_elevated
+O	an calcium_and elevated_level
+B-labintermod	elevated 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient and_an level_of	and_	nd_a	d_an	leve	evel	vel_	el_o	l_of
+O	level an_elevated of_PTH
+O	of elevated_level PTH_in
+B-entity	PTH 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient level_of in_patients	leve	evel	vel_	el_o	l_of	in_p	n_pa	_pat	pati	atie	tien	ient	ents
+O	in of_PTH patients_with
+O	patients PTH_in with_no
+O	with in_patients no_other
+O	no patients_with other_causes
+O	other with_no causes_of
+O	causes no_other of_secondary
+O	of other_causes secondary_hyperparathyroidism
+O	secondary causes_of hyperparathyroidism_is
+O	hyperparathyroidism of_secondary is_consistent
+O	is secondary_hyperparathyroidism consistent_with
+O	consistent hyperparathyroidism_is with_normocalcemic
+O	with is_consistent normocalcemic_primary
+O	normocalcemic consistent_with primary_hyperparathyroidism
+O	primary with_normocalcemic hyperparathyroidism_.
+O	hyperparathyroidism normocalcemic_primary
+O	. primary_hyperparathyroidism
+
+
+
+
+O	Serum calcium_level
+O	calcium level_>
+O	level Serum_calcium >_1.0
+B-labrefrangemod	>  calcium_level 1.0_mg	calc	alci	lciu	cium	ium_	um_l	m_le	_lev	leve	evel	1.0_	.0_m	0_mg
+B-labvalmod	1.0  level_> mg_/	leve	evel	vel_	el_>	mg_/
+O	mg >_1.0 /_dl
+B-labvalmod	mg/dl  >_1.0 (_0.25	>_1.	_1.0	(_0.	_0.2	0.25
+O	/ 1.0_mg dl_(
+O	dl mg_/ (_0.25
+O	( /_dl 0.25_mmol
+B-labvalmod	0.25  dl_( mmol_/	dl_(	mmol	mol_	ol_/
+O	mmol (_0.25 /_liter
+B-labvalmod	mmol/liter  (_0.25	(_0.	_0.2	0.25
+O	/ 0.25_mmol liter_)
+O	liter mmol_/
+O	) /_liter
+
+
+O	above upper_limit
+O	upper limit_of
+B-labintermod	upper limit of normal range 	abov	bove
+I-labintermod	upper limit of normal range 	abov	bove
+I-labintermod	upper limit of normal range 	abov	bove
+I-labintermod	upper limit of normal range 	abov	bove
+I-labintermod	upper limit of normal range 	abov	bove
+O	limit above_upper of_normal
+O	of upper_limit normal_range
+O	normal limit_of
+O	range of_normal
+
+
+
+
+
+
+B-labintermod	Increased  Urinary_Free	Urin	rina	inar	nary	ary_	ry_F	y_Fr	_Fre	Free
+O	Urinary Free_Cortisol
+O	Free Increased_Urinary Cortisol_(
+O	Cortisol Urinary_Free (_three
+O	( Free_Cortisol three_24h
+O	three Cortisol_( 24h_collections
+O	24h (_three collections_)
+O	collections three_24h
+O	) 24h_collections
+
+
+B-labintermod	Lack  of_suppression	of_s	f_su	_sup	supp	uppr	ppre	pres	ress	essi	ssio	sion
+O	of suppression_after
+O	suppression Lack_of after_low
+O	after of_suppression low_-
+O	low suppression_after -_dose
+O	- after_low dose_dexamethasone
+O	dose low_- dexamethasone_testing
+O	dexamethasone -_dose
+O	testing dose_dexamethasone
+
+
+B-labintermod	Increased  '_late	'_la	_lat	late
+O	' late_-
+O	late Increased_' -_evening
+O	- '_late evening_'
+O	evening late_- '_salivary
+O	' -_evening salivary_cortisol
+O	salivary evening_' cortisol_(
+O	cortisol '_salivary (_test
+O	( salivary_cortisol test_incompletely
+O	test cortisol_( incompletely_evaluated
+O	incompletely (_test
+O	evaluated test_incompletely
+
+
+O	Testosterone
+O	deficiency
+
+
+
+
+O	Dopamine agonist_-
+B-entity	Dopamine agonist 	postcontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-if	postcontext-3=context-is-not	postcontext-4=context-no -_resistant	-_re	_res	resi	esis	sist	ista	stan	tant
+I-entity	Dopamine agonist 	postcontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-if	postcontext-3=context-is-not	postcontext-4=context-no -_resistant	-_re	_res	resi	esis	sist	ista	stan	tant
+O	agonist -_resistant
+O	- Dopamine_agonist resistant_microadenoma
+O	resistant agonist_- microadenoma_in
+O	microadenoma -_resistant in_a
+O	in resistant_microadenoma a_woman
+O	a microadenoma_in woman_seeking
+O	woman in_a seeking_fertility
+O	seeking a_woman fertility_,
+O	fertility woman_seeking ,_if
+O	, seeking_fertility if_ovulation
+O	if fertility_, ovulation_induction
+O	ovulation ,_if induction_is
+O	induction if_ovulation is_not
+O	is ovulation_induction not_appropriate
+O	not induction_is
+O	appropriate is_not
+
+
+O	Urine osmolality_>
+O	osmolality >_100
+B-labrefrangemod	>  Urine_osmolality 100_mOsm	Urin	rine	ine_	ne_o	e_os	_osm	osmo	smol	mola	olal	lali	alit	lity	100_	00_m	0_mO	_mOs	mOsm
+B-labvalmod	100  osmolality_> mOsm_per	osmo	smol	mola	olal	lali	alit	lity	ity_	ty_>	mOsm	Osm_	sm_p	m_pe	_per
+O	mOsm >_100 per_kg
+B-labvalmod	mOsm per kg  >_100 (_100	>_10	_100	(_10	_100
+I-labvalmod	mOsm per kg  >_100 (_100	>_10	_100	(_10	_100
+I-labvalmod	mOsm per kg  >_100 (_100	>_10	_100	(_10	_100
+O	per 100_mOsm kg_(
+O	kg mOsm_per (_100
+O	( per_kg 100_mmol
+B-labvalmod	100  kg_( mmol_per	kg_(	mmol	mol_	ol_p	l_pe	_per
+O	mmol (_100 per_kg
+B-labvalmod	mmol per kg  (_100	(_10	_100
+I-labvalmod	mmol per kg  (_100	(_10	_100
+I-labvalmod	mmol per kg  (_100	(_10	_100
+O	per 100_mmol kg_)
+O	kg mmol_per
+O	) per_kg
+
+
+O	LDL -_C
+B-entity	LDL-C  level_>	leve	evel	vel_	el_>
+O	- C_level
+O	C LDL_- level_>
+O	level -_C >_190
+B-labrefrangemod	>  C_level 190_mg	C_le	_lev	leve	evel	190_	90_m	0_mg
+B-labvalmod	190  level_> mg_/	leve	evel	vel_	el_>	mg_/
+O	mg >_190 /_dL
+B-labvalmod	mg/dL  >_190	>_19	_190
+O	/ 190_mg
+O	dL mg_/
+

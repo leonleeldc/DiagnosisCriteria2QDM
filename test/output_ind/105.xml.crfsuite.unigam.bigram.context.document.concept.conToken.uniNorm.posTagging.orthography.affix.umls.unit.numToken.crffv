@@ -1,0 +1,19 @@
+
+O	Clinical deterioration_(
+O	deterioration (_worsening
+O	( Clinical_deterioration worsening_pain
+O	worsening deterioration_( pain_,
+O	pain (_worsening ,_increasing
+O	, worsening_pain increasing_white
+B-labintermod		increasing	ctext-0=increasing	sectonHeader-0=105.xml-testSeg	pain	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pai	SUF|1-2|=ain		increase	pos|1+0|=VBG	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=inc	SUF|1+0|=ing		White	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=whi	SUF|1+1|=ite	 pain_, white_-
+O	white ,_increasing -_cell
+B-entity		white-cell	T025	ctext-0=white	sectonHeader-0=105.xml-testSeg	increase	pos|1-1|=VBG	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=inc	SUF|1-1|=ing		White	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=whi	SUF|1+0|=ite		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-5=-	ctext-6=cell ,_increasing count_,
+O	- increasing_white cell_count
+O	cell white_- count_,
+O	count -_cell ,_worsening
+O	, cell_count worsening_vital
+O	worsening count_, vital_signs
+O	vital ,_worsening signs_)
+O	signs worsening_vital
+O	) vital_signs
+

@@ -1,0 +1,13 @@
+
+B-entity		Platelets	C0032181	T059	postcontext-0=context-ed	postcontext-1=context-no (_normal
+O	( normal_to
+O	normal Platelets_( to_markedly
+B-labintermod		normal Platelets_(
+I-labintermod		to Platelets_(
+I-labintermod		markedly Platelets_(
+I-labintermod		decreased Platelets_(
+O	to (_normal markedly_decreased
+O	markedly normal_to decreased_)
+O	decreased to_markedly
+O	) markedly_decreased
+

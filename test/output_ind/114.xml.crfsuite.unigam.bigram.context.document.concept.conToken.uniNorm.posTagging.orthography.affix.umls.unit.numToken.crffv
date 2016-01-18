@@ -1,0 +1,33 @@
+
+O	At the_onset
+O	the onset_of
+O	onset At_the of_disease
+O	of the_onset disease_,
+O	disease onset_of ,_the
+O	, of_disease the_presence
+O	the disease_, presence_of
+B-labintermod		the	T061	ctext-0=the	sectonHeader-0=114.xml-testSeg	disease	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=dis	SUF|1-2|=ase		the	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=the	SUF|1+0|=the		presence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=presence	ctext-13=of	postcontext-0=context-ed disease_, IgG_anti-HAV
+I-labintermod		presence	T061	ctext-0=the	sectonHeader-0=114.xml-testSeg	disease	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=dis	SUF|1-2|=ase		the	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=the	SUF|1+0|=the		presence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=presence	ctext-13=of	postcontext-0=context-ed disease_, IgG_anti-HAV
+I-labintermod		of	T061	ctext-0=the	sectonHeader-0=114.xml-testSeg	disease	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=dis	SUF|1-2|=ase		the	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=the	SUF|1+0|=the		presence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=presence	ctext-13=of	postcontext-0=context-ed disease_, IgG_anti-HAV
+O	presence ,_the of_IgG
+O	of the_presence IgG_anti-HAV
+O	IgG presence_of anti-HAV_is
+B-entity		IgG	T059	ctext-0=IgG	sectonHeader-0=114.xml-testSeg	presence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		IS	pos|1+2|=VBZ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=anti-HAV	postcontext-0=context-ed presence_of is_always
+I-entity		anti-HAV	T059	ctext-0=IgG	sectonHeader-0=114.xml-testSeg	presence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		IS	pos|1+2|=VBZ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=anti-HAV	postcontext-0=context-ed presence_of is_always
+O	anti-HAV of_IgG is_always
+O	is IgG_anti-HAV always_accompanied
+O	always anti-HAV_is accompanied_by
+O	accompanied is_always by_the
+O	by always_accompanied the_presence
+O	the accompanied_by presence_of
+B-labintermod		the	T061	ctext-0=the	sectonHeader-0=114.xml-testSeg	accompany	pos|1-2|=VBN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=acc	SUF|1-2|=ied		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	the	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=the	SUF|1+0|=the		presence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=presence	ctext-13=of	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+I-labintermod		presence	T061	ctext-0=the	sectonHeader-0=114.xml-testSeg	accompany	pos|1-2|=VBN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=acc	SUF|1-2|=ied		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	the	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=the	SUF|1+0|=the		presence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=presence	ctext-13=of	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+I-labintermod		of	T061	ctext-0=the	sectonHeader-0=114.xml-testSeg	accompany	pos|1-2|=VBN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=acc	SUF|1-2|=ied		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	the	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=the	SUF|1+0|=the		presence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-4=presence	ctext-13=of	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+O	presence by_the of_IgM
+O	of the_presence IgM_anti-HAV
+O	IgM presence_of anti-HAV_.
+B-entity		IgM	T059	ctext-0=IgM	sectonHeader-0=114.xml-testSeg	presence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IgM	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgM	SUF|1+0|=IgM		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		ctext-4=anti-HAV	uniTok|1+2|=EEEEE	beforecontext-0=context-ed presence_of
+I-entity		anti-HAV	T059	ctext-0=IgM	sectonHeader-0=114.xml-testSeg	presence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IgM	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgM	SUF|1+0|=IgM		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		ctext-4=anti-HAV	uniTok|1+2|=EEEEE	beforecontext-0=context-ed presence_of
+O	anti-HAV of_IgM
+O	. IgM_anti-HAV
+

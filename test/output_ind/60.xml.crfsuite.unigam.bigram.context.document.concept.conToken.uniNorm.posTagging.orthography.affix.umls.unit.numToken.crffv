@@ -1,0 +1,12 @@
+
+O	Thrombocytopenia
+O	:
+
+
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=60.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	platelet	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pla	SUF|1+2|=ets	 100,000_platelets
+B-labvalmod		100,000	ctext-0=100,000	sectonHeader-0=60.xml-testSeg	num	uniTok|1-2|=SSSSS	platelet	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pla	SUF|1+1|=ets	 platelets_/
+B-entity		platelets	T059	ctext-0=platelets	sectonHeader-0=60.xml-testSeg	platelet	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pla	SUF|1+0|=ets		mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3	 <_100,000 /_mm3
+B-labvalmod		platelets/mm3	ctext-0=platelets	sectonHeader-0=60.xml-testSeg	platelet	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pla	SUF|1+0|=ets		mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3		ctext-9=/	uniTok|1+2|=EEEEE	ctext-10=mm3	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_100,000
+O	/ 100,000_platelets
+O	mm3 platelets_/
+

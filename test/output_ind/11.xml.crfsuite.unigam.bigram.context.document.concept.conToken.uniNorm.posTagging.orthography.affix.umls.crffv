@@ -1,0 +1,16 @@
+
+O	Platelet count_>
+B-entity		Platelet	C0032181	T059 	C1287267	T034  >_400
+I-entity		count >_400
+O	count >_400
+B-labrefrangemod		>	ctext-1=>	platelet	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=let		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN Platelet_count 400_x
+O	400 count_> x_109
+B-labvalmod		400	ctext-5=x count_> /_l
+I-labvalmod		x	ctext-5=x count_> /_l
+I-labvalmod		109	ctext-5=x count_> /_l
+O	x >_400 109_/
+O	109 400_x /_l
+O	/ x_109
+B-labvalmod		/l	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=l	L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE x_109
+O	l 109_/
+

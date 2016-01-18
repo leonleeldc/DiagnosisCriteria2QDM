@@ -1,0 +1,19 @@
+
+O	Clinical deterioration_(
+O	deterioration (_worsening
+O	( Clinical_deterioration worsening_pain
+O	worsening deterioration_( pain_,
+O	pain (_worsening ,_increasing
+O	, worsening_pain increasing_white
+B-labintermod	increasing  pain_, white_-
+O	white ,_increasing -_cell
+B-entity	white-cell 	ctext-6=- ,_increasing count_,
+O	- increasing_white cell_count
+O	cell white_- count_,
+O	count -_cell ,_worsening
+O	, cell_count worsening_vital
+O	worsening count_, vital_signs
+O	vital ,_worsening signs_)
+O	signs worsening_vital
+O	) vital_signs
+

@@ -1,0 +1,13 @@
+
+O	Serum Cr_increased
+B-entity		Serum	T033	ctext-0=Serum	sectonHeader-0=47.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serum	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=rum		CR	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	increase	pos|1+2|=VBN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=inc	SUF|1+2|=sed		ctext-6=Cr	uniTok|1+-2|=EEEEE	postcontext-0=context-ed increased_1.5
+I-entity		Cr	T033	ctext-0=Serum	sectonHeader-0=47.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serum	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=rum		CR	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	increase	pos|1+2|=VBN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=inc	SUF|1+2|=sed		ctext-6=Cr	uniTok|1+-2|=EEEEE	postcontext-0=context-ed increased_1.5
+O	Cr increased_1.5
+O	increased Serum_Cr 1.5_times
+B-labintermod		increased	ctext-0=increased	sectonHeader-0=47.xml-testSeg	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		CR	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	increase	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=inc	SUF|1+0|=sed		time	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tim	SUF|1+2|=mes		ctext-10=1.5	num	ctext-14=times	uniTok|1+2|=EEEEE Serum_Cr
+I-labintermod		1.5	ctext-0=increased	sectonHeader-0=47.xml-testSeg	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		CR	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	increase	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=inc	SUF|1+0|=sed		time	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tim	SUF|1+2|=mes		ctext-10=1.5	num	ctext-14=times	uniTok|1+2|=EEEEE Serum_Cr
+I-labintermod		times	ctext-0=increased	sectonHeader-0=47.xml-testSeg	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		CR	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	increase	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=inc	SUF|1+0|=sed		time	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tim	SUF|1+2|=mes		ctext-10=1.5	num	ctext-14=times	uniTok|1+2|=EEEEE Serum_Cr
+O	1.5 Cr_increased times_*
+O	times increased_1.5
+O	* 1.5_times
+

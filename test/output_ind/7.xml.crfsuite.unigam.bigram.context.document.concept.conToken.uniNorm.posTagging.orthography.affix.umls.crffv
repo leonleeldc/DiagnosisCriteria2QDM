@@ -1,0 +1,19 @@
+
+O	Presence of_viral
+B-labintermod		Presence by_PCR
+I-labintermod		of by_PCR
+I-labintermod		viral by_PCR
+I-labintermod		genome by_PCR
+O	of viral_genome
+O	viral Presence_of genome_by
+O	genome of_viral by_PCR
+O	by viral_genome PCR_or
+B-entity		PCR	C0032520	T059 	C0677874	T033 	beforecontext-0=context-no genome_by or_in
+B-labintermod		or	beforecontext-0=context-no by_PCR in_situ
+O	in PCR_or situ_hybridisation
+B-labintermod		in	beforecontext-0=context-no PCR_or hybridisation_.
+I-labintermod		situ	beforecontext-0=context-no PCR_or hybridisation_.
+O	situ or_in hybridisation_.
+B-entity		hybridisation	C0020202	T045 	beforecontext-0=context-no in_situ
+O	. situ_hybridisation
+

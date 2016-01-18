@@ -1,0 +1,9 @@
+
+B-entity		Urea	C0523961	T059 <_6.5
+B-labrefrangemod		<	unit	ctext-1=<	uniTok|1+-2|=EEEEE	urea	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ure	SUF|1-1|=rea		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 6.5_mmol
+B-labvalmod		6.5 Urea_< mmol_/
+O	mmol <_6.5 /_L
+B-labvalmod		mmol/L	ctext-5=/	uniTok|1+2|=EEEEE	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_6.5
+O	/ 6.5_mmol
+O	L mmol_/
+

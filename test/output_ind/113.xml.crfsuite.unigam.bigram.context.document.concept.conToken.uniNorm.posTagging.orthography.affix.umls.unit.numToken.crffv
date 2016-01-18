@@ -1,0 +1,39 @@
+
+B-entity		Virus	ctext-0=Virus	sectonHeader-0=113.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	virus	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Vir	SUF|1+0|=rus		and	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=and	SUF|1+1|=and		antibody	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ant	SUF|1+2|=ody		postcontext-0=context-ed	postcontext-1=context-no and_antibody
+B-labintermod		and	ctext-0=and	sectonHeader-0=113.xml-testSeg	uniTok|1-2|=SSSSS	virus	pos|1-1|=NNP	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Vir	SUF|1-1|=rus		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		antibody	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ant	SUF|1+1|=ody		can	pos|1+2|=MD	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=can	SUF|1+2|=can		postcontext-0=context-ed	postcontext-1=context-no antibody_can
+B-entity		antibody	ctext-0=antibody	sectonHeader-0=113.xml-testSeg	virus	pos|1-2|=NNP	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Vir	SUF|1-2|=rus		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		antibody	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ant	SUF|1+0|=ody		can	pos|1+1|=MD	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=can	SUF|1+1|=can		BE	pos|1+2|=VB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ed	postcontext-1=context-no Virus_and can_be
+O	can and_antibody be_detected
+O	be antibody_can detected_by
+O	detected can_be by_commercially
+O	by be_detected commercially_available
+O	commercially detected_by available_radioimmunoassay
+O	available by_commercially radioimmunoassay_(
+B-measure		radioimmunoassay	T059	ctext-0=radioimmunoassay	sectonHeader-0=113.xml-testSeg	commercially	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=com	SUF|1-2|=lly		available	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ava	SUF|1-1|=ble		radioimmunoassay	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=rad	SUF|1+0|=say		RIA	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=RIA	SUF|1+2|=RIA		beforecontext-0=context-ed commercially_available (_RIA
+O	( available_radioimmunoassay RIA_)
+B-measure		RIA	T059	ctext-0=RIA	sectonHeader-0=113.xml-testSeg	radioimmunoassay	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=rad	SUF|1-2|=say		RIA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=RIA	SUF|1+0|=RIA		beforecontext-0=context-ed	beforecontext-1=context-no radioimmunoassay_( )_,
+O	) (_RIA ,_enzyme
+O	, RIA_) enzyme_immunoassay
+O	enzyme )_, immunoassay_(
+B-measure		enzyme	T059	T059	ctext-0=enzyme	sectonHeader-0=113.xml-testSeg	enzyme	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=enz	SUF|1+0|=yme		immunoassay	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=imm	SUF|1+1|=say		ctext-7=immunoassay	beforecontext-0=context-ed	beforecontext-1=context-no )_, (_EIA
+I-measure		immunoassay	T059	T059	ctext-0=enzyme	sectonHeader-0=113.xml-testSeg	enzyme	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=enz	SUF|1+0|=yme		immunoassay	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=imm	SUF|1+1|=say		ctext-7=immunoassay	beforecontext-0=context-ed	beforecontext-1=context-no )_, (_EIA
+O	immunoassay ,_enzyme (_EIA
+O	( enzyme_immunoassay EIA_)
+B-measure		EIA	T059	ctext-0=EIA	sectonHeader-0=113.xml-testSeg	immunoassay	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=imm	SUF|1-2|=say		EIA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=EIA	SUF|1+0|=EIA		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		beforecontext-0=context-ed	beforecontext-1=context-no immunoassay_( )_and
+O	) (_EIA and_enzyme
+O	and EIA_) enzyme_-
+O	enzyme )_and -_linked
+B-measure		enzyme-linked	T059	T059	ctext-0=enzyme	sectonHeader-0=113.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		enzyme	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=enz	SUF|1+0|=yme		link	pos|1+2|=VBN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lin	SUF|1+2|=ked		ctext-6=-	ctext-7=linked	ctext-14=immunosorbent	ctext-28=assay	beforecontext-0=context-ed	beforecontext-1=context-no )_and (_ELISA
+I-measure		immunosorbent	T059	T059	ctext-0=enzyme	sectonHeader-0=113.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		enzyme	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=enz	SUF|1+0|=yme		link	pos|1+2|=VBN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lin	SUF|1+2|=ked		ctext-6=-	ctext-7=linked	ctext-14=immunosorbent	ctext-28=assay	beforecontext-0=context-ed	beforecontext-1=context-no )_and (_ELISA
+I-measure		assay	T059	T059	ctext-0=enzyme	sectonHeader-0=113.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		enzyme	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=enz	SUF|1+0|=yme		link	pos|1+2|=VBN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lin	SUF|1+2|=ked		ctext-6=-	ctext-7=linked	ctext-14=immunosorbent	ctext-28=assay	beforecontext-0=context-ed	beforecontext-1=context-no )_and (_ELISA
+O	- and_enzyme linked_immunosorbent
+O	linked enzyme_- immunosorbent_assay
+O	immunosorbent -_linked assay_(
+O	assay linked_immunosorbent (_ELISA
+O	( immunosorbent_assay ELISA_)
+B-measure		ELISA	T059	ctext-0=ELISA	sectonHeader-0=113.xml-testSeg	assay	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ass	SUF|1-2|=say		ELISA	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=ELI	SUF|1+0|=ISA		uniTok|1+2|=EEEEE	beforecontext-0=context-ed	beforecontext-1=context-no assay_(
+O	) (_ELISA
+
+
+O	kits
+O	.
+

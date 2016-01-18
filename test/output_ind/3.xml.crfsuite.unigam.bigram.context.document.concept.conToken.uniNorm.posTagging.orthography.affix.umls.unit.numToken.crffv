@@ -1,0 +1,22 @@
+
+O	Tuberculosis ,_Borrelia
+O	, Borrelia_burgdorferi
+O	Borrelia Tuberculosis_, burgdorferi_,
+O	burgdorferi ,_Borrelia ,_Chlamydia
+O	, Borrelia_burgdorferi Chlamydia_pneumoniae
+O	Chlamydia burgdorferi_, pneumoniae_,
+O	pneumoniae ,_Chlamydia ,_and
+O	, Chlamydia_pneumoniae and_other
+B-labintermod		and	ctext-0=and	sectonHeader-0=3.xml-testSeg	pneumonia	pos|1-2|=NNP	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pne	SUF|1-2|=iae		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		other	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=oth	SUF|1+1|=her		bacterial	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=bac	SUF|1+2|=ial		postcontext-0=context-ed	postcontext-1=context-her pneumoniae_, other_bacterial
+O	other ,_and bacterial_infection
+O	bacterial and_other infection_excluded
+O	infection other_bacterial excluded_by
+B-labintermod		excluded	ctext-0=excluded	sectonHeader-0=3.xml-testSeg	bacterial	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=bac	SUF|1-2|=ial		infection	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=inf	SUF|1-1|=ion		exclude	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=exc	SUF|1+0|=ded		by	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PCR	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=PCR	SUF|1+2|=PCR		beforecontext-1=context-her bacterial_infection by_PCR
+O	by infection_excluded PCR_and
+B-entity		PCR	T059	ctext-0=PCR	sectonHeader-0=3.xml-testSeg	exclude	pos|1-2|=VBN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=exc	SUF|1-2|=ded		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PCR	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=PCR	SUF|1+0|=PCR		and	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=and	SUF|1+1|=and		beforecontext-0=context-ed	beforecontext-1=context-her excluded_by and_/
+O	and by_PCR /_or
+O	/ PCR_and or_cultures
+O	or and_/ cultures_;
+B-entity		cultures	T059	ctext-0=cultures	sectonHeader-0=3.xml-testSeg	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	culture	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cul	SUF|1+0|=res		uniTok|1+2|=EEEEE	beforecontext-0=context-ed	beforecontext-1=context-her /_or
+O	; or_cultures
+

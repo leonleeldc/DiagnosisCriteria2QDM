@@ -1,0 +1,63 @@
+
+O	Individuals receiving_high
+O	receiving high_-
+O	high Individuals_receiving -_dose
+O	- receiving_high dose_statin
+O	dose high_- statin_therapy
+O	statin -_dose therapy_would
+O	therapy dose_statin would_be
+O	would statin_therapy be_expected
+O	be therapy_would expected_to
+O	expected would_be to_lower
+O	to be_expected lower_their
+O	lower expected_to their_LDL
+O	their to_lower LDL_-
+O	LDL lower_their -_C
+B-entity	LDL-C 	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		by	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her lower_their level_by
+O	- their_LDL C_level
+O	C LDL_- level_by
+O	level -_C by_>
+O	by C_level >_50
+B-labintermod	by >50% from their baseline level 	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod	by >50% from their baseline level 	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod	by >50% from their baseline level 	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod	by >50% from their baseline level 	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod	by >50% from their baseline level 	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+I-labintermod	by >50% from their baseline level 	ctext-4=>	ctext-7=%	beforecontext-1=context-ed	beforecontext-2=context-her C_level ,_and
+B-labrefrangemod	> 	ctext-1=>	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her level_by 50_%
+O	50 by_> %_from
+O	% >_50 from_their
+O	from 50_% their_baseline
+O	their %_from baseline_level
+O	baseline from_their level_,
+O	level their_baseline ,_and
+O	, baseline_level and_those
+O	and level_, those_receiving
+O	those ,_and receiving_moderate
+O	receiving and_those moderate_-
+O	moderate those_receiving -_dose
+O	- receiving_moderate dose_statin
+O	dose moderate_- statin_therapy
+O	statin -_dose therapy_would
+O	therapy dose_statin would_be
+O	would statin_therapy be_expected
+O	be therapy_would expected_to
+O	expected would_be to_lower
+O	to be_expected lower_their
+O	lower expected_to their_LDL
+O	their to_lower LDL_-
+O	LDL lower_their -_C
+B-entity	LDL-C 	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		by	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her lower_their level_by
+O	- their_LDL C_level
+O	C LDL_- level_by
+O	level -_C by_30
+O	by C_level 30_%
+B-labintermod	by 30%-49% 	ctext-6=%	ctext-7=-	ctext-10=%	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her C_level
+I-labintermod	by 30%-49% 	ctext-6=%	ctext-7=-	ctext-10=%	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-her C_level
+O	30 level_by %_-
+O	% by_30 -_49
+O	- 30_% 49_%
+O	49 %_- %_.
+O	% -_49
+O	. 49_%
+

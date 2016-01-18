@@ -1,0 +1,28 @@
+
+O	There are_many
+O	are many_biochemical
+O	many There_are biochemical_markers
+O	biochemical are_many markers_for
+O	markers many_biochemical for_Paget
+O	for biochemical_markers Paget_'s
+O	Paget markers_for 's_disease
+O	's for_Paget disease_,
+O	disease Paget_'s ,_but
+O	, 's_disease but_the
+O	but disease_, the_two
+O	the ,_but two_most
+O	two but_the most_important
+O	most the_two important_are
+O	important two_most are_total
+O	are most_important total_serum
+O	total important_are serum_alkaline
+O	serum are_total alkaline_phosphatase
+O	alkaline total_serum phosphatase_and
+B-entity	alkaline phosphatase 	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no total_serum and_urinary
+I-entity	alkaline phosphatase 	beforecontext-0=context-but	beforecontext-1=context-her	postcontext-2=context-no total_serum and_urinary
+O	phosphatase serum_alkaline and_urinary
+O	and alkaline_phosphatase urinary_pyridinoline
+O	urinary phosphatase_and pyridinoline_.
+B-entity	pyridinoline 	beforecontext-0=context-but	beforecontext-1=context-her and_urinary
+O	. urinary_pyridinoline
+

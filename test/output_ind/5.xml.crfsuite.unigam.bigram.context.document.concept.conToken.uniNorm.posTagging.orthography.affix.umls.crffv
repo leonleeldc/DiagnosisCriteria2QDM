@@ -1,0 +1,33 @@
+
+O	Chronic myocarditis_:
+O	myocarditis
+O	: Chronic_myocarditis
+
+
+O	an infiltrate_of
+B-entity		infiltrate	C0332448	T046 	postcontext-0=context-ed	postcontext-1=context-if of_>
+O	of an_infiltrate >_14
+B-labrefrangemod		>	ctext-1=>	infiltrate	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inf	SUF|1-2|=ate		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes		postcontext-0=context-ed	postcontext-1=context-if infiltrate_of 14_leukocytes
+B-labvalmod		14	postcontext-0=context-ed	postcontext-1=context-if of_> leukocytes_/
+O	leukocytes >_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-11=/	postcontext-0=context-ed	postcontext-1=context-if >_14 (_diffuse
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_diffuse
+O	( /_mm2 diffuse_,
+O	diffuse mm2_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod		or	postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_,
+O	confluent focal_or ,_preferably
+O	, or_confluent preferably_activated
+O	preferably confluent_, activated_T
+B-labintermod		preferably	beforecontext-1=context-if confluent_, T_cells
+I-labintermod		activated	beforecontext-1=context-if confluent_, T_cells
+O	activated ,_preferably T_cells
+O	T preferably_activated cells_)
+B-entity		T	C0039194	T025 	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+I-entity		cells	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+

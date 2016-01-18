@@ -1,0 +1,21 @@
+
+O	Vitamin K_deficiency
+O	K deficiency_or
+B-labintermod		deficiency	C0162429	T047 	postcontext-0=context-ro	righttermin-1=context-ed Vitamin_K or_use
+O	or K_deficiency use_of
+O	use deficiency_or of_vitamin
+O	of or_use vitamin_K
+O	vitamin use_of K_antagonist
+B-entity		vitamin	C0042878	T121 	C0042879	T059 	ctext-9=K	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	vitamin	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=vit	SUF|1-1|=min		K	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	antagonist	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ant	SUF|1+1|=ist		postcontext-0=context-ro	righttermin-1=context-ed use_of antagonist_(
+I-entity		K	ctext-9=K	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	vitamin	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=vit	SUF|1-1|=min		K	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	antagonist	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ant	SUF|1+1|=ist		postcontext-0=context-ro	righttermin-1=context-ed use_of antagonist_(
+O	K of_vitamin antagonist_(
+O	antagonist vitamin_K (_Prothrombin
+O	( K_antagonist Prothrombin_Time
+O	Prothrombin antagonist_( Time_:
+B-entity		Prothrombin	C0033707	T059 	righttermin-1=context-ed antagonist_( :_Prolonged
+I-entity		Time	righttermin-1=context-ed antagonist_( :_Prolonged
+O	Time (_Prothrombin :_Prolonged
+O	: Prothrombin_Time Prolonged_)
+B-labintermod		Prolonged	beforecontext-0=context-ro Time_:
+O	) :_Prolonged
+

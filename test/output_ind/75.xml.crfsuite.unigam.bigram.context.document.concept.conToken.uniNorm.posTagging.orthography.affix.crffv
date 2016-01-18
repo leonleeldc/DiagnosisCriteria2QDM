@@ -1,0 +1,12 @@
+
+O	Serum creatinine_>
+B-entity	Serum creatinine  >_266
+I-entity	Serum creatinine  >_266
+O	creatinine >_266
+B-labrefrangemod	> 	ctext-1=>	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		creatinine	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cre	SUF|1-1|=ine		umol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=umo	SUF|1+2|=mol	 Serum_creatinine 266_umol
+B-labvalmod	266  creatinine_> umol_/
+O	umol >_266 /_L
+B-labvalmod	umol/L 	ctext-5=/	uniTok|1+2|=EEEEE	ctext-6=L	umol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=umo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE >_266
+O	/ 266_umol
+O	L umol_/
+

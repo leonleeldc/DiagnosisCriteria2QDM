@@ -1,0 +1,70 @@
+
+O	Laboratory tests_None
+O	tests None_of
+O	None Laboratory_tests of_the
+O	of tests_None the_available
+O	the None_of available_tests
+O	available of_the tests_will
+O	tests the_available will_confirm
+O	will available_tests confirm_the
+O	confirm tests_will the_diagnosis
+O	the will_confirm diagnosis_,
+O	diagnosis confirm_the ,_but
+O	, the_diagnosis but_thyroid
+O	but diagnosis_, thyroid_-
+O	thyroid ,_but -_function
+O	- but_thyroid function_tests
+O	function thyroid_- tests_and
+O	tests -_function and_tests
+O	and function_tests tests_for
+O	tests tests_and for_thyroid
+O	for and_tests thyroid_antibodies
+O	thyroid tests_for antibodies_may
+O	antibodies for_thyroid may_be
+O	may thyroid_antibodies be_advisable
+O	be antibodies_may advisable_because
+O	advisable may_be because_of
+O	because be_advisable of_the
+O	of advisable_because the_increased
+O	the because_of increased_association
+O	increased of_the association_between
+O	association the_increased between_alopecia
+O	between increased_association alopecia_areata
+O	alopecia association_between areata_and
+O	areata between_alopecia and_thyroid
+O	and alopecia_areata thyroid_autoimmunity
+O	thyroid areata_and autoimmunity_;
+O	autoimmunity and_thyroid
+O	; thyroid_autoimmunity
+
+
+O	abnormal results_of
+O	results of_thyroid
+O	of abnormal_results thyroid_-
+O	thyroid results_of -_function
+O	- of_thyroid function_tests
+O	function thyroid_- tests_,
+O	tests -_function ,_the
+O	, function_tests the_presence
+O	the tests_, presence_of
+B-labintermod	presence 	beforecontext-0=context-ro	postcontext-1=context-her	postcontext-2=context-his	beforecontext-3=context-no ,_the of_thyroid
+O	of the_presence thyroid_autoantibodies
+O	thyroid presence_of autoantibodies_,
+B-entity	thyroid autoantibodies 	beforecontext-0=context-ro	postcontext-1=context-her	postcontext-2=context-his	beforecontext-3=context-no presence_of ,_or
+I-entity	thyroid autoantibodies 	beforecontext-0=context-ro	postcontext-1=context-her	postcontext-2=context-his	beforecontext-3=context-no presence_of ,_or
+O	autoantibodies of_thyroid ,_or
+O	, thyroid_autoantibodies or_both
+O	or autoantibodies_, both_further
+O	both ,_or further_support
+O	further or_both support_a
+O	support both_further a_clinical
+O	a further_support clinical_or
+O	clinical support_a or_histologic
+O	or a_clinical histologic_working
+O	histologic clinical_or working_diagnosis
+O	working or_histologic diagnosis_of
+O	diagnosis histologic_working of_alopecia
+O	of working_diagnosis alopecia_areata
+O	alopecia diagnosis_of
+O	areata of_alopecia
+

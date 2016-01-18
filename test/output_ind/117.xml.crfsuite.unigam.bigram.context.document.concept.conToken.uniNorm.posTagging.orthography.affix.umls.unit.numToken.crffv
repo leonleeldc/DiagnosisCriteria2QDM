@@ -1,0 +1,30 @@
+
+B-entity		Haemoglobin	ctext-0=Haemoglobin	sectonHeader-0=117.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	haemoglobin	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Hae	SUF|1+0|=bin	 >_/
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=117.xml-testSeg	uniTok|1-2|=SSSSS	haemoglobin	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Hae	SUF|1-1|=bin		ctext-1=/	ctext-2=equal_symbol 13_g
+O	/ Haemoglobin_> =_13
+O	= >_/ 13_g
+B-labvalmod		13	ctext-0=13	sectonHeader-0=117.xml-testSeg	num	G	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR /_= g_/
+O	g =_13 /_dl
+B-labvalmod		g/dl	ctext-0=g	sectonHeader-0=117.xml-testSeg	G	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	DL	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-1=/	ctext-2=dl =_13 (_men
+O	/ 13_g dl_(
+O	dl g_/ (_men
+O	( /_dl men_)
+O	men dl_(
+O	) (_men
+
+
+B-labintermod		or	ctext-0=or	sectonHeader-0=117.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA >_/
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=117.xml-testSeg	uniTok|1-2|=SSSSS	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	ctext-1=/	ctext-2=equal_symbol 12_g
+O	/ or_> =_12
+O	= >_/ 12_g
+B-labvalmod		12	ctext-0=12	sectonHeader-0=117.xml-testSeg	num	G	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR /_= g_/
+O	g =_12 /_dl
+B-labvalmod		g/dl	ctext-0=g	sectonHeader-0=117.xml-testSeg	G	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	DL	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-1=/	ctext-2=dl =_12 (_women
+O	/ 12_g dl_(
+O	dl g_/ (_women
+O	( /_dl women_)
+O	women dl_(
+O	) (_women
+

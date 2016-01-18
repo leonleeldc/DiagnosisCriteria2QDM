@@ -1,0 +1,14 @@
+
+B-entity		IgG	C0202087	T059	postcontext-0=context-no >_1.10
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+-2|=EEEEE	IGG	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	STCLS|1-1-5|=MIXEDCAPS	PRE|1-1|=IgG	SUF|1-1|=IgG		time	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tim	SUF|1+2|=mes		postcontext-0=context-no 1.10_times
+O	1.10 IgG_> times_upper
+B-labintermod		1.10 IgG_>
+I-labintermod		times IgG_>
+I-labintermod		upper IgG_>
+I-labintermod		normal IgG_>
+I-labintermod		limit IgG_>
+O	times >_1.10 upper_normal
+O	upper 1.10_times normal_limit
+O	normal times_upper
+O	limit upper_normal
+

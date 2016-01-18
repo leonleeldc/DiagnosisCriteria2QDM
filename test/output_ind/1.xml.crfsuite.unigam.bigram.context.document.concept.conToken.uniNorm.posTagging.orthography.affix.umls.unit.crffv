@@ -1,0 +1,23 @@
+
+B-labintermod		Increased	postcontext-1=context-no number_of
+O	number of_lymphocytes
+O	of Increased_number lymphocytes_and
+B-entity		lymphocytes	C0200635	T059	beforecontext-0=context-ed	postcontext-1=context-no number_of and_mononuclear
+B-labintermod		and	beforecontext-0=context-ed	postcontext-1=context-no of_lymphocytes mononuclear_cells
+O	mononuclear lymphocytes_and cells_>
+B-entity		mononuclear	beforecontext-0=context-ed lymphocytes_and >_5000
+I-entity		cells	beforecontext-0=context-ed lymphocytes_and >_5000
+O	cells and_mononuclear >_5000
+O	> mononuclear_cells 5000_/
+B-labvalmod		5000	unit	beforecontext-0=context-ed	beforecontext-1=context-no cells_> /_mm3
+O	/ >_5000 mm3_(
+B-labvalmod		/mm3	unit	ctext-1=/	beforecontext-0=context-ed	beforecontext-1=context-no >_5000 (_autoreactive
+O	mm3 5000_/ (_autoreactive
+O	( /_mm3 autoreactive_lymphocytic
+O	autoreactive mm3_( lymphocytic_)
+O	lymphocytic (_autoreactive
+O	) autoreactive_lymphocytic
+
+
+O	,
+

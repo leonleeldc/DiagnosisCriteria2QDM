@@ -1,0 +1,20 @@
+
+O	Lactic acidosis_:
+O	acidosis :_Lactic
+O	: Lactic_acidosis Lactic_acid
+O	Lactic acidosis_: acid_level
+B-entity		Lactic	T109	T121	ctext-0=Lactic	sectonHeader-0=62.xml-testSeg	acidosis	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=aci	SUF|1-2|=sis		lactic	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Lac	SUF|1+0|=tic		acid	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=aci	SUF|1+1|=cid		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-7=acid	ctext-12=level acidosis_: >_/
+I-entity		acid	T109	T121	ctext-0=Lactic	sectonHeader-0=62.xml-testSeg	acidosis	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=aci	SUF|1-2|=sis		lactic	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Lac	SUF|1+0|=tic		acid	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=aci	SUF|1+1|=cid		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-7=acid	ctext-12=level acidosis_: >_/
+I-entity		level	T109	T121	ctext-0=Lactic	sectonHeader-0=62.xml-testSeg	acidosis	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=aci	SUF|1-2|=sis		lactic	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Lac	SUF|1+0|=tic		acid	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=aci	SUF|1+1|=cid		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-7=acid	ctext-12=level acidosis_: >_/
+O	acid :_Lactic level_>
+O	level Lactic_acid >_/
+O	> acid_level /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=62.xml-testSeg	acid	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=aci	SUF|1-2|=cid		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		ctext-1=/	ctext-2=equal_symbol acid_level 4_mmol
+O	/ level_> =_4
+O	= >_/ 4_mmol
+B-labvalmod		4	ctext-0=4	sectonHeader-0=62.xml-testSeg	num	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 /_= mmol_/
+O	mmol =_4 /_liter
+B-labvalmod		mmol/liter	ctext-0=mmol	sectonHeader-0=62.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-4=/	uniTok|1+2|=EEEEE	ctext-5=liter	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE =_4
+O	/ 4_mmol
+O	liter mmol_/
+

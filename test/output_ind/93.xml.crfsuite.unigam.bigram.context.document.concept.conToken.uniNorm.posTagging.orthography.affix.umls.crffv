@@ -1,0 +1,16 @@
+
+B-labintermod		Lack of_suppression
+O	of suppression_after
+O	suppression Lack_of after_low
+B-entity		suppression	C0201782	T059 	ctext-22=- Lack_of
+I-entity		after	ctext-22=- Lack_of
+I-entity		low-dose	ctext-22=- Lack_of
+I-entity		dexamethasone	ctext-22=- Lack_of
+I-entity		testing	ctext-22=- Lack_of
+O	after of_suppression low_-
+O	low suppression_after -_dose
+O	- after_low dose_dexamethasone
+O	dose low_- dexamethasone_testing
+O	dexamethasone -_dose
+O	testing dose_dexamethasone
+

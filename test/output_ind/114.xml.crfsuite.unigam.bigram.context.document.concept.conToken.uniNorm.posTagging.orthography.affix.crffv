@@ -1,0 +1,33 @@
+
+O	At the_onset
+O	the onset_of
+O	onset At_the of_disease
+O	of the_onset disease_,
+O	disease onset_of ,_the
+O	, of_disease the_presence
+O	the disease_, presence_of
+B-labintermod	the presence of 	postcontext-0=context-ed disease_, IgG_anti-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed disease_, IgG_anti-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed disease_, IgG_anti-HAV
+O	presence ,_the of_IgG
+O	of the_presence IgG_anti-HAV
+O	IgG presence_of anti-HAV_is
+B-entity	IgG anti-HAV 	postcontext-0=context-ed presence_of is_always
+I-entity	IgG anti-HAV 	postcontext-0=context-ed presence_of is_always
+O	anti-HAV of_IgG is_always
+O	is IgG_anti-HAV always_accompanied
+O	always anti-HAV_is accompanied_by
+O	accompanied is_always by_the
+O	by always_accompanied the_presence
+O	the accompanied_by presence_of
+B-labintermod	the presence of 	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+I-labintermod	the presence of 	postcontext-0=context-ed accompanied_by IgM_anti-HAV
+O	presence by_the of_IgM
+O	of the_presence IgM_anti-HAV
+O	IgM presence_of anti-HAV_.
+B-entity	IgM anti-HAV 	beforecontext-0=context-ed presence_of
+I-entity	IgM anti-HAV 	beforecontext-0=context-ed presence_of
+O	anti-HAV of_IgM
+O	. IgM_anti-HAV
+

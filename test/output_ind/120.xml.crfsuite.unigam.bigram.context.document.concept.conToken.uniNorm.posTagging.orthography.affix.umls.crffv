@@ -1,0 +1,12 @@
+
+B-labintermod		Elevated	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no serum_ferritin
+O	serum ferritin_not
+B-entity		serum	C0696113	T059 	beforecontext-0=context-ed	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no not_explained
+I-entity		ferritin	beforecontext-0=context-ed	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no not_explained
+O	ferritin Elevated_serum not_explained
+O	not serum_ferritin explained_by
+O	explained ferritin_not by_another
+O	by not_explained another_cause
+O	another explained_by
+O	cause by_another
+

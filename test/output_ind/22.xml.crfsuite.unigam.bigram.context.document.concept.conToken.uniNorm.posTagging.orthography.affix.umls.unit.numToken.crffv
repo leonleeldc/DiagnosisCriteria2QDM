@@ -1,0 +1,19 @@
+
+B-labintermod		Abnormal	ctext-0=Abnormal	sectonHeader-0=22.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	abnormal	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Abn	SUF|1+0|=mal		karyotype	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=kar	SUF|1+1|=ype		postcontext-0=context-ro	postcontext-1=context-her karyotype_(
+B-entity		karyotype	T059	ctext-0=karyotype	sectonHeader-0=22.xml-testSeg	uniTok|1-2|=SSSSS	abnormal	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Abn	SUF|1-1|=mal		karyotype	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=kar	SUF|1+0|=ype		other	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=oth	SUF|1+2|=her		postcontext-0=context-ro	postcontext-1=context-her	beforecontext-2=context-no (_other
+O	( Abnormal_karyotype other_than
+O	other karyotype_( than_Ph
+O	than (_other Ph_chromosome
+O	Ph other_than chromosome_or
+O	chromosome than_Ph or_BCR
+B-labintermod		or	ctext-0=or	sectonHeader-0=22.xml-testSeg	Ph	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	chromosome	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=chr	SUF|1-1|=ome		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	BCR	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	PRE|1+1|=BCR	SUF|1+1|=BCR		postcontext-0=context-ro	postcontext-1=context-her Ph_chromosome BCR_/
+O	BCR chromosome_or /_ABL
+O	/ or_BCR ABL_fusion
+O	ABL BCR_/ fusion_gene
+O	fusion /_ABL gene_in
+O	gene ABL_fusion in_marrow
+O	in fusion_gene marrow_cells
+O	marrow gene_in cells_)
+O	cells in_marrow
+O	) marrow_cells
+

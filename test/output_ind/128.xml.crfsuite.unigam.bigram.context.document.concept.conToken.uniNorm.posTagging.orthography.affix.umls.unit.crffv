@@ -1,0 +1,37 @@
+
+O	Diuretic -_induced
+O	- induced_hypo
+O	induced Diuretic_- hypo_-
+O	hypo -_induced -_or
+O	- induced_hypo or_hyperkalemia
+O	or hypo_- hyperkalemia_is
+O	hyperkalemia -_or is_defined
+O	is or_hyperkalemia defined_as
+O	defined hyperkalemia_is as_a
+O	as is_defined a_change
+O	a defined_as change_in
+O	change as_a in_serum
+O	in a_change serum_potassium
+O	serum change_in potassium_to
+B-entity		serum	C0202194	T059	C0302353	T059	postcontext-0=context-ro	beforecontext-1=context-ed change_in to_<
+I-entity		potassium	C0202194	T059	C0302353	T059	postcontext-0=context-ro	beforecontext-1=context-ed change_in to_<
+O	potassium in_serum to_<
+O	to serum_potassium <_3
+B-labrefrangemod		<	unit	ctext-1=<	potassium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pot	SUF|1-2|=ium		to	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	MEq	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	PRE|1+2|=mEq	SUF|1+2|=mEq		postcontext-0=context-ro	beforecontext-1=context-ed potassium_to 3_mEq
+B-labvalmod		3	ctext-1=3	to	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	MEq	pos|1+1|=NNS	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-3|=LOWER-UPPER	PRE|1+1|=mEq	SUF|1+1|=mEq		postcontext-0=context-ro	beforecontext-1=context-ed to_< mEq_/
+O	mEq <_3 /_L
+B-labvalmod		mEq/L	ctext-4=/	ctext-5=L	MEq	pos|1-2|=NNS	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	PRE|1-2|=mEq	SUF|1-2|=mEq		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	postcontext-0=context-ro	beforecontext-1=context-ed <_3 or_>
+O	/ 3_mEq L_or
+O	L mEq_/ or_>
+B-labintermod		or	postcontext-0=context-ro	beforecontext-1=context-ed /_L >_6
+B-labrefrangemod		>	unit	ctext-1=>	L	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	MEq	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	PRE|1+2|=mEq	SUF|1+2|=mEq		postcontext-0=context-ro	beforecontext-1=context-ed L_or 6_mEq
+B-labvalmod		6	ctext-1=6	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	MEq	pos|1+1|=NNS	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-3|=LOWER-UPPER	PRE|1+1|=mEq	SUF|1+1|=mEq		postcontext-0=context-ro	beforecontext-1=context-ed or_> mEq_/
+O	mEq >_6 /_L
+B-labvalmod		mEq/L	ctext-4=/	ctext-5=L	MEq	pos|1-2|=NNS	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	PRE|1-2|=mEq	SUF|1-2|=mEq		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	despite	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=des	SUF|1+1|=ite		appropriate	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=app	SUF|1+2|=ate		postcontext-0=context-ro	beforecontext-1=context-ed >_6 despite_appropriate
+O	/ 6_mEq L_despite
+O	L mEq_/ despite_appropriate
+O	despite /_L appropriate_measures
+O	appropriate L_despite measures_.
+O	measures despite_appropriate
+O	. appropriate_measures
+

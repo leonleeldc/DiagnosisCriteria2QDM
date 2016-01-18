@@ -1,0 +1,41 @@
+
+B-labintermod	Exclusion 	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no of_active
+O	of active_viral
+O	active Exclusion_of viral_infection
+O	viral of_active infection_both
+O	infection active_viral both_in
+O	both viral_infection in_pericardial
+O	in infection_both pericardial_effusion
+O	pericardial both_in effusion_and
+O	effusion in_pericardial and_endomyocardial
+B-labintermod	and 	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no pericardial_effusion endomyocardial_/
+O	endomyocardial effusion_and /_epimyocardial
+O	/ and_endomyocardial epimyocardial_biopsies
+O	epimyocardial endomyocardial_/ biopsies_(
+O	biopsies /_epimyocardial (_no
+O	( epimyocardial_biopsies no_virus
+O	no biopsies_( virus_isolation
+O	virus (_no isolation_,
+O	isolation no_virus ,_no
+O	, virus_isolation no_IgM
+B-labintermod	no 	postcontext-0=context-ro	postcontext-1=context-negative isolation_, IgM_-
+B-entity	IgM 	postcontext-0=context-ro	postcontext-1=context-negative	beforecontext-2=context-no ,_no -_titer
+O	- no_IgM titer_against
+O	titer IgM_- against_cardiotropic
+O	against -_titer cardiotropic_viruses
+O	cardiotropic titer_against viruses_in
+O	viruses against_cardiotropic in_pericardial
+O	in cardiotropic_viruses pericardial_effusion
+O	pericardial viruses_in effusion_,
+O	effusion in_pericardial ,_and
+O	, pericardial_effusion and_negative
+B-labintermod	and 	postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no effusion_, negative_PCR
+B-labintermod	negative 	beforecontext-0=context-ro	beforecontext-2=context-no ,_and PCR_for
+B-entity	PCR 	beforecontext-0=context-ro	beforecontext-1=context-negative	beforecontext-2=context-no and_negative for_major
+O	for negative_PCR major_cardiotropic
+O	major PCR_for cardiotropic_viruses
+O	cardiotropic for_major viruses_)
+O	viruses major_cardiotropic )_;
+O	) cardiotropic_viruses
+O	; viruses_)
+

@@ -1,0 +1,23 @@
+
+B-entity		Bilirubin	T059	ctext-0=Bilirubin	sectonHeader-0=77.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	bilirubin	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Bil	SUF|1+0|=bin	 >_60
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=77.xml-testSeg	uniTok|1-2|=SSSSS	bilirubin	pos|1-1|=NNP	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Bil	SUF|1-1|=bin		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA 60_mg
+B-labvalmod		60	ctext-0=60	sectonHeader-0=77.xml-testSeg	num	bilirubin	pos|1-2|=NNP	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Bil	SUF|1-2|=bin		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA Bilirubin_> mg_/
+O	mg >_60 /_L
+B-labvalmod		mg/L	ctext-0=mg	sectonHeader-0=77.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=L >_60 or_a
+O	/ 60_mg L_or
+O	L mg_/ or_a
+B-labintermod		or	ctext-0=or	sectonHeader-0=77.xml-testSeg	L	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	STCLS|1-1-6|=SINGLECHAR	STCLS|1-1-14|=ROMAN	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	A	pos|1+1|=DT	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	twofold	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=two	SUF|1+2|=old	 /_L a_twofold
+O	a L_or twofold_increase
+O	twofold or_a increase_in
+B-labintermod		twofold	ctext-0=twofold	sectonHeader-0=77.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	A	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	STCLS|1-1-6|=SINGLECHAR	twofold	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=two	SUF|1+0|=old		increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-8=increase or_a in_alkaline
+I-labintermod		increase	ctext-0=twofold	sectonHeader-0=77.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	A	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	STCLS|1-1-6|=SINGLECHAR	twofold	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=two	SUF|1+0|=old		increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-8=increase or_a in_alkaline
+O	increase a_twofold in_alkaline
+O	in twofold_increase alkaline_phosphatase
+O	alkaline increase_in phosphatase_in
+B-entity		alkaline	T059	T044	ctext-0=alkaline	sectonHeader-0=77.xml-testSeg	increase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inc	SUF|1-2|=ase		in	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	alkaline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-9=phosphatase increase_in in_serum
+I-entity		phosphatase	T059	T044	ctext-0=alkaline	sectonHeader-0=77.xml-testSeg	increase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inc	SUF|1-2|=ase		in	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	alkaline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-9=phosphatase increase_in in_serum
+O	phosphatase in_alkaline in_serum
+O	in alkaline_phosphatase serum_and
+B-anatomical		serum	ctext-0=serum	sectonHeader-0=77.xml-testSeg	phosphatase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pho	SUF|1-2|=ase		in	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		and	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=and	SUF|1+1|=and		uniTok|1+2|=EEEEE phosphatase_in
+O	and in_serum
+

@@ -1,0 +1,13 @@
+
+B-entity	WBC  >_12
+B-labrefrangemod	> 	ctext-1=>	uniTok|1+-2|=EEEEE	WBC	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=WBC	SUF|1-1|=WBC		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN 12_x
+O	12 WBC_> x_109
+B-labvalmod	12 x 109 	ctext-4=x WBC_> /_l
+I-labvalmod	12 x 109 	ctext-4=x WBC_> /_l
+I-labvalmod	12 x 109 	ctext-4=x WBC_> /_l
+O	x >_12 109_/
+O	109 12_x /_l
+O	/ x_109
+B-labvalmod	/l 	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=l	L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE x_109
+O	l 109_/
+

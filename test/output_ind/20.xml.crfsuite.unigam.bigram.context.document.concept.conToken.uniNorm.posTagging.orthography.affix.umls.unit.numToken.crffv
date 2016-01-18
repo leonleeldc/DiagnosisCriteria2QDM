@@ -1,0 +1,16 @@
+
+O	Neutrophil count_>
+B-entity		Neutrophil	T025	T059	ctext-0=Neutrophil	sectonHeader-0=20.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	neutrophil	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Neu	SUF|1+0|=hil		Count	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cou	SUF|1+1|=unt		ctext-11=count	uniTok|1+-2|=EEEEE >_10
+I-entity		count	T025	T059	ctext-0=Neutrophil	sectonHeader-0=20.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	neutrophil	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Neu	SUF|1+0|=hil		Count	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cou	SUF|1+1|=unt		ctext-11=count	uniTok|1+-2|=EEEEE >_10
+O	count >_10
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=20.xml-testSeg	neutrophil	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Neu	SUF|1-2|=hil		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	beforecontext-0=context-ro Neutrophil_count 10_x
+O	10 count_> x_109
+B-labvalmod		10	unit	ctext-0=10	sectonHeader-0=20.xml-testSeg	num	Count	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cou	SUF|1-2|=unt		X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num	beforecontext-0=context-ro count_> /_l
+I-labvalmod		x	unit	ctext-0=10	sectonHeader-0=20.xml-testSeg	num	Count	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cou	SUF|1-2|=unt		X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num	beforecontext-0=context-ro count_> /_l
+I-labvalmod		109	unit	ctext-0=10	sectonHeader-0=20.xml-testSeg	num	Count	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cou	SUF|1-2|=unt		X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num	beforecontext-0=context-ro count_> /_l
+O	x >_10 109_/
+O	109 10_x /_l
+O	/ x_109
+B-labvalmod		/l	unit	ctext-0=/	sectonHeader-0=20.xml-testSeg	X	pos|1-2|=SYM	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	L	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	uniTok|1+2|=EEEEE	ctext-1=l	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro x_109
+O	l 109_/
+

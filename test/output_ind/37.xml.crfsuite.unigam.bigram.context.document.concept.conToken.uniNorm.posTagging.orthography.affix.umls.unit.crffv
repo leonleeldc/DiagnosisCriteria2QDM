@@ -1,0 +1,37 @@
+
+O	Fasting glucose_level
+B-entity		Fasting level_>
+I-entity		glucose level_>
+O	glucose level_>
+O	level Fasting_glucose >_/
+O	> glucose_level /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA glucose_level 100_mg
+O	/ level_> =_100
+O	= >_/ 100_mg
+B-labvalmod		100 /_= mg_/
+O	mg =_100 /_dL
+B-labvalmod		mg/dL	ctext-3=/ =_100 (_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod		5.6 dL_( mmol_/
+O	mmol (_5.6 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and	 (_5.6 )_and
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_and
+O	) /_L and_<
+B-labintermod		and L_) <_126
+B-labrefrangemod		<	unit	ctext-1=<	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_and 126_mg
+B-labvalmod		126 and_< mg_/
+O	mg <_126 /_dL
+B-labvalmod		mg/dL	ctext-3=/ <_126 (_7.0
+O	/ 126_mg dL_(
+O	dL mg_/ (_7.0
+O	( /_dL 7.0_mmol
+B-labvalmod		7.0 dL_( mmol_/
+O	mmol (_7.0 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+

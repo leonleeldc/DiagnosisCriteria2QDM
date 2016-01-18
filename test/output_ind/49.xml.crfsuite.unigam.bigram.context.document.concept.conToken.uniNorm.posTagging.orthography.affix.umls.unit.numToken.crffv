@@ -1,0 +1,18 @@
+
+B-labintermod		Positive	ctext-0=Positive	sectonHeader-0=49.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	positive	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pos	SUF|1+0|=ive		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		culture	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cul	SUF|1+2|=ure		postcontext-0=context-ro blood_culture
+O	blood culture_:
+B-entity		blood	T024	T059	T059	ctext-0=blood	sectonHeader-0=49.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		ctext-6=culture	postcontext-0=context-ro :_Typical
+I-entity		culture	T024	T059	T059	ctext-0=blood	sectonHeader-0=49.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		ctext-6=culture	postcontext-0=context-ro :_Typical
+O	culture Positive_blood :_Typical
+O	: blood_culture Typical_microorganism
+O	Typical culture_: microorganism_for
+O	microorganism :_Typical for_infective
+O	for Typical_microorganism infective_endocarditis
+O	infective microorganism_for endocarditis_from
+O	endocarditis for_infective from_two
+O	from infective_endocarditis two_separate
+O	two endocarditis_from separate_blood
+O	separate from_two blood_cultures
+O	blood two_separate
+O	cultures separate_blood
+

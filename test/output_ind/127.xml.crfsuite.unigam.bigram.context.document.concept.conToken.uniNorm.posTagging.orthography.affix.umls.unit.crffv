@@ -1,0 +1,43 @@
+
+O	Diuretic -_induced
+O	- induced_renal
+O	induced Diuretic_- renal_impairment
+O	renal -_induced impairment_is
+O	impairment induced_renal is_indicated
+O	is renal_impairment indicated_by
+O	indicated impairment_is by_an
+O	by is_indicated an_increase
+O	an indicated_by increase_of
+B-labintermod		increase	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient by_an of_serum
+O	of an_increase serum_creatinine
+O	serum increase_of creatinine_by
+B-entity		serum	C0201975	T059	C0201976	T059	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient increase_of by_>
+I-entity		creatinine	C0201975	T059	C0201976	T059	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient increase_of by_>
+O	creatinine of_serum by_>
+O	by serum_creatinine >_100
+B-labintermod		by	unit	ctext-4=>	ctext-9=%	to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	A	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient serum_creatinine to_a
+I-labintermod		>	unit	ctext-4=>	ctext-9=%	to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	A	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient serum_creatinine to_a
+I-labintermod		100%	unit	ctext-4=>	ctext-9=%	to	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	A	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient serum_creatinine to_a
+B-labrefrangemod		>	unit	ctext-1=>	creatinine	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cre	SUF|1-2|=ine		by	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient creatinine_by 100_%
+O	100 by_> %_to
+O	% >_100 to_a
+O	to 100_% a_value
+O	a %_to value_of
+O	value to_a of_>
+O	of a_value >_2
+B-labrefrangemod		>	unit	ctext-1=>	value	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=val	SUF|1-2|=lue		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient value_of 2_mg
+B-labvalmod		2	ctext-1=2	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient of_> mg_/
+O	mg >_2 /_dL
+B-labvalmod		mg/dL	ctext-3=/	beforecontext-0=context-ed	postcontext-1=context-her	postcontext-2=context-patient >_2 in_patients
+O	/ 2_mg dL_in
+O	dL mg_/ in_patients
+O	in /_dL patients_with
+O	patients dL_in with_ascites
+O	with in_patients ascites_otherwise
+O	ascites patients_with otherwise_responding
+O	otherwise with_ascites responding_to
+O	responding ascites_otherwise to_treatment
+O	to otherwise_responding treatment_.
+O	treatment responding_to
+O	. to_treatment
+

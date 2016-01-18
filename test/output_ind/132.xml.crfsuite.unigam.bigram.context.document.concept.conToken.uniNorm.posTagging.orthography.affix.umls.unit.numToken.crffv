@@ -1,0 +1,26 @@
+
+B-labintermod		Low	ctext-0=Low	sectonHeader-0=132.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	low	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Low	SUF|1+0|=Low		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		ceruloplasmin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cer	SUF|1+2|=min	 serum_ceruloplasmin
+O	serum ceruloplasmin_levels
+B-entity		serum	T034	T059	T121	ctext-0=serum	sectonHeader-0=132.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		ceruloplasmin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cer	SUF|1+1|=min		level	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=els		ctext-6=ceruloplasmin	ctext-20=levels <_20
+I-entity		ceruloplasmin	T034	T059	T121	ctext-0=serum	sectonHeader-0=132.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		ceruloplasmin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cer	SUF|1+1|=min		level	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=els		ctext-6=ceruloplasmin	ctext-20=levels <_20
+I-entity		levels	T034	T059	T121	ctext-0=serum	sectonHeader-0=132.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		ceruloplasmin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cer	SUF|1+1|=min		level	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=els		ctext-6=ceruloplasmin	ctext-20=levels <_20
+O	ceruloplasmin Low_serum levels_<
+O	levels serum_ceruloplasmin <_20
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=132.xml-testSeg	ceruloplasmin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cer	SUF|1-2|=min		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA ceruloplasmin_levels 20_mg
+B-labvalmod		20	ctext-0=20	sectonHeader-0=132.xml-testSeg	num	level	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=els		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA levels_< mg_/
+O	mg <_20 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=132.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL <_20 (_Normal
+O	/ 20_mg dL_(
+O	dL mg_/ (_Normal
+O	( /_dL Normal_range
+O	Normal dL_( range_20
+O	range (_Normal 20_-
+O	20 Normal_range -_50
+O	- range_20 50_mg
+O	50 20_- mg_/
+O	mg -_50 /_dL
+O	/ 50_mg dL_)
+O	dL mg_/ )_.
+O	) /_dL
+O	. dL_)
+

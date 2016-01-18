@@ -1,0 +1,14 @@
+
+O	Hyponatremia :_Sodium
+O	: Sodium_level
+O	Sodium Hyponatremia_: level_<
+B-entity		Sodium	T123	T034	T121	ctext-0=Sodium	sectonHeader-0=65.xml-testSeg	hyponatremia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Hyp	SUF|1-2|=mia		sodium	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Sod	SUF|1+0|=ium		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		ctext-7=level Hyponatremia_: <_130
+I-entity		level	T123	T034	T121	ctext-0=Sodium	sectonHeader-0=65.xml-testSeg	hyponatremia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Hyp	SUF|1-2|=mia		sodium	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Sod	SUF|1+0|=ium		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		ctext-7=level Hyponatremia_: <_130
+O	level :_Sodium <_130
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=65.xml-testSeg	sodium	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Sod	SUF|1-2|=ium		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 Sodium_level 130_mmol
+B-labvalmod		130	ctext-0=130	sectonHeader-0=65.xml-testSeg	num	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 level_< mmol_/
+O	mmol <_130 /_liter
+B-labvalmod		mmol/liter	ctext-0=mmol	sectonHeader-0=65.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		liter	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lit	SUF|1+2|=ter		ctext-4=/	uniTok|1+2|=EEEEE	ctext-5=liter	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_130
+O	/ 130_mmol
+O	liter mmol_/
+

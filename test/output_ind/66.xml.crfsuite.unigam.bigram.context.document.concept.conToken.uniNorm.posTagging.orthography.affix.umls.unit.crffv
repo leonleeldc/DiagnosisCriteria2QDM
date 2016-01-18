@@ -1,0 +1,15 @@
+
+O	Leukocytosis :_Leukocyte
+O	: Leukocyte_count
+O	Leukocyte Leukocytosis_: count_>
+B-entity		Leukocyte	C0023516	T025	C0023516	T025	C0023508	T059 Leukocytosis_:
+I-entity		count	C0023516	T025	C0023516	T025	C0023508	T059 Leukocytosis_:
+O	count :_Leukocyte
+B-labrefrangemod		>	unit	ctext-1=>	leukocyte	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=yte		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE Leukocyte_count
+
+
+B-labvalmod		20,000	unit /_mm3
+O	/
+B-labvalmod		/mm3	unit	ctext-1=/	uniTok|1+-2|=EEEEE	uniTok|1+2|=EEEEE
+O	mm3 20,000_/
+

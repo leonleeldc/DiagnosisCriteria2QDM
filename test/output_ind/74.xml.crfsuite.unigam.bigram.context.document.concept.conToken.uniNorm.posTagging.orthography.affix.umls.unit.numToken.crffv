@@ -1,0 +1,25 @@
+
+O	Urine volume_9.3
+B-entity		Urine	T059	ctext-0=Urine	sectonHeader-0=74.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urine	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ine		volume	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=vol	SUF|1+1|=ume		ctext-6=volume	uniTok|1+-2|=EEEEE 9.3_mL
+I-entity		volume	T059	ctext-0=Urine	sectonHeader-0=74.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urine	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ine		volume	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=vol	SUF|1+1|=ume		ctext-6=volume	uniTok|1+-2|=EEEEE 9.3_mL
+O	volume 9.3_mL
+B-labvalmod		9.3	ctext-0=9.3	sectonHeader-0=74.xml-testSeg	num	urine	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Uri	SUF|1-2|=ine		volume	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=vol	SUF|1-1|=ume		ml	pos|1+1|=NNS	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-3|=LOWER-UPPER	STCLS|1+1-14|=ROMAN Urine_volume mL_/
+O	mL volume_9.3 /_kg
+B-labvalmod		mL/kg	ctext-0=mL	sectonHeader-0=74.xml-testSeg	volume	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=vol	SUF|1-2|=ume		ml	pos|1+0|=NNS	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-3|=LOWER-UPPER	STCLS|1+0-14|=ROMAN	kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-2=/	ctext-3=kg volume_9.3 body_weight
+O	/ 9.3_mL kg_body
+O	kg mL_/ body_weight
+O	body /_kg weight_per
+B-labvalmod		body	ctext-0=body	sectonHeader-0=74.xml-testSeg	kg	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	body	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bod	SUF|1+0|=ody		weight	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=wei	SUF|1+1|=ght		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		ctext-5=weight	ctext-12=per	ctext-16=hour /_kg for_8
+I-labvalmod		weight	ctext-0=body	sectonHeader-0=74.xml-testSeg	kg	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	body	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bod	SUF|1+0|=ody		weight	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=wei	SUF|1+1|=ght		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		ctext-5=weight	ctext-12=per	ctext-16=hour /_kg for_8
+I-labvalmod		per	ctext-0=body	sectonHeader-0=74.xml-testSeg	kg	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	body	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bod	SUF|1+0|=ody		weight	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=wei	SUF|1+1|=ght		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		ctext-5=weight	ctext-12=per	ctext-16=hour /_kg for_8
+I-labvalmod		hour	ctext-0=body	sectonHeader-0=74.xml-testSeg	kg	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	body	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bod	SUF|1+0|=ody		weight	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=wei	SUF|1+1|=ght		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per		ctext-5=weight	ctext-12=per	ctext-16=hour /_kg for_8
+O	weight kg_body per_hour
+O	per body_weight hour_for
+O	hour weight_per for_8
+O	for per_hour 8_h
+B-time		for	ctext-0=for	sectonHeader-0=74.xml-testSeg	per	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=per	SUF|1-2|=per		hour	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=hou	SUF|1-1|=our		for	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=for	SUF|1+0|=for		H	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=8	num	uniTok|1+2|=EEEEE	ctext-6=h	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE per_hour
+I-time		8	ctext-0=for	sectonHeader-0=74.xml-testSeg	per	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=per	SUF|1-2|=per		hour	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=hou	SUF|1-1|=our		for	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=for	SUF|1+0|=for		H	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=8	num	uniTok|1+2|=EEEEE	ctext-6=h	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE per_hour
+I-time		h	ctext-0=for	sectonHeader-0=74.xml-testSeg	per	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=per	SUF|1-2|=per		hour	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=hou	SUF|1-1|=our		for	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=for	SUF|1+0|=for		H	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=8	num	uniTok|1+2|=EEEEE	ctext-6=h	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE per_hour
+O	8 hour_for
+O	h for_8
+

@@ -1,0 +1,19 @@
+
+O	B -_Diagnosis
+O	- Diagnosis_of
+O	Diagnosis B_- of_iron
+O	of -_Diagnosis iron_overload
+B-entity		iron	T123	ctext-0=iron	sectonHeader-0=125.xml-testSeg	diagnosis	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Dia	SUF|1-2|=sis		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	iron	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=iro	SUF|1+0|=ron		overload	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ove	SUF|1+1|=oad		beforecontext-1=context-no Diagnosis_of overload_:
+B-labintermod		overload	ctext-0=overload	sectonHeader-0=125.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	iron	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=iro	SUF|1-1|=ron		overload	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ove	SUF|1+0|=oad		beforecontext-0=context-ro	beforecontext-1=context-no of_iron :_1
+O	: iron_overload 1_plus
+O	1 overload_: plus_2
+O	plus :_1 2_,
+O	2 1_plus ,_or
+O	, plus_2 or_1
+O	or 2_, 1_plus
+O	1 ,_or plus_3
+O	plus or_1 3_,
+O	3 1_plus ,_below
+O	, plus_3
+O	below 3_,
+

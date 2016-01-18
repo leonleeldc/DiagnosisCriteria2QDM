@@ -1,0 +1,56 @@
+
+O	This five_-
+O	five -_factor
+O	- This_five factor_scoring
+O	factor five_- scoring_system
+O	scoring -_factor system_assigns
+O	system factor_scoring assigns_one
+O	assigns scoring_system one_point
+O	one system_assigns point_for
+O	point assigns_one for_the
+O	for one_point the_presence
+O	the point_for presence_of
+O	presence for_the of_each
+O	of the_presence each_of
+O	each presence_of of_the
+O	of of_each the_following
+O	the each_of following_,
+O	following of_the ,_either
+O	, the_following either_at
+O	either following_, at_admission
+O	at ,_either admission_or
+O	admission either_at or_during
+O	or at_admission during_the
+O	during admission_or the_initial
+O	the or_during initial_24
+O	initial during_the 24_hours
+O	24 the_initial hours_of
+O	hours initial_24 of_hospitalization
+O	of 24_hours hospitalization_:
+O	hospitalization hours_of
+O	: of_hospitalization
+
+
+B-entity		Bun	T059	ctext-0=Bun	sectonHeader-0=40.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	BUN	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Bun	SUF|1+0|=Bun		postcontext-0=context-ed >_25
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=40.xml-testSeg	uniTok|1-2|=SSSSS	BUN	pos|1-1|=NNP	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Bun	SUF|1-1|=Bun		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ed 25_mg
+B-labvalmod		25	ctext-0=25	sectonHeader-0=40.xml-testSeg	num	BUN	pos|1-2|=NNP	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Bun	SUF|1-2|=Bun		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	postcontext-0=context-ed Bun_> mg_/
+O	mg >_25 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=40.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL	postcontext-0=context-ed >_25 ,_Impaired
+O	/ 25_mg dL_,
+O	dL mg_/ ,_Impaired
+O	, /_dL Impaired_mental
+O	Impaired dL_, mental_status
+O	mental ,_Impaired status_,
+O	status Impaired_mental ,_SIRS
+O	, mental_status SIRS_,
+O	SIRS status_, ,_Age
+O	, ,_SIRS Age_>
+O	Age SIRS_, >_60
+O	> ,_Age 60_and
+O	60 Age_> and_a
+O	and >_60 a_Pleural
+O	a 60_and Pleural_effusion
+O	Pleural and_a effusion_.
+O	effusion a_Pleural
+O	. Pleural_effusion
+

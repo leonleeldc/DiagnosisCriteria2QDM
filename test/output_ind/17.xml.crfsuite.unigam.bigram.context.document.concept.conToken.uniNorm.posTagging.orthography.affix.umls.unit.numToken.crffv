@@ -1,0 +1,9 @@
+
+B-anatomical		Leucocyte	T025	ctext-0=Leucocyte	sectonHeader-0=17.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	leucocyte	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Leu	SUF|1+0|=yte		alkaline	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alk	SUF|1+1|=ine		phosphatase	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pho	SUF|1+2|=ase	 alkaline_phosphatase
+O	alkaline phosphatase_>
+B-entity		alkaline	T059	T044	ctext-0=alkaline	sectonHeader-0=17.xml-testSeg	uniTok|1-2|=SSSSS	leucocyte	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Leu	SUF|1-1|=yte		alkaline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		ctext-9=phosphatase >_100
+I-entity		phosphatase	T059	T044	ctext-0=alkaline	sectonHeader-0=17.xml-testSeg	uniTok|1-2|=SSSSS	leucocyte	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Leu	SUF|1-1|=yte		alkaline	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alk	SUF|1+0|=ine		phosphatase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=ase		ctext-9=phosphatase >_100
+O	phosphatase Leucocyte_alkaline >_100
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=17.xml-testSeg	alkaline	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=alk	SUF|1-2|=ine		phosphatase	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pho	SUF|1-1|=ase		uniTok|1+2|=EEEEE alkaline_phosphatase
+B-labvalmod		100	ctext-0=100	sectonHeader-0=17.xml-testSeg	num	phosphatase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pho	SUF|1-2|=ase		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE phosphatase_>
+

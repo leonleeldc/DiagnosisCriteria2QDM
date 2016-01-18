@@ -1,0 +1,8 @@
+
+B-labintermod		Low	postcontext-0=context-ro serum_erythropoietin
+B-anatomical		serum	postcontext-0=context-ro erythropoietin_(
+B-entity		erythropoietin	C0202001	T059 Low_serum (_EPO
+O	( serum_erythropoietin EPO_)
+B-entity		EPO	C0202001	T059	beforecontext-0=context-ro erythropoietin_(
+O	) (_EPO
+

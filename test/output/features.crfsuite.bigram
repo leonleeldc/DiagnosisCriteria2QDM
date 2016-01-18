@@ -1,0 +1,3513 @@
+SS
+B-labintermod	Increased		number_of
+O		of_lymphocytes
+O		Increased_number	lymphocytes_and
+O		number_of	and_mononuclear
+B-labintermod	and		of_lymphocytes	mononuclear_cells
+O		lymphocytes_and	cells_>
+B-entity	mononuclear cells		lymphocytes_and	>_5000
+I-entity	mononuclear cells		lymphocytes_and	>_5000
+O		and_mononuclear	>_5000
+O		mononuclear_cells	5000_/
+B-labvalmod	5000		cells_>	/_mm3
+O		>_5000	mm3_(
+B-labvalmod	/mm3		>_5000	(_autoreactive
+O		5000_/	(_autoreactive
+O		/_mm3	autoreactive_lymphocytic
+O		mm3_(	lymphocytic_)
+O		(_autoreactive
+O		autoreactive_lymphocytic
+ES
+SS
+O	
+ES
+SS
+O		Raised_RCM
+B-labintermod	Raised		RCM_or
+B-entity	RCM		A1_Raised	or_haemoglobin
+B-labintermod	or		Raised_RCM	haemoglobin_(
+B-entity	haemoglobin		RCM_or	(_Hb
+O		or_haemoglobin	Hb_)
+B-entity	Hb		haemoglobin_(
+O		(_Hb
+ES
+SS
+B-labrefrangemod	>		18.5_(
+B-labvalmod	18.5		(_males
+O		>_18.5	males_)
+O		18.5_(	)_,
+O		(_males	,_>
+O		males_)	>_16.5
+B-labrefrangemod	>		)_,	16.5_(
+B-labvalmod	16.5		,_>	(_females
+O		>_16.5	females_)
+O		16.5_(
+O		(_females
+ES
+SS
+O		,_aged
+O		aged_40
+O		Diabetes_,	40_-
+O		,_aged	-_75
+O		aged_40	75_y
+O		40_-	y_,
+O		-_75	,_with
+O		75_y	with_LDL
+O		y_,	LDL_-
+O		,_with	-_C
+B-entity	LDL-C		,_with	levels_of
+O		with_LDL	C_levels
+O		LDL_-	levels_of
+O		-_C	of_70
+O		C_levels	70_-
+O		levels_of	-_189
+B-labvalmod	70-189		levels_of	mg_/
+O		of_70	189_mg
+O		70_-	mg_/
+O		-_189	/_dL
+B-labvalmod	mg/dL		-_189
+O		189_mg
+O		mg_/
+ES
+SS
+O		-_intensity
+O		intensity_statin
+O		High_-	statin_therapy
+O		-_intensity	therapy_*
+O		intensity_statin	*_is
+O		statin_therapy	is_recommended
+O		therapy_*	recommended_for
+O		*_is	for_patients
+O		is_recommended	patients_with
+O		recommended_for	with_known
+O		for_patients	known_ASCVD
+O		patients_with	ASCVD_,
+O		with_known	,_LDL
+O		known_ASCVD	LDL_-
+O		ASCVD_,	-_C
+B-entity	LDL-C		ASCVD_,	levels_>
+O		,_LDL	C_levels
+O		LDL_-	levels_>
+O		-_C	>_190
+B-labrefrangemod	>		C_levels	190_mg
+B-labvalmod	190		levels_>	mg_/
+O		>_190	/_dL
+B-labvalmod	mg/dL		>_190	,_and
+O		190_mg	dL_,
+O		mg_/	,_and
+O		/_dL	and_DM
+O		dL_,	DM_,
+O		,_and	,_with
+O		and_DM	with_10
+O		DM_,	10_-
+O		,_with	-_y
+O		with_10	y_risk
+O		10_-	risk_>
+O		-_y	>_7.5
+O		y_risk	7.5_%
+O		risk_>	%_.
+O		>_7.5
+O		7.5_%
+ES
+SS
+O		-_dose
+O		dose_statin
+O		Moderate_-	statin_therapy
+O		-_dose	therapy_*
+O		dose_statin	*_*
+O		statin_therapy	*_is
+O		therapy_*	is_recommended
+O		*_*	recommended_for
+O		*_is	for_the
+O		is_recommended	the_other
+O		recommended_for	other_treatment
+O		for_the	treatment_groups
+O		the_other	groups_(
+O		other_treatment	(_patients
+O		treatment_groups	patients_with
+O		groups_(	with_DM
+O		(_patients	DM_but
+O		patients_with	but_with
+O		with_DM	with_10
+O		DM_but	10_-
+O		but_with	-_y
+O		with_10	y_risk
+O		10_-	risk_<
+O		-_y	<_7.5
+O		y_risk	7.5_%
+O		risk_<	%_and
+O		<_7.5	and_those
+O		7.5_%	those_without
+O		%_and	without_DM
+O		and_those	DM_who
+O		those_without	who_have
+O		without_DM	have_a
+O		DM_who	a_10
+O		who_have	10_-
+O		have_a	-_y
+O		a_10	y_risk
+O		10_-	risk_>
+O		-_y	>_7.5
+O		y_risk	7.5_%
+O		risk_>	%_)
+O		>_7.5	)_.
+O		7.5_%
+O		%_)
+ES
+SS
+O		expert_panel
+O		panel_did
+O		The_expert	did_not
+O		expert_panel	not_recommend
+O		panel_did	recommend_for
+O		did_not	for_or
+O		not_recommend	or_against
+O		recommend_for	against_LDL
+O		for_or	LDL_-
+O		or_against	-_C
+B-entity	LDL-C		or_against	goals_or
+O		against_LDL	C_goals
+O		LDL_-	goals_or
+O		-_C	or_targets
+O		C_goals	targets_but
+O		goals_or	but_rather
+O		or_targets	rather_recommends
+O		targets_but	recommends_that
+O		but_rather	that_lipids
+O		rather_recommends	lipids_be
+O		recommends_that	be_checked
+O		that_lipids	checked_at
+O		lipids_be	at_baseline
+O		be_checked	baseline_and
+O		checked_at	and_then
+O		at_baseline	then_4
+O		baseline_and	4_-
+O		and_then	-_12
+O		then_4	12_wk
+O		4_-	wk_after
+O		-_12	after_initiating
+O		12_wk	initiating_statin
+O		wk_after	statin_therapy
+O		after_initiating	therapy_to
+O		initiating_statin	to_assess
+O		statin_therapy	assess_adherence
+O		therapy_to	adherence_and
+O		to_assess	and_response
+O		assess_adherence	response_to
+O		adherence_and	to_therapy
+O		and_response	therapy_.
+O		response_to
+O		to_therapy
+ES
+SS
+O		receiving_high
+O		high_-
+O		Individuals_receiving	-_dose
+O		receiving_high	dose_statin
+O		high_-	statin_therapy
+O		-_dose	therapy_would
+O		dose_statin	would_be
+O		statin_therapy	be_expected
+O		therapy_would	expected_to
+O		would_be	to_lower
+O		be_expected	lower_their
+O		expected_to	their_LDL
+O		to_lower	LDL_-
+O		lower_their	-_C
+B-entity	LDL-C		lower_their	level_by
+O		their_LDL	C_level
+O		LDL_-	level_by
+O		-_C	by_>
+O		C_level	>_50
+B-labintermod	by >50% from their baseline level		C_level	,_and
+I-labintermod	by >50% from their baseline level		C_level	,_and
+I-labintermod	by >50% from their baseline level		C_level	,_and
+I-labintermod	by >50% from their baseline level		C_level	,_and
+I-labintermod	by >50% from their baseline level		C_level	,_and
+I-labintermod	by >50% from their baseline level		C_level	,_and
+B-labrefrangemod	>		level_by	50_%
+O		by_>	%_from
+O		>_50	from_their
+O		50_%	their_baseline
+O		%_from	baseline_level
+O		from_their	level_,
+O		their_baseline	,_and
+O		baseline_level	and_those
+O		level_,	those_receiving
+O		,_and	receiving_moderate
+O		and_those	moderate_-
+O		those_receiving	-_dose
+O		receiving_moderate	dose_statin
+O		moderate_-	statin_therapy
+O		-_dose	therapy_would
+O		dose_statin	would_be
+O		statin_therapy	be_expected
+O		therapy_would	expected_to
+O		would_be	to_lower
+O		be_expected	lower_their
+O		expected_to	their_LDL
+O		to_lower	LDL_-
+O		lower_their	-_C
+B-entity	LDL-C		lower_their	level_by
+O		their_LDL	C_level
+O		LDL_-	level_by
+O		-_C	by_30
+O		C_level	30_%
+B-labintermod	by 30%-49%		C_level
+I-labintermod	by 30%-49%		C_level
+O		level_by	%_-
+O		by_30	-_49
+O		30_%	49_%
+O		%_-	%_.
+O		-_49
+O		49_%
+ES
+SS
+O		biliary_obstruction
+O		obstruction_(
+O		Persistent_biliary	(_conjugated
+O		biliary_obstruction	conjugated_bilirubin
+O		obstruction_(	bilirubin_level
+B-entity	conjugated bilirubin		obstruction_(	level_>
+I-entity	conjugated bilirubin		obstruction_(	level_>
+O		(_conjugated	level_>
+O		conjugated_bilirubin	>_5
+B-labrefrangemod	>		bilirubin_level	5_mg
+B-labvalmod	5		level_>	mg_/
+O		>_5	/_dl
+B-labvalmod	mg/dl		>_5	_86
+O		5_mg	dl_
+O		mg_/	_86
+O		/_dl	86_umol
+B-labvalmod	86		dl_	umol_per
+O		_86	per_liter
+B-labvalmod	umol per liter		_86	_)
+I-labvalmod	umol per liter		_86	_)
+I-labvalmod	umol per liter		_86	_)
+O		86_umol	liter_
+O		umol_per	_)
+O		per_liter
+O		liter_
+ES
+SS
+O		deterioration_(
+O		(_worsening
+O		Clinical_deterioration	worsening_pain
+O		deterioration_(	pain_,
+O		(_worsening	,_increasing
+O		worsening_pain	increasing_white
+B-labintermod	increasing		pain_,	white_-
+O		,_increasing	-_cell
+O		increasing_white	cell_count
+O		white_-	count_,
+O		-_cell	,_worsening
+O		cell_count	worsening_vital
+O		count_,	vital_signs
+O		,_worsening	signs_)
+O		worsening_vital
+O		vital_signs
+ES
+SS
+O		>_>
+O		>_>
+O		AST_>	>_ALT
+O		>_>	ALT_:
+O		>_>
+O		>_ALT
+ES
+SS
+O		usually_<
+O		<_300
+B-labrefrangemod	<		Both_usually	300_IU
+B-labvalmod	300		usually_<	IU_/
+O		<_300	/_L
+B-labvalmod	IU/L		<_300
+O		300_IU
+O		IU_/
+ES
+SS
+O		phosphatase_(
+O		(_ALP
+O		Alkaline_phosphatase	ALP_)
+O		phosphatase_(	)_and
+O		(_ALP	and_g
+O		ALP_)	g_-
+O		)_and	-_glutamyl
+B-entity	g-glutamyl transpeptidase		)_and	(_GGT
+I-entity	g-glutamyl transpeptidase		)_and	(_GGT
+O		and_g	glutamyl_transpeptidase
+O		g_-	transpeptidase_(
+O		-_glutamyl	(_GGT
+O		glutamyl_transpeptidase	GGT_)
+O		transpeptidase_(	)_:
+O		(_GGT
+O		GGT_)
+ES
+SS
+O		usually_elevated
+O		elevated_to
+B-labintermod	elevated		Both_usually	to_a
+O		usually_elevated	a_variable
+O		elevated_to	variable_degree
+O		to_a
+O		a_variable
+ES
+SS
+B-labintermod	Elevated		white_blood
+O		blood_cell
+O		Elevated_white	cell_count
+O		white_blood	count_:
+O		blood_cell
+O		cell_count
+ES
+SS
+O		reactions_associated
+O		associated_with
+O		Leukemoid_reactions	with_alcoholic
+O		reactions_associated	alcoholic_hepatitis
+O		associated_with
+O		with_alcoholic
+ES
+SS
+O		(_normal
+O		normal_to
+O		Platelets_(	to_markedly
+B-labintermod	normal to markedly decreased		Platelets_(
+I-labintermod	normal to markedly decreased		Platelets_(
+I-labintermod	normal to markedly decreased		Platelets_(
+I-labintermod	normal to markedly decreased		Platelets_(
+O		(_normal	markedly_decreased
+O		normal_to	decreased_)
+O		to_markedly
+O		markedly_decreased
+ES
+SS
+O		count_>
+O		>_400
+B-labrefrangemod	>		Platelet_count	400_x
+O		count_>	x_109
+B-labvalmod	400 x 109		count_>	/_l
+I-labvalmod	400 x 109		count_>	/_l
+I-labvalmod	400 x 109		count_>	/_l
+O		>_400	109_/
+O		400_x	/_l
+O		x_109
+B-labvalmod	/l		x_109
+O		109_/
+ES
+SS
+O		abnormalities_:
+O	
+O		Electrolyte_abnormalities
+ES
+SS
+B-labintermod	low		potassium_,
+O		,_magnesium
+O		low_potassium	magnesium_and
+O		potassium_,	and_phosphorus
+B-labintermod	and		,_magnesium
+O		magnesium_and
+ES
+SS
+O		specific_routine
+O		routine_diagnosis
+O		The_specific	diagnosis_of
+O		specific_routine	of_acute
+O		routine_diagnosis	acute_hepatitis
+O		diagnosis_of	hepatitis_A
+O		of_acute	A_is
+O		acute_hepatitis	is_made
+O		hepatitis_A	made_by
+O		A_is	by_finding
+O		is_made	finding_anti-HAV
+O		made_by	anti-HAV_IgM
+O		by_finding	IgM_in
+B-entity	anti-HAV IgM		by_finding	in_the
+I-entity	anti-HAV IgM		by_finding	in_the
+O		finding_anti-HAV	in_the
+O		anti-HAV_IgM	the_serum
+O		IgM_in	serum_of
+O		in_the	of_patients
+O		the_serum	patients_.
+O		serum_of
+O		of_patients
+ES
+SS
+O		second_option
+O		option_is
+O		A_second	is_the
+O		second_option	the_detection
+O		option_is	detection_of
+B-labintermod	the detection of		option_is	virus_and
+I-labintermod	the detection of		option_is	virus_and
+I-labintermod	the detection of		option_is	virus_and
+O		is_the	of_virus
+O		the_detection	virus_and
+B-entity	virus		detection_of	and_/
+O		of_virus	/_or
+B-labintermod	and/or		of_virus	antigen_in
+O		virus_and	or_antigen
+O		and_/	antigen_in
+B-entity	antigen		/_or	in_the
+O		or_antigen	the_faeces
+O		antigen_in	faeces_.
+O		in_the
+O		the_faeces
+ES
+SS
+B-entity	Virus		and_antibody
+B-labintermod	and		antibody_can
+B-entity	antibody		Virus_and	can_be
+O		and_antibody	be_detected
+O		antibody_can	detected_by
+O		can_be	by_commercially
+O		be_detected	commercially_available
+O		detected_by	available_radioimmunoassay
+O		by_commercially	radioimmunoassay_(
+O		commercially_available	(_RIA
+O		available_radioimmunoassay	RIA_)
+O		radioimmunoassay_(	)_,
+O		(_RIA	,_enzyme
+O		RIA_)	enzyme_immunoassay
+O		)_,	immunoassay_(
+O		,_enzyme	(_EIA
+O		enzyme_immunoassay	EIA_)
+O		immunoassay_(	)_and
+O		(_EIA	and_enzyme
+O		EIA_)	enzyme_-
+O		)_and	-_linked
+O		and_enzyme	linked_immunosorbent
+O		enzyme_-	immunosorbent_assay
+O		-_linked	assay_(
+O		linked_immunosorbent	(_ELISA
+O		immunosorbent_assay	ELISA_)
+O		assay_(
+O		(_ELISA
+ES
+SS
+O	
+O	
+ES
+SS
+O		the_onset
+O		onset_of
+O		At_the	of_disease
+O		the_onset	disease_,
+O		onset_of	,_the
+O		of_disease	the_presence
+O		disease_,	presence_of
+B-labintermod	the presence of		disease_,	IgG_anti-HAV
+I-labintermod	the presence of		disease_,	IgG_anti-HAV
+I-labintermod	the presence of		disease_,	IgG_anti-HAV
+O		,_the	of_IgG
+O		the_presence	IgG_anti-HAV
+O		presence_of	anti-HAV_is
+B-entity	IgG anti-HAV		presence_of	is_always
+I-entity	IgG anti-HAV		presence_of	is_always
+O		of_IgG	is_always
+O		IgG_anti-HAV	always_accompanied
+O		anti-HAV_is	accompanied_by
+O		is_always	by_the
+O		always_accompanied	the_presence
+O		accompanied_by	presence_of
+B-labintermod	the presence of		accompanied_by	IgM_anti-HAV
+I-labintermod	the presence of		accompanied_by	IgM_anti-HAV
+I-labintermod	the presence of		accompanied_by	IgM_anti-HAV
+O		by_the	of_IgM
+O		the_presence	IgM_anti-HAV
+O		presence_of	anti-HAV_.
+B-entity	IgM anti-HAV		presence_of
+I-entity	IgM anti-HAV		presence_of
+O		of_IgM
+O		IgM_anti-HAV
+ES
+SS
+O		IgG_anti-HAV
+O		anti-HAV_persists
+B-entity	IgG anti-HAV		persists_lifelong
+I-entity	IgG anti-HAV		persists_lifelong
+O		As_IgG	persists_lifelong
+B-labintermod	persists		IgG_anti-HAV	lifelong_after
+O		anti-HAV_persists	after_acute
+O		persists_lifelong	acute_infection
+O		lifelong_after	infection_,
+O		after_acute	,_detection
+O		acute_infection	detection_of
+O		infection_,	of_IgG
+B-labintermod	detection of		infection_,	IgG_anti-HAV
+I-labintermod	detection of		infection_,	IgG_anti-HAV
+O		,_detection	IgG_anti-HAV
+O		detection_of	anti-HAV_alone
+B-entity	IgG anti-HAV		detection_of	alone_indicates
+I-entity	IgG anti-HAV		detection_of	alone_indicates
+O		of_IgG	alone_indicates
+O		IgG_anti-HAV	indicates_past
+O		anti-HAV_alone	past_infection
+O		alone_indicates	infection_.
+O		indicates_past
+O		past_infection
+ES
+SS
+O		<_6.5
+B-labrefrangemod	<		6.5_mmol
+B-labvalmod	6.5		Urea_<	mmol_/
+O		<_6.5	/_L
+B-labvalmod	mmol/L		<_6.5
+O		6.5_mmol
+O		mmol_/
+ES
+SS
+B-entity	Haemoglobin		>_/
+O		/_=
+B-labrefrangemod	>/=		13_g
+O		Haemoglobin_>	=_13
+O		>_/	13_g
+B-labvalmod	13		/_=	g_/
+O		=_13	/_dl
+B-labvalmod	g/dl		=_13	(_men
+O		13_g	dl_(
+O		g_/	(_men
+O		/_dl	men_)
+O		dl_(
+O		(_men
+ES
+SS
+B-labintermod	or		>_/
+O		/_=
+B-labrefrangemod	>/=		12_g
+O		or_>	=_12
+O		>_/	12_g
+B-labvalmod	12		/_=	g_/
+O		=_12	/_dl
+B-labvalmod	g/dl		=_12	(_women
+O		12_g	dl_(
+O		g_/	(_women
+O		/_dl	women_)
+O		dl_(
+O		(_women
+ES
+SS
+O		Urea_mmol
+O		mmol_/
+O		Blood_Urea	/_L
+B-labvalmod	mmol/L		Blood_Urea
+O		Urea_mmol
+O		mmol_/
+ES
+SS
+B-entity	Haemoglobin	
+ES
+SS
+O		>_12
+B-labrefrangemod	>		12_x
+O		WBC_>	x_109
+B-labvalmod	12 x 109		WBC_>	/_l
+I-labvalmod	12 x 109		WBC_>	/_l
+I-labvalmod	12 x 109		WBC_>	/_l
+O		>_12	109_/
+O		12_x	/_l
+O		x_109
+B-labvalmod	/l		x_109
+O		109_/
+ES
+SS
+B-labintermod	Elevated		serum_ferritin
+O		ferritin_not
+O		Elevated_serum	not_explained
+O		serum_ferritin	explained_by
+O		ferritin_not	by_another
+O		not_explained	another_cause
+O		explained_by
+O		by_another
+ES
+SS
+B-labintermod	Increased		stainable_hepatocellular
+O		hepatocellular_iron
+O		Increased_stainable	iron_(
+B-entity	hepatocellular iron		Increased_stainable	(_Scheuer
+I-entity	hepatocellular iron		Increased_stainable	(_Scheuer
+O		stainable_hepatocellular	(_Scheuer
+O		hepatocellular_iron	Scheuer_grade
+O		iron_(	grade_3
+O		(_Scheuer	3_or
+O		Scheuer_grade	or_4
+O		grade_3	4_)
+O		3_or
+O		or_4
+ES
+SS
+B-labintermod	Increased		hepatic_iron
+O		iron_concentration
+B-entity	hepatic iron concentration		(_>
+I-entity	hepatic iron concentration		(_>
+I-entity	hepatic iron concentration		(_>
+O		Increased_hepatic	concentration_(
+O		hepatic_iron	(_>
+O		iron_concentration	>_80
+B-labrefrangemod	>		concentration_(	80_mmol
+B-labvalmod	80		(_>	mmol_/
+O		>_80	/_g
+B-labvalmod	mmol/g		>_80	)_and
+O		80_mmol	g_)
+O		mmol_/	)_and
+O		/_g	and_hepatic
+B-labintermod	and		g_)	hepatic_iron
+O		)_and	iron_index
+B-entity	hepatic iron index		)_and	(_>
+I-entity	hepatic iron index		)_and	(_>
+I-entity	hepatic iron index		)_and	(_>
+O		and_hepatic	index_(
+O		hepatic_iron	(_>
+O		iron_index	>_1.9
+B-labrefrangemod	>		index_(	1.9_)
+B-labvalmod	1.9		(_>
+O		>_1.9
+ES
+SS
+B-labintermod	Increased		mobilizable_iron
+O		iron_(
+B-entity	mobilizable iron		(_removal
+I-entity	mobilizable iron		(_removal
+O		Increased_mobilizable	(_removal
+O		mobilizable_iron	removal_of
+O		iron_(	of_4
+O		(_removal	4_g
+O		removal_of	g_of
+O		of_4	of_iron
+O		4_g	iron_without
+O		g_of	without_development
+O		of_iron	development_of
+O		iron_without	of_iron
+O		without_development	iron_-
+O		development_of	-_limited
+O		of_iron	limited_erythropoiesis
+O		iron_-	erythropoiesis_)
+O		-_limited
+O		limited_erythropoiesis
+ES
+SS
+O		-_Observation
+O		Observation_of
+O		A_-	of_elevated
+O		-_Observation	elevated_transferrin
+B-labintermod	elevated		Observation_of	transferrin_saturation
+O		of_elevated	saturation_>
+O		elevated_transferrin	>_60
+B-labrefrangemod	>		transferrin_saturation	60_%
+O		saturation_>	%_on
+B-labvalmod	60%		saturation_>	on_at
+O		>_60	on_at
+O		60_%	at_least
+O		%_on	least_2
+O		on_at	2_occasions
+O		at_least	occasions_in
+O		least_2	in_the
+O		2_occasions	the_absence
+O		occasions_in	absence_of
+O		in_the	of_other
+O		the_absence	other_known
+O		absence_of	known_causes
+O		of_other	causes_of
+O		other_known	of_elevated
+O		known_causes	elevated_transferrin
+B-labintermod	elevated		causes_of	transferrin_saturation
+O		of_elevated
+O		elevated_transferrin
+ES
+SS
+O		-_Diagnosis
+O		Diagnosis_of
+O		B_-	of_iron
+O		-_Diagnosis	iron_overload
+O		Diagnosis_of	overload_:
+B-labintermod	overload		of_iron	:_1
+O		iron_overload	1_plus
+O		overload_:	plus_2
+O		:_1	2_,
+O		1_plus	,_or
+O		plus_2	or_1
+O		2_,	1_plus
+O		,_or	plus_3
+O		or_1	3_,
+O		1_plus	,_below
+O		plus_3
+O		3_,
+ES
+SS
+B-labintermod	Increased		hepatic_iron
+O		iron_by
+B-entity	hepatic iron		by_either
+I-entity	hepatic iron		by_either
+O		Increased_hepatic	by_either
+O		hepatic_iron	either_a
+O		iron_by	a_or
+O		by_either	or_b
+O		either_a	b_,
+O		a_or	,_below
+O		or_b
+O		b_,
+ES
+SS
+O		-_induced
+O		induced_renal
+O		Diuretic_-	renal_impairment
+O		-_induced	impairment_is
+O		induced_renal	is_indicated
+O		renal_impairment	indicated_by
+O		impairment_is	by_an
+O		is_indicated	an_increase
+O		indicated_by	increase_of
+B-labintermod	increase		by_an	of_serum
+O		an_increase	serum_creatinine
+O		increase_of	creatinine_by
+O		of_serum	by_>
+O		serum_creatinine	>_100
+B-labintermod	by > 100%		serum_creatinine	to_a
+I-labintermod	by > 100%		serum_creatinine	to_a
+I-labintermod	by > 100%		serum_creatinine	to_a
+B-labrefrangemod	>		creatinine_by	100_%
+O		by_>	%_to
+O		>_100	to_a
+O		100_%	a_value
+O		%_to	value_of
+O		to_a	of_>
+O		a_value	>_2
+B-labrefrangemod	>		value_of	2_mg
+B-labvalmod	2		of_>	mg_/
+O		>_2	/_dL
+B-labvalmod	mg/dL		>_2	in_patients
+O		2_mg	dL_in
+O		mg_/	in_patients
+O		/_dL	patients_with
+O		dL_in	with_ascites
+O		in_patients	ascites_otherwise
+O		patients_with	otherwise_responding
+O		with_ascites	responding_to
+O		ascites_otherwise	to_treatment
+O		otherwise_responding	treatment_.
+O		responding_to
+O		to_treatment
+ES
+SS
+O		-_induced
+O		induced_hypo
+O		Diuretic_-	hypo_-
+O		-_induced	-_or
+O		induced_hypo	or_hyperkalemia
+O		hypo_-	hyperkalemia_is
+O		-_or	is_defined
+O		or_hyperkalemia	defined_as
+O		hyperkalemia_is	as_a
+O		is_defined	a_change
+O		defined_as	change_in
+O		as_a	in_serum
+O		a_change	serum_potassium
+O		change_in	potassium_to
+O		in_serum	to_<
+O		serum_potassium	<_3
+B-labrefrangemod	<		potassium_to	3_mEq
+B-labvalmod	3		to_<	mEq_/
+O		<_3	/_L
+B-labvalmod	mEq/L		<_3	or_>
+O		3_mEq	L_or
+O		mEq_/	or_>
+B-labintermod	or		/_L	>_6
+B-labrefrangemod	>		L_or	6_mEq
+B-labvalmod	6		or_>	mEq_/
+O		>_6	/_L
+B-labvalmod	mEq/L		>_6	despite_appropriate
+O		6_mEq	L_despite
+O		mEq_/	despite_appropriate
+O		/_L	appropriate_measures
+O		L_despite	measures_.
+O		despite_appropriate
+O		appropriate_measures
+ES
+SS
+B-labintermod	Elevated		level_of
+O		of_fasting
+O		Elevated_level	fasting_serum
+O		level_of	serum_gastrin
+B-entity	fasting serum gastrin		level_of	(_>
+I-entity	fasting serum gastrin		level_of	(_>
+I-entity	fasting serum gastrin		level_of	(_>
+O		of_fasting	gastrin_(
+O		fasting_serum	(_>
+O		serum_gastrin	>_100
+B-labrefrangemod	>		gastrin_(	100_pg
+B-labvalmod	100		(_>	pg_/
+O		>_100	/_mL
+B-labvalmod	pg/mL		>_100	until_1994
+O		100_pg	mL_until
+O		pg_/	until_1994
+O		/_mL	1994_,
+O		mL_until	,_>
+O		until_1994	>_200
+B-labrefrangemod	>		1994_,	200_pg
+B-labvalmod	200		,_>	pg_/
+O		>_200	/_mL
+B-labvalmod	pg/mL		>_200	since_1994
+O		200_pg	mL_since
+O		pg_/	since_1994
+O		/_mL	1994_)
+O		mL_since	)_;
+O		since_1994
+O		1994_)
+ES
+SS
+B-labintermod	Low		serum_erythropoietin
+O		erythropoietin_(
+O		Low_serum	(_EPO
+O		serum_erythropoietin	EPO_)
+O		erythropoietin_(
+O		(_EPO
+ES
+SS
+O		results_from
+O		from_stimulation
+O		Abnormal_results	stimulation_testing
+O		results_from	testing_with
+O		from_stimulation	with_secretin
+O		stimulation_testing	secretin_(
+O		testing_with	(_an
+O		with_secretin	an_increase
+O		secretin_(	increase_of
+B-labintermod	an increase of >200 pg/mL postinjection		secretin_(
+I-labintermod	an increase of >200 pg/mL postinjection		secretin_(
+I-labintermod	an increase of >200 pg/mL postinjection		secretin_(
+I-labintermod	an increase of >200 pg/mL postinjection		secretin_(
+I-labintermod	an increase of >200 pg/mL postinjection		secretin_(
+I-labintermod	an increase of >200 pg/mL postinjection		secretin_(
+O		(_an	of_>
+O		an_increase	>_200
+O		increase_of	200_pg
+O		of_>	pg_/
+O		>_200	/_mL
+B-labvalmod	pg/mL		>_200	postinjection_)
+O		200_pg	mL_postinjection
+O		pg_/	postinjection_)
+O		/_mL
+O		mL_postinjection
+ES
+SS
+O		with_calcium
+O		calcium_(
+O		or_with	(_an
+O		with_calcium	an_increase
+O		calcium_(	increase_>
+B-labintermod	an increase >395 pg/mL		calcium_(	)_;
+I-labintermod	an increase >395 pg/mL		calcium_(	)_;
+I-labintermod	an increase >395 pg/mL		calcium_(	)_;
+I-labintermod	an increase >395 pg/mL		calcium_(	)_;
+O		(_an	>_395
+O		an_increase	395_pg
+O		increase_>	pg_/
+O		>_395	/_mL
+B-labvalmod	pg/mL		>_395	)_;
+O		395_pg	mL_)
+O		pg_/	)_;
+O		/_mL
+O		mL_)
+ES
+SS
+O		taking_Proton
+O		Proton_Pump
+O		Patients_taking	Pump_Inhibitors
+O		taking_Proton	Inhibitors_(
+O		Proton_Pump	(_PPIs
+O		Pump_Inhibitors	PPIs_)
+O		Inhibitors_(	)_,
+O		(_PPIs	,_those
+O		PPIs_)	those_who
+O		)_,	who_have
+O		,_those	have_undergone
+O		those_who	undergone_massive
+O		who_have	massive_small
+O		have_undergone	small_bowel
+O		undergone_massive	bowel_resection
+O		massive_small	resection_,
+O		small_bowel	,_or
+O		bowel_resection	or_those
+O		resection_,	those_who
+O		,_or	who_have
+O		or_those	have_renal
+O		those_who	renal_insufficiency
+O		who_have	insufficiency_,
+O		have_renal	,_G
+O		renal_insufficiency	G_-
+O		insufficiency_,	-_cell
+O		,_G	cell_hyperplasia
+O		G_-	hyperplasia_,
+O		-_cell	,_or
+O		cell_hyperplasia	or_gastric
+O		hyperplasia_,	gastric_outlet
+O		,_or	outlet_obstruction
+O		or_gastric	obstruction_may
+O		gastric_outlet	may_have
+O		outlet_obstruction	have_gastrin
+O		obstruction_may	gastrin_levels
+O		may_have	levels_between
+O		have_gastrin	between_150
+O		gastrin_levels	150_and
+B-labintermod	between 150 and 1000 pg/mL		gastrin_levels	Hence_,
+I-labintermod	between 150 and 1000 pg/mL		gastrin_levels	Hence_,
+I-labintermod	between 150 and 1000 pg/mL		gastrin_levels	Hence_,
+I-labintermod	between 150 and 1000 pg/mL		gastrin_levels	Hence_,
+I-labintermod	between 150 and 1000 pg/mL		gastrin_levels	Hence_,
+B-labvalmod	150		levels_between	and_1000
+O		between_150	1000_pg
+B-labvalmod	1000		150_and	pg_/
+B-labvalmod	pg/mL		Hence_,
+O		and_1000	/_mL
+O		1000_pg	mL_Hence
+O		pg_/	Hence_,
+O		/_mL	,_for
+O		mL_Hence	for_patients
+O		Hence_,	patients_with
+O		,_for	with_suspected
+O		for_patients	suspected_ZES
+O		patients_with	ZES_with
+O		with_suspected	with_an
+O		suspected_ZES	an_equivocal
+O		ZES_with	equivocal_fasting
+B-labintermod	equivocal		with_an	fasting_serum
+O		an_equivocal	serum_gastrin
+B-entity	fasting serum gastrin concentration		an_equivocal	,_a
+I-entity	fasting serum gastrin concentration		an_equivocal	,_a
+I-entity	fasting serum gastrin concentration		an_equivocal	,_a
+I-entity	fasting serum gastrin concentration		an_equivocal	,_a
+O		equivocal_fasting	gastrin_concentration
+O		fasting_serum	concentration_,
+O		serum_gastrin	,_a
+O		gastrin_concentration	a_secretin
+O		concentration_,	secretin_stimulation
+O		,_a	stimulation_test
+O		a_secretin	test_should
+O		secretin_stimulation	should_be
+O		stimulation_test	be_performed
+O		test_should
+O		should_be
+ES
+SS
+B-labintermod	Low		serum_ceruloplasmin
+O		ceruloplasmin_levels
+O		Low_serum	levels_<
+O		serum_ceruloplasmin	<_20
+B-labrefrangemod	<		ceruloplasmin_levels	20_mg
+B-labvalmod	20		levels_<	mg_/
+O		<_20	/_dL
+B-labvalmod	mg/dL		<_20	(_Normal
+O		20_mg	dL_(
+O		mg_/	(_Normal
+O		/_dL	Normal_range
+O		dL_(	range_20
+O		(_Normal	20_-
+O		Normal_range	-_50
+O		range_20	50_mg
+O		20_-	mg_/
+O		-_50	/_dL
+O		50_mg	dL_)
+O		mg_/	)_.
+O		/_dL
+O		dL_)
+ES
+SS
+B-labintermod	High		liver_copper
+O		copper_levels
+O		High_liver	levels_>
+O		liver_copper	>_250
+B-labrefrangemod	>		copper_levels	250_micrograms
+B-labvalmod	250		levels_>	micrograms_/
+O		>_250	/_g
+B-labvalmod	micrograms/g		>_250	dry_weight
+O		250_micrograms	g_dry
+O		micrograms_/	dry_weight
+O		/_g	weight_(
+O		g_dry	(_Normal
+O		dry_weight	Normal_range
+O		weight_(	range_<
+O		(_Normal	<_35
+O		Normal_range	35_micrograms
+O		range_<	micrograms_/
+O		<_35	/_g
+O		35_micrograms	g_dry
+O		micrograms_/	dry_weight
+O		/_g	weight_)
+O		g_dry	)_.
+O		dry_weight
+O		weight_)
+ES
+SS
+B-labintermod	High		24_hr
+O		hr_urinary
+O		High_24	urinary_copper
+O		24_hr	copper_levels
+O		hr_urinary	levels_>
+O		urinary_copper	>_100
+B-labrefrangemod	>		copper_levels	100_micrograms
+B-labvalmod	100		levels_>	micrograms_/
+O		>_100	/_d
+B-labvalmod	micrograms /d		>_100
+I-labvalmod	micrograms /d		>_100
+O		100_micrograms	d_or
+O		micrograms_/	or_>
+B-labintermod	or		/_d	>_1.6
+B-labrefrangemod	>		d_or	1.6_mmol
+B-labvalmod	1.6		or_>	mmol_/
+O		>_1.6	/_d
+B-labvalmod	mmol/d		>_1.6	(_Normal
+O		1.6_mmol	d_(
+O		mmol_/	(_Normal
+O		/_d	Normal_range
+O		d_(	range_<
+O		(_Normal	<_50
+O		Normal_range	50_micrograms
+O		range_<	micrograms_/
+O		<_50	/_d
+O		50_micrograms	d_or
+O		micrograms_/	or_<
+O		/_d	<_0.8
+O		d_or	0.8_mmol
+O		or_<	mmol_/
+O		<_0.8	/_d
+O		0.8_mmol	d_)
+O		mmol_/	)_.
+O		/_d
+O		d_)
+ES
+SS
+O		IgG_(
+B-entity	AGA IgG		(_NPV
+I-entity	AGA IgG		(_NPV
+O		(_NPV
+O		AGA_IgG	NPV_:
+O		IgG_(	:_41
+O		(_NPV	41_-
+O		NPV_:	-_88
+O		:_41	88_)
+O		41_-
+O		-_88
+ES
+SS
+O		IgA_(
+B-entity	AGA IgA		(_Specificity
+I-entity	AGA IgA		(_Specificity
+O		(_Specificity
+O		AGA_IgA	Specificity_:
+O		IgA_(	:_65
+O		(_Specificity	65_-
+O		Specificity_:	-_100
+O		:_65	100_)
+O		65_-
+O		-_100
+ES
+SS
+O		IgA_a
+B-entity	AEA IgA a		(_PPV
+I-entity	AEA IgA a		(_PPV
+I-entity	AEA IgA a		(_PPV
+O		a_(
+O		AEA_IgA	(_PPV
+O		IgA_a	PPV_:
+O		a_(	:_98
+O		(_PPV	98_-
+O		PPV_:	-_100
+O		:_98	100_)
+O		98_-
+O		-_100
+ES
+SS
+O		IgA_(
+B-entity	tTG IgA		(_Sensitivity
+I-entity	tTG IgA		(_Sensitivity
+O		(_Sensitivity
+O		tTG_IgA	Sensitivity_:
+O		IgA_(	:_90
+O		(_Sensitivity	90_-
+O		Sensitivity_:	-_98
+O		:_90	98_)
+O		90_-
+O		-_98
+ES
+SS
+O		Screening_Tests
+O		Tests_for
+O		Serologic_Screening	for_the
+O		Screening_Tests	the_Diagnosis
+O		Tests_for	Diagnosis_of
+O		for_the	of_CD
+O		the_Diagnosis
+O		Diagnosis_of
+ES
+SS
+O		red_cell
+B-labintermod	sed re	
+I-labintermod	sed re	
+O		cell_mass
+B-entity	cell mass (R	
+I-entity	cell mass (R	
+I-entity	cell mass (R	
+O		Raised_red	mass_(
+O		red_cell	(_RCM
+O		cell_mass	RCM_)
+O		mass_(	)_,
+O		(_RCM	,_male
+B-entity	),		(_RCM
+O		RCM_)	male_>
+O		)_,	>_36
+O		,_male	36_ml
+O		male_>	ml_/
+B-labrefrangemod	6		ml_/
+B-labvalmod	ml		>_36	/_kg
+O		36_ml	kg_,
+O		ml_/	,_female
+B-labvalmod	kg, f		ml_/
+I-labvalmod	kg, f		ml_/
+O		/_kg	female_>
+O		kg_,	>_32
+O		,_female	32_ml
+O		female_>	ml_/
+B-labrefrangemod	2		ml_/
+B-labvalmod	ml		>_32	/_kg
+O		32_ml
+O		ml_/
+ES
+SS
+O		K_deficiency
+O		deficiency_or
+O		Vitamin_K	or_use
+O		K_deficiency	use_of
+O		deficiency_or	of_vitamin
+O		or_use	vitamin_K
+O		use_of	K_antagonist
+O		of_vitamin	antagonist_(
+O		vitamin_K	(_Prothrombin
+O		K_antagonist	Prothrombin_Time
+O		antagonist_(	Time_:
+O		(_Prothrombin	:_Prolonged
+O		Prothrombin_Time	Prolonged_)
+B-labintermod	Prolonged		Time_:
+O		:_Prolonged
+ES
+SS
+O		or_thienopyridines
+O		thienopyridines_(
+O		Aspirin_or	(_Activated
+O		or_thienopyridines	Activated_Partial
+O		thienopyridines_(	Partial_-
+O		(_Activated	-_Thromboplastin
+O		Activated_Partial	Thromboplastin_Time
+O		Partial_-	Time_:
+O		-_Thromboplastin	:_Unaffected
+O		Thromboplastin_Time	Unaffected_)
+B-labintermod	Unaffected		Time_:
+O		:_Unaffected
+ES
+SS
+O		intravascular_coagulation
+O		coagulation_:
+O		Disseminated_intravascular
+O		intravascular_coagulation
+ES
+SS
+O		Prothrombin_Time
+O		Time_:
+O		(_Prothrombin	:_Prolonged
+O		Prothrombin_Time	Prolonged_)
+B-labintermod	Prolonged		Time_:
+O		:_Prolonged
+ES
+SS
+O		arterial_oxygen
+O		oxygen_saturation
+O		Normal_arterial	saturation_>
+O		arterial_oxygen	>_92
+B-labrefrangemod	>		oxygen_saturation	92_%
+O		saturation_>
+B-labvalmod	92%		saturation_>
+O		>_92
+ES
+SS
+O		blood_cell
+O		cell_count
+O		White_blood	count_(
+O		blood_cell	(_WBC
+O		cell_count	WBC_)
+O		count_(
+O		(_WBC
+ES
+SS
+B-labrefrangemod	>		12_x
+O		x_109
+B-labvalmod	12 x 109		/_l
+I-labvalmod	12 x 109		/_l
+I-labvalmod	12 x 109		/_l
+O		>_12	109_/
+O		12_x	/_l
+O		x_109
+B-labvalmod	/l		x_109
+O		109_/
+ES
+SS
+O		alkaline_phosphatase
+O		phosphatase_>
+O		Leucocyte_alkaline	>_100
+B-labrefrangemod	>		alkaline_phosphatase
+B-labvalmod	100		phosphatase_>
+ES
+SS
+O		B12_>
+B-entity	Serum B12		>_900
+I-entity	Serum B12		>_900
+O		>_900
+B-labrefrangemod	>		Serum_B12	900_pg
+B-labvalmod	900		B12_>	pg_/
+O		>_900	/_ml
+B-labvalmod	pg/ml		>_900	or_unbound
+O		900_pg	ml_or
+O		pg_/	or_unbound
+B-labintermod	or		/_ml	unbound_B12
+O		ml_or	B12_binding
+O		or_unbound	binding_capacity
+B-entity	B12 binding capacity		or_unbound	>_220
+I-entity	B12 binding capacity		or_unbound	>_220
+I-entity	B12 binding capacity		or_unbound	>_220
+O		unbound_B12	capacity_>
+O		B12_binding	>_220
+B-labrefrangemod	>		binding_capacity	220_pg
+B-labvalmod	220		capacity_>	pg_/
+O		>_220	/_ml
+B-labvalmod	pg/ml		>_220
+O		220_pg
+O		pg_/
+ES
+SS
+B-labintermod	Raised		RCM_or
+B-entity	RCM		or_hematocrit
+B-labintermod	or		Raised_RCM	hematocrit_(
+O		RCM_or	(_HCT
+O		or_hematocrit	HCT_)
+O		hematocrit_(
+O		(_HCT
+ES
+SS
+B-labrefrangemod	>		0.60_(
+B-labvalmod	0.60		(_males
+O		>_0.60	males_)
+O		0.60_(	)_,
+O		(_males	,_>
+O		males_)	>_0.56
+B-labrefrangemod	>		)_,	0.56_(
+B-labvalmod	0.56		,_>	(_females
+O		>_0.56	females_)
+O		0.56_(
+O		(_females
+ES
+SS
+B-labintermod	Exclusion		of_active
+O		active_viral
+O		Exclusion_of	viral_infection
+O		of_active	infection_both
+O		active_viral	both_in
+O		viral_infection	in_pericardial
+O		infection_both	pericardial_effusion
+O		both_in	effusion_and
+O		in_pericardial	and_endomyocardial
+B-labintermod	and		pericardial_effusion	endomyocardial_/
+O		effusion_and	/_epimyocardial
+O		and_endomyocardial	epimyocardial_biopsies
+O		endomyocardial_/	biopsies_(
+O		/_epimyocardial	(_no
+O		epimyocardial_biopsies	no_virus
+O		biopsies_(	virus_isolation
+O		(_no	isolation_,
+O		no_virus	,_no
+O		virus_isolation	no_IgM
+B-labintermod	no		isolation_,	IgM_-
+O		,_no	-_titer
+O		no_IgM	titer_against
+O		IgM_-	against_cardiotropic
+O		-_titer	cardiotropic_viruses
+O		titer_against	viruses_in
+O		against_cardiotropic	in_pericardial
+O		cardiotropic_viruses	pericardial_effusion
+O		viruses_in	effusion_,
+O		in_pericardial	,_and
+O		pericardial_effusion	and_negative
+B-labintermod	and		effusion_,	negative_PCR
+B-labintermod	negative		,_and	PCR_for
+O		and_negative	for_major
+O		negative_PCR	major_cardiotropic
+O		PCR_for	cardiotropic_viruses
+O		for_major	viruses_)
+O		major_cardiotropic	)_;
+O		cardiotropic_viruses
+O		viruses_)
+ES
+SS
+O		count_>
+O		>_10
+B-labrefrangemod	>		Neutrophil_count	10_x
+O		count_>	x_109
+B-labvalmod	10 x 109		count_>	/_l
+I-labvalmod	10 x 109		count_>	/_l
+I-labvalmod	10 x 109		count_>	/_l
+O		>_10	109_/
+O		10_x	/_l
+O		x_109
+B-labvalmod	/l		x_109
+O		109_/
+ES
+SS
+B-labintermod	Low		serum_EPO
+O		EPO_or
+B-entity	serum EPO		or_characteristic
+I-entity	serum EPO		or_characteristic
+O		Low_serum	or_characteristic
+B-labintermod	or		serum_EPO	characteristic_burst
+O		EPO_or	burst_forming
+O		or_characteristic	forming_units
+B-entity	burst forming units - erythroid		or_characteristic	(_BFU
+I-entity	burst forming units - erythroid		or_characteristic	(_BFU
+I-entity	burst forming units - erythroid		or_characteristic	(_BFU
+I-entity	burst forming units - erythroid		or_characteristic	(_BFU
+I-entity	burst forming units - erythroid		or_characteristic	(_BFU
+O		characteristic_burst	units_-
+O		burst_forming	-_erythroid
+O		forming_units	erythroid_(
+O		units_-	(_BFU
+O		-_erythroid	BFU_-
+O		erythroid_(	-_E
+O		(_BFU	E_)
+O		BFU_-
+O		-_E
+ES
+SS
+B-labintermod	growth	
+ES
+SS
+B-labintermod	Abnormal		karyotype_(
+O		(_other
+O		Abnormal_karyotype	other_than
+O		karyotype_(	than_Ph
+O		(_other	Ph_chromosome
+O		other_than	chromosome_or
+O		than_Ph	or_BCR
+B-labintermod	or		Ph_chromosome	BCR_/
+O		chromosome_or	/_ABL
+O		or_BCR	ABL_fusion
+O		BCR_/	fusion_gene
+O		/_ABL	gene_in
+O		ABL_fusion	in_marrow
+O		fusion_gene	marrow_cells
+O		gene_in	cells_)
+O		in_marrow
+O		marrow_cells
+ES
+SS
+O		triglycerides_>
+O		>_/
+O		Serum_triglycerides	/_=
+B-labrefrangemod	>/=		Serum_triglycerides	150_mg
+O		triglycerides_>	=_150
+O		>_/	150_mg
+B-labvalmod	150		/_=	mg_/
+O		=_150	/_dL
+B-labvalmod	mg/dL		=_150	(_>
+O		150_mg	dL_(
+O		mg_/	(_>
+O		/_dL	>_/
+O		dL_(	/_=
+B-labrefrangemod	>/=		dL_(	1.7_mmol
+O		(_>	=_1.7
+O		>_/	1.7_mmol
+B-labvalmod	1.7		/_=	mmol_/
+O		=_1.7	/_L
+B-labvalmod	mmol/L		=_1.7
+O		1.7_mmol	L_)
+O		mmol_/
+O		/_L
+ES
+SS
+O		-_Cholesterol
+B-entity	HDL-Cholesterol		<_40
+O		Cholesterol_<
+O		HDL_-	<_40
+B-labrefrangemod	<		-_Cholesterol	40_mg
+B-labvalmod	40		Cholesterol_<	mg_/
+O		<_40	/_dL
+B-labvalmod	mg/dL		<_40	(_<
+O		40_mg	dL_(
+O		mg_/	(_<
+O		/_dL	<_1.0
+B-labrefrangemod	<		dL_(	1.0_mmol
+B-labvalmod	1.0		(_<	mmol_/
+O		<_1.0	/_L
+B-labvalmod	mmol/L		<_1.0	)_in
+O		1.0_mmol	L_)
+O		mmol_/	)_in
+O		/_L	in_men
+O		L_)	men_and
+O		)_in	and_<
+B-labintermod	and		in_men	<_50
+B-labrefrangemod	<		men_and	50_mg
+B-labvalmod	50		and_<	mg_/
+O		<_50	/_dL
+B-labvalmod	mg/dL		<_50	(_<
+O		50_mg	dL_(
+O		mg_/	(_<
+O		/_dL	<_1.3
+B-labrefrangemod	<		dL_(	1.3_mmol
+B-labvalmod	1.3		(_<	mmol_/
+O		<_1.3	/_L
+B-labvalmod	mmol/L		<_1.3	)_in
+O		1.3_mmol	L_)
+O		mmol_/	)_in
+O		/_L	in_women
+O		L_)
+O		)_in
+ES
+SS
+O		glucose_110
+B-entity	Fasting glucose		110_to
+I-entity	Fasting glucose		110_to
+O		110_to
+B-labvalmod	110		Fasting_glucose	to_126
+O		glucose_110	126_mg
+B-labvalmod	126		110_to	mg_/
+O		to_126	/_dL
+B-labvalmod	mg/dL		to_126	(_6.1
+O		126_mg	dL_(
+O		mg_/	(_6.1
+O		/_dL	6.1_to
+B-labvalmod	6.1		dL_(	to_7.0
+O		(_6.1	7.0_mmol
+B-labvalmod	7.0		6.1_to	mmol_/
+O		to_7.0	/_L
+B-labvalmod	mmol/L		to_7.0
+O		7.0_mmol	L_)
+O		mmol_/
+O		/_L
+ES
+SS
+O		100_mg
+B-labvalmod	100		mg_/
+O		(_100	/_dL
+B-labvalmod	mg/dL		(_100	_>
+O		100_mg	dL_
+O		mg_/	_>
+O		/_dL	>_/
+O		dL_	/_=
+B-labrefrangemod	>/=		dL_	5.6_mmol
+O		_>	=_5.6
+O		>_/	5.6_mmol
+B-labvalmod	5.6		/_=	mmol_/
+O		=_5.6	/_L
+B-labvalmod	mmol/L		=_5.6
+O		5.6_mmol	L_
+O		mmol_/
+O		/_L
+ES
+SS
+O		be_applicable
+O		applicable_)
+O		may_be
+O		be_applicable
+ES
+SS
+O		triglycerides_150
+O		150_mg
+B-labvalmod	150		Serum_triglycerides	mg_/
+O		triglycerides_150	/_dL
+B-labvalmod	mg/dL		triglycerides_150	(_>
+O		150_mg	dL_(
+O		mg_/	(_>
+O		/_dL	>_/
+O		dL_(	/_=
+B-labrefrangemod	>/=		dL_(	1.7_mmol
+O		(_>	=_1.7
+O		>_/	1.7_mmol
+B-labvalmod	1.7		/_=	mmol_/
+O		=_1.7	/_l
+B-labvalmod	mmol/l		=_1.7
+O		1.7_mmol	l_)
+O		mmol_/
+O		/_l
+ES
+SS
+B-labintermod	or		HDL_cholesterol
+O		cholesterol_<
+O		or_HDL	<_36
+B-labrefrangemod	<		HDL_cholesterol	36_mg
+B-labvalmod	36		cholesterol_<	mg_/
+O		<_36	/_dL
+B-labvalmod	mg/dL		<_36	(_<
+O		36_mg	dL_(
+O		mg_/	(_<
+O		/_dL	<_0.9
+B-labrefrangemod	<		dL_(	0.9_mmol
+B-labvalmod	0.9		(_<	mmol_/
+O		<_0.9	/_l
+B-labvalmod	mmol/l		<_0.9	)_in
+O		0.9_mmol	l_)
+O		mmol_/	)_in
+O		/_l	in_men
+O		l_)	men_and
+O		)_in	and_<
+B-labintermod	and		in_men	<_40
+B-labrefrangemod	<		men_and	40_mg
+B-labvalmod	40		and_<	mg_/
+O		<_40	/_dL
+B-labvalmod	mg/dL		<_40	(_<
+O		40_mg	dL_(
+O		mg_/	(_<
+O		/_dL	<_1.0
+B-labrefrangemod	<		dL_(	1.0_mmol
+B-labvalmod	1.0		(_<	mmol_/
+O		<_1.0	/_l
+B-labvalmod	mmol/l		<_1.0	)_in
+O		1.0_mmol	l_)
+O		mmol_/	)_in
+O		/_l	in_women
+O		l_)	women_.
+O		)_in
+O		in_women
+ES
+SS
+O		albumin_excretion
+B-entity	Urinary albumin excretion rate		>_20
+I-entity	Urinary albumin excretion rate		>_20
+I-entity	Urinary albumin excretion rate		>_20
+I-entity	Urinary albumin excretion rate		>_20
+O		excretion_rate
+O		Urinary_albumin	rate_>
+O		albumin_excretion	>_20
+B-labrefrangemod	>		excretion_rate	20_mcg
+B-labvalmod	20		rate_>	mcg_/
+O		>_20	/_min
+B-labvalmod	mcg/min		>_20	or_albumin
+O		20_mcg	min_or
+O		mcg_/	or_albumin
+B-labintermod	or		/_min	albumin_to
+O		min_or	to_creatinine
+B-entity	albumin to creatinine ratio		min_or	>_/
+I-entity	albumin to creatinine ratio		min_or	>_/
+I-entity	albumin to creatinine ratio		min_or	>_/
+I-entity	albumin to creatinine ratio		min_or	>_/
+O		or_albumin	creatinine_ratio
+O		albumin_to	ratio_>
+O		to_creatinine	>_/
+O		creatinine_ratio	/_=
+B-labrefrangemod	>/=		creatinine_ratio	30_mg
+O		ratio_>	=_30
+O		>_/	30_mg
+B-labvalmod	30		/_=	mg_/
+O		=_30	/_g
+B-labvalmod	mg/g		=_30
+O		30_mg
+O		mg_/
+ES
+SS
+B-labintermod	Raised		triglycerides_(
+O		(_TG
+O		Raised_triglycerides	TG_)
+B-entity	TG		triglycerides_(
+O		(_TG
+ES
+SS
+O	
+O	
+ES
+SS
+O		/_=
+B-labrefrangemod	>/=		150_mg
+O		=_150
+O		>_/	150_mg
+B-labvalmod	150		/_=	mg_/
+O		=_150	/_dL
+B-labvalmod	mg/dL		=_150	(_1.7
+O		150_mg	dL_(
+O		mg_/	(_1.7
+O		/_dL	1.7_mmol
+B-labvalmod	1.7		dL_(	mmol_/
+O		(_1.7	/_L
+B-labvalmod	mmol/L		(_1.7	)_,
+O		1.7_mmol	L_)
+O		mmol_/	)_,
+O		/_L	,_or
+O		L_)	or_specific
+B-labintermod	or		)_,	specific_treatment
+O		,_or	treatment_for
+O		or_specific	for_this
+O		specific_treatment	this_lipid
+O		treatment_for	lipid_abnormality
+O		for_this
+O		this_lipid
+ES
+SS
+B-labintermod	Reduced		HDL_cholesterol
+O		cholesterol_:
+O		Reduced_HDL
+O		HDL_cholesterol
+ES
+SS
+B-labrefrangemod	<		40_mg
+B-labvalmod	40		mg_/
+O		<_40	/_dL
+B-labvalmod	mg/dL		<_40	(_1.03
+O		40_mg	dL_(
+O		mg_/	(_1.03
+O		/_dL	1.03_mmol
+B-labvalmod	1.03		dL_(	mmol_/
+O		(_1.03	/_L
+B-labvalmod	mmol/L		(_1.03	)_in
+O		1.03_mmol	L_)
+O		mmol_/	)_in
+O		/_L	in_males
+O		L_)	males_and
+O		)_in	and_<
+B-labintermod	and		in_males	<_50
+B-labrefrangemod	<		males_and	50_mg
+B-labvalmod	50		and_<	mg_/
+O		<_50	/_dL
+B-labvalmod	mg/dL		<_50	(_1.29
+O		50_mg	dL_(
+O		mg_/	(_1.29
+O		/_dL	1.29_mmol
+B-labvalmod	1.29		dL_(	mmol_/
+O		(_1.29	/_L
+B-labvalmod	mmol/L		(_1.29	)_in
+O		1.29_mmol	L_)
+O		mmol_/	)_in
+O		/_L	in_females
+O		L_)	females_,
+O		)_in	,_or
+O		in_females	or_specific
+B-labintermod	or		females_,	specific_treatment
+O		,_or	treatment_for
+O		or_specific	for_this
+O		specific_treatment	this_lipid
+O		treatment_for	lipid_abnormality
+O		for_this
+O		this_lipid
+ES
+SS
+O		,_Borrelia
+O		Borrelia_burgdorferi
+O		Tuberculosis_,	burgdorferi_,
+O		,_Borrelia	,_Chlamydia
+O		Borrelia_burgdorferi	Chlamydia_pneumoniae
+O		burgdorferi_,	pneumoniae_,
+O		,_Chlamydia	,_and
+O		Chlamydia_pneumoniae	and_other
+B-labintermod	and		pneumoniae_,	other_bacterial
+O		,_and	bacterial_infection
+O		and_other	infection_excluded
+O		other_bacterial	excluded_by
+B-labintermod	excluded		bacterial_infection	by_PCR
+O		infection_excluded	PCR_and
+O		excluded_by	and_/
+O		by_PCR	/_or
+O		PCR_and	or_cultures
+O		and_/	cultures_;
+O		/_or
+O		or_cultures
+ES
+SS
+B-labintermod	Raised		fasting_plasma
+O		plasma_glucose
+B-entity	fasting plasma glucose		(_FPG
+I-entity	fasting plasma glucose		(_FPG
+I-entity	fasting plasma glucose		(_FPG
+O		Raised_fasting	glucose_(
+O		fasting_plasma	(_FPG
+O		plasma_glucose	FPG_)
+B-entity	FPG		glucose_(
+O		(_FPG
+ES
+SS
+O		/_=
+B-labrefrangemod	>/=		100_mg
+O		=_100
+O		>_/	100_mg
+B-labvalmod	100		/_=	mg_/
+O		=_100	/_dL
+B-labvalmod	mg/dL		=_100	(_5.6
+O		100_mg	dL_(
+O		mg_/	(_5.6
+O		/_dL	5.6_mmol
+B-labvalmod	5.6		dL_(	mmol_/
+O		(_5.6	/_L
+B-labvalmod	mmol/L		(_5.6	)_,
+O		5.6_mmol	L_)
+O		mmol_/	)_,
+O		/_L	,_or
+O		L_)	or_previously
+B-labintermod	or		)_,	previously_diagnosed
+O		,_or	diagnosed_type
+O		or_previously	type_2
+O		previously_diagnosed	2_diabetes
+O		diagnosed_type	diabetes_.
+O		type_2
+O		2_diabetes
+ES
+SS
+O		above_5.6
+B-labintermod	above		5.6_mmol
+B-labvalmod	5.6		If_above	mmol_/
+O		above_5.6	/_L
+B-labvalmod	mmol/L		above_5.6	or_100
+O		5.6_mmol	L_or
+O		mmol_/	or_100
+O		/_L	100_mg
+B-labvalmod	100		L_or	mg_/
+O		or_100	/_dL
+B-labvalmod	mg/dL		or_100	,_oral
+O		100_mg	dL_,
+O		mg_/	,_oral
+O		/_dL	oral_glucose
+O		dL_,	glucose_tolerance
+B-entity	oral glucose tolerance test		dL_,
+I-entity	oral glucose tolerance test		dL_,
+I-entity	oral glucose tolerance test		dL_,
+I-entity	oral glucose tolerance test		dL_,
+O		,_oral	tolerance_test
+O		oral_glucose	test_(
+O		glucose_tolerance	(_OGTT
+O		tolerance_test	OGTT_)
+B-entity	OGTT		test_(
+O		(_OGTT
+ES
+SS
+O		strongly_recommended
+O		recommended_but
+O		is_strongly	but_is
+O		strongly_recommended	is_not
+O		recommended_but	not_necessary
+O		but_is	necessary_to
+O		is_not	to_define
+O		not_necessary	define_presence
+O		necessary_to	presence_of
+O		to_define	of_the
+O		define_presence	the_syndrome
+O		presence_of
+O		of_the
+ES
+SS
+O		of_elevated
+O		elevated_cardiac
+B-labintermod	elevated		evidence_of	cardiac_enzymes
+O		of_elevated	enzymes_(
+B-entity	cardiac enzymes		of_elevated	(_creatine
+I-entity	cardiac enzymes		of_elevated	(_creatine
+O		elevated_cardiac	(_creatine
+O		cardiac_enzymes	creatine_kinase
+O		enzymes_(	kinase_-
+O		(_creatine	-_MB
+O		creatine_kinase	MB_fraction
+O		kinase_-	fraction_,
+O		-_MB	,_or
+O		MB_fraction	or_troponin
+B-labintermod	or		fraction_,	troponin_I
+O		,_or	I_or
+O		or_troponin	or_T
+B-labintermod	or		troponin_I	T_)
+O		I_or	)_or
+O		or_T
+B-labintermod	or		T_)
+ES
+SS
+O		rise_and
+B-labintermod	Typical rise		and_gradual
+I-labintermod	Typical rise		and_gradual
+O		and_gradual
+O		Typical_rise	gradual_fall
+O		rise_and	fall_(
+B-labintermod	gradual fall		rise_and	(_troponin
+I-labintermod	gradual fall		rise_and	(_troponin
+O		and_gradual	(_troponin
+O		gradual_fall	troponin_)
+B-entity	troponin		fall_(
+O		(_troponin
+ES
+SS
+B-labintermod	or		more_rapid
+O		rapid_rise
+O		or_more	rise_and
+B-labintermod	rapid rise and fall		or_more	(_CK
+I-labintermod	rapid rise and fall		or_more	(_CK
+I-labintermod	rapid rise and fall		or_more	(_CK
+I-labintermod	rapid rise and fall		or_more	(_CK
+O		more_rapid	and_fall
+O		rapid_rise	fall_(
+O		rise_and	(_CK
+O		and_fall	CK_-
+O		fall_(	-_MB
+B-entity	CK-MB		fall_(	)_of
+O		(_CK	MB_)
+O		CK_-	)_of
+O		-_MB	of_biochemical
+O		MB_)	biochemical_markers
+O		)_of	markers_of
+O		of_biochemical	of_myocardial
+O		biochemical_markers	myocardial_necrosis
+O		markers_of	necrosis_with
+O		of_myocardial	with_at
+O		myocardial_necrosis	at_least
+O		necrosis_with	least_one
+O		with_at	one_of
+O		at_least	of_the
+O		least_one	the_following
+O		one_of
+O		of_the
+ES
+SS
+O		of_diabetes
+O		diabetes_plus
+O		Symptoms_of	plus_casual
+O		of_diabetes	casual_plasma
+O		diabetes_plus	plasma_glucose
+O		plus_casual	glucose_concentration
+O		casual_plasma	concentration_>
+O		plasma_glucose	>_/
+O		glucose_concentration	/_=
+B-labrefrangemod	>/=		glucose_concentration	200_mg
+O		concentration_>	=_200
+O		>_/	200_mg
+B-labvalmod	200		/_=	mg_/
+O		=_200	/_dl
+B-labvalmod	mg/dl		=_200	(_11.1
+O		200_mg	dl_(
+O		mg_/	(_11.1
+O		/_dl	11.1_mmol
+B-labvalmod	11.1		dl_(	mmol_/
+O		(_11.1	/_l
+B-labvalmod	mmol/l		(_11.1
+O		11.1_mmol	l_)
+O		mmol_/
+O		/_l
+ES
+SS
+O		Plasma_Glucose
+B-entity	Fasting Plasma Glucose		(_FPG
+I-entity	Fasting Plasma Glucose		(_FPG
+I-entity	Fasting Plasma Glucose		(_FPG
+O		Glucose_(
+O		Fasting_Plasma	(_FPG
+O		Plasma_Glucose	FPG_)
+B-entity	FPG		Glucose_(
+O		(_FPG
+ES
+SS
+O		/_=
+B-labrefrangemod	>/=		126_mg
+O		=_126
+O		>_/	126_mg
+B-labvalmod	126		/_=	mg_/
+O		=_126	/_dl
+B-labvalmod	mg/dl		=_126	(_7.0
+O		126_mg	dl_(
+O		mg_/	(_7.0
+O		/_dl	7.0_mmol
+B-labvalmod	7.0		dl_(	mmol_/
+O		(_7.0	/_l
+B-labvalmod	mmol/l		(_7.0
+O		7.0_mmol	l_)
+O		mmol_/
+O		/_l
+ES
+SS
+O		-_hour
+O		hour_postload
+O		Two_-	postload_glucose
+O		-_hour	glucose_>
+O		hour_postload	>_/
+O		postload_glucose	/_=
+B-labrefrangemod	>/=		postload_glucose	200_mg
+O		glucose_>	=_200
+O		>_/	200_mg
+B-labvalmod	200		/_=	mg_/
+O		=_200	/_dl
+B-labvalmod	mg/dl		=_200	(_11.1
+O		200_mg	dl_(
+O		mg_/	(_11.1
+O		/_dl	11.1_mmol
+B-labvalmod	11.1		dl_(	mmol_/
+O		(_11.1	/_l
+B-labvalmod	mmol/l		(_11.1
+O		11.1_mmol	l_)
+O		mmol_/
+O		/_l
+ES
+SS
+O		an_Oral
+O		Oral_Glucose
+O		during_an	Glucose_Tolerance
+B-entity	Oral Glucose Tolerance Test		during_an	(_OGTT
+I-entity	Oral Glucose Tolerance Test		during_an	(_OGTT
+I-entity	Oral Glucose Tolerance Test		during_an	(_OGTT
+I-entity	Oral Glucose Tolerance Test		during_an	(_OGTT
+O		an_Oral	Tolerance_Test
+O		Oral_Glucose	Test_(
+O		Glucose_Tolerance	(_OGTT
+O		Tolerance_Test	OGTT_)
+B-entity	OGTT		Test_(	)_.
+O		(_OGTT
+O		OGTT_)
+ES
+SS
+O		level_>
+O		>_/
+O		Glucose_level	/_=
+B-labrefrangemod	>/=		Glucose_level	140_mg
+O		level_>	=_140
+O		>_/	140_mg
+B-labvalmod	140		/_=	mg_/
+O		=_140	/_dL
+B-labvalmod	mg/dL		=_140	(_7.8
+O		140_mg	dL_(
+O		mg_/	(_7.8
+O		/_dL	7.8_mmol
+B-labvalmod	7.8		dL_(	mmol_/
+O		(_7.8	/_L
+B-labvalmod	mmol/L		(_7.8	)_and
+O		7.8_mmol	L_)
+O		mmol_/	)_and
+O		/_L	and_<
+B-labintermod	and		L_)	<_200
+B-labrefrangemod	<		)_and	200_mg
+B-labvalmod	200		and_<	mg_/
+O		<_200	/_dL
+B-labvalmod	mg/dL		<_200	(_11.1
+O		200_mg	dL_(
+O		mg_/	(_11.1
+O		/_dL	11.1_mmol
+B-labvalmod	11.1		dL_(	mmol_/
+O		(_11.1	/_L
+B-labvalmod	mmol/L		(_11.1
+O		11.1_mmol	L_)
+O		mmol_/
+O		/_L
+ES
+SS
+O		2_hours
+O		hours_during
+O		at_2	during_a
+O		2_hours	a_standard
+O		hours_during	standard_OGTT
+O		during_a
+B-entity	OGTT		a_standard
+ES
+SS
+O		glucose_level
+B-entity	Fasting glucose		level_>
+I-entity	Fasting glucose		level_>
+O		level_>
+O		Fasting_glucose	>_/
+O		glucose_level	/_=
+B-labrefrangemod	>/=		glucose_level	100_mg
+O		level_>	=_100
+O		>_/	100_mg
+B-labvalmod	100		/_=	mg_/
+O		=_100	/_dL
+B-labvalmod	mg/dL		=_100	(_5.6
+O		100_mg	dL_(
+O		mg_/	(_5.6
+O		/_dL	5.6_mmol
+B-labvalmod	5.6		dL_(	mmol_/
+O		(_5.6	/_L
+B-labvalmod	mmol/L		(_5.6	)_and
+O		5.6_mmol	L_)
+O		mmol_/	)_and
+O		/_L	and_<
+B-labintermod	and		L_)	<_126
+B-labrefrangemod	<		)_and	126_mg
+B-labvalmod	126		and_<	mg_/
+O		<_126	/_dL
+B-labvalmod	mg/dL		<_126	(_7.0
+O		126_mg	dL_(
+O		mg_/	(_7.0
+O		/_dL	7.0_mmol
+B-labvalmod	7.0		dL_(	mmol_/
+O		(_7.0	/_L
+B-labvalmod	mmol/L		(_7.0
+O		7.0_mmol	L_)
+O		mmol_/
+O		/_L
+ES
+SS
+O		of_the
+O		the_esophageal
+O		Biopsies_of	esophageal_mucosa
+O		of_the	mucosa_reveal
+O		the_esophageal	reveal_a
+O		esophageal_mucosa	a_dense
+O		mucosa_reveal	dense_eosinophilic
+O		reveal_a	eosinophilic_infiltration
+O		a_dense	infiltration_(
+O		dense_eosinophilic	(_ie
+O		eosinophilic_infiltration	ie_,
+O		infiltration_(	,_>
+O		(_ie	>_/
+O		ie_,	/_=
+B-labrefrangemod	>/=		ie_,	20_eosinophils
+O		,_>	=_20
+O		>_/	20_eosinophils
+B-labvalmod	20		/_=	eosinophils_/
+O		=_20	/_HPF
+B-labvalmod	eosinophils/HPF		=_20	)_.
+O		20_eosinophils	HPF_)
+O		eosinophils_/	)_.
+O		/_HPF
+O		HPF_)
+ES
+SS
+O		criteria_for
+O		for_severe
+O		The_criteria	severe_acute
+O		criteria_for	acute_pancreatitis
+O		for_severe	pancreatitis_were
+O		severe_acute	were_defined
+O		acute_pancreatitis	defined_as
+O		pancreatitis_were	as_organ
+O		were_defined	organ_failure
+O		defined_as	failure_of
+O		as_organ	of_at
+O		organ_failure	at_least
+O		failure_of	least_one
+O		of_at	one_organ
+O		at_least	organ_system
+O		least_one	system_(
+O		one_organ	(_systolic
+O		organ_system	systolic_blood
+O		system_(	blood_pressure
+O		(_systolic	pressure_<
+O		systolic_blood	<_90
+O		blood_pressure	90_mm
+O		pressure_<	mm_Hg
+O		<_90	Hg_,
+O		90_mm	,_PaO2
+O		mm_Hg	PaO2_<
+O		Hg_,	<_60
+O		,_PaO2	60_mm
+O		PaO2_<	mm_Hg
+O		<_60	Hg_,
+O		60_mm	,_creatinine
+O		mm_Hg	creatinine_>
+O		Hg_,	>_2.0
+B-labrefrangemod	>		,_creatinine	2.0_mg
+B-labvalmod	2.0		creatinine_>	mg_/
+O		>_2.0	/_dL
+B-labvalmod	mg/dL		>_2.0	after_rehydration
+O		2.0_mg	dL_after
+O		mg_/	after_rehydration
+O		/_dL	rehydration_,
+O		dL_after	,_and
+O		after_rehydration	and_gastrointestinal
+O		rehydration_,	gastrointestinal_bleeding
+O		,_and	bleeding_>
+O		and_gastrointestinal	>_500
+O		gastrointestinal_bleeding	500_mL
+O		bleeding_>	mL_/
+O		>_500	/_24
+O		500_mL	24_h
+O		mL_/	h_)
+O		/_24	)_and
+O		24_h	and_the
+O		h_)	the_presence
+O		)_and	presence_of
+O		and_the	of_local
+O		the_presence	local_complications
+O		presence_of	complications_such
+O		of_local	such_as
+O		local_complications	as_necrosis
+O		complications_such	necrosis_,
+O		such_as	,_pseudocyst
+O		as_necrosis	pseudocyst_,
+O		necrosis_,	,_and
+O		,_pseudocyst	and_abscess
+O		pseudocyst_,	abscess_.
+O		,_and
+O		and_abscess
+ES
+SS
+O		(_active
+O		active_)
+O		Acute_(
+O		(_active
+ES
+SS
+O	
+O	
+ES
+SS
+O		clear_-
+O		-_cut
+O		a_clear	cut_infiltrate
+O		clear_-	infiltrate_(
+O		-_cut	(_diffuse
+O		cut_infiltrate	diffuse_,
+O		infiltrate_(	,_focal
+O		(_diffuse	focal_or
+O		diffuse_,	or_confluent
+B-labintermod	or		,_focal	confluent_)
+O		focal_or	)_of
+O		or_confluent	of_>
+O		confluent_)	>_14
+B-labrefrangemod	>		)_of	14_leukocytes
+B-labvalmod	14		of_>	leukocytes_/
+O		>_14	/_mm2
+B-labvalmod	leukocytes/mm2		>_14	(_preferably
+O		14_leukocytes	mm2_(
+O		leukocytes_/	(_preferably
+O		/_mm2	preferably_activated
+O		mm2_(	activated_T
+B-labintermod	activated		(_preferably	T_cells
+O		preferably_activated	cells_)
+O		activated_T	)_.
+O		T_cells
+O		cells_)
+ES
+SS
+O		five_-
+O		-_factor
+O		This_five	factor_scoring
+O		five_-	scoring_system
+O		-_factor	system_assigns
+O		factor_scoring	assigns_one
+O		scoring_system	one_point
+O		system_assigns	point_for
+O		assigns_one	for_the
+O		one_point	the_presence
+O		point_for	presence_of
+O		for_the	of_each
+O		the_presence	each_of
+O		presence_of	of_the
+O		of_each	the_following
+O		each_of	following_,
+O		of_the	,_either
+O		the_following	either_at
+O		following_,	at_admission
+O		,_either	admission_or
+O		either_at	or_during
+O		at_admission	during_the
+O		admission_or	the_initial
+O		or_during	initial_24
+O		during_the	24_hours
+O		the_initial	hours_of
+O		initial_24	of_hospitalization
+O		24_hours	hospitalization_:
+O		hours_of
+O		of_hospitalization
+ES
+SS
+O		>_25
+B-labrefrangemod	>		25_mg
+B-labvalmod	25		Bun_>	mg_/
+O		>_25	/_dL
+B-labvalmod	mg/dL		>_25	,_Impaired
+O		25_mg	dL_,
+O		mg_/	,_Impaired
+O		/_dL	Impaired_mental
+O		dL_,	mental_status
+O		,_Impaired	status_,
+O		Impaired_mental	,_SIRS
+O		mental_status	SIRS_,
+O		status_,	,_Age
+O		,_SIRS	Age_>
+O		SIRS_,	>_60
+O		,_Age	60_and
+O		Age_>	and_a
+O		>_60	a_Pleural
+O		60_and	Pleural_effusion
+O		and_a	effusion_.
+O		a_Pleural
+O		Pleural_effusion
+ES
+SS
+B-entity	ANA		or_SMA
+B-labintermod	or		SMA_>
+B-entity	SMA		ANA_or	>_/
+O		or_SMA	/_=
+B-labrefrangemod	>/=		or_SMA	1_:
+O		SMA_>	=_1
+O		>_/	1_:
+O		/_=
+O		=_1
+ES
+SS
+O	
+ES
+SS
+B-entity	ANA		or_SMA
+B-labintermod	or		SMA_>
+B-entity	SMA		ANA_or	>_/
+O		or_SMA	/_=
+B-labrefrangemod	>/=		or_SMA	1_:
+O		SMA_>	=_1
+O		>_/	1_:
+O		/_=	:_8
+B-labvalmod	1:8		/_=
+O		=_1
+O		1_:
+ES
+SS
+B-labintermod	or		LKM_>
+B-entity	LKM		>_/
+O		or_LKM	/_=
+B-labrefrangemod	>/=		or_LKM	1_:
+O		LKM_>	=_1
+O		>_/	1_:
+O		/_=
+O		=_1
+ES
+SS
+O	
+ES
+SS
+B-labintermod	or		SLA_Positive
+B-entity	SLA	
+B-labintermod	Positive		or_SLA
+ES
+SS
+O		>_upper
+B-labrefrangemod	>		upper_normal
+O		IgG_>	normal_limit
+B-labintermod	upper normal limit		IgG_>
+I-labintermod	upper normal limit		IgG_>
+I-labintermod	upper normal limit		IgG_>
+O		>_upper
+O		upper_normal
+ES
+SS
+O		>_1.10
+B-labrefrangemod	>		1.10_times
+O		IgG_>	times_upper
+B-labintermod	1.10 times upper normal limit		IgG_>
+I-labintermod	1.10 times upper normal limit		IgG_>
+I-labintermod	1.10 times upper normal limit		IgG_>
+I-labintermod	1.10 times upper normal limit		IgG_>
+I-labintermod	1.10 times upper normal limit		IgG_>
+O		>_1.10	upper_normal
+O		1.10_times	normal_limit
+O		times_upper
+O		upper_normal
+ES
+SS
+O		Cr_increased
+B-entity	Serum Cr		increased_1.5
+I-entity	Serum Cr		increased_1.5
+O		increased_1.5
+O		Serum_Cr	1.5_times
+B-labintermod	increased 1.5 times		Serum_Cr
+I-labintermod	increased 1.5 times		Serum_Cr
+I-labintermod	increased 1.5 times		Serum_Cr
+O		Cr_increased	times_*
+O		increased_1.5
+O		1.5_times
+ES
+SS
+O		Cr_increased
+B-entity	Serum Cr		increased_1.5
+I-entity	Serum Cr		increased_1.5
+O		increased_1.5
+O		Serum_Cr	1.5_times
+B-labintermod	increased 1.5 times		Serum_Cr
+I-labintermod	increased 1.5 times		Serum_Cr
+I-labintermod	increased 1.5 times		Serum_Cr
+O		Cr_increased	times_*
+O		increased_1.5
+O		1.5_times
+ES
+SS
+B-labintermod	Positive		blood_culture
+O		culture_:
+O		Positive_blood	:_Typical
+O		blood_culture	Typical_microorganism
+O		culture_:	microorganism_for
+O		:_Typical	for_infective
+O		Typical_microorganism	infective_endocarditis
+O		microorganism_for	endocarditis_from
+O		for_infective	from_two
+O		infective_endocarditis	two_separate
+O		endocarditis_from	separate_blood
+O		from_two	blood_cultures
+O		two_separate
+O		separate_blood
+ES
+SS
+O		myocarditis_:
+O	
+O		Chronic_myocarditis
+ES
+SS
+O		infiltrate_of
+O		of_>
+O		an_infiltrate	>_14
+B-labrefrangemod	>		infiltrate_of	14_leukocytes
+B-labvalmod	14		of_>	leukocytes_/
+O		>_14	/_mm2
+B-labvalmod	leukocytes/mm2		>_14	(_diffuse
+O		14_leukocytes	mm2_(
+O		leukocytes_/	(_diffuse
+O		/_mm2	diffuse_,
+O		mm2_(	,_focal
+O		(_diffuse	focal_or
+O		diffuse_,	or_confluent
+B-labintermod	or		,_focal	confluent_,
+O		focal_or	,_preferably
+O		or_confluent	preferably_activated
+O		confluent_,	activated_T
+B-labintermod	preferably activated		confluent_,	T_cells
+I-labintermod	preferably activated		confluent_,	T_cells
+O		,_preferably	T_cells
+O		preferably_activated	cells_)
+O		activated_T	)_.
+O		T_cells
+O		cells_)
+ES
+SS
+O		positive_blood
+B-labintermod	positive		blood_culture
+O		Persistently_positive	culture_,
+O		positive_blood	,_defined
+O		blood_culture	defined_as
+O		culture_,	as_recovery
+O		,_defined	recovery_of
+O		defined_as	of_a
+O		as_recovery	a_microorganism
+O		recovery_of	microorganism_consistent
+O		of_a	consistent_with
+O		a_microorganism	with_infective
+O		microorganism_consistent	infective_endocarditis
+O		consistent_with	endocarditis_from
+O		with_infective	from_:
+O		infective_endocarditis
+O		endocarditis_from
+ES
+SS
+O		positive_blood
+B-labintermod	positive		blood_culture
+O		Single_positive	culture_for
+O		positive_blood	for_Coxiella
+O		blood_culture	Coxiella_burnetii
+O		culture_for	burnetii_or
+O		for_Coxiella	or_phase
+O		Coxiella_burnetii	phase_I
+O		burnetii_or	I_IgG
+O		or_phase	IgG_antibody
+O		phase_I	antibody_titer
+O		I_IgG	titer_of
+O		IgG_antibody	of_>
+O		antibody_titer	>_1
+B-labrefrangemod	>		titer_of	1_:
+O		of_>
+O		>_1
+ES
+SS
+O	
+ES
+SS
+O		evidence_:
+O	
+O		Microbiologic_evidence
+ES
+SS
+B-labintermod	positive		blood_culture
+O		culture_but
+O		positive_blood	but_not
+O		blood_culture	not_meeting
+O		culture_but	meeting_major
+O		but_not	major_criterion
+O		not_meeting	criterion_as
+O		meeting_major	as_noted
+O		major_criterion	noted_previouslyc
+O		criterion_as	previouslyc_or
+O		as_noted	or_serologic
+O		noted_previouslyc	serologic_evidence
+O		previouslyc_or	evidence_of
+O		or_serologic	of_active
+O		serologic_evidence	active_infection
+O		evidence_of	infection_with
+O		of_active	with_organism
+O		active_infection	organism_consistent
+O		infection_with	consistent_with
+O		with_organism	with_infective
+O		organism_consistent	infective_endocarditis
+O		consistent_with
+O		with_infective
+ES
+SS
+B-labintermod	Elevated		acute_phase
+O		phase_reactant
+B-entity	acute phase reactant		(_C
+I-entity	acute phase reactant		(_C
+I-entity	acute phase reactant		(_C
+O		Elevated_acute	reactant_(
+O		acute_phase	(_C
+O		phase_reactant	C_-
+O		reactant_(	-_reactive
+B-entity	C-reactive protein		reactant_(	or_erythrocyte
+I-entity	C-reactive protein		reactant_(	or_erythrocyte
+O		(_C	reactive_protein
+O		C_-	protein_or
+O		-_reactive	or_erythrocyte
+B-labintermod	or		reactive_protein	erythrocyte_sedimentation
+O		protein_or	sedimentation_rate
+O		or_erythrocyte	rate_)
+O		erythrocyte_sedimentation
+O		sedimentation_rate
+ES
+SS
+B-labintermod	Positive		throat_culture
+O		culture_or
+O		Positive_throat	or_rapid
+B-labintermod	or		throat_culture	rapid_antigen
+B-labintermod	rapid		culture_or	antigen_test
+O		or_rapid
+O		rapid_antigen
+ES
+SS
+B-labintermod	Elevated		or_rising
+B-labintermod	or		rising_streptococcal
+B-labintermod	rising		Elevated_or	streptococcal_antibody
+O		or_rising	antibody_titer
+B-entity	streptococcal antibody tite		or_rising
+I-entity	streptococcal antibody tite		or_rising
+I-entity	streptococcal antibody tite		or_rising
+O		rising_streptococcal
+O		streptococcal_antibody
+ES
+SS
+O		positive_cultures
+B-labintermod	positive		cultures_of
+O		2_positive	of_blood
+O		positive_cultures	blood_samples
+O		cultures_of	samples_drawn
+O		of_blood	drawn_>
+O		blood_samples	>_12
+O		samples_drawn	12_hours
+O		drawn_>	hours_apart
+O		>_12	apart_,
+O		12_hours	,_or
+O		hours_apart
+B-labintermod	or		apart_,
+ES
+SS
+O		evidence_:
+O	
+O		Microbiological_evidence
+ES
+SS
+B-labintermod	positive		blood_culture
+O		culture_but
+O		positive_blood	but_does
+O		blood_culture	does_not
+O		culture_but	not_meet
+O		but_does	meet_a
+O		does_not	a_major
+O		not_meet	major_criterion
+O		meet_a	criterion_as
+O		a_major	as_noted
+O		major_criterion	noted_above
+O		criterion_as	above_or
+O		as_noted	or_serological
+O		noted_above	serological_evidence
+O		above_or	evidence_of
+O		or_serological	of_active
+O		serological_evidence	active_infection
+O		evidence_of	infection_with
+O		of_active	with_organism
+O		active_infection	organism_consistent
+O		infection_with	consistent_with
+O		with_organism	with_IE
+O		organism_consistent
+O		consistent_with
+ES
+SS
+B-labintermod	Elevated		blood_urea
+O		urea_nitrogen
+O		Elevated_blood	nitrogen_:
+O		blood_urea	:_Blood
+O		urea_nitrogen	Blood_urea
+O		nitrogen_:	urea_nitrogen
+O		:_Blood	nitrogen_>
+O		Blood_urea	>_/
+O		urea_nitrogen	/_=
+B-labrefrangemod	>/=		urea_nitrogen	20_mg
+O		nitrogen_>	=_20
+O		>_/	20_mg
+B-labvalmod	20		/_=	mg_/
+O		=_20	/_dl
+B-labvalmod	mg/dl		=_20
+O		20_mg
+O		mg_/
+ES
+SS
+O		:_Ratio
+O		Ratio_of
+O		Hypoxemia_:	of_partial
+B-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+I-entity	Ratio of partial pressure of oxygen in arterial blood to fraction of inspired oxygen		Hypoxemia_:	<_250
+O		:_Ratio	partial_pressure
+O		Ratio_of	pressure_of
+O		of_partial	of_oxygen
+O		partial_pressure	oxygen_in
+O		pressure_of	in_arterial
+O		of_oxygen	arterial_blood
+O		oxygen_in	blood_to
+O		in_arterial	to_fraction
+O		arterial_blood	fraction_of
+O		blood_to	of_inspired
+O		to_fraction	inspired_oxygen
+O		fraction_of	oxygen_<
+O		of_inspired	<_250
+B-labrefrangemod	<		inspired_oxygen	250_mm
+B-labvalmod	250		oxygen_<	mm_Hg
+O		<_250
+B-labvalmod	mm Hg		<_250
+I-labvalmod	mm Hg		<_250
+O		250_mm
+ES
+SS
+O		myocarditis_:
+O	
+O		No_myocarditis
+ES
+SS
+B-labintermod	No		infiltrating_cells
+O		cells_or
+B-entity	infiltrating cells		or_<
+I-entity	infiltrating cells		or_<
+O		No_infiltrating	or_<
+O		infiltrating_cells	<_14
+B-labrefrangemod	<		cells_or	14_leukocytes
+B-labvalmod	14		or_<	leukocytes_/
+O		<_14	/_mm2
+B-labvalmod	leukocytes/mm2		<_14
+O		14_leukocytes	mm2_.
+O		leukocytes_/
+O		/_mm2
+ES
+SS
+O	
+O	
+ES
+SS
+B-labrefrangemod	<		100,000_platelets
+B-labvalmod	100,000		platelets_/
+O		<_100,000	/_mm3
+B-labvalmod	platelets/mm3		<_100,000
+O		100,000_platelets
+O		platelets_/
+ES
+SS
+O		:_White
+O		White_-
+O		Leukopenia_:	-_cell
+B-entity	White-cell count		Leukopenia_:
+I-entity	White-cell count		Leukopenia_:
+O		:_White	cell_count
+O		White_-	count_<
+O		-_cell	<_4000
+B-labrefrangemod	<		cell_count	4000_/
+B-labvalmod	4000		count_<	/_mm3
+O		<_4000
+B-labvalmod	/mm3		<_4000
+O		4000_/
+ES
+SS
+O		acidosis_:
+O		:_Lactic
+O		Lactic_acidosis	Lactic_acid
+O		acidosis_:	acid_level
+B-entity	Lactic acid level		acidosis_:	>_/
+I-entity	Lactic acid level		acidosis_:	>_/
+I-entity	Lactic acid level		acidosis_:	>_/
+O		:_Lactic	level_>
+O		Lactic_acid	>_/
+O		acid_level	/_=
+B-labrefrangemod	>/=		acid_level	4_mmol
+O		level_>	=_4
+O		>_/	4_mmol
+B-labvalmod	4		/_=	mmol_/
+O		=_4	/_liter
+B-labvalmod	mmol/liter		=_4
+O		4_mmol
+O		mmol_/
+ES
+SS
+B-labintermod	Low		pH_:
+O		:_<
+O		Low_pH	<_7.30
+B-labrefrangemod	<		pH_:	7.30_-
+O		:_<	-_7
+O		<_7.30	7_.
+O		7.30_-
+O		-_7
+ES
+SS
+O		,_depending
+O		depending_on
+O		35_,	on_scoring
+O		,_depending	scoring_system
+O		depending_on
+O		on_scoring
+ES
+SS
+B-labintermod	Low		albumin_:
+O		:_<
+O		Low_albumin	<_3.5
+B-labrefrangemod	<		albumin_:	3.5_g
+B-labvalmod	3.5		:_<	g_/
+O		<_3.5	/_dl
+B-labvalmod	g/dl		<_3.5
+O		3.5_g
+O		g_/
+ES
+SS
+O		:_Sodium
+O		Sodium_level
+O		Hyponatremia_:	level_<
+O		:_Sodium	<_130
+B-labrefrangemod	<		Sodium_level	130_mmol
+B-labvalmod	130		level_<	mmol_/
+O		<_130	/_liter
+B-labvalmod	mmol/liter		<_130
+O		130_mmol
+O		mmol_/
+ES
+SS
+O		:_Leukocyte
+O		Leukocyte_count
+O		Leukocytosis_:	count_>
+O		:_Leukocyte
+B-labrefrangemod	>		Leukocyte_count
+ES
+SS
+B-labvalmod	20,000		/_mm3
+O	
+B-labvalmod	/mm3	
+O		20,000_/
+ES
+SS
+O		sudden_inexplicable
+B-labintermod	A sudden inexplicable drop		in_haematocrit
+I-labintermod	A sudden inexplicable drop		in_haematocrit
+I-labintermod	A sudden inexplicable drop		in_haematocrit
+I-labintermod	A sudden inexplicable drop		in_haematocrit
+O		inexplicable_drop
+O		A_sudden	drop_in
+O		sudden_inexplicable	in_haematocrit
+O		inexplicable_drop	haematocrit_or
+O		drop_in	or_platelet
+B-labintermod	or		in_haematocrit	platelet_values
+O		haematocrit_or
+O		or_platelet
+ES
+SS
+B-labintermod	Increasing	
+O	
+ES
+SS
+O		,_Creatinine
+O		Creatinine_(
+O		Renal_,	(_mg
+O		,_Creatinine	mg_/
+O		Creatinine_(	/_dL
+B-labvalmod	mg/dL		Creatinine_(	)_:
+O		(_mg	dL_)
+O		mg_/	)_:
+O		/_dL	:_>
+O		dL_)	>_5.0
+B-labrefrangemod	>		)_:	5.0_or
+B-labvalmod	5.0		:_>	or_<
+B-labintermod	or		>_5.0	<_200
+B-labrefrangemod	<		5.0_or
+B-labvalmod	200		or_<
+ES
+SS
+O		of_viral
+B-labintermod	Presence of viral genome		by_PCR
+I-labintermod	Presence of viral genome		by_PCR
+I-labintermod	Presence of viral genome		by_PCR
+I-labintermod	Presence of viral genome		by_PCR
+O		viral_genome
+O		Presence_of	genome_by
+O		of_viral	by_PCR
+O		viral_genome	PCR_or
+O		genome_by	or_in
+B-labintermod	or		by_PCR	in_situ
+O		PCR_or	situ_hybridisation
+B-labintermod	in situ		PCR_or	hybridisation_.
+I-labintermod	in situ		PCR_or	hybridisation_.
+O		or_in	hybridisation_.
+O		in_situ
+O		situ_hybridisation
+ES
+SS
+O		,_Bilirubin
+O		Bilirubin_(
+O		Liver_,	(_mg
+O		,_Bilirubin	mg_/
+O		Bilirubin_(	/_dL
+B-labvalmod	mg/dL		Bilirubin_(	)_:
+O		(_mg	dL_)
+O		mg_/	)_:
+O		/_dL	:_>
+O		dL_)	>_12.0
+B-labrefrangemod	>		)_:
+B-labvalmod	12.0		:_>
+ES
+SS
+O		(_BUN
+O		BUN_level
+O		Uremia_(	level_>
+O		(_BUN	>_/
+O		BUN_level	/_=
+B-labrefrangemod	>/=		BUN_level	20_mg
+O		level_>	=_20
+O		>_/	20_mg
+B-labvalmod	20		/_=	mg_/
+O		=_20	/_dl
+B-labvalmod	mg/dl		=_20
+O		20_mg	dl_)
+O		mg_/
+O		/_dl
+ES
+SS
+O		(_WBC
+O		WBC_count
+O		Leukopenia_(	count_<
+O		(_WBC	<_4,000
+B-labrefrangemod	<		WBC_count	4,000_cells
+B-labvalmod	4,000		count_<	cells_/
+O		<_4,000	/_mm3
+B-labvalmod	cells/mm3		<_4,000
+O		4,000_cells	mm3_)
+O		cells_/
+O		/_mm3
+ES
+SS
+O		(_platelets
+O		platelets_<
+O		Thrombocytopenia_(	<_100,000
+B-labrefrangemod	<		(_platelets	100,000_cells
+B-labvalmod	100,000		platelets_<	cells_/
+O		<_100,000	/_mm3
+B-labvalmod	cells/mm3		<_100,000
+O		100,000_cells	mm3_)
+O		cells_/
+O		/_mm3
+ES
+SS
+O		volume_9.3
+O		9.3_mL
+B-labvalmod	9.3		Urine_volume	mL_/
+O		volume_9.3	/_kg
+B-labvalmod	mL/kg		volume_9.3	body_weight
+O		9.3_mL	kg_body
+O		mL_/	body_weight
+O		/_kg	weight_per
+B-labvalmod	body weight per hour		/_kg	for_8
+I-labvalmod	body weight per hour		/_kg	for_8
+I-labvalmod	body weight per hour		/_kg	for_8
+I-labvalmod	body weight per hour		/_kg	for_8
+O		kg_body	per_hour
+O		body_weight	hour_for
+O		weight_per	for_8
+O		per_hour	8_h
+O		hour_for
+O		for_8
+ES
+SS
+O		creatinine_>
+O		>_266
+B-labrefrangemod	>		Serum_creatinine	266_umol
+B-labvalmod	266		creatinine_>	umol_/
+O		>_266	/_L
+B-labvalmod	umol/L		>_266
+O		266_umol
+O		umol_/
+ES
+SS
+O		nitrogen_>
+B-entity	Urea nitrogen		>_1.00
+I-entity	Urea nitrogen		>_1.00
+O		>_1.00
+B-labrefrangemod	>		Urea_nitrogen	1.00_g
+B-labvalmod	1.00		nitrogen_>	g_/
+O		>_1.00	/_L
+B-labvalmod	g/L		>_1.00	or_urea
+O		1.00_g	L_or
+O		g_/	or_urea
+B-labintermod	or		/_L	urea_>
+O		L_or	>_0.60
+B-labrefrangemod	>		or_urea	0.60_g
+B-labvalmod	0.60		urea_>	g_/
+O		>_0.60	/_L
+B-labvalmod	g/L		>_0.60
+O		0.60_g
+O		g_/
+ES
+SS
+O		>_60
+B-labrefrangemod	>		60_mg
+B-labvalmod	60		Bilirubin_>	mg_/
+O		>_60	/_L
+B-labvalmod	mg/L		>_60	or_a
+O		60_mg	L_or
+O		mg_/	or_a
+B-labintermod	or		/_L	a_twofold
+O		L_or	twofold_increase
+O		or_a	increase_in
+B-labintermod	twofold increase		or_a	in_alkaline
+I-labintermod	twofold increase		or_a	in_alkaline
+O		a_twofold	in_alkaline
+O		twofold_increase	alkaline_phosphatase
+O		increase_in	phosphatase_in
+O		in_alkaline	in_serum
+O		alkaline_phosphatase	serum_and
+O		phosphatase_in
+O		in_serum
+ES
+SS
+O		time_>
+O		>_4
+B-labrefrangemod	>		Prothrombin_time	4_s
+B-labvalmod	4		time_>	s_over
+B-labvalmod	s		>_4	over_upper
+O		4_s	upper_limit
+B-labintermod	over upper limit of normal range		4_s	or_a
+I-labintermod	over upper limit of normal range		4_s	or_a
+I-labintermod	over upper limit of normal range		4_s	or_a
+I-labintermod	over upper limit of normal range		4_s	or_a
+I-labintermod	over upper limit of normal range		4_s	or_a
+I-labintermod	over upper limit of normal range		4_s	or_a
+O		s_over	limit_of
+O		over_upper	of_normal
+O		upper_limit	normal_range
+O		limit_of	range_or
+O		of_normal	or_a
+B-labintermod	or		normal_range	a_twofold
+O		range_or	twofold_increase
+O		or_a	increase_in
+B-labintermod	twofold increase		or_a	in_aspartate
+I-labintermod	twofold increase		or_a	in_aspartate
+O		a_twofold	in_aspartate
+O		twofold_increase	aspartate_aminotransferase
+O		increase_in	aminotransferase_in
+O		in_aspartate	in_serum
+O		aspartate_aminotransferase
+O		aminotransferase_in
+ES
+SS
+O		<_1500
+B-labrefrangemod	<		1500_/
+B-labvalmod	1500		Leukocytes_<	/_mL
+O		<_1500	mL_or
+B-labvalmod	/mL		<_1500	or_>
+O		1500_/	or_>
+B-labintermod	or		/_mL	>_40000
+B-labvalmod	>		mL_or	40000_/
+B-labvalmod	40000		or_>	/_mL
+O		>_40000
+B-labvalmod	/mL		>_40000
+O		40000_/
+ES
+SS
+O		hemoglobin_level
+B-entity	Glycated hemoglobin level		of_5.7
+I-entity	Glycated hemoglobin level		of_5.7
+I-entity	Glycated hemoglobin level		of_5.7
+O		level_of
+O		Glycated_hemoglobin	of_5.7
+O		hemoglobin_level	5.7_%
+O		level_of	%_or
+B-labvalmod	5.7%		level_of	or_more
+O		of_5.7	or_more
+O		5.7_%	more_or
+O		%_or	or_impaired
+B-labintermod	or		or_more	impaired_fasting
+O		more_or	fasting_glucose
+O		or_impaired	glucose_or
+B-entity	fasting glucose		or_impaired	or_impaired
+I-entity	fasting glucose		or_impaired	or_impaired
+O		impaired_fasting	or_impaired
+B-labintermod	or		fasting_glucose	impaired_glucose
+B-labintermod	impaired		glucose_or	glucose_tolerance
+O		or_impaired	tolerance_on
+B-entity	glucose tolerance		or_impaired	on_previous
+I-entity	glucose tolerance		or_impaired	on_previous
+O		impaired_glucose	on_previous
+O		glucose_tolerance	previous_testing
+O		tolerance_on
+O		on_previous
+ES
+SS
+O		<_20000
+B-labrefrangemod	<		20000_/
+B-labvalmod	20000		Platelets_<	/_mL
+O		<_20000	mL_or
+B-labvalmod	/mL		<_20000	or_evidence
+O		20000_/	or_evidence
+B-labintermod	or		/_mL	evidence_of
+O		mL_or	of_ongoing
+O		or_evidence	ongoing_disseminated
+O		evidence_of	disseminated_intravascular
+B-labintermod	ongoing disseminated		evidence_of	intravascular_coagulation
+I-labintermod	ongoing disseminated		evidence_of	intravascular_coagulation
+O		of_ongoing	intravascular_coagulation
+O		ongoing_disseminated
+B-entity	intravascular coagulation		ongoing_disseminated
+I-entity	intravascular coagulation		ongoing_disseminated
+O		disseminated_intravascular
+ES
+SS
+B-labintermod	Positive		blood_culture
+O		culture_despite
+O		Positive_blood	despite_antibiotic
+O		blood_culture	antibiotic_therapy
+O		culture_despite
+O		despite_antibiotic
+ES
+SS
+O		least_1,000
+O		1,000_Sezary
+O		at_least	Sezary_cells
+O		least_1,000	cells_per
+O		1,000_Sezary	per_mm3
+O		Sezary_cells	mm3_of
+O		cells_per	of_peripheral
+O		per_mm3	peripheral_blood
+O		mm3_of	blood_,
+O		of_peripheral	,_an
+O		peripheral_blood	an_increased
+O		blood_,	increased_population
+O		,_an	population_of
+B-labintermod	increased population		,_an	of_CD4
+I-labintermod	increased population		,_an	of_CD4
+O		an_increased	of_CD4
+O		increased_population	CD4_+
+O		population_of	+_/
+B-entity	CD4+/CD7-		population_of	in_peripheral
+O		of_CD4	/_CD7
+O		CD4_+	CD7_-
+O		+_/	-_in
+O		/_CD7	in_peripheral
+O		CD7_-	peripheral_blood
+O		-_in	blood_with
+O		in_peripheral	with_remarkable
+O		peripheral_blood	remarkable_predominance
+O		blood_with	predominance_of
+O		with_remarkable	of_CD4
+O		remarkable_predominance	CD4_+
+O		predominance_of	+_cells
+O		of_CD4	cells_in
+O		CD4_+	in_relation
+O		+_cells	relation_to
+O		cells_in	to_CD8
+O		in_relation	CD8_+
+O		relation_to	+_(
+O		to_CD8	(_CD4
+O		CD8_+	CD4_/
+O		+_(	/_CD8
+B-entity	CD4/CD8 ratio		+_(	>_10
+I-entity	CD4/CD8 ratio		+_(	>_10
+O		(_CD4	CD8_ratio
+O		CD4_/	ratio_>
+O		/_CD8	>_10
+B-labrefrangemod	>		CD8_ratio	10_)
+B-labvalmod	10		ratio_>	)_,
+O		>_10	,_Sezary
+O		10_)	Sezary_cells
+O		)_,	cells_with
+O		,_Sezary	with_a
+O		Sezary_cells	a_diameter
+O		cells_with	diameter_>
+O		with_a	>_14
+O		a_diameter	14_um
+O		diameter_>	um_representing
+O		>_14	representing_>
+O		14_um	>_20
+B-labrefrangemod	>		um_representing	20_%
+O		representing_>	%_of
+B-labvalmod	20%		representing_>	of_the
+O		>_20	of_the
+O		20_%	the_circulating
+O		%_of	circulating_lymphocytes
+O		of_the	lymphocytes_and
+B-entity	circulating lymphocytes		of_the	and_,
+I-entity	circulating lymphocytes		of_the	and_,
+O		the_circulating	and_,
+O		circulating_lymphocytes	,_some
+O		lymphocytes_and	some_markers
+O		and_,	markers_like
+O		,_some	like_CD2
+O		some_markers	CD2_,
+O		markers_like	,_CD3
+O		like_CD2	CD3_,
+O		CD2_,	,_CD4
+O		,_CD3	CD4_and
+O		CD3_,	and_CD5
+O		,_CD4	CD5_must
+O		CD4_and	must_be
+O		and_CD5	be_absent
+O		CD5_must	absent_.
+O		must_be
+O		be_absent
+ES
+SS
+O		tests_None
+O		None_of
+O		Laboratory_tests	of_the
+O		tests_None	the_available
+O		None_of	available_tests
+O		of_the	tests_will
+O		the_available	will_confirm
+O		available_tests	confirm_the
+O		tests_will	the_diagnosis
+O		will_confirm	diagnosis_,
+O		confirm_the	,_but
+O		the_diagnosis	but_thyroid
+O		diagnosis_,	thyroid_-
+O		,_but	-_function
+O		but_thyroid	function_tests
+O		thyroid_-	tests_and
+O		-_function	and_tests
+O		function_tests	tests_for
+O		tests_and	for_thyroid
+O		and_tests	thyroid_antibodies
+O		tests_for	antibodies_may
+O		for_thyroid	may_be
+O		thyroid_antibodies	be_advisable
+O		antibodies_may	advisable_because
+O		may_be	because_of
+O		be_advisable	of_the
+O		advisable_because	the_increased
+O		because_of	increased_association
+O		of_the	association_between
+O		the_increased	between_alopecia
+O		increased_association	alopecia_areata
+O		association_between	areata_and
+O		between_alopecia	and_thyroid
+O		alopecia_areata	thyroid_autoimmunity
+O		areata_and	autoimmunity_;
+O		and_thyroid
+O		thyroid_autoimmunity
+ES
+SS
+O		results_of
+O		of_thyroid
+O		abnormal_results	thyroid_-
+O		results_of	-_function
+O		of_thyroid	function_tests
+O		thyroid_-	tests_,
+O		-_function	,_the
+O		function_tests	the_presence
+O		tests_,	presence_of
+O		,_the	of_thyroid
+O		the_presence	thyroid_autoantibodies
+O		presence_of	autoantibodies_,
+O		of_thyroid	,_or
+O		thyroid_autoantibodies	or_both
+O		autoantibodies_,	both_further
+O		,_or	further_support
+O		or_both	support_a
+O		both_further	a_clinical
+O		further_support	clinical_or
+O		support_a	or_histologic
+O		a_clinical	histologic_working
+O		clinical_or	working_diagnosis
+O		or_histologic	diagnosis_of
+O		histologic_working	of_alopecia
+O		working_diagnosis	alopecia_areata
+O		diagnosis_of
+O		of_alopecia
+ES
+SS
+B-labintermod	Raised		serum_IgE
+O	
+O		Raised_serum
+ES
+SS
+O		(_IgE
+O		IgE_reactivity
+O		Atopy_(	reactivity_)
+O		(_IgE
+O		IgE_reactivity
+ES
+SS
+O		are_many
+O		many_biochemical
+O		There_are	biochemical_markers
+O		are_many	markers_for
+O		many_biochemical	for_Paget
+O		biochemical_markers	Paget_'s
+O		markers_for	's_disease
+O		for_Paget	disease_,
+O		Paget_'s	,_but
+O		's_disease	but_the
+O		disease_,	the_two
+O		,_but	two_most
+O		but_the	most_important
+O		the_two	important_are
+O		two_most	are_total
+O		most_important	total_serum
+O		important_are	serum_alkaline
+O		are_total	alkaline_phosphatase
+O		total_serum	phosphatase_and
+O		serum_alkaline	and_urinary
+O		alkaline_phosphatase	urinary_pyridinoline
+O		phosphatase_and	pyridinoline_.
+O		and_urinary
+O		urinary_pyridinoline
+ES
+SS
+O		markers_may
+O		may_be
+O		These_markers	be_normal
+O		markers_may	normal_in
+O		may_be	in_patients
+O		be_normal	patients_with
+O		normal_in	with_the
+O		in_patients	the_monostotic
+O		patients_with	monostotic_form
+O		with_the	form_of
+O		the_monostotic	of_Paget
+O		monostotic_form	Paget_'s
+O		form_of	's_disease
+O		of_Paget	disease_(
+O		Paget_'s	(_15
+O		's_disease	15_%
+O		disease_(	%_of
+O		(_15	of_patients
+O		15_%	patients_)
+O		%_of
+O		of_patients
+ES
+SS
+O		,_serum
+O		serum_bone
+O		therefore_,	bone_-
+O		,_serum	-_specific
+O		serum_bone	specific_alkaline
+O		bone_-	alkaline_phosphatase
+O		-_specific	phosphatase_measurements
+O		specific_alkaline	measurements_may
+O		alkaline_phosphatase	may_be
+O		phosphatase_measurements	be_useful
+O		measurements_may	useful_.
+O		may_be
+O		be_useful
+ES
+SS
+O		hydroxyproline_is
+O		is_no
+O		Urinary_hydroxyproline	no_longer
+O		hydroxyproline_is	longer_considered
+O		is_no	considered_an
+O		no_longer	an_accurate
+O		longer_considered	accurate_marker
+O		considered_an	marker_of
+O		an_accurate	of_activity
+O		accurate_marker	activity_or
+O		marker_of	or_extent
+O		of_activity	extent_of
+O		activity_or	of_the
+O		or_extent	the_disease
+O		extent_of	disease_.
+O		of_the
+O		the_disease
+ES
+SS
+O		of_serum
+O		serum_PTH
+O		Measurement_of	PTH_is
+O		of_serum	is_the
+O		serum_PTH	the_next
+O		PTH_is	next_step
+O		is_the	step_in
+O		the_next	in_the
+O		next_step	the_evaluation
+O		step_in	evaluation_of
+O		in_the	of_hypercalcemia
+O		the_evaluation	hypercalcemia_.
+O		evaluation_of
+O		of_hypercalcemia
+ES
+SS
+O		elevated_level
+B-labintermod	elevated		level_of
+O		An_elevated	of_PTH
+O		elevated_level	PTH_(
+B-entity	PTH		level_of	(_or
+O		of_PTH	or_a
+O		PTH_(	a_level
+O		(_or	level_that
+O		or_a	that_is
+O		a_level	is_in
+O		level_that	in_an
+O		that_is	an_unexpected
+O		is_in	unexpected_normal
+O		in_an	normal_?
+O		an_unexpected	?_range
+O		unexpected_normal	range_)
+O		normal_?
+O		?_range
+ES
+SS
+O		with_an
+O		an_elevated
+O		simultaneous_with	elevated_calcium
+B-labintermod	elevated		with_an	calcium_level
+O		an_elevated	level_generally
+O		elevated_calcium	generally_indicates
+O		calcium_level	indicates_a
+O		level_generally	a_diagnosis
+O		generally_indicates	diagnosis_of
+O		indicates_a	of_primary
+O		a_diagnosis	primary_hyperparathyroidism
+O		diagnosis_of
+O		of_primary
+ES
+SS
+O		finding_of
+O		of_a
+O		The_finding	a_normal
+O		finding_of	normal_level
+O		of_a	level_of
+O		a_normal	of_albumin
+O		normal_level	albumin_-
+O		level_of	-_adjusted
+O		of_albumin	adjusted_or
+O		albumin_-	or_ionized
+O		-_adjusted	ionized_serum
+B-labintermod	ionized		adjusted_or	serum_calcium
+O		or_ionized	calcium_and
+O		ionized_serum	and_an
+O		serum_calcium	an_elevated
+O		calcium_and	elevated_level
+B-labintermod	elevated		and_an	level_of
+O		an_elevated	of_PTH
+O		elevated_level	PTH_in
+B-entity	PTH		level_of	in_patients
+O		of_PTH	patients_with
+O		PTH_in	with_no
+O		in_patients	no_other
+O		patients_with	other_causes
+O		with_no	causes_of
+O		no_other	of_secondary
+O		other_causes	secondary_hyperparathyroidism
+O		causes_of	hyperparathyroidism_is
+O		of_secondary	is_consistent
+O		secondary_hyperparathyroidism	consistent_with
+O		hyperparathyroidism_is	with_normocalcemic
+O		is_consistent	normocalcemic_primary
+O		consistent_with	primary_hyperparathyroidism
+O		with_normocalcemic	hyperparathyroidism_.
+O		normocalcemic_primary
+O		primary_hyperparathyroidism
+ES
+SS
+O		cholesterol_level
+O		level_of
+O		HDL_cholesterol	of_less
+O		cholesterol_level	less_than
+O		level_of	than_35
+O		of_less	35_mg
+B-labvalmod	35		less_than	mg_per
+O		than_35	per_deciliter
+O		35_mg	deciliter_(
+O		mg_per	(_0.91
+O		per_deciliter	0.91_mmol
+B-labvalmod	0.91		deciliter_(	mmol_per
+O		(_0.91	per_liter
+O		0.91_mmol	liter_)
+O		mmol_per	)_,
+O		per_liter	,_triglyceride
+O		liter_)	triglyceride_level
+B-entity	triglyceride		)_,	level_of
+O		,_triglyceride	of_more
+O		triglyceride_level	more_than
+O		level_of	than_250
+O		of_more	250_mg
+B-labvalmod	250		more_than	mg_per
+O		than_250	per_deciliter
+O		250_mg	deciliter_(
+O		mg_per	(_2.8
+O		per_deciliter	2.8_mmol
+B-labvalmod	2.8		deciliter_(	mmol_per
+O		(_2.8	per_liter
+O		2.8_mmol	liter_)
+O		mmol_per	)_,
+O		per_liter	,_or
+O		liter_)	or_both
+O		)_,
+B-labintermod	or both		)_,
+I-labintermod	or both		)_,
+O		,_or
+ES
+SS
+O		calcium_level
+O		level_>
+O		Serum_calcium	>_1.0
+B-labrefrangemod	>		calcium_level	1.0_mg
+B-labvalmod	1.0		level_>	mg_/
+O		>_1.0	/_dl
+B-labvalmod	mg/dl		>_1.0	(_0.25
+O		1.0_mg	dl_(
+O		mg_/	(_0.25
+O		/_dl	0.25_mmol
+B-labvalmod	0.25		dl_(	mmol_/
+O		(_0.25	/_liter
+B-labvalmod	mmol/liter		(_0.25
+O		0.25_mmol	liter_)
+O		mmol_/
+O		/_liter
+ES
+SS
+O		upper_limit
+O		limit_of
+B-labintermod	upper limit of normal range	
+I-labintermod	upper limit of normal range	
+I-labintermod	upper limit of normal range	
+I-labintermod	upper limit of normal range	
+I-labintermod	upper limit of normal range	
+O		above_upper	of_normal
+O		upper_limit	normal_range
+O		limit_of
+O		of_normal
+ES
+SS
+O		clearance_(
+O		(_calculated
+O		Creatinine_clearance	calculated_)
+O		clearance_(
+O		(_calculated
+ES
+SS
+B-labintermod	Reduced		to_<
+O		<_60
+B-labrefrangemod	<		Reduced_to	60_ml
+B-labvalmod	60		to_<	ml_/
+O		<_60	/_min
+O		60_ml
+O		ml_/
+ES
+SS
+B-labintermod	Increased		Urinary_Free
+O		Free_Cortisol
+O		Increased_Urinary	Cortisol_(
+O		Urinary_Free	(_three
+O		Free_Cortisol	three_24h
+O		Cortisol_(	24h_collections
+O		(_three	collections_)
+O		three_24h
+O		24h_collections
+ES
+SS
+B-labintermod	Lack		of_suppression
+O		suppression_after
+O		Lack_of	after_low
+O		of_suppression	low_-
+O		suppression_after	-_dose
+O		after_low	dose_dexamethasone
+O		low_-	dexamethasone_testing
+O		-_dose
+O		dose_dexamethasone
+ES
+SS
+B-labintermod	Increased		'_late
+O		late_-
+O		Increased_'	-_evening
+O		'_late	evening_'
+O		late_-	'_salivary
+O		-_evening	salivary_cortisol
+O		evening_'	cortisol_(
+O		'_salivary	(_test
+O		salivary_cortisol	test_incompletely
+O		cortisol_(	incompletely_evaluated
+O		(_test
+O		test_incompletely
+ES
+SS
+O	
+O	
+ES
+SS
+O		agonist_-
+B-entity	Dopamine agonist		-_resistant
+I-entity	Dopamine agonist		-_resistant
+O		-_resistant
+O		Dopamine_agonist	resistant_macroadenoma
+O		agonist_-
+O		-_resistant
+ES
+SS
+O		agonist_-
+B-entity	Dopamine agonist		-_resistant
+I-entity	Dopamine agonist		-_resistant
+O		-_resistant
+O		Dopamine_agonist	resistant_microadenoma
+O		agonist_-	microadenoma_in
+O		-_resistant	in_a
+O		resistant_microadenoma	a_woman
+O		microadenoma_in	woman_seeking
+O		in_a	seeking_fertility
+O		a_woman	fertility_,
+O		woman_seeking	,_if
+O		seeking_fertility	if_ovulation
+O		fertility_,	ovulation_induction
+O		,_if	induction_is
+O		if_ovulation	is_not
+O		ovulation_induction	not_appropriate
+O		induction_is
+O		is_not
+ES
+SS
+O		osmolality_>
+O		>_100
+B-labrefrangemod	>		Urine_osmolality	100_mOsm
+B-labvalmod	100		osmolality_>	mOsm_per
+O		>_100	per_kg
+B-labvalmod	mOsm per kg		>_100	(_100
+I-labvalmod	mOsm per kg		>_100	(_100
+I-labvalmod	mOsm per kg		>_100	(_100
+O		100_mOsm	kg_(
+O		mOsm_per	(_100
+O		per_kg	100_mmol
+B-labvalmod	100		kg_(	mmol_per
+O		(_100	per_kg
+B-labvalmod	mmol per kg		(_100
+I-labvalmod	mmol per kg		(_100
+I-labvalmod	mmol per kg		(_100
+O		100_mmol	kg_)
+O		mmol_per
+O		per_kg
+ES
+SS
+O		-_C
+B-entity	LDL-C		level_>
+O		C_level
+O		LDL_-	level_>
+O		-_C	>_190
+B-labrefrangemod	>		C_level	190_mg
+B-labvalmod	190		level_>	mg_/
+O		>_190	/_dL
+B-labvalmod	mg/dL		>_190
+O		190_mg
+O		mg_/
+ES

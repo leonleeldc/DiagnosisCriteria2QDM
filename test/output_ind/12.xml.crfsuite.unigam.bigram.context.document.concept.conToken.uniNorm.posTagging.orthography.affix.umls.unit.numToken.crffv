@@ -1,0 +1,13 @@
+
+B-entity		WBC	T059	ctext-0=WBC	sectonHeader-0=12.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	WBC	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=WBC	SUF|1+0|=WBC	 >_12
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=12.xml-testSeg	uniTok|1-2|=SSSSS	WBC	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=WBC	SUF|1-1|=WBC		X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN 12_x
+O	12 WBC_> x_109
+B-labvalmod		12	unit	ctext-0=12	sectonHeader-0=12.xml-testSeg	num	WBC	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=WBC	SUF|1-2|=WBC		X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num WBC_> /_l
+I-labvalmod		x	unit	ctext-0=12	sectonHeader-0=12.xml-testSeg	num	WBC	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=WBC	SUF|1-2|=WBC		X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num WBC_> /_l
+I-labvalmod		109	unit	ctext-0=12	sectonHeader-0=12.xml-testSeg	num	WBC	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=WBC	SUF|1-2|=WBC		X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num WBC_> /_l
+O	x >_12 109_/
+O	109 12_x /_l
+O	/ x_109
+B-labvalmod		/l	unit	ctext-0=/	sectonHeader-0=12.xml-testSeg	X	pos|1-2|=SYM	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	L	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	uniTok|1+2|=EEEEE	ctext-1=l	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE x_109
+O	l 109_/
+

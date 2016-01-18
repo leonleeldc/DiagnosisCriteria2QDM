@@ -1,0 +1,13 @@
+
+O	AGA IgG_(
+B-entity		AGA	T059	ctext-0=AGA	sectonHeader-0=135.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AGA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AGA	SUF|1+0|=AGA		IGG	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgG	SUF|1+1|=IgG		ctext-4=IgG	uniTok|1+-2|=EEEEE (_NPV
+I-entity		IgG	T059	ctext-0=AGA	sectonHeader-0=135.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AGA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AGA	SUF|1+0|=AGA		IGG	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgG	SUF|1+1|=IgG		ctext-4=IgG	uniTok|1+-2|=EEEEE (_NPV
+O	IgG (_NPV
+O	( AGA_IgG NPV_:
+O	NPV IgG_( :_41
+O	: (_NPV 41_-
+O	41 NPV_: -_88
+O	- :_41 88_)
+O	88 41_-
+O	) -_88
+

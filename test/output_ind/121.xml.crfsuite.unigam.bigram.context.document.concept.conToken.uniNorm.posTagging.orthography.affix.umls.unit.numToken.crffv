@@ -1,0 +1,15 @@
+
+B-labintermod		Increased	ctext-0=Increased	sectonHeader-0=121.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	increase	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Inc	SUF|1+0|=sed		stainable	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=sta	SUF|1+1|=ble		hepatocellular	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=hep	SUF|1+2|=lar		postcontext-0=context-ro stainable_hepatocellular
+O	stainable hepatocellular_iron
+O	hepatocellular Increased_stainable iron_(
+B-entity		hepatocellular	T121	ctext-0=hepatocellular	sectonHeader-0=121.xml-testSeg	increase	pos|1-2|=VBN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Inc	SUF|1-2|=sed		stainable	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=sta	SUF|1-1|=ble		hepatocellular	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=lar		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		ctext-15=iron	beforecontext-1=context-ed Increased_stainable (_Scheuer
+I-entity		iron	T121	ctext-0=hepatocellular	sectonHeader-0=121.xml-testSeg	increase	pos|1-2|=VBN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Inc	SUF|1-2|=sed		stainable	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=sta	SUF|1-1|=ble		hepatocellular	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=lar		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		ctext-15=iron	beforecontext-1=context-ed Increased_stainable (_Scheuer
+O	iron stainable_hepatocellular (_Scheuer
+O	( hepatocellular_iron Scheuer_grade
+O	Scheuer iron_( grade_3
+O	grade (_Scheuer 3_or
+O	3 Scheuer_grade or_4
+O	or grade_3 4_)
+O	4 3_or
+O	) or_4
+

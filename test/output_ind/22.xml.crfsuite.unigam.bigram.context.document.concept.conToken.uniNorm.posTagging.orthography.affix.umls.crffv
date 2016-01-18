@@ -1,0 +1,19 @@
+
+B-labintermod		Abnormal	postcontext-0=context-ro	postcontext-1=context-her karyotype_(
+B-entity		karyotype	C0022526	T059 	postcontext-0=context-ro	postcontext-1=context-her	beforecontext-2=context-no (_other
+O	( Abnormal_karyotype other_than
+O	other karyotype_( than_Ph
+O	than (_other Ph_chromosome
+O	Ph other_than chromosome_or
+O	chromosome than_Ph or_BCR
+B-labintermod		or	postcontext-0=context-ro	postcontext-1=context-her Ph_chromosome BCR_/
+O	BCR chromosome_or /_ABL
+O	/ or_BCR ABL_fusion
+O	ABL BCR_/ fusion_gene
+O	fusion /_ABL gene_in
+O	gene ABL_fusion in_marrow
+O	in fusion_gene marrow_cells
+O	marrow gene_in cells_)
+O	cells in_marrow
+O	) marrow_cells
+

@@ -1,0 +1,9 @@
+
+O	Leucocyte alkaline_phosphatase
+O	alkaline phosphatase_>
+B-entity		alkaline	C0201850	T059  >_100
+I-entity		phosphatase >_100
+O	phosphatase Leucocyte_alkaline >_100
+B-labrefrangemod		>	ctext-1=>	alkaline	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=alk	SUF|1-2|=ine		phosphatase	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pho	SUF|1-1|=ase		uniTok|1+2|=EEEEE alkaline_phosphatase
+B-labvalmod		100 phosphatase_>
+

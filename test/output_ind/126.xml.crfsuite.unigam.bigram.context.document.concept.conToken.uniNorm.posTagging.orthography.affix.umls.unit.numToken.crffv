@@ -1,0 +1,14 @@
+
+B-labintermod		Increased	ctext-0=Increased	sectonHeader-0=126.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	increase	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Inc	SUF|1+0|=sed		hepatic	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=hep	SUF|1+1|=tic		iron	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=iro	SUF|1+2|=ron		postcontext-0=context-ro	postcontext-2=context-her hepatic_iron
+O	hepatic iron_by
+B-entity		hepatic	T029	T123	ctext-0=hepatic	sectonHeader-0=126.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		by	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-8=iron	beforecontext-1=context-ed	postcontext-2=context-her by_either
+I-entity		iron	T029	T123	ctext-0=hepatic	sectonHeader-0=126.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		by	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-8=iron	beforecontext-1=context-ed	postcontext-2=context-her by_either
+O	iron Increased_hepatic by_either
+O	by hepatic_iron either_a
+O	either iron_by a_or
+O	a by_either or_b
+O	or either_a b_,
+O	b a_or ,_below
+O	, or_b
+O	below b_,
+

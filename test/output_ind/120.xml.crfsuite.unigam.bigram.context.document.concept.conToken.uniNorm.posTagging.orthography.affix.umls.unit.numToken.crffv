@@ -1,0 +1,12 @@
+
+B-labintermod		Elevated	ctext-0=Elevated	sectonHeader-0=120.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	elevate	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ele	SUF|1+0|=ted		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		ferritin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=fer	SUF|1+2|=tin		postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no serum_ferritin
+O	serum ferritin_not
+B-entity		serum	T059	T059	ctext-0=serum	sectonHeader-0=120.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		ferritin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=fer	SUF|1+1|=tin		not	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=not	SUF|1+2|=not		ctext-6=ferritin	beforecontext-0=context-ed	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no not_explained
+I-entity		ferritin	T059	T059	ctext-0=serum	sectonHeader-0=120.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		ferritin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=fer	SUF|1+1|=tin		not	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=not	SUF|1+2|=not		ctext-6=ferritin	beforecontext-0=context-ed	postcontext-1=context-not	postcontext-2=context-her	postcontext-3=context-no not_explained
+O	ferritin Elevated_serum not_explained
+O	not serum_ferritin explained_by
+O	explained ferritin_not by_another
+O	by not_explained another_cause
+O	another explained_by
+O	cause by_another
+

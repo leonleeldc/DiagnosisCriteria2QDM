@@ -1,0 +1,13 @@
+
+O	Serologic Screening_Tests
+B-entity	Serologic Screening Tests 	postcontext-1=context-no for_the
+I-entity	Serologic Screening Tests 	postcontext-1=context-no for_the
+I-entity	Serologic Screening Tests 	postcontext-1=context-no for_the
+O	Screening Tests_for
+O	Tests Serologic_Screening for_the
+O	for Screening_Tests the_Diagnosis
+O	the Tests_for Diagnosis_of
+O	Diagnosis for_the of_CD
+O	of the_Diagnosis
+O	CD Diagnosis_of
+

@@ -1,0 +1,13 @@
+
+O	AGA IgA_(
+B-entity		AGA	T059	ctext-0=AGA	sectonHeader-0=136.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AGA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AGA	SUF|1+0|=AGA		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		ctext-4=IgA	uniTok|1+-2|=EEEEE	postcontext-0=context-if (_Specificity
+I-entity		IgA	T059	ctext-0=AGA	sectonHeader-0=136.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AGA	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AGA	SUF|1+0|=AGA		IgA	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgA	SUF|1+1|=IgA		ctext-4=IgA	uniTok|1+-2|=EEEEE	postcontext-0=context-if (_Specificity
+O	IgA (_Specificity
+O	( AGA_IgA Specificity_:
+O	Specificity IgA_( :_65
+O	: (_Specificity 65_-
+O	65 Specificity_: -_100
+O	- :_65 100_)
+O	100 65_-
+O	) -_100
+

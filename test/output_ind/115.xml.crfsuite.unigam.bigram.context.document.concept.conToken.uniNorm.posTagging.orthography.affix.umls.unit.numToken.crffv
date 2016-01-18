@@ -1,0 +1,26 @@
+
+O	As IgG_anti-HAV
+O	IgG anti-HAV_persists
+B-entity		IgG	T059	ctext-0=IgG	sectonHeader-0=115.xml-testSeg	uniTok|1-2|=SSSSS	A	pos|1-1|=IN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		persist	pos|1+2|=VBZ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=sts		ctext-4=anti-HAV	postcontext-0=context-if persists_lifelong
+I-entity		anti-HAV	T059	ctext-0=IgG	sectonHeader-0=115.xml-testSeg	uniTok|1-2|=SSSSS	A	pos|1-1|=IN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		persist	pos|1+2|=VBZ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=sts		ctext-4=anti-HAV	postcontext-0=context-if persists_lifelong
+O	anti-HAV As_IgG persists_lifelong
+B-labintermod		persists	ctext-0=persists	sectonHeader-0=115.xml-testSeg	IGG	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	STCLS|1-2-5|=MIXEDCAPS	PRE|1-2|=IgG	SUF|1-2|=IgG		anti-HAV	pos|1-1|=NN	capital|1-1|=2	PRE|1-1|=ant	SUF|1-1|=HAV		persist	pos|1+0|=VBZ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=per	SUF|1+0|=sts		lifelong	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lif	SUF|1+1|=ong		after	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=aft	SUF|1+2|=ter		postcontext-0=context-if IgG_anti-HAV lifelong_after
+O	lifelong anti-HAV_persists after_acute
+O	after persists_lifelong acute_infection
+O	acute lifelong_after infection_,
+O	infection after_acute ,_detection
+O	, acute_infection detection_of
+O	detection infection_, of_IgG
+B-labintermod		detection	ctext-0=detection	sectonHeader-0=115.xml-testSeg	infection	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inf	SUF|1-2|=ion		detection	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=det	SUF|1+0|=ion		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	IGG	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	STCLS|1+2-5|=MIXEDCAPS	PRE|1+2|=IgG	SUF|1+2|=IgG		ctext-10=of	beforecontext-0=context-if infection_, IgG_anti-HAV
+I-labintermod		of	ctext-0=detection	sectonHeader-0=115.xml-testSeg	infection	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=inf	SUF|1-2|=ion		detection	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=det	SUF|1+0|=ion		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	IGG	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	STCLS|1+2-5|=MIXEDCAPS	PRE|1+2|=IgG	SUF|1+2|=IgG		ctext-10=of	beforecontext-0=context-if infection_, IgG_anti-HAV
+O	of ,_detection IgG_anti-HAV
+O	IgG detection_of anti-HAV_alone
+B-entity		IgG	T059	ctext-0=IgG	sectonHeader-0=115.xml-testSeg	detection	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=det	SUF|1-2|=ion		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		alone	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=alo	SUF|1+2|=one		ctext-4=anti-HAV	postcontext-0=context-if detection_of alone_indicates
+I-entity		anti-HAV	T059	ctext-0=IgG	sectonHeader-0=115.xml-testSeg	detection	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=det	SUF|1-2|=ion		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		anti-HAV	pos|1+1|=NN	capital|1+1|=2	PRE|1+1|=ant	SUF|1+1|=HAV		alone	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=alo	SUF|1+2|=one		ctext-4=anti-HAV	postcontext-0=context-if detection_of alone_indicates
+O	anti-HAV of_IgG alone_indicates
+O	alone IgG_anti-HAV indicates_past
+O	indicates anti-HAV_alone past_infection
+O	past alone_indicates infection_.
+O	infection indicates_past
+O	. past_infection
+

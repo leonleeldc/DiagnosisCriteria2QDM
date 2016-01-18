@@ -1,0 +1,39 @@
+
+B-entity		Virus	postcontext-0=context-ed	postcontext-1=context-no and_antibody
+B-labintermod		and	postcontext-0=context-ed	postcontext-1=context-no antibody_can
+B-entity		antibody	postcontext-0=context-ed	postcontext-1=context-no Virus_and can_be
+O	can and_antibody be_detected
+O	be antibody_can detected_by
+O	detected can_be by_commercially
+O	by be_detected commercially_available
+O	commercially detected_by available_radioimmunoassay
+O	available by_commercially radioimmunoassay_(
+B-measure		radioimmunoassay	C0034580	T059 	beforecontext-0=context-ed commercially_available (_RIA
+O	( available_radioimmunoassay RIA_)
+B-measure		RIA	C0034580	T059 	beforecontext-0=context-ed	beforecontext-1=context-no radioimmunoassay_( )_,
+O	) (_RIA ,_enzyme
+O	, RIA_) enzyme_immunoassay
+O	enzyme )_, immunoassay_(
+B-measure		enzyme	C0086231	T059 	beforecontext-0=context-ed	beforecontext-1=context-no )_, (_EIA
+I-measure		immunoassay	beforecontext-0=context-ed	beforecontext-1=context-no )_, (_EIA
+O	immunoassay ,_enzyme (_EIA
+O	( enzyme_immunoassay EIA_)
+B-measure		EIA	C0086231	T059 	C0014661	T047 	beforecontext-0=context-ed	beforecontext-1=context-no immunoassay_( )_and
+O	) (_EIA and_enzyme
+O	and EIA_) enzyme_-
+O	enzyme )_and -_linked
+B-measure		enzyme-linked	C0014441	T059 	ctext-7=-	beforecontext-0=context-ed	beforecontext-1=context-no )_and (_ELISA
+I-measure		immunosorbent	ctext-7=-	beforecontext-0=context-ed	beforecontext-1=context-no )_and (_ELISA
+I-measure		assay	ctext-7=-	beforecontext-0=context-ed	beforecontext-1=context-no )_and (_ELISA
+O	- and_enzyme linked_immunosorbent
+O	linked enzyme_- immunosorbent_assay
+O	immunosorbent -_linked assay_(
+O	assay linked_immunosorbent (_ELISA
+O	( immunosorbent_assay ELISA_)
+B-measure		ELISA	C0014441	T059 	beforecontext-0=context-ed	beforecontext-1=context-no assay_(
+O	) (_ELISA
+
+
+O	kits
+O	.
+

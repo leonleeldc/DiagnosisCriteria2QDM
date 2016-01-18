@@ -1,0 +1,39 @@
+
+O	HDL -_Cholesterol
+B-entity		HDL-Cholesterol	ctext-0=HDL	sectonHeader-0=24.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	HDL	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=HDL	SUF|1+0|=HDL		cholesterol	pos|1+2|=NN	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Cho	SUF|1+2|=rol		ctext-3=-	uniTok|1+-2|=EEEEE	ctext-4=Cholesterol <_40
+O	- Cholesterol_<
+O	Cholesterol HDL_- <_40
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=24.xml-testSeg	cholesterol	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Cho	SUF|1-1|=rol		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro -_Cholesterol 40_mg
+B-labvalmod		40	ctext-0=40	sectonHeader-0=24.xml-testSeg	num	cholesterol	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Cho	SUF|1-2|=rol		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ro Cholesterol_< mg_/
+O	mg <_40 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=24.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL	beforecontext-0=context-ro <_40 (_<
+O	/ 40_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.0
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=24.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 1.0_mmol
+B-labvalmod		1.0	ctext-0=1.0	sectonHeader-0=24.xml-testSeg	num	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		beforecontext-0=context-ro (_< mmol_/
+O	mmol <_1.0 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=24.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	beforecontext-0=context-ro <_1.0 )_in
+O	/ 1.0_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_men
+O	in L_) men_and
+O	men )_in and_<
+B-labintermod		and	ctext-0=and	sectonHeader-0=24.xml-testSeg	in	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	MEN	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=men	SUF|1-1|=men		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		beforecontext-0=context-ro in_men <_50
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=24.xml-testSeg	MEN	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=men	SUF|1-2|=men		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro men_and 50_mg
+B-labvalmod		50	ctext-0=50	sectonHeader-0=24.xml-testSeg	num	and	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=and	SUF|1-2|=and		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ro and_< mg_/
+O	mg <_50 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=24.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL	beforecontext-0=context-ro <_50 (_<
+O	/ 50_mg dL_(
+O	dL mg_/ (_<
+O	( /_dL <_1.3
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=24.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro dL_( 1.3_mmol
+B-labvalmod		1.3	ctext-0=1.3	sectonHeader-0=24.xml-testSeg	num	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		beforecontext-0=context-ro (_< mmol_/
+O	mmol <_1.3 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=24.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	beforecontext-0=context-ro <_1.3 )_in
+O	/ 1.3_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_women
+O	in L_)
+O	women )_in
+

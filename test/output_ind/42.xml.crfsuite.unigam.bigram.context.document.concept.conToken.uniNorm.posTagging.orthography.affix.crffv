@@ -1,0 +1,13 @@
+
+B-entity	ANA  or_SMA
+B-labintermod	or  SMA_>
+B-entity	SMA  ANA_or >_/
+O	> or_SMA /_=
+B-labrefrangemod	>/= 	ctext-1=>	ctext-2=/	ctext-3=equal_symbol or_SMA 1_:
+O	/ SMA_> =_1
+O	= >_/ 1_:
+O	1 /_= :_8
+B-labvalmod	1:8 	ctext-1=1	ctext-2=PUNC_COLON	uniTok|1+2|=EEEEE	ctext-3=8	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE /_=
+O	: =_1
+O	8 1_:
+

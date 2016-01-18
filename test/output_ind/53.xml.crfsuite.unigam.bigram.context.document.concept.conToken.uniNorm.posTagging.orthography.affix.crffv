@@ -1,0 +1,24 @@
+
+B-labintermod	Elevated 	postcontext-0=context-ro acute_phase
+O	acute phase_reactant
+B-entity	acute phase reactant 	postcontext-0=context-ro	beforecontext-1=context-ed (_C
+I-entity	acute phase reactant 	postcontext-0=context-ro	beforecontext-1=context-ed (_C
+I-entity	acute phase reactant 	postcontext-0=context-ro	beforecontext-1=context-ed (_C
+O	phase Elevated_acute reactant_(
+O	reactant acute_phase (_C
+O	( phase_reactant C_-
+O	C reactant_( -_reactive
+B-entity	C-reactive protein 	ctext-1=C	ctext-2=-	beforecontext-1=context-ed reactant_( or_erythrocyte
+I-entity	C-reactive protein 	ctext-1=C	ctext-2=-	beforecontext-1=context-ed reactant_( or_erythrocyte
+O	- (_C reactive_protein
+O	reactive C_- protein_or
+O	protein -_reactive or_erythrocyte
+B-labintermod	or 	beforecontext-0=context-ro	beforecontext-1=context-ed reactive_protein erythrocyte_sedimentation
+O	erythrocyte protein_or sedimentation_rate
+B-entity	erythrocyte sedimentation rate 	beforecontext-0=context-ro	beforecontext-1=context-ed protein_or
+I-entity	erythrocyte sedimentation rate 	beforecontext-0=context-ro	beforecontext-1=context-ed protein_or
+I-entity	erythrocyte sedimentation rate 	beforecontext-0=context-ro	beforecontext-1=context-ed protein_or
+O	sedimentation or_erythrocyte rate_)
+O	rate erythrocyte_sedimentation
+O	) sedimentation_rate
+

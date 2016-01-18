@@ -1,0 +1,23 @@
+
+O	evidence of_elevated
+O	of elevated_cardiac
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=31.xml-testSeg	evidence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=evi	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	elevate	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		cardiac	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=car	SUF|1+1|=iac		enzyme	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=enz	SUF|1+2|=mes		postcontext-0=context-ro evidence_of cardiac_enzymes
+O	cardiac of_elevated enzymes_(
+B-entity		cardiac	T023	ctext-0=cardiac	sectonHeader-0=31.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		cardiac	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=car	SUF|1+0|=iac		enzyme	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=enz	SUF|1+1|=mes		ctext-8=enzymes	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine
+I-entity		enzymes	T023	ctext-0=cardiac	sectonHeader-0=31.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		cardiac	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=car	SUF|1+0|=iac		enzyme	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=enz	SUF|1+1|=mes		ctext-8=enzymes	postcontext-0=context-ro	beforecontext-1=context-ed of_elevated (_creatine
+O	enzymes elevated_cardiac (_creatine
+O	( cardiac_enzymes creatine_kinase
+O	creatine enzymes_( kinase_-
+O	kinase (_creatine -_MB
+O	- creatine_kinase MB_fraction
+O	MB kinase_- fraction_,
+O	fraction -_MB ,_or
+O	, MB_fraction or_troponin
+B-labintermod		or	ctext-0=or	sectonHeader-0=31.xml-testSeg	fraction	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=fra	SUF|1-2|=ion		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	troponin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tro	SUF|1+1|=nin		I	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	postcontext-0=context-ro	beforecontext-1=context-ed fraction_, troponin_I
+O	troponin ,_or I_or
+O	I or_troponin or_T
+B-labintermod		or	ctext-0=or	sectonHeader-0=31.xml-testSeg	troponin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tro	SUF|1-2|=nin		I	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	STCLS|1-1-6|=SINGLECHAR	STCLS|1-1-14|=ROMAN	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	T	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	STCLS|1+1-6|=SINGLECHAR	postcontext-0=context-ro	beforecontext-1=context-ed troponin_I T_)
+O	T I_or )_or
+O	) or_T
+B-labintermod		or	ctext-0=or	sectonHeader-0=31.xml-testSeg	T	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	postcontext-0=context-ro	beforecontext-1=context-ed T_)
+

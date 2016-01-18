@@ -1,0 +1,51 @@
+
+O	Measurement of_serum
+O	of serum_PTH
+O	serum Measurement_of PTH_is
+O	PTH of_serum is_the
+O	is serum_PTH the_next
+O	the PTH_is next_step
+O	next is_the step_in
+O	step the_next in_the
+O	in next_step the_evaluation
+O	the step_in evaluation_of
+O	evaluation in_the of_hypercalcemia
+O	of the_evaluation hypercalcemia_.
+O	hypercalcemia evaluation_of
+O	. of_hypercalcemia
+
+
+O	An elevated_level
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=88.xml-testSeg	uniTok|1-2|=SSSSS	an	pos|1-1|=DT	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	elevate	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-1=context-no level_of
+O	level An_elevated of_PTH
+O	of elevated_level PTH_(
+B-entity		PTH	ctext-0=PTH	sectonHeader-0=88.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PTH	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=PTH	SUF|1+0|=PTH		OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-no level_of (_or
+O	( of_PTH or_a
+O	or PTH_( a_level
+O	a (_or level_that
+O	level or_a that_is
+O	that a_level is_in
+O	is level_that in_an
+O	in that_is an_unexpected
+O	an is_in unexpected_normal
+O	unexpected in_an normal_?
+O	normal an_unexpected ?_range
+O	? unexpected_normal range_)
+O	range normal_?
+O	) ?_range
+
+
+O	simultaneous with_an
+O	with an_elevated
+O	an simultaneous_with elevated_calcium
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=88.xml-testSeg	with	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=wit	SUF|1-2|=ith		an	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	elevate	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		calcium	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cal	SUF|1+1|=ium		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		postcontext-0=context-ro	postcontext-2=context-no with_an calcium_level
+B-entity		calcium	T121	ctext-0=calcium	sectonHeader-0=88.xml-testSeg	an	pos|1-2|=DT	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		calcium	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cal	SUF|1+0|=ium		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		generally	pos|1+2|=RB	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gen	SUF|1+2|=lly		postcontext-0=context-ro	beforecontext-1=context-ed	postcontext-2=context-no an_elevated level_generally
+O	level elevated_calcium generally_indicates
+O	generally calcium_level indicates_a
+O	indicates level_generally a_diagnosis
+O	a generally_indicates diagnosis_of
+O	diagnosis indicates_a of_primary
+O	of a_diagnosis primary_hyperparathyroidism
+O	primary diagnosis_of
+O	hyperparathyroidism of_primary
+

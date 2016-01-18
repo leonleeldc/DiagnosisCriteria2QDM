@@ -1,0 +1,23 @@
+
+B-labintermod		Increased	ctext-0=Increased	sectonHeader-0=1.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	increase	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Inc	SUF|1+0|=sed		numb	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=num	SUF|1+1|=ber		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-1=context-no number_of
+O	number of_lymphocytes
+O	of Increased_number lymphocytes_and
+B-entity		lymphocytes	T059	ctext-0=lymphocytes	sectonHeader-0=1.xml-testSeg	numb	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=num	SUF|1-2|=ber		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	lymphocyte	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=lym	SUF|1+0|=tes		and	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=and	SUF|1+1|=and		mononuclear	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mon	SUF|1+2|=ear		beforecontext-0=context-ed	postcontext-1=context-no number_of and_mononuclear
+B-labintermod		and	ctext-0=and	sectonHeader-0=1.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	lymphocyte	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lym	SUF|1-1|=tes		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		mononuclear	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mon	SUF|1+1|=ear		cell	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=lls		beforecontext-0=context-ed	postcontext-1=context-no of_lymphocytes mononuclear_cells
+O	mononuclear lymphocytes_and cells_>
+B-entity		mononuclear	T025	ctext-0=mononuclear	sectonHeader-0=1.xml-testSeg	lymphocyte	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lym	SUF|1-2|=tes		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		mononuclear	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mon	SUF|1+0|=ear		cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		ctext-12=cells	beforecontext-0=context-ed lymphocytes_and >_5000
+I-entity		cells	T025	ctext-0=mononuclear	sectonHeader-0=1.xml-testSeg	lymphocyte	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lym	SUF|1-2|=tes		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		mononuclear	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mon	SUF|1+0|=ear		cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		ctext-12=cells	beforecontext-0=context-ed lymphocytes_and >_5000
+O	cells and_mononuclear >_5000
+O	> mononuclear_cells 5000_/
+B-labvalmod		5000	unit	ctext-0=5000	sectonHeader-0=1.xml-testSeg	num	cell	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cel	SUF|1-2|=lls		mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3		beforecontext-0=context-ed	beforecontext-1=context-no cells_> /_mm3
+O	/ >_5000 mm3_(
+B-labvalmod		/mm3	unit	ctext-0=/	sectonHeader-0=1.xml-testSeg	mm3	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-9|=HASDIGIT	STCLS|1+1-11|=ALPHANUMERIC	STCLS|1+1-13|=LETTERS_NUMBERS	PRE|1+1|=mm3	SUF|1+1|=mm3		ctext-1=mm3	beforecontext-0=context-ed	beforecontext-1=context-no >_5000 (_autoreactive
+O	mm3 5000_/ (_autoreactive
+O	( /_mm3 autoreactive_lymphocytic
+O	autoreactive mm3_( lymphocytic_)
+O	lymphocytic (_autoreactive
+O	) autoreactive_lymphocytic
+
+
+O	,
+

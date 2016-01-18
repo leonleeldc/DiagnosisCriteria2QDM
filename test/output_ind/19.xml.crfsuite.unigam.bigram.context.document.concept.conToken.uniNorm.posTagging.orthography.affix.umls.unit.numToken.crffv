@@ -1,0 +1,22 @@
+
+B-labintermod		Raised	ctext-0=Raised	sectonHeader-0=19.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	raise	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Rai	SUF|1+0|=sed		RCM	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	PRE|1+1|=RCM	SUF|1+1|=RCM		OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA RCM_or
+B-entity		RCM	ctext-0=RCM	sectonHeader-0=19.xml-testSeg	uniTok|1-2|=SSSSS	raise	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Rai	SUF|1-1|=sed		RCM	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=RCM	SUF|1+0|=RCM		OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	hematocrit	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=hem	SUF|1+2|=rit		beforecontext-0=context-ed or_hematocrit
+B-labintermod		or	ctext-0=or	sectonHeader-0=19.xml-testSeg	raise	pos|1-2|=JJ	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Rai	SUF|1-2|=sed		RCM	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=RCM	SUF|1-1|=RCM		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	hematocrit	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=hem	SUF|1+1|=rit		beforecontext-0=context-ed Raised_RCM hematocrit_(
+B-entity		hematocrit	T059	ctext-0=hematocrit	sectonHeader-0=19.xml-testSeg	RCM	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=RCM	SUF|1-2|=RCM		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	hematocrit	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hem	SUF|1+0|=rit		HCT	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=HCT	SUF|1+2|=HCT		beforecontext-0=context-ed RCM_or (_HCT
+O	( or_hematocrit HCT_)
+B-entity		HCT	T059	ctext-0=HCT	sectonHeader-0=19.xml-testSeg	hematocrit	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=hem	SUF|1-2|=rit		HCT	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=HCT	SUF|1+0|=HCT		uniTok|1+2|=EEEEE	beforecontext-0=context-ed hematocrit_(
+O	) (_HCT
+
+
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=19.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS 0.60_(
+B-labvalmod		0.60	ctext-0=0.60	sectonHeader-0=19.xml-testSeg	num	uniTok|1-2|=SSSSS	male	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mal	SUF|1+2|=les	 (_males
+O	( >_0.60 males_)
+O	males 0.60_( )_,
+O	) (_males ,_>
+O	, males_) >_0.56
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=19.xml-testSeg )_, 0.56_(
+B-labvalmod		0.56	ctext-0=0.56	sectonHeader-0=19.xml-testSeg	num	female	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=fem	SUF|1+2|=les	 ,_> (_females
+O	( >_0.56 females_)
+O	females 0.56_(
+O	) (_females
+

@@ -1,0 +1,22 @@
+
+O	A second_option
+O	second option_is
+O	option A_second is_the
+O	is second_option the_detection
+O	the option_is detection_of
+B-labintermod		the option_is virus_and
+I-labintermod		detection option_is virus_and
+I-labintermod		of option_is virus_and
+O	detection is_the of_virus
+O	of the_detection virus_and
+B-entity		virus detection_of and_/
+O	and of_virus /_or
+B-labintermod		and/or	ctext-4=/ of_virus antigen_in
+O	/ virus_and or_antigen
+O	or and_/ antigen_in
+B-entity		antigen /_or in_the
+O	in or_antigen the_faeces
+O	the antigen_in faeces_.
+B-anatomical		faeces in_the
+O	. the_faeces
+

@@ -1,0 +1,24 @@
+
+O	The specific_routine
+O	specific routine_diagnosis
+O	routine The_specific diagnosis_of
+O	diagnosis specific_routine of_acute
+O	of routine_diagnosis acute_hepatitis
+O	acute diagnosis_of hepatitis_A
+O	hepatitis of_acute A_is
+O	A acute_hepatitis is_made
+O	is hepatitis_A made_by
+O	made A_is by_finding
+O	by is_made finding_anti-HAV
+O	finding made_by anti-HAV_IgM
+O	anti-HAV by_finding IgM_in
+B-entity		anti-HAV	T059	ctext-0=anti-HAV	sectonHeader-0=111.xml-testSeg	by	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	find	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=fin	SUF|1-1|=ing		anti-HAV	pos|1+0|=NN	capital|1+0|=2	PRE|1+0|=ant	SUF|1+0|=HAV		IgM	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgM	SUF|1+1|=IgM		in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-9=IgM	beforecontext-0=context-ro	beforecontext-1=context-if	beforecontext-2=context-no	postcontext-3=context-patient by_finding in_the
+I-entity		IgM	T059	ctext-0=anti-HAV	sectonHeader-0=111.xml-testSeg	by	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	find	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=fin	SUF|1-1|=ing		anti-HAV	pos|1+0|=NN	capital|1+0|=2	PRE|1+0|=ant	SUF|1+0|=HAV		IgM	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgM	SUF|1+1|=IgM		in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-9=IgM	beforecontext-0=context-ro	beforecontext-1=context-if	beforecontext-2=context-no	postcontext-3=context-patient by_finding in_the
+O	IgM finding_anti-HAV in_the
+O	in anti-HAV_IgM the_serum
+O	the IgM_in serum_of
+B-anatomical		serum	ctext-0=serum	sectonHeader-0=111.xml-testSeg	in	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	the	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=the	SUF|1-1|=the		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	patient	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pat	SUF|1+2|=nts		beforecontext-0=context-ro	beforecontext-1=context-if	beforecontext-2=context-no	postcontext-3=context-patient in_the of_patients
+O	of the_serum patients_.
+O	patients serum_of
+O	. of_patients
+

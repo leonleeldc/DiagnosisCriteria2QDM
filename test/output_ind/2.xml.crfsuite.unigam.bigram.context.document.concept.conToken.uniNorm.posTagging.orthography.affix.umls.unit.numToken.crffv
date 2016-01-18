@@ -1,0 +1,41 @@
+
+B-labintermod		Exclusion	ctext-0=Exclusion	sectonHeader-0=2.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	exclusion	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Exc	SUF|1+0|=ion		of	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	active	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=act	SUF|1+2|=ive		postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no of_active
+O	of active_viral
+O	active Exclusion_of viral_infection
+O	viral of_active infection_both
+O	infection active_viral both_in
+O	both viral_infection in_pericardial
+O	in infection_both pericardial_effusion
+O	pericardial both_in effusion_and
+O	effusion in_pericardial and_endomyocardial
+B-labintermod		and	ctext-0=and	sectonHeader-0=2.xml-testSeg	pericardial	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=per	SUF|1-2|=ial		effusion	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=eff	SUF|1-1|=ion		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		endomyocardial	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=end	SUF|1+1|=ial		postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no pericardial_effusion endomyocardial_/
+O	endomyocardial effusion_and /_epimyocardial
+O	/ and_endomyocardial epimyocardial_biopsies
+O	epimyocardial endomyocardial_/ biopsies_(
+O	biopsies /_epimyocardial (_no
+O	( epimyocardial_biopsies no_virus
+O	no biopsies_( virus_isolation
+O	virus (_no isolation_,
+O	isolation no_virus ,_no
+O	, virus_isolation no_IgM
+B-labintermod		no	ctext-0=no	sectonHeader-0=2.xml-testSeg	isolation	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=iso	SUF|1-2|=ion		NO	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	IgM	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	STCLS|1+1-5|=MIXEDCAPS	PRE|1+1|=IgM	SUF|1+1|=IgM		postcontext-0=context-ro	postcontext-1=context-negative isolation_, IgM_-
+B-entity		IgM	T059	ctext-0=IgM	sectonHeader-0=2.xml-testSeg	NO	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	IgM	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgM	SUF|1+0|=IgM		titer	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tit	SUF|1+2|=ter		postcontext-0=context-ro	postcontext-1=context-negative	beforecontext-2=context-no ,_no -_titer
+O	- no_IgM titer_against
+O	titer IgM_- against_cardiotropic
+O	against -_titer cardiotropic_viruses
+O	cardiotropic titer_against viruses_in
+O	viruses against_cardiotropic in_pericardial
+O	in cardiotropic_viruses pericardial_effusion
+O	pericardial viruses_in effusion_,
+O	effusion in_pericardial ,_and
+O	, pericardial_effusion and_negative
+B-labintermod		and	ctext-0=and	sectonHeader-0=2.xml-testSeg	effusion	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=eff	SUF|1-2|=ion		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		negative	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=neg	SUF|1+1|=ive		PCR	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=PCR	SUF|1+2|=PCR		postcontext-0=context-ro	postcontext-1=context-negative	postcontext-2=context-no effusion_, negative_PCR
+B-labintermod		negative	ctext-0=negative	sectonHeader-0=2.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		negative	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=neg	SUF|1+0|=ive		PCR	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	PRE|1+1|=PCR	SUF|1+1|=PCR		for	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=for	SUF|1+2|=for		beforecontext-0=context-ro	beforecontext-2=context-no ,_and PCR_for
+B-entity		PCR	T059	ctext-0=PCR	sectonHeader-0=2.xml-testSeg	and	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=and	SUF|1-2|=and		negative	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=neg	SUF|1-1|=ive		PCR	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=PCR	SUF|1+0|=PCR		for	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=for	SUF|1+1|=for		major	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=maj	SUF|1+2|=jor		beforecontext-0=context-ro	beforecontext-1=context-negative	beforecontext-2=context-no and_negative for_major
+O	for negative_PCR major_cardiotropic
+O	major PCR_for cardiotropic_viruses
+O	cardiotropic for_major viruses_)
+O	viruses major_cardiotropic )_;
+O	) cardiotropic_viruses
+O	; viruses_)
+

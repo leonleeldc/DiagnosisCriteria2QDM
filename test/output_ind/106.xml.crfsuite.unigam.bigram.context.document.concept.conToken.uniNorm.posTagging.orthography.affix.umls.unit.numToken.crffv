@@ -1,0 +1,18 @@
+
+B-entity		AST	T059	ctext-0=AST	sectonHeader-0=106.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	AST	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=AST	SUF|1+0|=AST	 >_>
+O	> >_>
+O	> AST_> >_ALT
+O	> >_> ALT_:
+B-entity		ALT	T059	ctext-0=ALT	sectonHeader-0=106.xml-testSeg	alt	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=ALT	SUF|1+0|=ALT		uniTok|1+2|=EEEEE >_>
+O	: >_ALT
+
+
+O	Both usually_<
+O	usually <_300
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=106.xml-testSeg	both	pos|1-2|=DT	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Bot	SUF|1-2|=oth		usually	pos|1-1|=RB	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=usu	SUF|1-1|=lly		IU	pos|1+2|=NNS	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS Both_usually 300_IU
+B-labvalmod		300	ctext-0=300	sectonHeader-0=106.xml-testSeg	num	usually	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=usu	SUF|1-2|=lly		IU	pos|1+1|=NNS	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS usually_< IU_/
+O	IU <_300 /_L
+B-labvalmod		IU/L	ctext-0=IU	sectonHeader-0=106.xml-testSeg	IU	pos|1+0|=NNS	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-2=/	uniTok|1+2|=EEEEE	ctext-3=L	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_300
+O	/ 300_IU
+O	L IU_/
+

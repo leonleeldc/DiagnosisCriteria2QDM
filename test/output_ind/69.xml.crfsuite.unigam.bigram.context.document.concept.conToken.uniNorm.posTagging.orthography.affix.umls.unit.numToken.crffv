@@ -1,0 +1,17 @@
+
+B-anatomical		Renal	T023	ctext-0=Renal	sectonHeader-0=69.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	renal	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ren	SUF|1+0|=nal		creatinine	pos|1+2|=NN	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Cre	SUF|1+2|=ine	 ,_Creatinine
+O	, Creatinine_(
+B-entity		Creatinine	T109	ctext-0=Creatinine	sectonHeader-0=69.xml-testSeg	renal	pos|1-2|=JJ	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ren	SUF|1-2|=nal		creatinine	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Cre	SUF|1+0|=ine		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA Renal_, (_mg
+O	( ,_Creatinine mg_/
+O	mg Creatinine_( /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=69.xml-testSeg	creatinine	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Cre	SUF|1-2|=ine		Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL Creatinine_( )_:
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_5.0
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=69.xml-testSeg	OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_: 5.0_or
+B-labvalmod		5.0	ctext-0=5.0	sectonHeader-0=69.xml-testSeg	num	OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA :_> or_<
+B-labintermod		or	ctext-0=or	sectonHeader-0=69.xml-testSeg	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA >_5.0 <_200
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=69.xml-testSeg	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	uniTok|1+2|=EEEEE 5.0_or
+B-labvalmod		200	ctext-0=200	sectonHeader-0=69.xml-testSeg	num	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE or_<
+

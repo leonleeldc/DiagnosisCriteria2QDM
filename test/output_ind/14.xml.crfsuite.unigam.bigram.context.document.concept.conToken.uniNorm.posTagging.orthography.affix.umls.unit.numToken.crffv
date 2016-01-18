@@ -1,0 +1,33 @@
+
+O	Raised red_cell
+B-labintermod		sed
+I-labintermod		re
+O	red cell_mass
+B-entity		cell	ctext-1=cell	ctext-6=mass	ctext-11=(	beforecontext-0=context-ed
+I-entity		mass	ctext-1=cell	ctext-6=mass	ctext-11=(	beforecontext-0=context-ed
+I-entity		(R	ctext-1=cell	ctext-6=mass	ctext-11=(	beforecontext-0=context-ed
+O	cell Raised_red mass_(
+O	mass red_cell (_RCM
+O	( cell_mass RCM_)
+O	RCM mass_( )_,
+O	) (_RCM ,_male
+B-entity		),	ctext-0=)	sectonHeader-0=14.xml-testSeg	RCM	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=RCM	SUF|1-1|=RCM		male	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mal	SUF|1+2|=ale		ctext-1=,	beforecontext-0=context-ed (_RCM
+O	, RCM_) male_>
+O	male )_, >_36
+O	> ,_male 36_ml
+O	36 male_> ml_/
+B-labrefrangemod		6	beforecontext-0=context-ed ml_/
+B-labvalmod		ml	ctext-0=ml	sectonHeader-0=14.xml-testSeg	ml	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-14|=ROMAN	kg	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed >_36 /_kg
+O	/ 36_ml kg_,
+O	kg ml_/ ,_female
+B-labvalmod		kg,	ctext-0=kg	sectonHeader-0=14.xml-testSeg	ml	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-14|=ROMAN	kg	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	female	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=fem	SUF|1+2|=ale		ctext-2=,	beforecontext-0=context-ed ml_/
+I-labvalmod		f	ctext-0=kg	sectonHeader-0=14.xml-testSeg	ml	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-14|=ROMAN	kg	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	female	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=fem	SUF|1+2|=ale		ctext-2=,	beforecontext-0=context-ed ml_/
+O	, /_kg female_>
+O	female kg_, >_32
+O	> ,_female 32_ml
+O	32 female_> ml_/
+B-labrefrangemod		2	beforecontext-0=context-ed ml_/
+B-labvalmod		ml	ctext-0=ml	sectonHeader-0=14.xml-testSeg	ml	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-14|=ROMAN	kg	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed >_32 /_kg
+O	/ 32_ml
+O	kg ml_/
+

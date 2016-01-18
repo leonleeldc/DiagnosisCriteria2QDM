@@ -1,0 +1,15 @@
+
+O	Leukocytosis :_Leukocyte
+O	: Leukocyte_count
+O	Leukocyte Leukocytosis_: count_>
+B-entity		Leukocyte	T025	T059	ctext-0=Leukocyte	sectonHeader-0=66.xml-testSeg	leukocytosis	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=sis		leukocyte	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Leu	SUF|1+0|=yte		Count	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cou	SUF|1+1|=unt		ctext-10=count	uniTok|1+2|=EEEEE Leukocytosis_:
+I-entity		count	T025	T059	ctext-0=Leukocyte	sectonHeader-0=66.xml-testSeg	leukocytosis	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=sis		leukocyte	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Leu	SUF|1+0|=yte		Count	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cou	SUF|1+1|=unt		ctext-10=count	uniTok|1+2|=EEEEE Leukocytosis_:
+O	count :_Leukocyte
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=66.xml-testSeg	leukocyte	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=yte		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE Leukocyte_count
+
+
+B-labvalmod		20,000	unit	ctext-0=20,000	sectonHeader-0=66.xml-testSeg	num	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3	 /_mm3
+O	/
+B-labvalmod		/mm3	unit	ctext-0=/	sectonHeader-0=66.xml-testSeg	uniTok|1-2|=SSSSS	mm3	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-9|=HASDIGIT	STCLS|1+1-11|=ALPHANUMERIC	STCLS|1+1-13|=LETTERS_NUMBERS	PRE|1+1|=mm3	SUF|1+1|=mm3		uniTok|1+2|=EEEEE	ctext-1=mm3	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE
+O	mm3 20,000_/
+

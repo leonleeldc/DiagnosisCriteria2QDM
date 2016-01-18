@@ -1,0 +1,29 @@
+
+O	Fasting Plasma_Glucose
+B-entity		Fasting	T033	T059	T123	ctext-0=Fasting	sectonHeader-0=34.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	fast	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Fas	SUF|1+0|=ing		plasma	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Pla	SUF|1+1|=sma		glucose	pos|1+2|=NN	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Glu	SUF|1+2|=ose		ctext-8=Plasma	uniTok|1+-2|=EEEEE	ctext-15=Glucose (_FPG
+I-entity		Plasma	T033	T059	T123	ctext-0=Fasting	sectonHeader-0=34.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	fast	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Fas	SUF|1+0|=ing		plasma	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Pla	SUF|1+1|=sma		glucose	pos|1+2|=NN	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Glu	SUF|1+2|=ose		ctext-8=Plasma	uniTok|1+-2|=EEEEE	ctext-15=Glucose (_FPG
+I-entity		Glucose	T033	T059	T123	ctext-0=Fasting	sectonHeader-0=34.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	fast	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Fas	SUF|1+0|=ing		plasma	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Pla	SUF|1+1|=sma		glucose	pos|1+2|=NN	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Glu	SUF|1+2|=ose		ctext-8=Plasma	uniTok|1+-2|=EEEEE	ctext-15=Glucose (_FPG
+O	Plasma Glucose_(
+O	Glucose Fasting_Plasma (_FPG
+O	( Plasma_Glucose FPG_)
+B-entity		FPG	ctext-0=FPG	sectonHeader-0=34.xml-testSeg	glucose	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Glu	SUF|1-2|=ose		fpg	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=FPG	SUF|1+0|=FPG		uniTok|1+2|=EEEEE Glucose_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=34.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	ctext-1=/	uniTok|1+-2|=EEEEE	ctext-2=equal_symbol 126_mg
+O	/ =_126
+O	= >_/ 126_mg
+B-labvalmod		126	ctext-0=126	sectonHeader-0=34.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA /_= mg_/
+O	mg =_126 /_dl
+B-labvalmod		mg/dl	ctext-0=mg	sectonHeader-0=34.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dl =_126 (_7.0
+O	/ 126_mg dl_(
+O	dl mg_/ (_7.0
+O	( /_dl 7.0_mmol
+B-labvalmod		7.0	ctext-0=7.0	sectonHeader-0=34.xml-testSeg	num	DL	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 dl_( mmol_/
+O	mmol (_7.0 /_l
+B-labvalmod		mmol/l	ctext-0=mmol	sectonHeader-0=34.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=l	uniTok|1+2|=EEEEE (_7.0
+O	/ 7.0_mmol l_)
+O	l mmol_/
+O	) /_l
+

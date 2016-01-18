@@ -1,0 +1,33 @@
+
+O	A -_Observation
+O	- Observation_of
+O	Observation A_- of_elevated
+O	of -_Observation elevated_transferrin
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=124.xml-testSeg	observation	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Obs	SUF|1-2|=ion		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	elevate	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		transferrin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tra	SUF|1+1|=rin		saturation	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=sat	SUF|1+2|=ion		postcontext-0=context-causes-of	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no Observation_of transferrin_saturation
+O	transferrin of_elevated saturation_>
+B-entity		transferrin	T059	T059	ctext-0=transferrin	sectonHeader-0=124.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		transferrin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tra	SUF|1+0|=rin		saturation	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=sat	SUF|1+1|=ion		ctext-12=saturation	postcontext-0=context-causes-of	beforecontext-1=context-ed	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no of_elevated >_60
+I-entity		saturation	T059	T059	ctext-0=transferrin	sectonHeader-0=124.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		transferrin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tra	SUF|1+0|=rin		saturation	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=sat	SUF|1+1|=ion		ctext-12=saturation	postcontext-0=context-causes-of	beforecontext-1=context-ed	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no of_elevated >_60
+O	saturation elevated_transferrin >_60
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=124.xml-testSeg	transferrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tra	SUF|1-2|=rin		saturation	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=sat	SUF|1-1|=ion		postcontext-0=context-causes-of	beforecontext-1=context-ed	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no transferrin_saturation 60_%
+O	60 saturation_> %_on
+B-labvalmod		60%	ctext-0=60	sectonHeader-0=124.xml-testSeg	num	saturation	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sat	SUF|1-2|=ion		on	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-2=%	postcontext-0=context-causes-of	beforecontext-1=context-ed	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no saturation_> on_at
+O	% >_60 on_at
+O	on 60_% at_least
+O	at %_on least_2
+O	least on_at 2_occasions
+O	2 at_least occasions_in
+O	occasions least_2 in_the
+O	in 2_occasions the_absence
+O	the occasions_in absence_of
+O	absence in_the of_other
+O	of the_absence other_known
+O	other absence_of known_causes
+O	known of_other causes_of
+O	causes other_known of_elevated
+O	of known_causes elevated_transferrin
+B-labintermod		elevated	ctext-0=elevated	sectonHeader-0=124.xml-testSeg	cause	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cau	SUF|1-2|=ses		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	elevate	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ele	SUF|1+0|=ted		transferrin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tra	SUF|1+1|=rin		saturation	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=sat	SUF|1+2|=ion		postcontext-0=context-causes-of	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no causes_of transferrin_saturation
+O	transferrin of_elevated
+B-entity		transferrin	T059	T059	ctext-0=transferrin	sectonHeader-0=124.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		transferrin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tra	SUF|1+0|=rin		saturation	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=sat	SUF|1+1|=ion		uniTok|1+2|=EEEEE	ctext-12=saturation	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	postcontext-0=context-causes-of	beforecontext-1=context-ed	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no of_elevated
+I-entity		saturation	T059	T059	ctext-0=transferrin	sectonHeader-0=124.xml-testSeg	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	elevate	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ele	SUF|1-1|=ted		transferrin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tra	SUF|1+0|=rin		saturation	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=sat	SUF|1+1|=ion		uniTok|1+2|=EEEEE	ctext-12=saturation	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	postcontext-0=context-causes-of	beforecontext-1=context-ed	postcontext-2=context-absence-of	postcontext-3=context-her	postcontext-4=context-no of_elevated
+O	saturation elevated_transferrin
+

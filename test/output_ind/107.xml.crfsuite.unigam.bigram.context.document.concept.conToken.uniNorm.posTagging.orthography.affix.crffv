@@ -1,0 +1,29 @@
+
+O	Alkaline phosphatase_(
+B-entity	Alkaline phosphatase  (_ALP
+I-entity	Alkaline phosphatase  (_ALP
+O	phosphatase (_ALP
+O	( Alkaline_phosphatase ALP_)
+B-entity	ALP  phosphatase_( )_and
+O	) (_ALP and_g
+O	and ALP_) g_-
+O	g )_and -_glutamyl
+B-entity	g-glutamyl transpeptidase 	ctext-1=g	ctext-2=- )_and (_GGT
+I-entity	g-glutamyl transpeptidase 	ctext-1=g	ctext-2=- )_and (_GGT
+O	- and_g glutamyl_transpeptidase
+O	glutamyl g_- transpeptidase_(
+O	transpeptidase -_glutamyl (_GGT
+O	( glutamyl_transpeptidase GGT_)
+B-entity	GGT  transpeptidase_( )_:
+O	) (_GGT
+O	: GGT_)
+
+
+O	Both usually_elevated
+O	usually elevated_to
+B-labintermod	elevated  Both_usually to_a
+O	to usually_elevated a_variable
+O	a elevated_to variable_degree
+O	variable to_a
+O	degree a_variable
+

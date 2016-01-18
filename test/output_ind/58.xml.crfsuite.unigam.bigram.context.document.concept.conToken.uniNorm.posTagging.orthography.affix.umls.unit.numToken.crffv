@@ -1,0 +1,25 @@
+
+B-labintermod		Elevated	ctext-0=Elevated	sectonHeader-0=58.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	elevate	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ele	SUF|1+0|=ted		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		urea	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ure	SUF|1+2|=rea		postcontext-0=context-ro blood_urea
+O	blood urea_nitrogen
+B-entity		blood	T024	T059	T059	T123	ctext-0=blood	sectonHeader-0=58.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		nitrogen	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nit	SUF|1+2|=gen		ctext-6=urea	ctext-11=nitrogen	beforecontext-1=context-ed :_Blood
+I-entity		urea	T024	T059	T059	T123	ctext-0=blood	sectonHeader-0=58.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		nitrogen	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nit	SUF|1+2|=gen		ctext-6=urea	ctext-11=nitrogen	beforecontext-1=context-ed :_Blood
+I-entity		nitrogen	T024	T059	T059	T123	ctext-0=blood	sectonHeader-0=58.xml-testSeg	uniTok|1-2|=SSSSS	elevate	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Ele	SUF|1-1|=ted		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		nitrogen	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nit	SUF|1+2|=gen		ctext-6=urea	ctext-11=nitrogen	beforecontext-1=context-ed :_Blood
+O	urea Elevated_blood nitrogen_:
+O	nitrogen blood_urea :_Blood
+O	: urea_nitrogen Blood_urea
+O	Blood nitrogen_: urea_nitrogen
+B-entity		Blood	T024	T059	T059	T123	ctext-0=Blood	sectonHeader-0=58.xml-testSeg	nitrogen	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=nit	SUF|1-2|=gen		blood	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		nitrogen	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nit	SUF|1+2|=gen		ctext-6=urea	ctext-11=nitrogen	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+I-entity		urea	T024	T059	T059	T123	ctext-0=Blood	sectonHeader-0=58.xml-testSeg	nitrogen	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=nit	SUF|1-2|=gen		blood	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		nitrogen	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nit	SUF|1+2|=gen		ctext-6=urea	ctext-11=nitrogen	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+I-entity		nitrogen	T024	T059	T059	T123	ctext-0=Blood	sectonHeader-0=58.xml-testSeg	nitrogen	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=nit	SUF|1-2|=gen		blood	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Blo	SUF|1+0|=ood		urea	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ure	SUF|1+1|=rea		nitrogen	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=nit	SUF|1+2|=gen		ctext-6=urea	ctext-11=nitrogen	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+O	urea :_Blood nitrogen_>
+O	nitrogen Blood_urea >_/
+O	> urea_nitrogen /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=58.xml-testSeg	urea	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ure	SUF|1-2|=rea		nitrogen	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=nit	SUF|1-1|=gen		ctext-1=/	ctext-2=equal_symbol	beforecontext-0=context-ro	beforecontext-1=context-ed urea_nitrogen 20_mg
+O	/ nitrogen_> =_20
+O	= >_/ 20_mg
+B-labvalmod		20	ctext-0=20	sectonHeader-0=58.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ro	beforecontext-1=context-ed /_= mg_/
+O	mg =_20 /_dl
+B-labvalmod		mg/dl	ctext-0=mg	sectonHeader-0=58.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-2=/	uniTok|1+2|=EEEEE	ctext-3=dl	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed =_20
+O	/ 20_mg
+O	dl mg_/
+

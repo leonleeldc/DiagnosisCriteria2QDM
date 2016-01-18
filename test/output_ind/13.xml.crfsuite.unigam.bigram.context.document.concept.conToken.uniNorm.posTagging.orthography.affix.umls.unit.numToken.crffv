@@ -1,0 +1,8 @@
+
+B-labintermod		Low	ctext-0=Low	sectonHeader-0=13.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	low	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Low	SUF|1+0|=Low		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		erythropoietin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ery	SUF|1+2|=tin		postcontext-0=context-ro serum_erythropoietin
+B-anatomical		serum	ctext-0=serum	sectonHeader-0=13.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		erythropoietin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ery	SUF|1+1|=tin		postcontext-0=context-ro erythropoietin_(
+B-entity		erythropoietin	T059	ctext-0=erythropoietin	sectonHeader-0=13.xml-testSeg	low	pos|1-2|=JJ	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Low	SUF|1-2|=Low		serum	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=ser	SUF|1-1|=rum		erythropoietin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ery	SUF|1+0|=tin		EPO	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=EPO	SUF|1+2|=EPO	 Low_serum (_EPO
+O	( serum_erythropoietin EPO_)
+B-entity		EPO	T059	ctext-0=EPO	sectonHeader-0=13.xml-testSeg	erythropoietin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ery	SUF|1-2|=tin		EPO	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=EPO	SUF|1+0|=EPO		uniTok|1+2|=EEEEE	beforecontext-0=context-ro erythropoietin_(
+O	) (_EPO
+

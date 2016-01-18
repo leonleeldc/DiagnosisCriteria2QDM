@@ -1,0 +1,45 @@
+
+O	Typical rise_and
+B-labintermod		Typical	ctext-0=Typical	sectonHeader-0=32.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	typical	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Typ	SUF|1+0|=cal		rise	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ris	SUF|1+1|=ise		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=rise	uniTok|1+-2|=EEEEE	postcontext-0=context-ro and_gradual
+I-labintermod		rise	ctext-0=Typical	sectonHeader-0=32.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	typical	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Typ	SUF|1+0|=cal		rise	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ris	SUF|1+1|=ise		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=rise	uniTok|1+-2|=EEEEE	postcontext-0=context-ro and_gradual
+O	rise and_gradual
+O	and Typical_rise gradual_fall
+O	gradual rise_and fall_(
+B-labintermod		gradual	T033	ctext-0=gradual	sectonHeader-0=32.xml-testSeg	rise	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ris	SUF|1-2|=ise		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		gradual	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=gra	SUF|1+0|=ual		fall	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=fal	SUF|1+1|=all		ctext-8=fall	postcontext-0=context-ro rise_and (_troponin
+I-labintermod		fall	T033	ctext-0=gradual	sectonHeader-0=32.xml-testSeg	rise	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ris	SUF|1-2|=ise		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		gradual	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=gra	SUF|1+0|=ual		fall	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=fal	SUF|1+1|=all		ctext-8=fall	postcontext-0=context-ro rise_and (_troponin
+O	fall and_gradual (_troponin
+O	( gradual_fall troponin_)
+B-entity		troponin	ctext-0=troponin	sectonHeader-0=32.xml-testSeg	fall	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=fal	SUF|1-2|=all		troponin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tro	SUF|1+0|=nin		uniTok|1+2|=EEEEE fall_(
+O	) (_troponin
+
+
+B-labintermod		or	ctext-0=or	sectonHeader-0=32.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	more	pos|1+1|=JJR	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mor	SUF|1+1|=ore		rapid	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=rap	SUF|1+2|=pid		postcontext-0=context-ro more_rapid
+O	more rapid_rise
+O	rapid or_more rise_and
+B-labintermod		rapid	T033	ctext-0=rapid	sectonHeader-0=32.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	more	pos|1-1|=JJR	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=mor	SUF|1-1|=ore		rapid	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=rap	SUF|1+0|=pid		rise	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ris	SUF|1+1|=ise		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-6=rise	ctext-11=and	ctext-15=fall	postcontext-0=context-ro or_more (_CK
+I-labintermod		rise	T033	ctext-0=rapid	sectonHeader-0=32.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	more	pos|1-1|=JJR	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=mor	SUF|1-1|=ore		rapid	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=rap	SUF|1+0|=pid		rise	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ris	SUF|1+1|=ise		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-6=rise	ctext-11=and	ctext-15=fall	postcontext-0=context-ro or_more (_CK
+I-labintermod		and	T033	ctext-0=rapid	sectonHeader-0=32.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	more	pos|1-1|=JJR	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=mor	SUF|1-1|=ore		rapid	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=rap	SUF|1+0|=pid		rise	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ris	SUF|1+1|=ise		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-6=rise	ctext-11=and	ctext-15=fall	postcontext-0=context-ro or_more (_CK
+I-labintermod		fall	T033	ctext-0=rapid	sectonHeader-0=32.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	more	pos|1-1|=JJR	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=mor	SUF|1-1|=ore		rapid	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=rap	SUF|1+0|=pid		rise	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ris	SUF|1+1|=ise		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-6=rise	ctext-11=and	ctext-15=fall	postcontext-0=context-ro or_more (_CK
+O	rise more_rapid and_fall
+O	and rapid_rise fall_(
+O	fall rise_and (_CK
+O	( and_fall CK_-
+O	CK fall_( -_MB
+B-entity		CK-MB	ctext-0=CK	sectonHeader-0=32.xml-testSeg	fall	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=fal	SUF|1-2|=all		CK	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	MB	pos|1+2|=NNP	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	ctext-2=-	ctext-3=MB	postcontext-0=context-ro fall_( )_of
+O	- (_CK MB_)
+O	MB CK_- )_of
+O	) -_MB of_biochemical
+O	of MB_) biochemical_markers
+O	biochemical )_of markers_of
+O	markers of_biochemical of_myocardial
+O	of biochemical_markers myocardial_necrosis
+O	myocardial markers_of necrosis_with
+O	necrosis of_myocardial with_at
+O	with myocardial_necrosis at_least
+O	at necrosis_with least_one
+O	least with_at one_of
+O	one at_least of_the
+O	of least_one the_following
+O	the one_of
+O	following of_the
+

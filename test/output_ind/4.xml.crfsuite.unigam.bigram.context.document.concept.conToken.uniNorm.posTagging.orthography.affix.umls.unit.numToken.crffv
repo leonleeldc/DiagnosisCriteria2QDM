@@ -1,0 +1,40 @@
+
+O	Acute (_active
+O	( active_)
+O	active Acute_(
+O	) (_active
+
+
+O	myocarditis
+O	:
+
+
+O	a clear_-
+O	clear -_cut
+O	- a_clear cut_infiltrate
+O	cut clear_- infiltrate_(
+B-entity		infiltrate	T046	ctext-0=infiltrate	sectonHeader-0=4.xml-testSeg	cut	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cut	SUF|1-1|=cut		infiltrate	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=inf	SUF|1+0|=ate		diffuse	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dif	SUF|1+2|=use		postcontext-0=context-ed	postcontext-1=context-if -_cut (_diffuse
+O	( cut_infiltrate diffuse_,
+O	diffuse infiltrate_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod		or	ctext-0=or	sectonHeader-0=4.xml-testSeg	focal	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=foc	SUF|1-1|=cal		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	confluent	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=con	SUF|1+1|=ent		postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_)
+O	confluent focal_or )_of
+O	) or_confluent of_>
+O	of confluent_) >_14
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=4.xml-testSeg	of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes		postcontext-0=context-ed	beforecontext-1=context-if )_of 14_leukocytes
+B-labvalmod		14	ctext-0=14	sectonHeader-0=4.xml-testSeg	num	of	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	leukocyte	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=leu	SUF|1+1|=tes		postcontext-0=context-ed	beforecontext-1=context-if of_> leukocytes_/
+O	leukocytes >_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-0=leukocytes	sectonHeader-0=4.xml-testSeg	leukocyte	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=leu	SUF|1+0|=tes		mm2	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm2	SUF|1+2|=mm2		ctext-10=/	ctext-11=mm2	postcontext-0=context-ed	beforecontext-1=context-if >_14 (_preferably
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_preferably
+O	( /_mm2 preferably_activated
+O	preferably mm2_( activated_T
+B-labintermod		activated	ctext-0=activated	sectonHeader-0=4.xml-testSeg	preferably	pos|1-1|=RB	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pre	SUF|1-1|=bly		activate	pos|1+0|=VBN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=act	SUF|1+0|=ted		T	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	STCLS|1+1-6|=SINGLECHAR	cell	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=lls		beforecontext-1=context-if (_preferably T_cells
+O	T preferably_activated cells_)
+B-entity		T	T049	T025	T025	ctext-0=T	sectonHeader-0=4.xml-testSeg	preferably	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=bly		activate	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=act	SUF|1-1|=ted		T	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		ctext-2=cells	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+I-entity		cells	T049	T025	T025	ctext-0=T	sectonHeader-0=4.xml-testSeg	preferably	pos|1-2|=RB	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pre	SUF|1-2|=bly		activate	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=act	SUF|1-1|=ted		T	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		ctext-2=cells	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+

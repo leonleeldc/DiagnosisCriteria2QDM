@@ -1,0 +1,29 @@
+
+O	Fasting Plasma_Glucose
+B-entity		Fasting (_FPG
+I-entity		Plasma (_FPG
+I-entity		Glucose (_FPG
+O	Plasma Glucose_(
+O	Glucose Fasting_Plasma (_FPG
+O	( Plasma_Glucose FPG_)
+B-entity		FPG Glucose_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	ctext-2=/	uniTok|1+-2|=EEEEE	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA 126_mg
+O	/ =_126
+O	= >_/ 126_mg
+B-labvalmod		126 /_= mg_/
+O	mg =_126 /_dl
+B-labvalmod		mg/dl	ctext-3=/ =_126 (_7.0
+O	/ 126_mg dl_(
+O	dl mg_/ (_7.0
+O	( /_dl 7.0_mmol
+B-labvalmod		7.0 dl_( mmol_/
+O	mmol (_7.0 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_7.0
+O	/ 7.0_mmol l_)
+O	l mmol_/
+O	) /_l
+

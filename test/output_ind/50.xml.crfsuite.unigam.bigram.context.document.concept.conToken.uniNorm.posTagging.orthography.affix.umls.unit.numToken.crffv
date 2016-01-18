@@ -1,0 +1,21 @@
+
+O	Persistently positive_blood
+B-labintermod		positive	ctext-0=positive	sectonHeader-0=50.xml-testSeg	uniTok|1-2|=SSSSS	persistently	pos|1-1|=RB	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Per	SUF|1-1|=tly		positive	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pos	SUF|1+0|=ive		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		culture	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cul	SUF|1+2|=ure		postcontext-0=context-ro	postcontext-1=context-ed blood_culture
+O	blood Persistently_positive culture_,
+B-entity		blood	T024	T059	T059	ctext-0=blood	sectonHeader-0=50.xml-testSeg	persistently	pos|1-2|=RB	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Per	SUF|1-2|=tly		positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		ctext-6=culture	postcontext-0=context-ro	postcontext-1=context-ed Persistently_positive ,_defined
+I-entity		culture	T024	T059	T059	ctext-0=blood	sectonHeader-0=50.xml-testSeg	persistently	pos|1-2|=RB	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Per	SUF|1-2|=tly		positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		ctext-6=culture	postcontext-0=context-ro	postcontext-1=context-ed Persistently_positive ,_defined
+O	culture positive_blood ,_defined
+O	, blood_culture defined_as
+O	defined culture_, as_recovery
+O	as ,_defined recovery_of
+O	recovery defined_as of_a
+O	of as_recovery a_microorganism
+O	a recovery_of microorganism_consistent
+O	microorganism of_a consistent_with
+O	consistent a_microorganism with_infective
+O	with microorganism_consistent infective_endocarditis
+O	infective consistent_with endocarditis_from
+O	endocarditis with_infective from_:
+O	from infective_endocarditis
+O	: endocarditis_from
+

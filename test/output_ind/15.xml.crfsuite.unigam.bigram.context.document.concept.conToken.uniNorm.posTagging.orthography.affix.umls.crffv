@@ -1,0 +1,13 @@
+
+O	Normal arterial_oxygen
+O	arterial oxygen_saturation
+B-entity		arterial	C0428175	T059 	C2711000	T042  >_92
+I-entity		oxygen >_92
+I-entity		saturation >_92
+O	oxygen Normal_arterial saturation_>
+O	saturation arterial_oxygen >_92
+B-labrefrangemod		>	ctext-1=>	oxygen	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=oxy	SUF|1-2|=gen		saturation	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=sat	SUF|1-1|=ion	 oxygen_saturation 92_%
+O	92 saturation_>
+B-labvalmod		92%	ctext-3=%	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE saturation_>
+O	% >_92
+

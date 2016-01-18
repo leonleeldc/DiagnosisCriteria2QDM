@@ -1,0 +1,13 @@
+
+O	Serologic Screening_Tests
+B-entity		Serologic	T059	T059	ctext-0=Serologic	sectonHeader-0=139.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serologic	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=gic		screen	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Scr	SUF|1+1|=ing		test	pos|1+2|=NNS	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Tes	SUF|1+2|=sts		ctext-10=Screening	uniTok|1+-2|=EEEEE	ctext-20=Tests	postcontext-1=context-no for_the
+I-entity		Screening	T059	T059	ctext-0=Serologic	sectonHeader-0=139.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serologic	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=gic		screen	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Scr	SUF|1+1|=ing		test	pos|1+2|=NNS	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Tes	SUF|1+2|=sts		ctext-10=Screening	uniTok|1+-2|=EEEEE	ctext-20=Tests	postcontext-1=context-no for_the
+I-entity		Tests	T059	T059	ctext-0=Serologic	sectonHeader-0=139.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	serologic	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ser	SUF|1+0|=gic		screen	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Scr	SUF|1+1|=ing		test	pos|1+2|=NNS	capital|1+2|=1	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-2|=UPPER-LOWER	PRE|1+2|=Tes	SUF|1+2|=sts		ctext-10=Screening	uniTok|1+-2|=EEEEE	ctext-20=Tests	postcontext-1=context-no for_the
+O	Screening Tests_for
+O	Tests Serologic_Screening for_the
+O	for Screening_Tests the_Diagnosis
+O	the Tests_for Diagnosis_of
+O	Diagnosis for_the of_CD
+O	of the_Diagnosis
+O	CD Diagnosis_of
+

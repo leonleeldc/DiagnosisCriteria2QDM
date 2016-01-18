@@ -1,0 +1,12 @@
+
+O	Thrombocytopenia
+O	:
+
+
+B-labrefrangemod		<	unit	ctext-1=<	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	platelet	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pla	SUF|1+2|=ets	 100,000_platelets
+B-labvalmod		100,000 platelets_/
+B-entity		platelets	C0032181	T059 <_100,000 /_mm3
+B-labvalmod		platelets/mm3	ctext-10=/	uniTok|1+2|=EEEEE <_100,000
+O	/ 100,000_platelets
+O	mm3 platelets_/
+

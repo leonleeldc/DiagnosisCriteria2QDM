@@ -1,0 +1,19 @@
+
+O	B -_Diagnosis
+O	- Diagnosis_of
+O	Diagnosis B_- of_iron
+O	of -_Diagnosis iron_overload
+B-entity		iron	C0337439	T059	beforecontext-1=context-no Diagnosis_of overload_:
+B-labintermod		overload	beforecontext-0=context-ro	beforecontext-1=context-no of_iron :_1
+O	: iron_overload 1_plus
+O	1 overload_: plus_2
+O	plus :_1 2_,
+O	2 1_plus ,_or
+O	, plus_2 or_1
+O	or 2_, 1_plus
+O	1 ,_or plus_3
+O	plus or_1 3_,
+O	3 1_plus ,_below
+O	, plus_3
+O	below 3_,
+

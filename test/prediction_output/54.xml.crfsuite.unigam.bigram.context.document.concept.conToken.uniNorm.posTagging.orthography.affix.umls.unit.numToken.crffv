@@ -1,0 +1,11 @@
+B-labintermod	B-labintermod
+O	O
+B-entity	B-entity
+I-entity	I-entity
+O	O
+B-labintermod	B-labintermod
+B-labintermod	I-entity
+O	O
+B-entity	B-entity
+I-entity	I-entity
+O	O

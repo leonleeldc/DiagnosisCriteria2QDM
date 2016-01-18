@@ -1,0 +1,14 @@
+
+B-entity		Leukocytes	C0023508	T059 	C0023516	T025  <_1500
+B-labrefrangemod		<	ctext-1=<	uniTok|1+-2|=EEEEE	leukocyte	pos|1-1|=NNS	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Leu	SUF|1-1|=tes	 1500_/
+B-labvalmod		1500 Leukocytes_< /_mL
+O	/ <_1500 mL_or
+B-labvalmod		/mL	ctext-1=/ <_1500 or_>
+O	mL 1500_/ or_>
+B-labintermod		or /_mL >_40000
+B-labvalmod		>	ctext-1=>	ml	pos|1-2|=NNS	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA mL_or 40000_/
+B-labvalmod		40000 or_> /_mL
+O	/ >_40000
+B-labvalmod		/mL	ctext-1=/	uniTok|1+2|=EEEEE >_40000
+O	mL 40000_/
+

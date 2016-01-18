@@ -1,0 +1,33 @@
+
+O	Microbiological evidence_:
+O	evidence
+O	: Microbiological_evidence
+
+
+B-labintermod		positive	ctext-0=positive	sectonHeader-0=57.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	positive	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pos	SUF|1+0|=ive		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		culture	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cul	SUF|1+2|=ure		postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no blood_culture
+O	blood culture_but
+B-entity		blood	T024	T059	T059	ctext-0=blood	sectonHeader-0=57.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		but	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=but	SUF|1+2|=but		ctext-6=culture	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no but_does
+I-entity		culture	T024	T059	T059	ctext-0=blood	sectonHeader-0=57.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		but	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=but	SUF|1+2|=but		ctext-6=culture	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-noted	postcontext-5=context-no but_does
+O	culture positive_blood but_does
+O	but blood_culture does_not
+O	does culture_but not_meet
+O	not but_does meet_a
+O	meet does_not a_major
+O	a not_meet major_criterion
+O	major meet_a criterion_as
+O	criterion a_major as_noted
+O	as major_criterion noted_above
+O	noted criterion_as above_or
+O	above as_noted or_serological
+O	or noted_above serological_evidence
+O	serological above_or evidence_of
+O	evidence or_serological of_active
+O	of serological_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_IE
+O	with organism_consistent
+O	IE consistent_with
+

@@ -1,0 +1,46 @@
+
+B-labintermod	Increased 	postcontext-1=context-no number_of
+O	number of_lymphocytes
+O	of Increased_number lymphocytes_and
+O	lymphocytes number_of and_mononuclear
+B-labintermod	and 	beforecontext-0=context-ed	postcontext-1=context-no of_lymphocytes mononuclear_cells
+O	mononuclear lymphocytes_and cells_>
+B-entity	mononuclear cells 	beforecontext-0=context-ed lymphocytes_and >_5000
+I-entity	mononuclear cells 	beforecontext-0=context-ed lymphocytes_and >_5000
+O	cells and_mononuclear >_5000
+O	> mononuclear_cells 5000_/
+B-labvalmod	5000 	beforecontext-0=context-ed	beforecontext-1=context-no cells_> /_mm3
+O	/ >_5000 mm3_(
+B-labvalmod	/mm3 	beforecontext-0=context-ed	beforecontext-1=context-no >_5000 (_autoreactive
+O	mm3 5000_/ (_autoreactive
+O	( /_mm3 autoreactive_lymphocytic
+O	autoreactive mm3_( lymphocytic_)
+O	lymphocytic (_autoreactive
+O	) autoreactive_lymphocytic
+
+
+O	,
+
+
+O	A1 Raised_RCM
+B-labintermod	Raised  RCM_or
+B-entity	RCM 	beforecontext-0=context-ed A1_Raised or_haemoglobin
+B-labintermod	or 	beforecontext-0=context-ed Raised_RCM haemoglobin_(
+B-entity	haemoglobin 	beforecontext-0=context-ed RCM_or (_Hb
+O	( or_haemoglobin Hb_)
+B-entity	Hb 	beforecontext-0=context-ed haemoglobin_(
+O	) (_Hb
+
+
+B-labrefrangemod	>  18.5_(
+B-labvalmod	18.5  (_males
+O	( >_18.5 males_)
+O	males 18.5_( )_,
+O	) (_males ,_>
+O	, males_) >_16.5
+B-labrefrangemod	>  )_, 16.5_(
+B-labvalmod	16.5  ,_> (_females
+O	( >_16.5 females_)
+O	females 16.5_(
+O	) (_females
+

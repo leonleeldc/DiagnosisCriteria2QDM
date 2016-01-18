@@ -1,0 +1,31 @@
+
+B-labintermod		Elevated	postcontext-1=context-since level_of
+O	level of_fasting
+O	of Elevated_level fasting_serum
+O	fasting level_of serum_gastrin
+B-entity		fasting	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+I-entity		serum	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+I-entity		gastrin	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+O	serum of_fasting gastrin_(
+O	gastrin fasting_serum (_>
+O	( serum_gastrin >_100
+B-labrefrangemod		>	ctext-1=>	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		PG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since gastrin_( 100_pg
+B-labvalmod		100	beforecontext-0=context-ed	postcontext-1=context-since (_> pg_/
+O	pg >_100 /_mL
+B-labvalmod		pg/mL	ctext-3=/	beforecontext-0=context-ed	postcontext-1=context-since >_100 until_1994
+O	/ 100_pg mL_until
+O	mL pg_/ until_1994
+O	until /_mL 1994_,
+O	1994 mL_until ,_>
+O	, until_1994 >_200
+B-labrefrangemod		>	ctext-1=>	PG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since 1994_, 200_pg
+B-labvalmod		200	beforecontext-0=context-ed	postcontext-1=context-since ,_> pg_/
+O	pg >_200 /_mL
+B-labvalmod		pg/mL	ctext-3=/	beforecontext-0=context-ed	postcontext-1=context-since >_200 since_1994
+O	/ 200_pg mL_since
+O	mL pg_/ since_1994
+O	since /_mL 1994_)
+O	1994 mL_since )_;
+O	) since_1994
+O	; 1994_)
+

@@ -1,0 +1,13 @@
+
+O	Electrolyte abnormalities_:
+O	abnormalities
+O	: Electrolyte_abnormalities
+
+
+B-labintermod		low	ctext-0=low	sectonHeader-0=110.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	low	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=low	SUF|1+0|=low		potassium	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pot	SUF|1+1|=ium	 potassium_,
+B-entity		potassium	T059	ctext-0=potassium	sectonHeader-0=110.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=low	SUF|1-1|=low		potassium	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pot	SUF|1+0|=ium		magnesium	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mag	SUF|1+2|=ium	 ,_magnesium
+O	, low_potassium magnesium_and
+B-entity		magnesium	T059	ctext-0=magnesium	sectonHeader-0=110.xml-testSeg	potassium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pot	SUF|1-2|=ium		magnesium	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mag	SUF|1+0|=ium		and	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=and	SUF|1+1|=and		phosphorus	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pho	SUF|1+2|=rus	 potassium_, and_phosphorus
+B-labintermod		and	ctext-0=and	sectonHeader-0=110.xml-testSeg	magnesium	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=mag	SUF|1-1|=ium		and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		phosphorus	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pho	SUF|1+1|=rus		uniTok|1+2|=EEEEE ,_magnesium
+B-entity		phosphorus	T059	ctext-0=phosphorus	sectonHeader-0=110.xml-testSeg	magnesium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mag	SUF|1-2|=ium		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		phosphorus	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pho	SUF|1+0|=rus		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE magnesium_and
+

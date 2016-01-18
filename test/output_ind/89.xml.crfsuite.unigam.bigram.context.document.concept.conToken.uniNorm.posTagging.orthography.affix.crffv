@@ -1,0 +1,40 @@
+
+O	The finding_of
+O	finding of_a
+O	of The_finding a_normal
+O	a finding_of normal_level
+O	normal of_a level_of
+O	level a_normal of_albumin
+O	of normal_level albumin_-
+O	albumin level_of -_adjusted
+O	- of_albumin adjusted_or
+O	adjusted albumin_- or_ionized
+O	or -_adjusted ionized_serum
+B-labintermod	ionized 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient adjusted_or serum_calcium
+O	serum or_ionized calcium_and
+B-entity	serum calcium 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient or_ionized and_an
+I-entity	serum calcium 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient or_ionized and_an
+O	calcium ionized_serum and_an
+O	and serum_calcium an_elevated
+O	an calcium_and elevated_level
+B-labintermod	elevated 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient and_an level_of
+O	level an_elevated of_PTH
+O	of elevated_level PTH_in
+B-entity	PTH 	postcontext-0=context-secondary	postcontext-1=context-ro	postcontext-2=context-causes-of	beforecontext-3=context-ed	postcontext-4=context-her	postcontext-5=context-with-no	beforecontext-6=context-no	postcontext-7=context-patient level_of in_patients
+O	in of_PTH patients_with
+O	patients PTH_in with_no
+O	with in_patients no_other
+O	no patients_with other_causes
+O	other with_no causes_of
+O	causes no_other of_secondary
+O	of other_causes secondary_hyperparathyroidism
+O	secondary causes_of hyperparathyroidism_is
+O	hyperparathyroidism of_secondary is_consistent
+O	is secondary_hyperparathyroidism consistent_with
+O	consistent hyperparathyroidism_is with_normocalcemic
+O	with is_consistent normocalcemic_primary
+O	normocalcemic consistent_with primary_hyperparathyroidism
+O	primary with_normocalcemic hyperparathyroidism_.
+O	hyperparathyroidism normocalcemic_primary
+O	. primary_hyperparathyroidism
+

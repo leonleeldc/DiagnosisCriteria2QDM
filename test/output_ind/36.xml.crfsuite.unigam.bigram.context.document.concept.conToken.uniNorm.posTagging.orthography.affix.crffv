@@ -1,0 +1,45 @@
+
+O	Glucose level_>
+B-entity	Glucose level  >_/
+I-entity	Glucose level  >_/
+O	level >_/
+O	> Glucose_level /_=
+B-labrefrangemod	>/= 	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA Glucose_level 140_mg
+O	/ level_> =_140
+O	= >_/ 140_mg
+B-labvalmod	140  /_= mg_/
+O	mg =_140 /_dL
+B-labvalmod	mg/dL 	ctext-3=/ =_140 (_7.8
+O	/ 140_mg dL_(
+O	dL mg_/ (_7.8
+O	( /_dL 7.8_mmol
+B-labvalmod	7.8  dL_( mmol_/
+O	mmol (_7.8 /_L
+B-labvalmod	mmol/L 	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and	 (_7.8 )_and
+O	/ 7.8_mmol L_)
+O	L mmol_/ )_and
+O	) /_L and_<
+B-labintermod	and  L_) <_200
+B-labrefrangemod	< 	ctext-1=<	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_and 200_mg
+B-labvalmod	200  and_< mg_/
+O	mg <_200 /_dL
+B-labvalmod	mg/dL 	ctext-3=/ <_200 (_11.1
+O	/ 200_mg dL_(
+O	dL mg_/ (_11.1
+O	( /_dL 11.1_mmol
+B-labvalmod	11.1  dL_( mmol_/
+O	mmol (_11.1 /_L
+B-labvalmod	mmol/L 	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_11.1
+O	/ 11.1_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	at 2_hours
+O	2 hours_during
+O	hours at_2 during_a
+O	during 2_hours a_standard
+O	a hours_during standard_OGTT
+O	standard during_a
+B-entity	OGTT  a_standard
+

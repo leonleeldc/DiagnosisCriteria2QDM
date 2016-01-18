@@ -1,0 +1,51 @@
+
+O	Measurement of_serum
+O	of serum_PTH
+O	serum Measurement_of PTH_is
+O	PTH of_serum is_the
+O	is serum_PTH the_next
+O	the PTH_is next_step
+O	next is_the step_in
+O	step the_next in_the
+O	in next_step the_evaluation
+O	the step_in evaluation_of
+O	evaluation in_the of_hypercalcemia
+O	of the_evaluation hypercalcemia_.
+O	hypercalcemia evaluation_of
+O	. of_hypercalcemia
+
+
+O	An elevated_level
+B-labintermod		elevated	postcontext-1=context-no level_of
+O	level An_elevated of_PTH
+O	of elevated_level PTH_(
+B-entity		PTH	beforecontext-0=context-ed	postcontext-1=context-no level_of (_or
+O	( of_PTH or_a
+O	or PTH_( a_level
+O	a (_or level_that
+O	level or_a that_is
+O	that a_level is_in
+O	is level_that in_an
+O	in that_is an_unexpected
+O	an is_in unexpected_normal
+O	unexpected in_an normal_?
+O	normal an_unexpected ?_range
+O	? unexpected_normal range_)
+O	range normal_?
+O	) ?_range
+
+
+O	simultaneous with_an
+O	with an_elevated
+O	an simultaneous_with elevated_calcium
+B-labintermod		elevated	postcontext-0=context-ro	postcontext-2=context-no with_an calcium_level
+B-entity		calcium	C0006675	T121 	T123 	C0201925	T059 	postcontext-0=context-ro	beforecontext-1=context-ed	postcontext-2=context-no an_elevated level_generally
+O	level elevated_calcium generally_indicates
+O	generally calcium_level indicates_a
+O	indicates level_generally a_diagnosis
+O	a generally_indicates diagnosis_of
+O	diagnosis indicates_a of_primary
+O	of a_diagnosis primary_hyperparathyroidism
+O	primary diagnosis_of
+O	hyperparathyroidism of_primary
+

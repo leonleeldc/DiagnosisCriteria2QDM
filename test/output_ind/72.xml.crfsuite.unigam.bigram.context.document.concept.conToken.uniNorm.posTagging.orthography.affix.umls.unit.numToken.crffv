@@ -1,0 +1,15 @@
+
+O	Leukopenia (_WBC
+O	( WBC_count
+O	WBC Leukopenia_( count_<
+B-entity		WBC	T059	T059	ctext-0=WBC	sectonHeader-0=72.xml-testSeg	leukopenia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=nia		WBC	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=WBC	SUF|1+0|=WBC		Count	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cou	SUF|1+1|=unt		ctext-4=count Leukopenia_( <_4,000
+I-entity		count	T059	T059	ctext-0=WBC	sectonHeader-0=72.xml-testSeg	leukopenia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Leu	SUF|1-2|=nia		WBC	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=WBC	SUF|1+0|=WBC		Count	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cou	SUF|1+1|=unt		ctext-4=count Leukopenia_( <_4,000
+O	count (_WBC <_4,000
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=72.xml-testSeg	WBC	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=WBC	SUF|1-2|=WBC		Count	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cou	SUF|1-1|=unt		cell	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=lls	 WBC_count 4,000_cells
+B-labvalmod		4,000	ctext-0=4,000	sectonHeader-0=72.xml-testSeg	num	Count	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cou	SUF|1-2|=unt		cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls	 count_< cells_/
+O	cells <_4,000 /_mm3
+B-labvalmod		cells/mm3	ctext-0=cells	sectonHeader-0=72.xml-testSeg	cell	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cel	SUF|1+0|=lls		mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3		ctext-5=/	ctext-6=mm3	uniTok|1+2|=EEEEE <_4,000
+O	/ 4,000_cells mm3_)
+O	mm3 cells_/
+O	) /_mm3
+

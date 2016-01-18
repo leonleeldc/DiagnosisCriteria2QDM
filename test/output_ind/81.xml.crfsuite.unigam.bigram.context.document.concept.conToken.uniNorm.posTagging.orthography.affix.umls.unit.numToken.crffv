@@ -1,0 +1,10 @@
+
+B-labintermod		Positive	ctext-0=Positive	sectonHeader-0=81.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	positive	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pos	SUF|1+0|=ive		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		culture	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cul	SUF|1+2|=ure		postcontext-0=context-her blood_culture
+O	blood culture_despite
+B-entity		blood	T024	T059	T059	ctext-0=blood	sectonHeader-0=81.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		despite	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=des	SUF|1+2|=ite		ctext-6=culture	postcontext-0=context-her despite_antibiotic
+I-entity		culture	T024	T059	T059	ctext-0=blood	sectonHeader-0=81.xml-testSeg	uniTok|1-2|=SSSSS	positive	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		despite	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=des	SUF|1+2|=ite		ctext-6=culture	postcontext-0=context-her despite_antibiotic
+O	culture Positive_blood despite_antibiotic
+O	despite blood_culture antibiotic_therapy
+O	antibiotic culture_despite
+O	therapy despite_antibiotic
+

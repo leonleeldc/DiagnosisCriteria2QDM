@@ -1,0 +1,13 @@
+
+O	LDL -_C
+B-entity		LDL-C	ctext-4=-	uniTok|1+-2|=EEEEE	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel	 level_>
+O	- C_level
+O	C LDL_- level_>
+O	level -_C >_190
+B-labrefrangemod		>	ctext-1=>	C	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA C_level 190_mg
+B-labvalmod		190 level_> mg_/
+O	mg >_190 /_dL
+B-labvalmod		mg/dL	ctext-3=/	uniTok|1+2|=EEEEE >_190
+O	/ 190_mg
+O	dL mg_/
+

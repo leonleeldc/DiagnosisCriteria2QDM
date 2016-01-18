@@ -1,0 +1,28 @@
+
+B-labintermod	Increased 	postcontext-0=context-ro hepatic_iron
+O	hepatic iron_concentration
+B-entity	hepatic iron concentration 	beforecontext-1=context-ed (_>
+I-entity	hepatic iron concentration 	beforecontext-1=context-ed (_>
+I-entity	hepatic iron concentration 	beforecontext-1=context-ed (_>
+O	iron Increased_hepatic concentration_(
+O	concentration hepatic_iron (_>
+O	( iron_concentration >_80
+B-labrefrangemod	> 	ctext-1=>	concentration	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=con	SUF|1-2|=ion		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro	beforecontext-1=context-ed concentration_( 80_mmol
+B-labvalmod	80 	beforecontext-0=context-ro	beforecontext-1=context-ed (_> mmol_/
+O	mmol >_80 /_g
+B-labvalmod	mmol/g 	ctext-5=/	ctext-6=g	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		G	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		beforecontext-0=context-ro	beforecontext-1=context-ed >_80 )_and
+O	/ 80_mmol g_)
+O	g mmol_/ )_and
+O	) /_g and_hepatic
+B-labintermod	and 	beforecontext-0=context-ro	beforecontext-1=context-ed g_) hepatic_iron
+O	hepatic )_and iron_index
+B-entity	hepatic iron index 	beforecontext-0=context-ro	beforecontext-1=context-ed )_and (_>
+I-entity	hepatic iron index 	beforecontext-0=context-ro	beforecontext-1=context-ed )_and (_>
+I-entity	hepatic iron index 	beforecontext-0=context-ro	beforecontext-1=context-ed )_and (_>
+O	iron and_hepatic index_(
+O	index hepatic_iron (_>
+O	( iron_index >_1.9
+B-labrefrangemod	> 	ctext-1=>	index	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ind	SUF|1-2|=dex		beforecontext-0=context-ro	beforecontext-1=context-ed index_( 1.9_)
+B-labvalmod	1.9 	beforecontext-0=context-ro	beforecontext-1=context-ed (_>
+O	) >_1.9
+

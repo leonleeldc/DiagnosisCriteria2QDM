@@ -1,0 +1,20 @@
+
+O	No myocarditis_:
+O	myocarditis
+O	: No_myocarditis
+
+
+B-labintermod		No infiltrating_cells
+O	infiltrating cells_or
+B-entity		infiltrating or_<
+I-entity		cells or_<
+O	cells No_infiltrating or_<
+O	or infiltrating_cells <_14
+B-labrefrangemod		<	unit	ctext-1=<	cell	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cel	SUF|1-2|=lls		OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes	 cells_or 14_leukocytes
+B-labvalmod		14 or_< leukocytes_/
+O	leukocytes <_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-11=/ <_14
+O	/ 14_leukocytes mm2_.
+O	mm2 leukocytes_/
+O	. /_mm2
+

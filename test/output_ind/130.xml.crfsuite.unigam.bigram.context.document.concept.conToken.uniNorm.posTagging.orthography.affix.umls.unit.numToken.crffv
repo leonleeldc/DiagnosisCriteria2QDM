@@ -1,0 +1,47 @@
+
+O	Abnormal results_from
+O	results from_stimulation
+O	from Abnormal_results stimulation_testing
+O	stimulation results_from testing_with
+O	testing from_stimulation with_secretin
+O	with stimulation_testing secretin_(
+B-entity		secretin	T121	ctext-0=secretin	sectonHeader-0=130.xml-testSeg	test	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tes	SUF|1-2|=ing		with	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=wit	SUF|1-1|=ith		secretin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=sec	SUF|1+0|=tin		an	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro	beforecontext-1=context-no testing_with (_an
+O	( with_secretin an_increase
+O	an secretin_( increase_of
+B-labintermod		an	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	secretin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sec	SUF|1-2|=tin		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-3=increase	ctext-12=of	ctext-15=>	ctext-16=200	num	ctext-20=pg	ctext-22=/	ctext-23=mL	ctext-26=postinjection	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		increase	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	secretin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sec	SUF|1-2|=tin		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-3=increase	ctext-12=of	ctext-15=>	ctext-16=200	num	ctext-20=pg	ctext-22=/	ctext-23=mL	ctext-26=postinjection	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		of	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	secretin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sec	SUF|1-2|=tin		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-3=increase	ctext-12=of	ctext-15=>	ctext-16=200	num	ctext-20=pg	ctext-22=/	ctext-23=mL	ctext-26=postinjection	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		>200	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	secretin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sec	SUF|1-2|=tin		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-3=increase	ctext-12=of	ctext-15=>	ctext-16=200	num	ctext-20=pg	ctext-22=/	ctext-23=mL	ctext-26=postinjection	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		pg/mL	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	secretin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sec	SUF|1-2|=tin		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-3=increase	ctext-12=of	ctext-15=>	ctext-16=200	num	ctext-20=pg	ctext-22=/	ctext-23=mL	ctext-26=postinjection	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		postinjection	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	secretin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=sec	SUF|1-2|=tin		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-3=increase	ctext-12=of	ctext-15=>	ctext-16=200	num	ctext-20=pg	ctext-22=/	ctext-23=mL	ctext-26=postinjection	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+O	increase (_an of_>
+O	of an_increase >_200
+O	> increase_of 200_pg
+O	200 of_> pg_/
+O	pg >_200 /_mL
+B-labvalmod		pg/mL	ctext-0=pg	sectonHeader-0=130.xml-testSeg	PG	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	ml	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=mL	beforecontext-0=context-ro	beforecontext-1=context-no >_200 postinjection_)
+O	/ 200_pg mL_postinjection
+O	mL pg_/ postinjection_)
+O	postinjection /_mL
+O	) mL_postinjection
+
+
+O	or with_calcium
+O	with calcium_(
+B-entity		calcium	T123	ctext-0=calcium	sectonHeader-0=130.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	with	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=wit	SUF|1-1|=ith		calcium	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cal	SUF|1+0|=ium		an	pos|1+2|=DT	capital|1+2|=0	STCLS|1+2-0|=ALPHA or_with (_an
+O	( with_calcium an_increase
+O	an calcium_( increase_>
+B-labintermod		an	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	calcium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cal	SUF|1-2|=ium		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		ctext-3=increase	ctext-12=>	ctext-13=395	num	ctext-17=pg	ctext-19=/	ctext-20=mL calcium_( )_;
+I-labintermod		increase	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	calcium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cal	SUF|1-2|=ium		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		ctext-3=increase	ctext-12=>	ctext-13=395	num	ctext-17=pg	ctext-19=/	ctext-20=mL calcium_( )_;
+I-labintermod		>395	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	calcium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cal	SUF|1-2|=ium		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		ctext-3=increase	ctext-12=>	ctext-13=395	num	ctext-17=pg	ctext-19=/	ctext-20=mL calcium_( )_;
+I-labintermod		pg/mL	unit	ctext-0=an	sectonHeader-0=130.xml-testSeg	calcium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cal	SUF|1-2|=ium		an	pos|1+0|=DT	capital|1+0|=0	STCLS|1+0-0|=ALPHA	increase	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=inc	SUF|1+1|=ase		ctext-3=increase	ctext-12=>	ctext-13=395	num	ctext-17=pg	ctext-19=/	ctext-20=mL calcium_( )_;
+O	increase (_an >_395
+O	> an_increase 395_pg
+O	395 increase_> pg_/
+O	pg >_395 /_mL
+B-labvalmod		pg/mL	ctext-0=pg	sectonHeader-0=130.xml-testSeg	PG	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	ml	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=mL >_395 )_;
+O	/ 395_pg mL_)
+O	mL pg_/ )_;
+O	) /_mL
+O	; mL_)
+

@@ -1,0 +1,47 @@
+
+O	Glucose level_>
+B-entity		Glucose	T121	T034	T121	ctext-0=Glucose	sectonHeader-0=36.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	glucose	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Glu	SUF|1+0|=ose		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		ctext-8=level	uniTok|1+-2|=EEEEE >_/
+I-entity		level	T121	T034	T121	ctext-0=Glucose	sectonHeader-0=36.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	glucose	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Glu	SUF|1+0|=ose		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		ctext-8=level	uniTok|1+-2|=EEEEE >_/
+O	level >_/
+O	> Glucose_level /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=36.xml-testSeg	glucose	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Glu	SUF|1-2|=ose		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		ctext-1=/	ctext-2=equal_symbol Glucose_level 140_mg
+O	/ level_> =_140
+O	= >_/ 140_mg
+B-labvalmod		140	ctext-0=140	sectonHeader-0=36.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA /_= mg_/
+O	mg =_140 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=36.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL =_140 (_7.8
+O	/ 140_mg dL_(
+O	dL mg_/ (_7.8
+O	( /_dL 7.8_mmol
+B-labvalmod		7.8	ctext-0=7.8	sectonHeader-0=36.xml-testSeg	num	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 dL_( mmol_/
+O	mmol (_7.8 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=36.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L (_7.8 )_and
+O	/ 7.8_mmol L_)
+O	L mmol_/ )_and
+O	) /_L and_<
+B-labintermod		and	ctext-0=and	sectonHeader-0=36.xml-testSeg	L	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and	 L_) <_200
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=36.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_and 200_mg
+B-labvalmod		200	ctext-0=200	sectonHeader-0=36.xml-testSeg	num	and	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=and	SUF|1-2|=and		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA and_< mg_/
+O	mg <_200 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=36.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL <_200 (_11.1
+O	/ 200_mg dL_(
+O	dL mg_/ (_11.1
+O	( /_dL 11.1_mmol
+B-labvalmod		11.1	ctext-0=11.1	sectonHeader-0=36.xml-testSeg	num	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 dL_( mmol_/
+O	mmol (_11.1 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=36.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	uniTok|1+2|=EEEEE (_11.1
+O	/ 11.1_mmol L_)
+O	L mmol_/
+O	) /_L
+
+
+O	at 2_hours
+O	2 hours_during
+B-time		2	ctext-0=2	sectonHeader-0=36.xml-testSeg	num	uniTok|1-2|=SSSSS	AT	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	hour	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=hou	SUF|1+1|=urs		during	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dur	SUF|1+2|=ing		ctext-2=hours during_a
+I-time		hours	ctext-0=2	sectonHeader-0=36.xml-testSeg	num	uniTok|1-2|=SSSSS	AT	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	hour	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=hou	SUF|1+1|=urs		during	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dur	SUF|1+2|=ing		ctext-2=hours during_a
+O	hours at_2 during_a
+O	during 2_hours a_standard
+O	a hours_during standard_OGTT
+O	standard during_a
+B-entity		OGTT	ctext-0=OGTT	sectonHeader-0=36.xml-testSeg	A	pos|1-2|=DT	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	standard	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=sta	SUF|1-1|=ard		OGTT	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=OGT	SUF|1+0|=GTT		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE a_standard
+

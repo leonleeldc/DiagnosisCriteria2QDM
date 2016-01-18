@@ -1,0 +1,9 @@
+
+O	Dopamine agonist_-
+B-entity	Dopamine agonist 	postcontext-0=context-ro	postcontext-1=context-no -_resistant
+I-entity	Dopamine agonist 	postcontext-0=context-ro	postcontext-1=context-no -_resistant
+O	agonist -_resistant
+O	- Dopamine_agonist resistant_macroadenoma
+O	resistant agonist_-
+O	macroadenoma -_resistant
+

@@ -1,0 +1,61 @@
+
+O	These markers_may
+O	markers may_be
+O	may These_markers be_normal
+O	be markers_may normal_in
+O	normal may_be in_patients
+O	in be_normal patients_with
+O	patients normal_in with_the
+O	with in_patients the_monostotic
+O	the patients_with monostotic_form
+O	monostotic with_the form_of
+O	form the_monostotic of_Paget
+O	of monostotic_form Paget_'s
+O	Paget form_of 's_disease
+O	's of_Paget disease_(
+O	disease Paget_'s (_15
+O	( 's_disease 15_%
+O	15 disease_( %_of
+O	% (_15 of_patients
+O	of 15_% patients_)
+O	patients %_of
+O	) of_patients
+
+
+O	therefore ,_serum
+O	, serum_bone
+O	serum therefore_, bone_-
+B-entity		serum	C0036776	T059 	C1287353	T034 	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+I-entity		bone-specific	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+I-entity		alkaline	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+I-entity		phosphatase	ctext-11=-	beforecontext-0=context-her therefore_, measurements_may
+O	bone ,_serum -_specific
+O	- serum_bone specific_alkaline
+O	specific bone_- alkaline_phosphatase
+O	alkaline -_specific phosphatase_measurements
+O	phosphatase specific_alkaline measurements_may
+O	measurements alkaline_phosphatase may_be
+O	may phosphatase_measurements be_useful
+O	be measurements_may useful_.
+O	useful may_be
+O	. be_useful
+
+
+O	Urinary hydroxyproline_is
+O	hydroxyproline is_no
+O	is Urinary_hydroxyproline no_longer
+O	no hydroxyproline_is longer_considered
+O	longer is_no considered_an
+O	considered no_longer an_accurate
+O	an longer_considered accurate_marker
+O	accurate considered_an marker_of
+O	marker an_accurate of_activity
+O	of accurate_marker activity_or
+O	activity marker_of or_extent
+O	or of_activity extent_of
+O	extent activity_or of_the
+O	of or_extent the_disease
+O	the extent_of disease_.
+O	disease of_the
+O	. the_disease
+

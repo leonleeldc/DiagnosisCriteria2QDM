@@ -1,0 +1,45 @@
+
+O	Typical rise_and
+B-labintermod	Typical rise 	postcontext-0=context-ro and_gradual
+I-labintermod	Typical rise 	postcontext-0=context-ro and_gradual
+O	rise and_gradual
+O	and Typical_rise gradual_fall
+O	gradual rise_and fall_(
+B-labintermod	gradual fall 	postcontext-0=context-ro rise_and (_troponin
+I-labintermod	gradual fall 	postcontext-0=context-ro rise_and (_troponin
+O	fall and_gradual (_troponin
+O	( gradual_fall troponin_)
+B-entity	troponin  fall_(
+O	) (_troponin
+
+
+B-labintermod	or 	postcontext-0=context-ro more_rapid
+O	more rapid_rise
+O	rapid or_more rise_and
+B-labintermod	rapid rise and fall 	postcontext-0=context-ro or_more (_CK
+I-labintermod	rapid rise and fall 	postcontext-0=context-ro or_more (_CK
+I-labintermod	rapid rise and fall 	postcontext-0=context-ro or_more (_CK
+I-labintermod	rapid rise and fall 	postcontext-0=context-ro or_more (_CK
+O	rise more_rapid and_fall
+O	and rapid_rise fall_(
+O	fall rise_and (_CK
+O	( and_fall CK_-
+O	CK fall_( -_MB
+B-entity	CK-MB 	ctext-3=-	postcontext-0=context-ro fall_( )_of
+O	- (_CK MB_)
+O	MB CK_- )_of
+O	) -_MB of_biochemical
+O	of MB_) biochemical_markers
+O	biochemical )_of markers_of
+O	markers of_biochemical of_myocardial
+O	of biochemical_markers myocardial_necrosis
+O	myocardial markers_of necrosis_with
+O	necrosis of_myocardial with_at
+O	with myocardial_necrosis at_least
+O	at necrosis_with least_one
+O	least with_at one_of
+O	one at_least of_the
+O	of least_one the_following
+O	the one_of
+O	following of_the
+

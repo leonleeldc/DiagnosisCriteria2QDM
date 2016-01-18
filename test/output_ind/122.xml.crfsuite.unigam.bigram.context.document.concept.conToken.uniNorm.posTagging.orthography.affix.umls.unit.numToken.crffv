@@ -1,0 +1,28 @@
+
+B-labintermod		Increased	ctext-0=Increased	sectonHeader-0=122.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	increase	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Inc	SUF|1+0|=sed		hepatic	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=hep	SUF|1+1|=tic		iron	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=iro	SUF|1+2|=ron		postcontext-0=context-ro hepatic_iron
+O	hepatic iron_concentration
+B-entity		hepatic	T029	T123	T041	ctext-0=hepatic	sectonHeader-0=122.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		concentration	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=con	SUF|1+2|=ion		ctext-8=iron	ctext-13=concentration	beforecontext-1=context-ed (_>
+I-entity		iron	T029	T123	T041	ctext-0=hepatic	sectonHeader-0=122.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		concentration	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=con	SUF|1+2|=ion		ctext-8=iron	ctext-13=concentration	beforecontext-1=context-ed (_>
+I-entity		concentration	T029	T123	T041	ctext-0=hepatic	sectonHeader-0=122.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		concentration	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=con	SUF|1+2|=ion		ctext-8=iron	ctext-13=concentration	beforecontext-1=context-ed (_>
+O	iron Increased_hepatic concentration_(
+O	concentration hepatic_iron (_>
+O	( iron_concentration >_80
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=122.xml-testSeg	concentration	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=con	SUF|1-2|=ion		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol		beforecontext-0=context-ro	beforecontext-1=context-ed concentration_( 80_mmol
+B-labvalmod		80	ctext-0=80	sectonHeader-0=122.xml-testSeg	num	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		beforecontext-0=context-ro	beforecontext-1=context-ed (_> mmol_/
+O	mmol >_80 /_g
+B-labvalmod		mmol/g	ctext-0=mmol	sectonHeader-0=122.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	ctext-4=/	ctext-5=g	beforecontext-0=context-ro	beforecontext-1=context-ed >_80 )_and
+O	/ 80_mmol g_)
+O	g mmol_/ )_and
+O	) /_g and_hepatic
+B-labintermod		and	ctext-0=and	sectonHeader-0=122.xml-testSeg	G	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and		hepatic	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=hep	SUF|1+1|=tic		iron	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=iro	SUF|1+2|=ron		beforecontext-0=context-ro	beforecontext-1=context-ed g_) hepatic_iron
+O	hepatic )_and iron_index
+B-entity		hepatic	T029	T123	ctext-0=hepatic	sectonHeader-0=122.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		index	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ind	SUF|1+2|=dex		ctext-8=iron	ctext-13=index	beforecontext-0=context-ro	beforecontext-1=context-ed )_and (_>
+I-entity		iron	T029	T123	ctext-0=hepatic	sectonHeader-0=122.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		index	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ind	SUF|1+2|=dex		ctext-8=iron	ctext-13=index	beforecontext-0=context-ro	beforecontext-1=context-ed )_and (_>
+I-entity		index	T029	T123	ctext-0=hepatic	sectonHeader-0=122.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		hepatic	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=hep	SUF|1+0|=tic		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		index	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ind	SUF|1+2|=dex		ctext-8=iron	ctext-13=index	beforecontext-0=context-ro	beforecontext-1=context-ed )_and (_>
+O	iron and_hepatic index_(
+O	index hepatic_iron (_>
+O	( iron_index >_1.9
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=122.xml-testSeg	index	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ind	SUF|1-2|=dex		beforecontext-0=context-ro	beforecontext-1=context-ed index_( 1.9_)
+B-labvalmod		1.9	ctext-0=1.9	sectonHeader-0=122.xml-testSeg	num	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed (_>
+O	) >_1.9
+

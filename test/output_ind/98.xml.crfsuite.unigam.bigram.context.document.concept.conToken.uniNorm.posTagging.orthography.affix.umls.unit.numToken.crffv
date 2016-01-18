@@ -1,0 +1,23 @@
+
+O	Urine osmolality_>
+B-entity		Urine	T059	T059	ctext-0=Urine	sectonHeader-0=98.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urine	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ine		osmolality	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=osm	SUF|1+1|=ity		ctext-6=osmolality	uniTok|1+-2|=EEEEE >_100
+I-entity		osmolality	T059	T059	ctext-0=Urine	sectonHeader-0=98.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	urine	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Uri	SUF|1+0|=ine		osmolality	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=osm	SUF|1+1|=ity		ctext-6=osmolality	uniTok|1+-2|=EEEEE >_100
+O	osmolality >_100
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=98.xml-testSeg	urine	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Uri	SUF|1-2|=ine		osmolality	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=osm	SUF|1-1|=ity		mOsm	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	PRE|1+2|=mOs	SUF|1+2|=Osm	 Urine_osmolality 100_mOsm
+B-labvalmod		100	unit	ctext-0=100	sectonHeader-0=98.xml-testSeg	num	osmolality	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=osm	SUF|1-2|=ity		mOsm	pos|1+1|=NNS	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-3|=LOWER-UPPER	PRE|1+1|=mOs	SUF|1+1|=Osm		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per	 osmolality_> mOsm_per
+O	mOsm >_100 per_kg
+B-labvalmod		mOsm	unit	ctext-0=mOsm	sectonHeader-0=98.xml-testSeg	mOsm	pos|1+0|=NNS	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-3|=LOWER-UPPER	PRE|1+0|=mOs	SUF|1+0|=Osm		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-5=per	ctext-9=kg >_100 (_100
+I-labvalmod		per	unit	ctext-0=mOsm	sectonHeader-0=98.xml-testSeg	mOsm	pos|1+0|=NNS	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-3|=LOWER-UPPER	PRE|1+0|=mOs	SUF|1+0|=Osm		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-5=per	ctext-9=kg >_100 (_100
+I-labvalmod		kg	unit	ctext-0=mOsm	sectonHeader-0=98.xml-testSeg	mOsm	pos|1+0|=NNS	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-3|=LOWER-UPPER	PRE|1+0|=mOs	SUF|1+0|=Osm		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-5=per	ctext-9=kg >_100 (_100
+O	per 100_mOsm kg_(
+O	kg mOsm_per (_100
+O	( per_kg 100_mmol
+B-labvalmod		100	unit	ctext-0=100	sectonHeader-0=98.xml-testSeg	num	kg	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	mmol	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		per	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=per	SUF|1+2|=per	 kg_( mmol_per
+O	mmol (_100 per_kg
+B-labvalmod		mmol	unit	ctext-0=mmol	sectonHeader-0=98.xml-testSeg	mmol	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-5=per	ctext-9=kg	uniTok|1+2|=EEEEE (_100
+I-labvalmod		per	unit	ctext-0=mmol	sectonHeader-0=98.xml-testSeg	mmol	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-5=per	ctext-9=kg	uniTok|1+2|=EEEEE (_100
+I-labvalmod		kg	unit	ctext-0=mmol	sectonHeader-0=98.xml-testSeg	mmol	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		per	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=per	SUF|1+1|=per		kg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-5=per	ctext-9=kg	uniTok|1+2|=EEEEE (_100
+O	per 100_mmol kg_)
+O	kg mmol_per
+O	) per_kg
+

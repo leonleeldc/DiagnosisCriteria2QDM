@@ -1,0 +1,11 @@
+
+B-labintermod		Low	ctext-0=Low	sectonHeader-0=64.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	low	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Low	SUF|1+0|=Low		albumin	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=alb	SUF|1+1|=min	 albumin_:
+B-entity		albumin	T059	ctext-0=albumin	sectonHeader-0=64.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		albumin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=alb	SUF|1+0|=min	 :_<
+O	: Low_albumin <_3.5
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=64.xml-testSeg	albumin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=alb	SUF|1-2|=min		G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR albumin_: 3.5_g
+B-labvalmod		3.5	ctext-0=3.5	sectonHeader-0=64.xml-testSeg	num	G	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR :_< g_/
+O	g <_3.5 /_dl
+B-labvalmod		g/dl	ctext-0=g	sectonHeader-0=64.xml-testSeg	G	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	DL	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-1=/	uniTok|1+2|=EEEEE	ctext-2=dl	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE <_3.5
+O	/ 3.5_g
+O	dl g_/
+

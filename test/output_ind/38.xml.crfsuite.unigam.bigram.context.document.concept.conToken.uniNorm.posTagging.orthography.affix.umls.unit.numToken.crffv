@@ -1,0 +1,26 @@
+
+O	Biopsies of_the
+O	of the_esophageal
+O	the Biopsies_of esophageal_mucosa
+O	esophageal of_the mucosa_reveal
+O	mucosa the_esophageal reveal_a
+O	reveal esophageal_mucosa a_dense
+O	a mucosa_reveal dense_eosinophilic
+O	dense reveal_a eosinophilic_infiltration
+O	eosinophilic a_dense infiltration_(
+O	infiltration dense_eosinophilic (_ie
+O	( eosinophilic_infiltration ie_,
+O	ie infiltration_( ,_>
+O	, (_ie >_/
+O	> ie_, /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=38.xml-testSeg	IE	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	ctext-1=/	ctext-2=equal_symbol	beforecontext-0=context-no ie_, 20_eosinophils
+O	/ ,_> =_20
+O	= >_/ 20_eosinophils
+B-labvalmod		20	ctext-0=20	sectonHeader-0=38.xml-testSeg	num	eosinophil	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=eos	SUF|1+1|=ils		beforecontext-0=context-no /_= eosinophils_/
+B-entity		eosinophils	T059	ctext-0=eosinophils	sectonHeader-0=38.xml-testSeg	eosinophil	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=eos	SUF|1+0|=ils		HPF	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=HPF	SUF|1+2|=HPF		beforecontext-0=context-no =_20 /_HPF
+B-labvalmod		eosinophils/HPF	ctext-0=eosinophils	sectonHeader-0=38.xml-testSeg	eosinophil	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=eos	SUF|1+0|=ils		HPF	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=HPF	SUF|1+2|=HPF		ctext-11=/	ctext-12=HPF	beforecontext-0=context-no =_20 )_.
+O	/ 20_eosinophils HPF_)
+O	HPF eosinophils_/ )_.
+O	) /_HPF
+O	. HPF_)
+

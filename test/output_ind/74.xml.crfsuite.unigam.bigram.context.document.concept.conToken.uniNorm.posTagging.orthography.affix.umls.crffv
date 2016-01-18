@@ -1,0 +1,22 @@
+
+O	Urine volume_9.3
+B-entity		Urine	C1278293	T059 	C1287298	T033  9.3_mL
+I-entity		volume 9.3_mL
+O	volume 9.3_mL
+B-labvalmod		9.3 Urine_volume mL_/
+O	mL volume_9.3 /_kg
+B-labvalmod		mL/kg	ctext-3=/ volume_9.3 body_weight
+O	/ 9.3_mL kg_body
+O	kg mL_/ body_weight
+O	body /_kg weight_per
+B-labvalmod		body /_kg for_8
+I-labvalmod		weight /_kg for_8
+I-labvalmod		per /_kg for_8
+I-labvalmod		hour /_kg for_8
+O	weight kg_body per_hour
+O	per body_weight hour_for
+O	hour weight_per for_8
+O	for per_hour 8_h
+O	8 hour_for
+O	h for_8
+

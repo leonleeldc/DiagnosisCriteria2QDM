@@ -1,0 +1,14 @@
+
+B-entity		ANA or_SMA
+B-labintermod		or SMA_>
+B-entity		SMA ANA_or >_/
+O	> or_SMA /_=
+B-labrefrangemod		>/=	ctext-1=>	ctext-2=/	ctext-3=equal_symbol or_SMA 1_:
+O	/ SMA_> =_1
+O	= >_/ 1_:
+O	1 /_=
+O	: =_1
+
+
+O	40
+

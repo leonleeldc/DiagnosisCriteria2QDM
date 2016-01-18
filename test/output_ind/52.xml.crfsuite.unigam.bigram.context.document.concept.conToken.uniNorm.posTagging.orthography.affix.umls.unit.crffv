@@ -1,0 +1,32 @@
+
+O	Microbiologic evidence_:
+O	evidence
+O	: Microbiologic_evidence
+
+
+B-labintermod		positive	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no blood_culture
+O	blood culture_but
+B-entity		blood	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no but_not
+I-entity		culture	C0005767	T024	C0430400	T059	C0005767	T024	C0200949	T059	postcontext-0=context-ro	postcontext-1=context-but	postcontext-2=context-ed	postcontext-3=context-not	postcontext-4=context-previous	postcontext-5=context-noted	postcontext-6=context-no but_not
+O	culture positive_blood but_not
+O	but blood_culture not_meeting
+O	not culture_but meeting_major
+O	meeting but_not major_criterion
+O	major not_meeting criterion_as
+O	criterion meeting_major as_noted
+O	as major_criterion noted_previouslyc
+O	noted criterion_as previouslyc_or
+O	previouslyc as_noted or_serologic
+O	or noted_previouslyc serologic_evidence
+O	serologic previouslyc_or evidence_of
+O	evidence or_serologic of_active
+O	of serologic_evidence active_infection
+O	active evidence_of infection_with
+O	infection of_active with_organism
+O	with active_infection organism_consistent
+O	organism infection_with consistent_with
+O	consistent with_organism with_infective
+O	with organism_consistent infective_endocarditis
+O	infective consistent_with
+O	endocarditis with_infective
+

@@ -1,0 +1,20 @@
+
+B-labintermod		Elevated white_blood
+O	white blood_cell
+B-entity		white	C0023508	T059 	beforecontext-0=context-ed
+I-entity		blood	beforecontext-0=context-ed
+I-entity		cell	beforecontext-0=context-ed
+I-entity		count	beforecontext-0=context-ed
+O	blood Elevated_white cell_count
+O	cell white_blood count_:
+O	count blood_cell
+O	: cell_count
+
+
+O	Leukemoid reactions_associated
+O	reactions associated_with
+O	associated Leukemoid_reactions with_alcoholic
+O	with reactions_associated alcoholic_hepatitis
+O	alcoholic associated_with
+O	hepatitis with_alcoholic
+

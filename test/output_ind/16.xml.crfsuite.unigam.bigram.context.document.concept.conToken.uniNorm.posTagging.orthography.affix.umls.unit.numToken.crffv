@@ -1,0 +1,25 @@
+
+O	White blood_cell
+B-entity		White	T025	T059	T024	T025	T059	T025	T059	ctext-0=White	sectonHeader-0=16.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	White	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	uniTok|1+-2|=EEEEE	ctext-12=cell	ctext-17=count (_WBC
+I-entity		blood	T025	T059	T024	T025	T059	T025	T059	ctext-0=White	sectonHeader-0=16.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	White	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	uniTok|1+-2|=EEEEE	ctext-12=cell	ctext-17=count (_WBC
+I-entity		cell	T025	T059	T024	T025	T059	T025	T059	ctext-0=White	sectonHeader-0=16.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	White	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	uniTok|1+-2|=EEEEE	ctext-12=cell	ctext-17=count (_WBC
+I-entity		count	T025	T059	T024	T025	T059	T025	T059	ctext-0=White	sectonHeader-0=16.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	White	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Whi	SUF|1+0|=ite		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		cell	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=ell		ctext-6=blood	uniTok|1+-2|=EEEEE	ctext-12=cell	ctext-17=count (_WBC
+O	blood cell_count
+O	cell White_blood count_(
+O	count blood_cell (_WBC
+O	( cell_count WBC_)
+B-entity		WBC	T059	ctext-0=WBC	sectonHeader-0=16.xml-testSeg	Count	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cou	SUF|1-2|=unt		WBC	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=WBC	SUF|1+0|=WBC		uniTok|1+2|=EEEEE count_(
+O	) (_WBC
+
+
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=16.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	X	pos|1+2|=SYM	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN 12_x
+O	12 x_109
+B-labvalmod		12	unit	ctext-0=12	sectonHeader-0=16.xml-testSeg	num	uniTok|1-2|=SSSSS	X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num /_l
+I-labvalmod		x	unit	ctext-0=12	sectonHeader-0=16.xml-testSeg	num	uniTok|1-2|=SSSSS	X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num /_l
+I-labvalmod		109	unit	ctext-0=12	sectonHeader-0=16.xml-testSeg	num	uniTok|1-2|=SSSSS	X	pos|1+1|=SYM	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	ctext-3=x	ctext-5=109	num /_l
+O	x >_12 109_/
+O	109 12_x /_l
+O	/ x_109
+B-labvalmod		/l	unit	ctext-0=/	sectonHeader-0=16.xml-testSeg	X	pos|1-2|=SYM	capital|1-2|=0	STCLS|1-2-0|=ALPHA	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	L	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	STCLS|1+1-14|=ROMAN	uniTok|1+2|=EEEEE	ctext-1=l	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE x_109
+O	l 109_/
+

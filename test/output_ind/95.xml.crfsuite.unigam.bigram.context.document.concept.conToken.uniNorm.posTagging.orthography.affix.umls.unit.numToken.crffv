@@ -1,0 +1,4 @@
+
+B-entity		Testosterone	T121	ctext-0=Testosterone	sectonHeader-0=95.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	testosterone	pos|1+0|=NN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Tes	SUF|1+0|=one		deficiency	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=def	SUF|1+1|=ncy		uniTok|1+2|=EEEEE
+B-labintermod		deficiency	T047	ctext-0=deficiency	sectonHeader-0=95.xml-testSeg	uniTok|1-2|=SSSSS	testosterone	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Tes	SUF|1-1|=one		deficiency	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=def	SUF|1+0|=ncy		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ro
+

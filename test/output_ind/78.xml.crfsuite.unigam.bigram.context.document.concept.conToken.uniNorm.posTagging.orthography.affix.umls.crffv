@@ -1,0 +1,34 @@
+
+O	Prothrombin time_>
+B-entity		Prothrombin	C0033707	T059 	postcontext-1=context-not	postcontext-2=context-no >_4
+I-entity		time	postcontext-1=context-not	postcontext-2=context-no >_4
+O	time >_4
+B-labrefrangemod		>	ctext-1=>	prothrombin	pos|1-2|=NNP	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pro	SUF|1-2|=bin		time	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=tim	SUF|1-1|=ime		s	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR	beforecontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-no Prothrombin_time 4_s
+B-labvalmod		4	ctext-1=4	time	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tim	SUF|1-2|=ime		s	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	STCLS|1+1-6|=SINGLECHAR	over	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ove	SUF|1+2|=ver		beforecontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-no time_> s_over
+B-labvalmod		s	ctext-1=s	s	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	over	pos|1+1|=IN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ove	SUF|1+1|=ver		upper	pos|1+2|=JJR	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=upp	SUF|1+2|=per		beforecontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-no >_4 over_upper
+O	over 4_s upper_limit
+B-labintermod		over	beforecontext-0=context-ro	postcontext-1=context-not 4_s or_a
+I-labintermod		upper	beforecontext-0=context-ro	postcontext-1=context-not 4_s or_a
+I-labintermod		limit	beforecontext-0=context-ro	postcontext-1=context-not 4_s or_a
+I-labintermod		of	beforecontext-0=context-ro	postcontext-1=context-not 4_s or_a
+I-labintermod		normal	beforecontext-0=context-ro	postcontext-1=context-not 4_s or_a
+I-labintermod		range	beforecontext-0=context-ro	postcontext-1=context-not 4_s or_a
+O	upper s_over limit_of
+O	limit over_upper of_normal
+O	of upper_limit normal_range
+O	normal limit_of range_or
+O	range of_normal or_a
+B-labintermod		or	beforecontext-0=context-ro	postcontext-1=context-not normal_range a_twofold
+O	a range_or twofold_increase
+O	twofold or_a increase_in
+B-labintermod		twofold	beforecontext-0=context-ro	postcontext-1=context-not	beforecontext-2=context-no or_a in_aspartate
+I-labintermod		increase	beforecontext-0=context-ro	postcontext-1=context-not	beforecontext-2=context-no or_a in_aspartate
+O	increase a_twofold in_aspartate
+O	in twofold_increase aspartate_aminotransferase
+O	aspartate increase_in aminotransferase_in
+B-entity		aspartate	C0201899	T059 	beforecontext-0=context-ro	beforecontext-2=context-no increase_in in_serum
+I-entity		aminotransferase	beforecontext-0=context-ro	beforecontext-2=context-no increase_in in_serum
+O	aminotransferase in_aspartate in_serum
+O	in aspartate_aminotransferase
+O	serum aminotransferase_in
+

@@ -1,0 +1,49 @@
+
+B-labintermod		Reduced	postcontext-0=context-ro HDL_cholesterol
+O	HDL cholesterol_:
+B-entity		HDL	C0428472	T059 	beforecontext-1=context-ed
+I-entity		cholesterol	beforecontext-1=context-ed
+O	cholesterol Reduced_HDL
+O	: HDL_cholesterol
+
+
+B-labrefrangemod		<	ctext-1=<	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 40_mg
+B-labvalmod		40	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no mg_/
+O	mg <_40 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no <_40 (_1.03
+O	/ 40_mg dL_(
+O	dL mg_/ (_1.03
+O	( /_dL 1.03_mmol
+B-labvalmod		1.03	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.03 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.03 )_in
+O	/ 1.03_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_males
+O	in L_) males_and
+O	males )_in and_<
+B-labintermod		and	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no in_males <_50
+B-labrefrangemod		<	ctext-1=<	male	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mal	SUF|1-2|=les		and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no males_and 50_mg
+B-labvalmod		50	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no and_< mg_/
+O	mg <_50 /_dL
+B-labvalmod		mg/dL	ctext-3=/	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no <_50 (_1.29
+O	/ 50_mg dL_(
+O	dL mg_/ (_1.29
+O	( /_dL 1.29_mmol
+B-labvalmod		1.29	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.29 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	in	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.29 )_in
+O	/ 1.29_mmol L_)
+O	L mmol_/ )_in
+O	) /_L in_females
+O	in L_) females_,
+O	females )_in ,_or
+O	, in_females or_specific
+B-labintermod		or	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no females_, specific_treatment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+

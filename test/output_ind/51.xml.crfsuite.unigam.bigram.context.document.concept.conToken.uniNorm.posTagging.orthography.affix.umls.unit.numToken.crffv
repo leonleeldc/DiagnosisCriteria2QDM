@@ -1,0 +1,24 @@
+
+O	Single positive_blood
+B-labintermod		positive	ctext-0=positive	sectonHeader-0=51.xml-testSeg	uniTok|1-2|=SSSSS	single	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Sin	SUF|1-1|=gle		positive	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pos	SUF|1+0|=ive		blood	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=blo	SUF|1+1|=ood		culture	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cul	SUF|1+2|=ure	 blood_culture
+O	blood Single_positive culture_for
+B-entity		blood	T024	T059	T059	ctext-0=blood	sectonHeader-0=51.xml-testSeg	single	pos|1-2|=JJ	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Sin	SUF|1-2|=gle		positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		for	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=for	SUF|1+2|=for		ctext-6=culture Single_positive for_Coxiella
+I-entity		culture	T024	T059	T059	ctext-0=blood	sectonHeader-0=51.xml-testSeg	single	pos|1-2|=JJ	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Sin	SUF|1-2|=gle		positive	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pos	SUF|1-1|=ive		blood	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=blo	SUF|1+0|=ood		culture	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cul	SUF|1+1|=ure		for	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=for	SUF|1+2|=for		ctext-6=culture Single_positive for_Coxiella
+O	culture positive_blood for_Coxiella
+O	for blood_culture Coxiella_burnetii
+O	Coxiella culture_for burnetii_or
+O	burnetii for_Coxiella or_phase
+O	or Coxiella_burnetii phase_I
+O	phase burnetii_or I_IgG
+O	I or_phase IgG_antibody
+B-entity		IgG	T059	ctext-0=IgG	sectonHeader-0=51.xml-testSeg	phase	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pha	SUF|1-2|=ase		I	pos|1-1|=CD	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	STCLS|1-1-6|=SINGLECHAR	STCLS|1-1-14|=ROMAN	IGG	pos|1+0|=NN	capital|1+0|=2	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	STCLS|1+0-5|=MIXEDCAPS	PRE|1+0|=IgG	SUF|1+0|=IgG		antibody	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ant	SUF|1+1|=ody		titer	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tit	SUF|1+2|=ter	 phase_I antibody_titer
+O	antibody I_IgG titer_of
+O	titer IgG_antibody of_>
+O	of antibody_titer >_1
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=51.xml-testSeg	titer	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tit	SUF|1-2|=ter		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA titer_of 1_:
+O	1 of_>
+O	: >_1
+
+
+O	800
+

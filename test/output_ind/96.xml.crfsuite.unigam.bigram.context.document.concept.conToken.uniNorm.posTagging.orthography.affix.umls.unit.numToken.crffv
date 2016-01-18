@@ -1,0 +1,9 @@
+
+O	Dopamine agonist_-
+B-entity		Dopamine	T109	ctext-0=Dopamine	sectonHeader-0=96.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	dopamine	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Dop	SUF|1+0|=ine		agonist	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ago	SUF|1+1|=ist		ctext-9=agonist	uniTok|1+-2|=EEEEE	postcontext-0=context-ro	postcontext-1=context-no -_resistant
+I-entity		agonist	T109	ctext-0=Dopamine	sectonHeader-0=96.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	dopamine	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Dop	SUF|1+0|=ine		agonist	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ago	SUF|1+1|=ist		ctext-9=agonist	uniTok|1+-2|=EEEEE	postcontext-0=context-ro	postcontext-1=context-no -_resistant
+O	agonist -_resistant
+O	- Dopamine_agonist resistant_macroadenoma
+O	resistant agonist_-
+O	macroadenoma -_resistant
+

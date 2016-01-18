@@ -1,0 +1,26 @@
+
+O	Serum triglycerides_>
+B-entity		Serum	C0542495	T059  >_/
+I-entity		triglycerides >_/
+O	triglycerides >_/
+O	> Serum_triglycerides /_=
+B-labrefrangemod		>/=	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA Serum_triglycerides 150_mg
+O	/ triglycerides_> =_150
+O	= >_/ 150_mg
+B-labvalmod		150 /_= mg_/
+O	mg =_150 /_dL
+B-labvalmod		mg/dL	ctext-3=/ =_150 (_>
+O	/ 150_mg dL_(
+O	dL mg_/ (_>
+O	( /_dL >_/
+O	> dL_( /_=
+B-labrefrangemod		>/=	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 dL_( 1.7_mmol
+O	/ (_> =_1.7
+O	= >_/ 1.7_mmol
+B-labvalmod		1.7 /_= mmol_/
+O	mmol =_1.7 /_L
+B-labvalmod		mmol/L	ctext-5=/	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE =_1.7
+O	/ 1.7_mmol L_)
+O	L mmol_/
+O	) /_L
+

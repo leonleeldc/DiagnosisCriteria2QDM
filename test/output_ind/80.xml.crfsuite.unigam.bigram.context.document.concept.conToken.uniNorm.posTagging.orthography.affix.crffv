@@ -1,0 +1,19 @@
+
+B-entity	Platelets 	postcontext-0=context-ed <_20000
+B-labrefrangemod	< 	ctext-1=<	uniTok|1+-2|=EEEEE	platelet	pos|1-1|=NNS	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pla	SUF|1-1|=ets		postcontext-0=context-ed 20000_/
+B-labvalmod	20000 	postcontext-0=context-ed Platelets_< /_mL
+O	/ <_20000 mL_or
+B-labvalmod	/mL 	ctext-1=/	postcontext-0=context-ed <_20000 or_evidence
+O	mL 20000_/ or_evidence
+B-labintermod	or 	postcontext-0=context-ed /_mL evidence_of
+O	evidence mL_or of_ongoing
+O	of or_evidence ongoing_disseminated
+O	ongoing evidence_of disseminated_intravascular
+B-labintermod	ongoing disseminated  evidence_of intravascular_coagulation
+I-labintermod	ongoing disseminated  evidence_of intravascular_coagulation
+O	disseminated of_ongoing intravascular_coagulation
+O	intravascular ongoing_disseminated
+B-entity	intravascular coagulation 	beforecontext-0=context-ed ongoing_disseminated
+I-entity	intravascular coagulation 	beforecontext-0=context-ed ongoing_disseminated
+O	coagulation disseminated_intravascular
+

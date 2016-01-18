@@ -1,0 +1,13 @@
+
+O	Electrolyte abnormalities_:
+O	abnormalities
+O	: Electrolyte_abnormalities
+
+
+B-labintermod		low potassium_,
+B-entity		potassium	C0202194	T059  ,_magnesium
+O	, low_potassium magnesium_and
+B-entity		magnesium	C0373675	T059  potassium_, and_phosphorus
+B-labintermod		and ,_magnesium
+B-entity		phosphorus	C0523826	T059  magnesium_and
+

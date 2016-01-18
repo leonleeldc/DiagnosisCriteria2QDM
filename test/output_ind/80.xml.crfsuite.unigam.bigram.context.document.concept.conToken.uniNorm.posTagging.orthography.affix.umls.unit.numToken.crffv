@@ -1,0 +1,19 @@
+
+B-entity		Platelets	T059	ctext-0=Platelets	sectonHeader-0=80.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	platelet	pos|1+0|=NNS	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pla	SUF|1+0|=ets		postcontext-0=context-ed <_20000
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=80.xml-testSeg	uniTok|1-2|=SSSSS	platelet	pos|1-1|=NNS	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Pla	SUF|1-1|=ets		postcontext-0=context-ed 20000_/
+B-labvalmod		20000	unit	ctext-0=20000	sectonHeader-0=80.xml-testSeg	num	platelet	pos|1-2|=NNS	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Pla	SUF|1-2|=ets		ml	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	postcontext-0=context-ed Platelets_< /_mL
+O	/ <_20000 mL_or
+B-labvalmod		/mL	unit	ctext-0=/	sectonHeader-0=80.xml-testSeg	ml	pos|1+1|=NN	capital|1+1|=2	STCLS|1+1-0|=ALPHA	STCLS|1+1-3|=LOWER-UPPER	STCLS|1+1-14|=ROMAN	OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-1=mL	postcontext-0=context-ed <_20000 or_evidence
+O	mL 20000_/ or_evidence
+B-labintermod		or	ctext-0=or	sectonHeader-0=80.xml-testSeg	ml	pos|1-1|=NN	capital|1-1|=2	STCLS|1-1-0|=ALPHA	STCLS|1-1-3|=LOWER-UPPER	STCLS|1-1-14|=ROMAN	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	evidence	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=evi	SUF|1+1|=nce		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-0=context-ed /_mL evidence_of
+O	evidence mL_or of_ongoing
+O	of or_evidence ongoing_disseminated
+O	ongoing evidence_of disseminated_intravascular
+B-labintermod		ongoing	ctext-0=ongoing	sectonHeader-0=80.xml-testSeg	evidence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=evi	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	ongoing	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ong	SUF|1+0|=ing		disseminate	pos|1+1|=VBN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=dis	SUF|1+1|=ted		intravascular	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=int	SUF|1+2|=lar		ctext-8=disseminated evidence_of intravascular_coagulation
+I-labintermod		disseminated	ctext-0=ongoing	sectonHeader-0=80.xml-testSeg	evidence	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=evi	SUF|1-2|=nce		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	ongoing	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ong	SUF|1+0|=ing		disseminate	pos|1+1|=VBN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=dis	SUF|1+1|=ted		intravascular	pos|1+2|=JJ	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=int	SUF|1+2|=lar		ctext-8=disseminated evidence_of intravascular_coagulation
+O	disseminated of_ongoing intravascular_coagulation
+O	intravascular ongoing_disseminated
+B-entity		intravascular	T059	ctext-0=intravascular	sectonHeader-0=80.xml-testSeg	ongoing	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ong	SUF|1-2|=ing		disseminate	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=dis	SUF|1-1|=ted		intravascular	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=int	SUF|1+0|=lar		coagulation	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=coa	SUF|1+1|=ion		uniTok|1+2|=EEEEE	ctext-14=coagulation	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ed ongoing_disseminated
+I-entity		coagulation	T059	ctext-0=intravascular	sectonHeader-0=80.xml-testSeg	ongoing	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ong	SUF|1-2|=ing		disseminate	pos|1-1|=VBN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=dis	SUF|1-1|=ted		intravascular	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=int	SUF|1+0|=lar		coagulation	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=coa	SUF|1+1|=ion		uniTok|1+2|=EEEEE	ctext-14=coagulation	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE	beforecontext-0=context-ed ongoing_disseminated
+O	coagulation disseminated_intravascular
+

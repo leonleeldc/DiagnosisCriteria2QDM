@@ -1,0 +1,28 @@
+
+B-labintermod		Low	ctext-0=Low	sectonHeader-0=21.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	low	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Low	SUF|1+0|=Low		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		EPO	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	PRE|1+2|=EPO	SUF|1+2|=EPO		postcontext-0=context-ro serum_EPO
+O	serum EPO_or
+B-entity		serum	T059	ctext-0=serum	sectonHeader-0=21.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		EPO	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	PRE|1+1|=EPO	SUF|1+1|=EPO		OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-6=EPO	postcontext-0=context-ro or_characteristic
+I-entity		EPO	T059	ctext-0=serum	sectonHeader-0=21.xml-testSeg	uniTok|1-2|=SSSSS	low	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Low	SUF|1-1|=Low		serum	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ser	SUF|1+0|=rum		EPO	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	PRE|1+1|=EPO	SUF|1+1|=EPO		OR	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	ctext-6=EPO	postcontext-0=context-ro or_characteristic
+O	EPO Low_serum or_characteristic
+B-labintermod		or	ctext-0=or	sectonHeader-0=21.xml-testSeg	serum	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ser	SUF|1-2|=rum		EPO	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=EPO	SUF|1-1|=EPO		OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	characteristic	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cha	SUF|1+1|=tic		burst	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=bur	SUF|1+2|=rst		postcontext-0=context-ro serum_EPO characteristic_burst
+O	characteristic EPO_or burst_forming
+O	burst or_characteristic forming_units
+B-entity		burst	ctext-0=burst	sectonHeader-0=21.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	characteristic	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cha	SUF|1-1|=tic		burst	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bur	SUF|1+0|=rst		form	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=for	SUF|1+1|=ing		unit	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=uni	SUF|1+2|=its		ctext-6=forming	ctext-14=units	ctext-20=-	ctext-22=erythroid or_characteristic (_BFU
+I-entity		forming	ctext-0=burst	sectonHeader-0=21.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	characteristic	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cha	SUF|1-1|=tic		burst	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bur	SUF|1+0|=rst		form	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=for	SUF|1+1|=ing		unit	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=uni	SUF|1+2|=its		ctext-6=forming	ctext-14=units	ctext-20=-	ctext-22=erythroid or_characteristic (_BFU
+I-entity		units	ctext-0=burst	sectonHeader-0=21.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	characteristic	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cha	SUF|1-1|=tic		burst	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bur	SUF|1+0|=rst		form	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=for	SUF|1+1|=ing		unit	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=uni	SUF|1+2|=its		ctext-6=forming	ctext-14=units	ctext-20=-	ctext-22=erythroid or_characteristic (_BFU
+I-entity		-	ctext-0=burst	sectonHeader-0=21.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	characteristic	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cha	SUF|1-1|=tic		burst	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bur	SUF|1+0|=rst		form	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=for	SUF|1+1|=ing		unit	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=uni	SUF|1+2|=its		ctext-6=forming	ctext-14=units	ctext-20=-	ctext-22=erythroid or_characteristic (_BFU
+I-entity		erythroid	ctext-0=burst	sectonHeader-0=21.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	characteristic	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cha	SUF|1-1|=tic		burst	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bur	SUF|1+0|=rst		form	pos|1+1|=VBG	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=for	SUF|1+1|=ing		unit	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=uni	SUF|1+2|=its		ctext-6=forming	ctext-14=units	ctext-20=-	ctext-22=erythroid or_characteristic (_BFU
+O	forming characteristic_burst units_-
+O	units burst_forming -_erythroid
+O	- forming_units erythroid_(
+O	erythroid units_- (_BFU
+O	( -_erythroid BFU_-
+O	BFU erythroid_( -_E
+B-entity		BFU-E	T025	ctext-0=BFU	sectonHeader-0=21.xml-testSeg	erythroid	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ery	SUF|1-2|=oid		BFU	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=BFU	SUF|1+0|=BFU		E	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	ctext-3=-	ctext-4=E	uniTok|1+2|=EEEEE	beforecontext-0=context-ro erythroid_(
+O	- (_BFU E_)
+O	E BFU_-
+O	) -_E
+
+
+B-labintermod		growth	ctext-0=growth	sectonHeader-0=21.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	growth	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=gro	SUF|1+0|=wth		uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE
+

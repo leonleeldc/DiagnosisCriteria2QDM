@@ -1,0 +1,22 @@
+
+O	Tuberculosis ,_Borrelia
+O	, Borrelia_burgdorferi
+O	Borrelia Tuberculosis_, burgdorferi_,
+O	burgdorferi ,_Borrelia ,_Chlamydia
+O	, Borrelia_burgdorferi Chlamydia_pneumoniae
+O	Chlamydia burgdorferi_, pneumoniae_,
+O	pneumoniae ,_Chlamydia ,_and
+O	, Chlamydia_pneumoniae and_other
+B-labintermod		and	postcontext-0=context-ed	postcontext-1=context-her pneumoniae_, other_bacterial
+O	other ,_and bacterial_infection
+O	bacterial and_other infection_excluded
+O	infection other_bacterial excluded_by
+B-labintermod		excluded	beforecontext-1=context-her bacterial_infection by_PCR
+O	by infection_excluded PCR_and
+B-entity		PCR	C0032520	T059 	C0677874	T033 	beforecontext-0=context-ed	beforecontext-1=context-her excluded_by and_/
+O	and by_PCR /_or
+O	/ PCR_and or_cultures
+O	or and_/ cultures_;
+B-entity		cultures	C2242979	T059 	C0430400	beforecontext-0=context-ed	beforecontext-1=context-her /_or
+O	; or_cultures
+

@@ -1,0 +1,26 @@
+
+O	As IgG_anti-HAV
+O	IgG anti-HAV_persists
+B-entity		IgG	postcontext-0=context-if persists_lifelong
+I-entity		anti-HAV	postcontext-0=context-if persists_lifelong
+O	anti-HAV As_IgG persists_lifelong
+B-labintermod		persists	postcontext-0=context-if IgG_anti-HAV lifelong_after
+O	lifelong anti-HAV_persists after_acute
+O	after persists_lifelong acute_infection
+O	acute lifelong_after infection_,
+O	infection after_acute ,_detection
+O	, acute_infection detection_of
+O	detection infection_, of_IgG
+B-labintermod		detection	beforecontext-0=context-if infection_, IgG_anti-HAV
+I-labintermod		of	beforecontext-0=context-if infection_, IgG_anti-HAV
+O	of ,_detection IgG_anti-HAV
+O	IgG detection_of anti-HAV_alone
+B-entity		IgG	postcontext-0=context-if detection_of alone_indicates
+I-entity		anti-HAV	postcontext-0=context-if detection_of alone_indicates
+O	anti-HAV of_IgG alone_indicates
+O	alone IgG_anti-HAV indicates_past
+O	indicates anti-HAV_alone past_infection
+O	past alone_indicates infection_.
+O	infection indicates_past
+O	. past_infection
+

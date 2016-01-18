@@ -1,0 +1,24 @@
+
+O	The specific_routine
+O	specific routine_diagnosis
+O	routine The_specific diagnosis_of
+O	diagnosis specific_routine of_acute
+O	of routine_diagnosis acute_hepatitis
+O	acute diagnosis_of hepatitis_A
+O	hepatitis of_acute A_is
+O	A acute_hepatitis is_made
+O	is hepatitis_A made_by
+O	made A_is by_finding
+O	by is_made finding_anti-HAV
+O	finding made_by anti-HAV_IgM
+O	anti-HAV by_finding IgM_in
+B-entity		anti-HAV	beforecontext-0=context-ro	beforecontext-1=context-if	beforecontext-2=context-no	postcontext-3=context-patient by_finding in_the
+I-entity		IgM	beforecontext-0=context-ro	beforecontext-1=context-if	beforecontext-2=context-no	postcontext-3=context-patient by_finding in_the
+O	IgM finding_anti-HAV in_the
+O	in anti-HAV_IgM the_serum
+O	the IgM_in serum_of
+B-anatomical		serum	beforecontext-0=context-ro	beforecontext-1=context-if	beforecontext-2=context-no	postcontext-3=context-patient in_the of_patients
+O	of the_serum patients_.
+O	patients serum_of
+O	. of_patients
+

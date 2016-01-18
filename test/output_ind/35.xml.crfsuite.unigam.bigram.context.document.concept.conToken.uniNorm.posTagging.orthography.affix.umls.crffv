@@ -1,0 +1,39 @@
+
+O	Two -_hour
+O	- hour_postload
+O	hour Two_- postload_glucose
+O	postload -_hour glucose_>
+B-entity		glucose	C0017725	T121 	T123 	C0202042	T059  hour_postload >_/
+O	> postload_glucose /_=
+B-labrefrangemod		>/=	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA postload_glucose 200_mg
+O	/ glucose_> =_200
+O	= >_/ 200_mg
+B-labvalmod		200 /_= mg_/
+O	mg =_200 /_dl
+B-labvalmod		mg/dl	ctext-3=/ =_200 (_11.1
+O	/ 200_mg dl_(
+O	dl mg_/ (_11.1
+O	( /_dl 11.1_mmol
+B-labvalmod		11.1 dl_( mmol_/
+O	mmol (_11.1 /_l
+B-labvalmod		mmol/l	ctext-5=/	ctext-6=l	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+2|=EEEEE (_11.1
+O	/ 11.1_mmol l_)
+O	l mmol_/
+O	) /_l
+
+
+O	during an_Oral
+O	an Oral_Glucose
+O	Oral during_an Glucose_Tolerance
+B-entity		Oral during_an (_OGTT
+I-entity		Glucose during_an (_OGTT
+I-entity		Tolerance during_an (_OGTT
+I-entity		Test during_an (_OGTT
+O	Glucose an_Oral Tolerance_Test
+O	Tolerance Oral_Glucose Test_(
+O	Test Glucose_Tolerance (_OGTT
+O	( Tolerance_Test OGTT_)
+B-entity		OGTT Test_( )_.
+O	) (_OGTT
+O	. OGTT_)
+

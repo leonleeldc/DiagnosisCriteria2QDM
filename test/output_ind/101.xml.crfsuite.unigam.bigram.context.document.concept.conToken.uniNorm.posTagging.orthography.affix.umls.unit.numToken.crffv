@@ -1,0 +1,85 @@
+
+O	High -_intensity
+O	- intensity_statin
+O	intensity High_- statin_therapy
+O	statin -_intensity therapy_*
+O	therapy intensity_statin *_is
+O	* statin_therapy is_recommended
+O	is therapy_* recommended_for
+O	recommended *_is for_patients
+O	for is_recommended patients_with
+O	patients recommended_for with_known
+O	with for_patients known_ASCVD
+O	known patients_with ASCVD_,
+O	ASCVD with_known ,_LDL
+O	, known_ASCVD LDL_-
+O	LDL ASCVD_, -_C
+B-entity		LDL-C	ctext-0=LDL	sectonHeader-0=101.xml-testSeg	ASCVD	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=ASC	SUF|1-2|=CVD		LDL	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-14|=ROMAN	PRE|1+0|=LDL	SUF|1+0|=LDL		C	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-3=-	ctext-4=C	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient ASCVD_, levels_>
+O	- ,_LDL C_levels
+O	C LDL_- levels_>
+O	levels -_C >_190
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=101.xml-testSeg	C	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient C_levels 190_mg
+B-labvalmod		190	ctext-0=190	sectonHeader-0=101.xml-testSeg	num	level	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=els		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient levels_> mg_/
+O	mg >_190 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=101.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL	beforecontext-0=context-ed	beforecontext-1=context-her	beforecontext-2=context-no	beforecontext-3=context-patient >_190 ,_and
+O	/ 190_mg dL_,
+O	dL mg_/ ,_and
+O	, /_dL and_DM
+O	and dL_, DM_,
+O	DM ,_and ,_with
+O	, and_DM with_10
+O	with DM_, 10_-
+O	10 ,_with -_y
+O	- with_10 y_risk
+O	y 10_- risk_>
+O	risk -_y >_7.5
+O	> y_risk 7.5_%
+O	7.5 risk_> %_.
+O	% >_7.5
+O	. 7.5_%
+
+
+O	Moderate -_dose
+O	- dose_statin
+O	dose Moderate_- statin_therapy
+O	statin -_dose therapy_*
+O	therapy dose_statin *_*
+O	* statin_therapy *_is
+O	* therapy_* is_recommended
+O	is *_* recommended_for
+O	recommended *_is for_the
+O	for is_recommended the_other
+O	the recommended_for other_treatment
+O	other for_the treatment_groups
+O	treatment the_other groups_(
+O	groups other_treatment (_patients
+O	( treatment_groups patients_with
+O	patients groups_( with_DM
+O	with (_patients DM_but
+O	DM patients_with but_with
+O	but with_DM with_10
+O	with DM_but 10_-
+O	10 but_with -_y
+O	- with_10 y_risk
+O	y 10_- risk_<
+O	risk -_y <_7.5
+O	< y_risk 7.5_%
+O	7.5 risk_< %_and
+O	% <_7.5 and_those
+O	and 7.5_% those_without
+O	those %_and without_DM
+O	without and_those DM_who
+O	DM those_without who_have
+O	who without_DM have_a
+O	have DM_who a_10
+O	a who_have 10_-
+O	10 have_a -_y
+O	- a_10 y_risk
+O	y 10_- risk_>
+O	risk -_y >_7.5
+O	> y_risk 7.5_%
+O	7.5 risk_> %_)
+O	% >_7.5 )_.
+O	) 7.5_%
+O	. %_)
+

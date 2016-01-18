@@ -1,0 +1,10 @@
+
+O	Blood Urea_mmol
+B-entity	Blood Urea  mmol_/
+I-entity	Blood Urea  mmol_/
+O	Urea mmol_/
+O	mmol Blood_Urea /_L
+B-labvalmod	mmol/L 	ctext-5=/	uniTok|1+2|=EEEEE	ctext-6=L	mmol	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mmo	SUF|1-2|=mol		L	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	uniTok|1+1|=EEEEE	uniTok|1+2|=EEEEE Blood_Urea
+O	/ Urea_mmol
+O	L mmol_/
+

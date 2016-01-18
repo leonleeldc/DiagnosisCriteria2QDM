@@ -1,0 +1,16 @@
+
+O	Disseminated intravascular_coagulation
+O	intravascular coagulation_:
+O	coagulation Disseminated_intravascular
+O	: intravascular_coagulation
+
+
+O	( Prothrombin_Time
+O	Prothrombin Time_:
+B-entity	Prothrombin Time 	righttermin-1=context-ed :_Prolonged
+I-entity	Prothrombin Time 	righttermin-1=context-ed :_Prolonged
+O	Time (_Prothrombin :_Prolonged
+O	: Prothrombin_Time Prolonged_)
+B-labintermod	Prolonged 	beforecontext-0=context-ro Time_:
+O	) :_Prolonged
+

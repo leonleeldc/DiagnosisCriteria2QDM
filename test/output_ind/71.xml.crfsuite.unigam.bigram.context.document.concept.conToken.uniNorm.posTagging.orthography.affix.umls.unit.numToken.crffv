@@ -1,0 +1,16 @@
+
+O	Uremia (_BUN
+O	( BUN_level
+B-entity		BUN	T059	ctext-0=BUN	sectonHeader-0=71.xml-testSeg	uremia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ure	SUF|1-2|=mia		BUN	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=BUN	SUF|1+0|=BUN		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel	 Uremia_( level_>
+O	level (_BUN >_/
+O	> BUN_level /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=71.xml-testSeg	BUN	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	PRE|1-2|=BUN	SUF|1-2|=BUN		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		ctext-1=/	ctext-2=equal_symbol BUN_level 20_mg
+O	/ level_> =_20
+O	= >_/ 20_mg
+B-labvalmod		20	ctext-0=20	sectonHeader-0=71.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA /_= mg_/
+O	mg =_20 /_dl
+B-labvalmod		mg/dl	ctext-0=mg	sectonHeader-0=71.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dl	uniTok|1+2|=EEEEE =_20
+O	/ 20_mg dl_)
+O	dl mg_/
+O	) /_dl
+

@@ -1,0 +1,18 @@
+
+B-labintermod		Low pH_:
+B-entity		pH	C0455458	T033 :_<
+O	: Low_pH <_7.30
+B-labrefrangemod		<	unit	ctext-1=<	Ph	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER pH_: 7.30_-
+O	7.30 :_< -_7
+O	- <_7.30 7_.
+O	7 7.30_-
+O	. -_7
+
+
+O	35 ,_depending
+O	, depending_on
+O	depending 35_, on_scoring
+O	on ,_depending scoring_system
+O	scoring depending_on
+O	system on_scoring
+

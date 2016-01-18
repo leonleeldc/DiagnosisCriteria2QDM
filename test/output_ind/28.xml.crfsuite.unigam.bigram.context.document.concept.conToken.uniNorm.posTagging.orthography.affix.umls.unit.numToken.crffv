@@ -1,0 +1,37 @@
+
+B-labintermod		Raised	ctext-0=Raised	sectonHeader-0=28.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	raise	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Rai	SUF|1+0|=sed		triglyceride	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=tri	SUF|1+1|=des	 triglycerides_(
+B-entity		triglycerides	T059	ctext-0=triglycerides	sectonHeader-0=28.xml-testSeg	uniTok|1-2|=SSSSS	raise	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Rai	SUF|1-1|=sed		triglyceride	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=tri	SUF|1+0|=des		TG	pos|1+2|=NNP	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	beforecontext-0=context-ed (_TG
+O	( Raised_triglycerides TG_)
+B-entity		TG	ctext-0=TG	sectonHeader-0=28.xml-testSeg	triglyceride	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tri	SUF|1-2|=des		TG	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	uniTok|1+2|=EEEEE	beforecontext-0=context-ed triglycerides_(
+O	) (_TG
+
+
+O	level
+O	:
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=28.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	ctext-1=/	uniTok|1+-2|=EEEEE	ctext-2=equal_symbol	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no 150_mg
+O	/ =_150
+O	= >_/ 150_mg
+B-labvalmod		150	ctext-0=150	sectonHeader-0=28.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no /_= mg_/
+O	mg =_150 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=28.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no =_150 (_1.7
+O	/ 150_mg dL_(
+O	dL mg_/ (_1.7
+O	( /_dL 1.7_mmol
+B-labvalmod		1.7	ctext-0=1.7	sectonHeader-0=28.xml-testSeg	num	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no dL_( mmol_/
+O	mmol (_1.7 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=28.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no (_1.7 )_,
+O	/ 1.7_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_specific
+B-labintermod		or	ctext-0=or	sectonHeader-0=28.xml-testSeg	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	specific	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=spe	SUF|1+1|=fic		treatment	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tre	SUF|1+2|=ent		postcontext-0=context-if	postcontext-1=context-his	postcontext-2=context-no )_, specific_treatment
+O	specific ,_or treatment_for
+O	treatment or_specific for_this
+O	for specific_treatment this_lipid
+O	this treatment_for lipid_abnormality
+O	lipid for_this
+O	abnormality this_lipid
+

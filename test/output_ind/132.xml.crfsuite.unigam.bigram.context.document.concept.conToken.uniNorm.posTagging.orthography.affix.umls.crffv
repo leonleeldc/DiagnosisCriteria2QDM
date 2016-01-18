@@ -1,0 +1,26 @@
+
+B-labintermod		Low serum_ceruloplasmin
+O	serum ceruloplasmin_levels
+B-entity		serum	C0474679	T059  <_20
+I-entity		ceruloplasmin <_20
+I-entity		levels <_20
+O	ceruloplasmin Low_serum levels_<
+O	levels serum_ceruloplasmin <_20
+B-labrefrangemod		<	ctext-1=<	ceruloplasmin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cer	SUF|1-2|=min		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA ceruloplasmin_levels 20_mg
+B-labvalmod		20 levels_< mg_/
+O	mg <_20 /_dL
+B-labvalmod		mg/dL	ctext-3=/ <_20 (_Normal
+O	/ 20_mg dL_(
+O	dL mg_/ (_Normal
+O	( /_dL Normal_range
+O	Normal dL_( range_20
+O	range (_Normal 20_-
+O	20 Normal_range -_50
+O	- range_20 50_mg
+O	50 20_- mg_/
+O	mg -_50 /_dL
+O	/ 50_mg dL_)
+O	dL mg_/ )_.
+O	) /_dL
+O	. dL_)
+

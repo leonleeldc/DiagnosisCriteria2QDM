@@ -1,0 +1,38 @@
+
+O	Hypoxemia :_Ratio
+O	: Ratio_of
+O	Ratio Hypoxemia_: of_partial
+B-entity		Ratio Hypoxemia_: <_250
+I-entity		of Hypoxemia_: <_250
+I-entity		partial Hypoxemia_: <_250
+I-entity		pressure Hypoxemia_: <_250
+I-entity		of Hypoxemia_: <_250
+I-entity		oxygen Hypoxemia_: <_250
+I-entity		in Hypoxemia_: <_250
+I-entity		arterial Hypoxemia_: <_250
+I-entity		blood Hypoxemia_: <_250
+I-entity		to Hypoxemia_: <_250
+I-entity		fraction Hypoxemia_: <_250
+I-entity		of Hypoxemia_: <_250
+I-entity		inspired Hypoxemia_: <_250
+I-entity		oxygen Hypoxemia_: <_250
+O	of :_Ratio partial_pressure
+O	partial Ratio_of pressure_of
+O	pressure of_partial of_oxygen
+O	of partial_pressure oxygen_in
+O	oxygen pressure_of in_arterial
+O	in of_oxygen arterial_blood
+O	arterial oxygen_in blood_to
+O	blood in_arterial to_fraction
+O	to arterial_blood fraction_of
+O	fraction blood_to of_inspired
+O	of to_fraction inspired_oxygen
+O	inspired fraction_of oxygen_<
+O	oxygen of_inspired <_250
+B-labrefrangemod		<	ctext-1=<	inspire	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ins	SUF|1-2|=red		oxygen	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=oxy	SUF|1-1|=gen		mm	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-14|=ROMAN	beforecontext-0=context-ed inspired_oxygen 250_mm
+B-labvalmod		250	beforecontext-0=context-ed oxygen_< mm_Hg
+O	mm <_250
+B-labvalmod		mm	beforecontext-0=context-ed <_250
+I-labvalmod		Hg	beforecontext-0=context-ed <_250
+O	Hg 250_mm
+

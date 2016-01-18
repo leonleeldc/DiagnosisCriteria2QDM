@@ -1,0 +1,14 @@
+
+O	Hyponatremia :_Sodium
+O	: Sodium_level
+O	Sodium Hyponatremia_: level_<
+B-entity		Sodium	C0428291	T034  Hyponatremia_: <_130
+I-entity		level Hyponatremia_: <_130
+O	level :_Sodium <_130
+B-labrefrangemod		<	ctext-1=<	sodium	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Sod	SUF|1-2|=ium		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 Sodium_level 130_mmol
+B-labvalmod		130 level_< mmol_/
+O	mmol <_130 /_liter
+B-labvalmod		mmol/liter	ctext-5=/	uniTok|1+2|=EEEEE <_130
+O	/ 130_mmol
+O	liter mmol_/
+

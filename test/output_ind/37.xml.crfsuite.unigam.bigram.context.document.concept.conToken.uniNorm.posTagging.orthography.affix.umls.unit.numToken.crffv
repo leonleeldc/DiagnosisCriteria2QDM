@@ -1,0 +1,37 @@
+
+O	Fasting glucose_level
+B-entity		Fasting	T121	ctext-0=Fasting	sectonHeader-0=37.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	fast	pos|1+0|=VBG	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Fas	SUF|1+0|=ing		glucose	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=glu	SUF|1+1|=ose		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-8=glucose	uniTok|1+-2|=EEEEE level_>
+I-entity		glucose	T121	ctext-0=Fasting	sectonHeader-0=37.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	fast	pos|1+0|=VBG	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Fas	SUF|1+0|=ing		glucose	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=glu	SUF|1+1|=ose		level	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=lev	SUF|1+2|=vel		ctext-8=glucose	uniTok|1+-2|=EEEEE level_>
+O	glucose level_>
+O	level Fasting_glucose >_/
+O	> glucose_level /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=37.xml-testSeg	glucose	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=glu	SUF|1-2|=ose		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		ctext-1=/	ctext-2=equal_symbol glucose_level 100_mg
+O	/ level_> =_100
+O	= >_/ 100_mg
+B-labvalmod		100	ctext-0=100	sectonHeader-0=37.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA /_= mg_/
+O	mg =_100 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=37.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL =_100 (_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod		5.6	ctext-0=5.6	sectonHeader-0=37.xml-testSeg	num	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 dL_( mmol_/
+O	mmol (_5.6 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=37.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L (_5.6 )_and
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_and
+O	) /_L and_<
+B-labintermod		and	ctext-0=and	sectonHeader-0=37.xml-testSeg	L	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	and	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=and	SUF|1+0|=and	 L_) <_126
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=37.xml-testSeg	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA )_and 126_mg
+B-labvalmod		126	ctext-0=126	sectonHeader-0=37.xml-testSeg	num	and	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=and	SUF|1-2|=and		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA and_< mg_/
+O	mg <_126 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=37.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL <_126 (_7.0
+O	/ 126_mg dL_(
+O	dL mg_/ (_7.0
+O	( /_dL 7.0_mmol
+B-labvalmod		7.0	ctext-0=7.0	sectonHeader-0=37.xml-testSeg	num	DL	pos|1-2|=NNS	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 dL_( mmol_/
+O	mmol (_7.0 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=37.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	uniTok|1+2|=EEEEE (_7.0
+O	/ 7.0_mmol L_)
+O	L mmol_/
+O	) /_L
+

@@ -1,0 +1,23 @@
+
+O	A1 Raised_RCM
+B-labintermod		Raised RCM_or
+B-entity		RCM	beforecontext-0=context-ed A1_Raised or_haemoglobin
+B-labintermod		or	beforecontext-0=context-ed Raised_RCM haemoglobin_(
+B-entity		haemoglobin	beforecontext-0=context-ed RCM_or (_Hb
+O	( or_haemoglobin Hb_)
+B-entity		Hb	beforecontext-0=context-ed haemoglobin_(
+O	) (_Hb
+
+
+B-labrefrangemod		>	unit	ctext-1=>	uniTok|1+-2|=EEEEE	uniTok|1+-1|=EEEEE 18.5_(
+B-labvalmod		18.5 (_males
+O	( >_18.5 males_)
+O	males 18.5_( )_,
+O	) (_males ,_>
+O	, males_) >_16.5
+B-labrefrangemod		>	unit	ctext-1=> )_, 16.5_(
+B-labvalmod		16.5 ,_> (_females
+O	( >_16.5 females_)
+O	females 16.5_(
+O	) (_females
+

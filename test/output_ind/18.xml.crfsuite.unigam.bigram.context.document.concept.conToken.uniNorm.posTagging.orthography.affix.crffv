@@ -1,0 +1,26 @@
+
+O	Serum B12_>
+B-entity	Serum B12  >_900
+I-entity	Serum B12  >_900
+O	B12 >_900
+B-labrefrangemod	> 	ctext-1=>	serum	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Ser	SUF|1-2|=rum		B12	pos|1-1|=NN	capital|1-1|=1	STCLS|1-1-1|=INITCAPS	STCLS|1-1-9|=HASDIGIT	STCLS|1-1-11|=ALPHANUMERIC	STCLS|1-1-13|=LETTERS_NUMBERS	PRE|1-1|=B12	SUF|1-1|=B12		PG	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA Serum_B12 900_pg
+B-labvalmod	900  B12_> pg_/
+O	pg >_900 /_ml
+B-labvalmod	pg/ml 	ctext-3=/ >_900 or_unbound
+O	/ 900_pg ml_or
+O	ml pg_/ or_unbound
+B-labintermod	or  /_ml unbound_B12
+O	unbound ml_or B12_binding
+O	B12 or_unbound binding_capacity
+B-entity	B12 binding capacity  or_unbound >_220
+I-entity	B12 binding capacity  or_unbound >_220
+I-entity	B12 binding capacity  or_unbound >_220
+O	binding unbound_B12 capacity_>
+O	capacity B12_binding >_220
+B-labrefrangemod	> 	ctext-1=>	bind	pos|1-2|=VBG	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=bin	SUF|1-2|=ing		capacity	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=cap	SUF|1-1|=ity		PG	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA binding_capacity 220_pg
+B-labvalmod	220  capacity_> pg_/
+O	pg >_220 /_ml
+B-labvalmod	pg/ml 	ctext-3=/	uniTok|1+2|=EEEEE >_220
+O	/ 220_pg
+O	ml pg_/
+

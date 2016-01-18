@@ -1,0 +1,14 @@
+
+O	Liver ,_Bilirubin
+O	, Bilirubin_(
+B-entity	Bilirubin  Liver_, (_mg
+O	( ,_Bilirubin mg_/
+O	mg Bilirubin_( /_dL
+B-labvalmod	mg/dL 	ctext-3=/ Bilirubin_( )_:
+O	/ (_mg dL_)
+O	dL mg_/ )_:
+O	) /_dL :_>
+O	: dL_) >_12.0
+B-labrefrangemod	> 	ctext-1=>	uniTok|1+2|=EEEEE )_:
+B-labvalmod	12.0  :_>
+

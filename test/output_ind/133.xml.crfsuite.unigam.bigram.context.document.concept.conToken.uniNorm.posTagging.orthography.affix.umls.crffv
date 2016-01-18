@@ -1,0 +1,28 @@
+
+B-labintermod		High	postcontext-0=context-ro liver_copper
+O	liver copper_levels
+O	copper High_liver levels_>
+B-entity		copper	C0373587	T059 	postcontext-0=context-ro High_liver >_250
+I-entity		levels	postcontext-0=context-ro High_liver >_250
+O	levels liver_copper >_250
+B-labrefrangemod		>	ctext-1=>	copper	pos|1-2|=JJ	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cop	SUF|1-2|=per		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		microgram	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mic	SUF|1+2|=ams		postcontext-0=context-ro copper_levels 250_micrograms
+B-labvalmod		250	postcontext-0=context-ro levels_> micrograms_/
+O	micrograms >_250 /_g
+B-labvalmod		micrograms/g	ctext-11=/	ctext-12=g	microgram	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=mic	SUF|1-2|=ams		G	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	STCLS|1+0-6|=SINGLECHAR	dry	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=dry	SUF|1+1|=dry		weight	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=wei	SUF|1+2|=ght	 >_250 dry_weight
+O	/ 250_micrograms g_dry
+O	g micrograms_/ dry_weight
+O	dry /_g weight_(
+O	weight g_dry (_Normal
+O	( dry_weight Normal_range
+O	Normal weight_( range_<
+O	range (_Normal <_35
+O	< Normal_range 35_micrograms
+O	35 range_< micrograms_/
+O	micrograms <_35 /_g
+O	/ 35_micrograms g_dry
+O	g micrograms_/ dry_weight
+O	dry /_g weight_)
+O	weight g_dry )_.
+O	) dry_weight
+O	. weight_)
+

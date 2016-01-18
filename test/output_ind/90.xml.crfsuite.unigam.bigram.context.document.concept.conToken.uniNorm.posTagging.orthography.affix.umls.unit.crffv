@@ -1,0 +1,33 @@
+
+O	Serum calcium_level
+B-entity		Serum	C0201925	T059	C0728876	T059 level_>
+I-entity		calcium	C0201925	T059	C0728876	T059 level_>
+O	calcium level_>
+O	level Serum_calcium >_1.0
+B-labrefrangemod		>	unit	ctext-1=>	calcium	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=cal	SUF|1-2|=ium		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA calcium_level 1.0_mg
+B-labvalmod		1.0 level_> mg_/
+O	mg >_1.0 /_dl
+B-labvalmod		mg/dl	ctext-3=/ >_1.0 (_0.25
+O	/ 1.0_mg dl_(
+O	dl mg_/ (_0.25
+O	( /_dl 0.25_mmol
+B-labvalmod		0.25 dl_( mmol_/
+O	mmol (_0.25 /_liter
+B-labvalmod		mmol/liter	ctext-5=/ (_0.25
+O	/ 0.25_mmol liter_)
+O	liter mmol_/
+O	) /_liter
+
+
+B-labrefrangemod		above	postcontext-0=context-no upper_limit
+O	upper limit_of
+B-labintermod		upper
+I-labintermod		limit
+I-labintermod		of
+I-labintermod		normal
+I-labintermod		range
+O	limit above_upper of_normal
+O	of upper_limit normal_range
+O	normal limit_of
+O	range of_normal
+

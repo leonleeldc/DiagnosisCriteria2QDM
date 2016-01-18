@@ -1,0 +1,30 @@
+
+B-entity	Haemoglobin  >_/
+O	> /_=
+B-labrefrangemod	>/= 	ctext-1=>	uniTok|1+-2|=EEEEE	ctext-2=/	ctext-3=equal_symbol	G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR 13_g
+O	/ Haemoglobin_> =_13
+O	= >_/ 13_g
+B-labvalmod	13  /_= g_/
+O	g =_13 /_dl
+B-labvalmod	g/dl 	ctext-1=g	ctext-2=/ =_13 (_men
+O	/ 13_g dl_(
+O	dl g_/ (_men
+O	( /_dl men_)
+O	men dl_(
+O	) (_men
+
+
+B-labintermod	or  >_/
+O	> /_=
+B-labrefrangemod	>/= 	ctext-1=>	uniTok|1+-2|=EEEEE	ctext-2=/	ctext-3=equal_symbol	G	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	STCLS|1+2-6|=SINGLECHAR 12_g
+O	/ or_> =_12
+O	= >_/ 12_g
+B-labvalmod	12  /_= g_/
+O	g =_12 /_dl
+B-labvalmod	g/dl 	ctext-1=g	ctext-2=/ =_12 (_women
+O	/ 12_g dl_(
+O	dl g_/ (_women
+O	( /_dl women_)
+O	women dl_(
+O	) (_women
+

@@ -1,0 +1,27 @@
+
+O	Persistent biliary_obstruction
+O	biliary obstruction_(
+O	obstruction Persistent_biliary (_conjugated
+O	( biliary_obstruction conjugated_bilirubin
+O	conjugated obstruction_( bilirubin_level
+B-entity		conjugated obstruction_( level_>
+I-entity		bilirubin obstruction_( level_>
+O	bilirubin (_conjugated level_>
+O	level conjugated_bilirubin >_5
+B-labrefrangemod		>	ctext-1=>	bilirubin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=bil	SUF|1-2|=bin		level	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=vel		Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed bilirubin_level 5_mg
+B-labvalmod		5	ctext-1=5	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ed level_> mg_/
+O	mg >_5 /_dl
+B-labvalmod		mg/dl	ctext-3=/	beforecontext-0=context-ed >_5 _86
+O	/ 5_mg dl_
+O	dl mg_/ _86
+O	[ /_dl 86_umol
+B-labvalmod		86	beforecontext-0=context-ed dl_ umol_per
+O	umol _86 per_liter
+B-labvalmod		umol	beforecontext-0=context-ed _86 _)
+I-labvalmod		per	beforecontext-0=context-ed _86 _)
+I-labvalmod		liter	beforecontext-0=context-ed _86 _)
+O	per 86_umol liter_
+O	liter umol_per _)
+O	] per_liter
+O	) liter_
+

@@ -1,0 +1,80 @@
+
+B-labintermod		Raised	ctext-0=Raised	sectonHeader-0=30.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	raise	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Rai	SUF|1+0|=sed		fast	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=fas	SUF|1+1|=ing		plasma	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=pla	SUF|1+2|=sma	 fasting_plasma
+O	fasting plasma_glucose
+B-entity		fasting	T033	T059	T123	ctext-0=fasting	sectonHeader-0=30.xml-testSeg	uniTok|1-2|=SSSSS	raise	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Rai	SUF|1-1|=sed		fast	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		plasma	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pla	SUF|1+1|=sma		glucose	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=glu	SUF|1+2|=ose		ctext-8=plasma	ctext-15=glucose	beforecontext-0=context-ed (_FPG
+I-entity		plasma	T033	T059	T123	ctext-0=fasting	sectonHeader-0=30.xml-testSeg	uniTok|1-2|=SSSSS	raise	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Rai	SUF|1-1|=sed		fast	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		plasma	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pla	SUF|1+1|=sma		glucose	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=glu	SUF|1+2|=ose		ctext-8=plasma	ctext-15=glucose	beforecontext-0=context-ed (_FPG
+I-entity		glucose	T033	T059	T123	ctext-0=fasting	sectonHeader-0=30.xml-testSeg	uniTok|1-2|=SSSSS	raise	pos|1-1|=JJ	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Rai	SUF|1-1|=sed		fast	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		plasma	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pla	SUF|1+1|=sma		glucose	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=glu	SUF|1+2|=ose		ctext-8=plasma	ctext-15=glucose	beforecontext-0=context-ed (_FPG
+O	plasma Raised_fasting glucose_(
+O	glucose fasting_plasma (_FPG
+O	( plasma_glucose FPG_)
+B-entity		FPG	ctext-0=FPG	sectonHeader-0=30.xml-testSeg	glucose	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=glu	SUF|1-2|=ose		fpg	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=FPG	SUF|1+0|=FPG		uniTok|1+2|=EEEEE	beforecontext-0=context-ed glucose_(
+O	) (_FPG
+
+
+O	> /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=30.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	ctext-1=/	uniTok|1+-2|=EEEEE	ctext-2=equal_symbol	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no 100_mg
+O	/ =_100
+O	= >_/ 100_mg
+B-labvalmod		100	ctext-0=100	sectonHeader-0=30.xml-testSeg	num	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no /_= mg_/
+O	mg =_100 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=30.xml-testSeg	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no =_100 (_5.6
+O	/ 100_mg dL_(
+O	dL mg_/ (_5.6
+O	( /_dL 5.6_mmol
+B-labvalmod		5.6	ctext-0=5.6	sectonHeader-0=30.xml-testSeg	num	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol		postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no dL_( mmol_/
+O	mmol (_5.6 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=30.xml-testSeg	mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L	postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no (_5.6 )_,
+O	/ 5.6_mmol L_)
+O	L mmol_/ )_,
+O	) /_L ,_or
+O	, L_) or_previously
+B-labintermod		or	ctext-0=or	sectonHeader-0=30.xml-testSeg	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	previously	pos|1+1|=RB	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=pre	SUF|1+1|=sly		diagnose	pos|1+2|=VBN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=dia	SUF|1+2|=sed		postcontext-0=context-ed	postcontext-1=context-previous	postcontext-2=context-no )_, previously_diagnosed
+O	previously ,_or diagnosed_type
+O	diagnosed or_previously type_2
+O	type previously_diagnosed 2_diabetes
+O	2 diagnosed_type diabetes_.
+O	diabetes type_2
+O	. 2_diabetes
+
+
+O	If above_5.6
+B-labintermod		above	ctext-0=above	sectonHeader-0=30.xml-testSeg	uniTok|1-2|=SSSSS	IF	pos|1-1|=IN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	above	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=abo	SUF|1+0|=ove		mmol	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=mmo	SUF|1+2|=mol	 5.6_mmol
+B-labvalmod		5.6	ctext-0=5.6	sectonHeader-0=30.xml-testSeg	num	IF	pos|1-2|=IN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	above	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=abo	SUF|1-1|=ove		mmol	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mmo	SUF|1+1|=mol	 If_above mmol_/
+O	mmol above_5.6 /_L
+B-labvalmod		mmol/L	ctext-0=mmol	sectonHeader-0=30.xml-testSeg	above	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=abo	SUF|1-2|=ove		mmol	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mmo	SUF|1+0|=mol		L	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-4=/	ctext-5=L above_5.6 or_100
+O	/ 5.6_mmol L_or
+O	L mmol_/ or_100
+O	or /_L 100_mg
+B-labvalmod		100	ctext-0=100	sectonHeader-0=30.xml-testSeg	num	L	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-6|=SINGLECHAR	STCLS|1-2-14|=ROMAN	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	Mg	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA L_or mg_/
+O	mg or_100 /_dL
+B-labvalmod		mg/dL	ctext-0=mg	sectonHeader-0=30.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	Mg	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	DL	pos|1+2|=NN	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=dL or_100 ,_oral
+O	/ 100_mg dL_,
+O	dL mg_/ ,_oral
+O	, /_dL oral_glucose
+O	oral dL_, glucose_tolerance
+B-entity		oral	T030	T121	T060	T033	T059	T059	ctext-0=oral	sectonHeader-0=30.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	oral	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ora	SUF|1+0|=ral		glucose	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=glu	SUF|1+1|=ose		tolerance	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tol	SUF|1+2|=nce		ctext-5=glucose	ctext-13=tolerance	ctext-23=test dL_,
+I-entity		glucose	T030	T121	T060	T033	T059	T059	ctext-0=oral	sectonHeader-0=30.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	oral	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ora	SUF|1+0|=ral		glucose	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=glu	SUF|1+1|=ose		tolerance	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tol	SUF|1+2|=nce		ctext-5=glucose	ctext-13=tolerance	ctext-23=test dL_,
+I-entity		tolerance	T030	T121	T060	T033	T059	T059	ctext-0=oral	sectonHeader-0=30.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	oral	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ora	SUF|1+0|=ral		glucose	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=glu	SUF|1+1|=ose		tolerance	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tol	SUF|1+2|=nce		ctext-5=glucose	ctext-13=tolerance	ctext-23=test dL_,
+I-entity		test	T030	T121	T060	T033	T059	T059	ctext-0=oral	sectonHeader-0=30.xml-testSeg	DL	pos|1-2|=NN	capital|1-2|=2	STCLS|1-2-0|=ALPHA	STCLS|1-2-3|=LOWER-UPPER	STCLS|1-2-14|=ROMAN	oral	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=ora	SUF|1+0|=ral		glucose	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=glu	SUF|1+1|=ose		tolerance	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=tol	SUF|1+2|=nce		ctext-5=glucose	ctext-13=tolerance	ctext-23=test dL_,
+O	glucose ,_oral tolerance_test
+O	tolerance oral_glucose test_(
+O	test glucose_tolerance (_OGTT
+O	( tolerance_test OGTT_)
+B-entity		OGTT	ctext-0=OGTT	sectonHeader-0=30.xml-testSeg	test	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tes	SUF|1-2|=est		OGTT	pos|1+0|=NNP	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=OGT	SUF|1+0|=GTT		uniTok|1+2|=EEEEE test_(
+O	) (_OGTT
+
+
+O	is strongly_recommended
+O	strongly recommended_but
+O	recommended is_strongly but_is
+O	but strongly_recommended is_not
+O	is recommended_but not_necessary
+O	not but_is necessary_to
+O	necessary is_not to_define
+O	to not_necessary define_presence
+O	define necessary_to presence_of
+O	presence to_define of_the
+O	of define_presence the_syndrome
+O	the presence_of
+O	syndrome of_the
+

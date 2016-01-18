@@ -1,0 +1,33 @@
+
+O	Raised red_cell
+B-labintermod	sed re 
+I-labintermod	sed re 
+O	red cell_mass
+B-entity	cell mass (R 	ctext-12=(	beforecontext-0=context-ed
+I-entity	cell mass (R 	ctext-12=(	beforecontext-0=context-ed
+I-entity	cell mass (R 	ctext-12=(	beforecontext-0=context-ed
+O	cell Raised_red mass_(
+O	mass red_cell (_RCM
+O	( cell_mass RCM_)
+O	RCM mass_( )_,
+O	) (_RCM ,_male
+B-entity	), 	ctext-1=)	ctext-2=,	beforecontext-0=context-ed (_RCM
+O	, RCM_) male_>
+O	male )_, >_36
+O	> ,_male 36_ml
+O	36 male_> ml_/
+B-labrefrangemod	6 	beforecontext-0=context-ed ml_/
+B-labvalmod	ml 	beforecontext-0=context-ed >_36 /_kg
+O	/ 36_ml kg_,
+O	kg ml_/ ,_female
+B-labvalmod	kg, f 	ctext-3=,	beforecontext-0=context-ed ml_/
+I-labvalmod	kg, f 	ctext-3=,	beforecontext-0=context-ed ml_/
+O	, /_kg female_>
+O	female kg_, >_32
+O	> ,_female 32_ml
+O	32 female_> ml_/
+B-labrefrangemod	2 	beforecontext-0=context-ed ml_/
+B-labvalmod	ml 	beforecontext-0=context-ed >_32 /_kg
+O	/ 32_ml
+O	kg ml_/
+

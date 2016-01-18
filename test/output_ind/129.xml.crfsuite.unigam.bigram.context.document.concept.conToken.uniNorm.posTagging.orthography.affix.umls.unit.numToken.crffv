@@ -1,0 +1,31 @@
+
+B-labintermod		Elevated	ctext-0=Elevated	sectonHeader-0=129.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	elevate	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Ele	SUF|1+0|=ted		level	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=vel		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	postcontext-1=context-since level_of
+O	level of_fasting
+O	of Elevated_level fasting_serum
+O	fasting level_of serum_gastrin
+B-entity		fasting	T033	T059	T059	ctext-0=fasting	sectonHeader-0=129.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+I-entity		serum	T033	T059	T059	ctext-0=fasting	sectonHeader-0=129.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+I-entity		gastrin	T033	T059	T059	ctext-0=fasting	sectonHeader-0=129.xml-testSeg	level	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=vel		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	beforecontext-0=context-ed	postcontext-1=context-since level_of (_>
+O	serum of_fasting gastrin_(
+O	gastrin fasting_serum (_>
+O	( serum_gastrin >_100
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=129.xml-testSeg	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		PG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since gastrin_( 100_pg
+B-labvalmod		100	ctext-0=100	sectonHeader-0=129.xml-testSeg	num	PG	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since (_> pg_/
+O	pg >_100 /_mL
+B-labvalmod		pg/mL	ctext-0=pg	sectonHeader-0=129.xml-testSeg	PG	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	ml	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=mL	beforecontext-0=context-ed	postcontext-1=context-since >_100 until_1994
+O	/ 100_pg mL_until
+O	mL pg_/ until_1994
+O	until /_mL 1994_,
+O	1994 mL_until ,_>
+O	, until_1994 >_200
+B-labrefrangemod		>	unit	ctext-0=>	sectonHeader-0=129.xml-testSeg	PG	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since 1994_, 200_pg
+B-labvalmod		200	ctext-0=200	sectonHeader-0=129.xml-testSeg	num	PG	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ed	postcontext-1=context-since ,_> pg_/
+O	pg >_200 /_mL
+B-labvalmod		pg/mL	ctext-0=pg	sectonHeader-0=129.xml-testSeg	PG	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	ml	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	STCLS|1+2-14|=ROMAN	ctext-2=/	ctext-3=mL	beforecontext-0=context-ed	postcontext-1=context-since >_200 since_1994
+O	/ 200_pg mL_since
+O	mL pg_/ since_1994
+O	since /_mL 1994_)
+O	1994 mL_since )_;
+O	) since_1994
+O	; 1994_)
+

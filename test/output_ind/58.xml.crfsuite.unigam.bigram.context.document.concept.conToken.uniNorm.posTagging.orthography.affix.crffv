@@ -1,0 +1,25 @@
+
+B-labintermod	Elevated 	postcontext-0=context-ro blood_urea
+O	blood urea_nitrogen
+B-entity	blood urea nitrogen 	beforecontext-1=context-ed :_Blood
+I-entity	blood urea nitrogen 	beforecontext-1=context-ed :_Blood
+I-entity	blood urea nitrogen 	beforecontext-1=context-ed :_Blood
+O	urea Elevated_blood nitrogen_:
+O	nitrogen blood_urea :_Blood
+O	: urea_nitrogen Blood_urea
+O	Blood nitrogen_: urea_nitrogen
+B-entity	Blood urea nitrogen 	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+I-entity	Blood urea nitrogen 	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+I-entity	Blood urea nitrogen 	beforecontext-0=context-ro	beforecontext-1=context-ed nitrogen_: >_/
+O	urea :_Blood nitrogen_>
+O	nitrogen Blood_urea >_/
+O	> urea_nitrogen /_=
+B-labrefrangemod	>/= 	ctext-1=>	ctext-2=/	ctext-3=equal_symbol	Mg	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ro	beforecontext-1=context-ed urea_nitrogen 20_mg
+O	/ nitrogen_> =_20
+O	= >_/ 20_mg
+B-labvalmod	20 	beforecontext-0=context-ro	beforecontext-1=context-ed /_= mg_/
+O	mg =_20 /_dl
+B-labvalmod	mg/dl 	ctext-3=/	uniTok|1+2|=EEEEE	beforecontext-0=context-ro	beforecontext-1=context-ed =_20
+O	/ 20_mg
+O	dl mg_/
+

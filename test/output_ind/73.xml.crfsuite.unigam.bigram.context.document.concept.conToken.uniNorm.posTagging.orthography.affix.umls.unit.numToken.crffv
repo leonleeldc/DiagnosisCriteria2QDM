@@ -1,0 +1,12 @@
+
+O	Thrombocytopenia (_platelets
+O	( platelets_<
+B-entity		platelets	T059	ctext-0=platelets	sectonHeader-0=73.xml-testSeg	thrombocytopenia	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Thr	SUF|1-2|=nia		platelet	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=pla	SUF|1+0|=ets		beforecontext-0=context-ro Thrombocytopenia_( <_100,000
+B-labrefrangemod		<	unit	ctext-0=<	sectonHeader-0=73.xml-testSeg	platelet	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=pla	SUF|1-1|=ets		cell	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=cel	SUF|1+2|=lls		beforecontext-0=context-ro (_platelets 100,000_cells
+B-labvalmod		100,000	ctext-0=100,000	sectonHeader-0=73.xml-testSeg	num	platelet	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=pla	SUF|1-2|=ets		cell	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=cel	SUF|1+1|=lls		beforecontext-0=context-ro platelets_< cells_/
+O	cells <_100,000 /_mm3
+B-labvalmod		cells/mm3	ctext-0=cells	sectonHeader-0=73.xml-testSeg	cell	pos|1+0|=NNS	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=cel	SUF|1+0|=lls		mm3	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-9|=HASDIGIT	STCLS|1+2-11|=ALPHANUMERIC	STCLS|1+2-13|=LETTERS_NUMBERS	PRE|1+2|=mm3	SUF|1+2|=mm3		ctext-5=/	ctext-6=mm3	uniTok|1+2|=EEEEE	beforecontext-0=context-ro <_100,000
+O	/ 100,000_cells mm3_)
+O	mm3 cells_/
+O	) /_mm3
+

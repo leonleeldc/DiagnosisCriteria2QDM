@@ -1,0 +1,25 @@
+
+O	Diabetes ,_aged
+O	, aged_40
+O	aged Diabetes_, 40_-
+O	40 ,_aged -_75
+O	- aged_40 75_y
+O	75 40_- y_,
+O	y -_75 ,_with
+O	, 75_y with_LDL
+O	with y_, LDL_-
+O	LDL ,_with -_C
+B-entity	LDL-C 	ctext-4=-	ctext-5=C	LDL	pos|1-2|=NN	capital|1-2|=3	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-4|=ALLCAPS	STCLS|1-2-14|=ROMAN	PRE|1-2|=LDL	SUF|1-2|=LDL		C	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-6|=SINGLECHAR	STCLS|1+0-14|=ROMAN	level	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=els		of	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	beforecontext-0=context-ed ,_with levels_of
+O	- with_LDL C_levels
+O	C LDL_- levels_of
+O	levels -_C of_70
+O	of C_levels 70_-
+O	70 levels_of -_189
+B-labvalmod	70-189 	ctext-3=-	beforecontext-0=context-ed levels_of mg_/
+O	- of_70 189_mg
+O	189 70_- mg_/
+O	mg -_189 /_dL
+B-labvalmod	mg/dL 	ctext-3=/	uniTok|1+2|=EEEEE	beforecontext-0=context-ed -_189
+O	/ 189_mg
+O	dL mg_/
+

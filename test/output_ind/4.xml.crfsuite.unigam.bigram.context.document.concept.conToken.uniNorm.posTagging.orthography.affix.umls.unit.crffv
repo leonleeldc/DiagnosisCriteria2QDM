@@ -1,0 +1,40 @@
+
+O	Acute (_active
+O	( active_)
+O	active Acute_(
+O	) (_active
+
+
+O	myocarditis
+O	:
+
+
+O	a clear_-
+O	clear -_cut
+O	- a_clear cut_infiltrate
+O	cut clear_- infiltrate_(
+B-entity		infiltrate	C0332448	T046	postcontext-0=context-ed	postcontext-1=context-if -_cut (_diffuse
+O	( cut_infiltrate diffuse_,
+O	diffuse infiltrate_( ,_focal
+O	, (_diffuse focal_or
+O	focal diffuse_, or_confluent
+B-labintermod		or	postcontext-0=context-ed	beforecontext-1=context-if ,_focal confluent_)
+O	confluent focal_or )_of
+O	) or_confluent of_>
+O	of confluent_) >_14
+B-labrefrangemod		>	unit	ctext-1=>	of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	leukocyte	pos|1+2|=NNS	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=leu	SUF|1+2|=tes		postcontext-0=context-ed	beforecontext-1=context-if )_of 14_leukocytes
+B-labvalmod		14	postcontext-0=context-ed	beforecontext-1=context-if of_> leukocytes_/
+O	leukocytes >_14 /_mm2
+B-labvalmod		leukocytes/mm2	ctext-11=/	postcontext-0=context-ed	beforecontext-1=context-if >_14 (_preferably
+O	/ 14_leukocytes mm2_(
+O	mm2 leukocytes_/ (_preferably
+O	( /_mm2 preferably_activated
+O	preferably mm2_( activated_T
+B-labintermod		activated	beforecontext-1=context-if (_preferably T_cells
+O	T preferably_activated cells_)
+B-entity		T	C0040715	T049	C0007634	T025	C0040715	T049	C0039194	T025	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+I-entity		cells	C0040715	T049	C0007634	T025	C0040715	T049	C0039194	T025	ctext-1=T	beforecontext-0=context-ed	beforecontext-1=context-if preferably_activated )_.
+O	cells activated_T )_.
+O	) T_cells
+O	. cells_)
+

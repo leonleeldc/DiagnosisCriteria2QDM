@@ -1,0 +1,13 @@
+
+B-labintermod		or	ctext-0=or	sectonHeader-0=43.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	OR	pos|1+0|=CC	capital|1+0|=0	STCLS|1+0-0|=ALPHA	lkm	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	PRE|1+1|=LKM	SUF|1+1|=LKM	 LKM_>
+B-entity		LKM	ctext-0=LKM	sectonHeader-0=43.xml-testSeg	uniTok|1-2|=SSSSS	OR	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	lkm	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	PRE|1+0|=LKM	SUF|1+0|=LKM	 >_/
+O	> or_LKM /_=
+B-labrefrangemod		>/=	unit	ctext-0=>	sectonHeader-0=43.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	lkm	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	PRE|1-1|=LKM	SUF|1-1|=LKM		ctext-1=/	ctext-2=equal_symbol or_LKM 1_:
+O	/ LKM_> =_1
+O	= >_/ 1_:
+O	1 /_=
+O	: =_1
+
+
+O	40
+

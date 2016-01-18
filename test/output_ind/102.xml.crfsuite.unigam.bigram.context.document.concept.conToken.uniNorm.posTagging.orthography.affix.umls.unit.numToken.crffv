@@ -1,0 +1,45 @@
+
+O	The expert_panel
+O	expert panel_did
+O	panel The_expert did_not
+O	did expert_panel not_recommend
+O	not panel_did recommend_for
+O	recommend did_not for_or
+O	for not_recommend or_against
+O	or recommend_for against_LDL
+O	against for_or LDL_-
+O	LDL or_against -_C
+B-entity		LDL-C	ctext-0=LDL	sectonHeader-0=102.xml-testSeg	OR	pos|1-2|=CC	capital|1-2|=0	STCLS|1-2-0|=ALPHA	against	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=aga	SUF|1-1|=nst		LDL	pos|1+0|=NN	capital|1+0|=3	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-4|=ALLCAPS	STCLS|1+0-14|=ROMAN	PRE|1+0|=LDL	SUF|1+0|=LDL		C	pos|1+2|=NN	capital|1+2|=3	STCLS|1+2-0|=ALPHA	STCLS|1+2-1|=INITCAPS	STCLS|1+2-4|=ALLCAPS	STCLS|1+2-6|=SINGLECHAR	STCLS|1+2-14|=ROMAN	ctext-3=-	ctext-4=C	postcontext-0=context-but	postcontext-1=context-ed	beforecontext-2=context-not	postcontext-3=context-her	beforecontext-4=context-no or_against goals_or
+O	- against_LDL C_goals
+O	C LDL_- goals_or
+O	goals -_C or_targets
+O	or C_goals targets_but
+O	targets goals_or but_rather
+O	but or_targets rather_recommends
+O	rather targets_but recommends_that
+O	recommends but_rather that_lipids
+O	that rather_recommends lipids_be
+O	lipids recommends_that be_checked
+O	be that_lipids checked_at
+O	checked lipids_be at_baseline
+O	at be_checked baseline_and
+O	baseline checked_at and_then
+O	and at_baseline then_4
+O	then baseline_and 4_-
+O	4 and_then -_12
+O	- then_4 12_wk
+O	12 4_- wk_after
+O	wk -_12 after_initiating
+O	after 12_wk initiating_statin
+O	initiating wk_after statin_therapy
+O	statin after_initiating therapy_to
+O	therapy initiating_statin to_assess
+O	to statin_therapy assess_adherence
+O	assess therapy_to adherence_and
+O	adherence to_assess and_response
+O	and assess_adherence response_to
+O	response adherence_and to_therapy
+O	to and_response therapy_.
+O	therapy response_to
+O	. to_therapy
+

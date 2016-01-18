@@ -1,0 +1,24 @@
+
+O	Single positive_blood
+B-labintermod		positive blood_culture
+O	blood Single_positive culture_for
+B-entity		blood	C0200949	T059  Single_positive for_Coxiella
+I-entity		culture Single_positive for_Coxiella
+O	culture positive_blood for_Coxiella
+O	for blood_culture Coxiella_burnetii
+O	Coxiella culture_for burnetii_or
+O	burnetii for_Coxiella or_phase
+O	or Coxiella_burnetii phase_I
+O	phase burnetii_or I_IgG
+O	I or_phase IgG_antibody
+B-entity		IgG	C0202087	T059  phase_I antibody_titer
+O	antibody I_IgG titer_of
+O	titer IgG_antibody of_>
+O	of antibody_titer >_1
+B-labrefrangemod		>	ctext-1=>	titer	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=tit	SUF|1-2|=ter		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA titer_of 1_:
+O	1 of_>
+O	: >_1
+
+
+O	800
+

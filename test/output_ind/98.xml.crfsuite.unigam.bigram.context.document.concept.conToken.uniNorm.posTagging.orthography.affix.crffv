@@ -1,0 +1,23 @@
+
+O	Urine osmolality_>
+B-entity	Urine osmolality  >_100
+I-entity	Urine osmolality  >_100
+O	osmolality >_100
+B-labrefrangemod	> 	ctext-1=>	urine	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Uri	SUF|1-2|=ine		osmolality	pos|1-1|=NN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=osm	SUF|1-1|=ity		mOsm	pos|1+2|=NNS	capital|1+2|=2	STCLS|1+2-0|=ALPHA	STCLS|1+2-3|=LOWER-UPPER	PRE|1+2|=mOs	SUF|1+2|=Osm	 Urine_osmolality 100_mOsm
+B-labvalmod	100  osmolality_> mOsm_per
+O	mOsm >_100 per_kg
+B-labvalmod	mOsm per kg  >_100 (_100
+I-labvalmod	mOsm per kg  >_100 (_100
+I-labvalmod	mOsm per kg  >_100 (_100
+O	per 100_mOsm kg_(
+O	kg mOsm_per (_100
+O	( per_kg 100_mmol
+B-labvalmod	100  kg_( mmol_per
+O	mmol (_100 per_kg
+B-labvalmod	mmol per kg  (_100
+I-labvalmod	mmol per kg  (_100
+I-labvalmod	mmol per kg  (_100
+O	per 100_mmol kg_)
+O	kg mmol_per
+O	) per_kg
+

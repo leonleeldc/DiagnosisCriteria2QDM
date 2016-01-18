@@ -1,0 +1,21 @@
+
+O	Dopamine agonist_-
+B-entity		Dopamine	postcontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-if	postcontext-3=context-is-not	postcontext-4=context-no -_resistant
+I-entity		agonist	postcontext-0=context-ro	postcontext-1=context-not	postcontext-2=context-if	postcontext-3=context-is-not	postcontext-4=context-no -_resistant
+O	agonist -_resistant
+O	- Dopamine_agonist resistant_microadenoma
+O	resistant agonist_- microadenoma_in
+O	microadenoma -_resistant in_a
+O	in resistant_microadenoma a_woman
+O	a microadenoma_in woman_seeking
+O	woman in_a seeking_fertility
+O	seeking a_woman fertility_,
+O	fertility woman_seeking ,_if
+O	, seeking_fertility if_ovulation
+O	if fertility_, ovulation_induction
+O	ovulation ,_if induction_is
+O	induction if_ovulation is_not
+O	is ovulation_induction not_appropriate
+O	not induction_is
+O	appropriate is_not
+

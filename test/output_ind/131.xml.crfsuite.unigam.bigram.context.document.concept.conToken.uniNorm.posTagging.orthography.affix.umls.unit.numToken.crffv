@@ -1,0 +1,79 @@
+
+O	Patients taking_Proton
+O	taking Proton_Pump
+O	Proton Patients_taking Pump_Inhibitors
+O	Pump taking_Proton Inhibitors_(
+O	Inhibitors Proton_Pump (_PPIs
+O	( Pump_Inhibitors PPIs_)
+O	PPIs Inhibitors_( )_,
+O	) (_PPIs ,_those
+O	, PPIs_) those_who
+O	those )_, who_have
+O	who ,_those have_undergone
+O	have those_who undergone_massive
+O	undergone who_have massive_small
+O	massive have_undergone small_bowel
+O	small undergone_massive bowel_resection
+O	bowel massive_small resection_,
+O	resection small_bowel ,_or
+O	, bowel_resection or_those
+O	or resection_, those_who
+O	those ,_or who_have
+O	who or_those have_renal
+O	have those_who renal_insufficiency
+O	renal who_have insufficiency_,
+O	insufficiency have_renal ,_G
+O	, renal_insufficiency G_-
+O	G insufficiency_, -_cell
+O	- ,_G cell_hyperplasia
+O	cell G_- hyperplasia_,
+O	hyperplasia -_cell ,_or
+O	, cell_hyperplasia or_gastric
+O	or hyperplasia_, gastric_outlet
+O	gastric ,_or outlet_obstruction
+O	outlet or_gastric obstruction_may
+O	obstruction gastric_outlet may_have
+O	may outlet_obstruction have_gastrin
+O	have obstruction_may gastrin_levels
+B-entity		gastrin	T059	ctext-0=gastrin	sectonHeader-0=131.xml-testSeg	May	pos|1-2|=MD	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=may	SUF|1-2|=may		have	pos|1-1|=VB	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=hav	SUF|1-1|=ave		gastrin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=gas	SUF|1+0|=rin		level	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=lev	SUF|1+1|=els		between	pos|1+2|=IN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=bet	SUF|1+2|=een		beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient may_have levels_between
+O	levels have_gastrin between_150
+O	between gastrin_levels 150_and
+B-labintermod		between	ctext-0=between	sectonHeader-0=131.xml-testSeg	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		between	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bet	SUF|1+0|=een		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=150	num	ctext-12=and	ctext-16=1000	num	ctext-21=pg	ctext-23=/	ctext-24=mL	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		150	ctext-0=between	sectonHeader-0=131.xml-testSeg	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		between	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bet	SUF|1+0|=een		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=150	num	ctext-12=and	ctext-16=1000	num	ctext-21=pg	ctext-23=/	ctext-24=mL	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		and	ctext-0=between	sectonHeader-0=131.xml-testSeg	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		between	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bet	SUF|1+0|=een		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=150	num	ctext-12=and	ctext-16=1000	num	ctext-21=pg	ctext-23=/	ctext-24=mL	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		1000	ctext-0=between	sectonHeader-0=131.xml-testSeg	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		between	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bet	SUF|1+0|=een		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=150	num	ctext-12=and	ctext-16=1000	num	ctext-21=pg	ctext-23=/	ctext-24=mL	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+I-labintermod		pg/mL	ctext-0=between	sectonHeader-0=131.xml-testSeg	gastrin	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=gas	SUF|1-2|=rin		level	pos|1-1|=NNS	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=lev	SUF|1-1|=els		between	pos|1+0|=IN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=bet	SUF|1+0|=een		and	pos|1+2|=CC	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=and	SUF|1+2|=and		ctext-8=150	num	ctext-12=and	ctext-16=1000	num	ctext-21=pg	ctext-23=/	ctext-24=mL	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient gastrin_levels Hence_,
+B-labvalmod		150	ctext-0=150	sectonHeader-0=131.xml-testSeg	num	level	pos|1-2|=NNS	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=lev	SUF|1-2|=els		between	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=bet	SUF|1-1|=een		and	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=and	SUF|1+1|=and		beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient levels_between and_1000
+O	and between_150 1000_pg
+B-labvalmod		1000	ctext-0=1000	sectonHeader-0=131.xml-testSeg	num	and	pos|1-1|=CC	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=and	SUF|1-1|=and		PG	pos|1+1|=NNS	capital|1+1|=0	STCLS|1+1-0|=ALPHA	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient 150_and pg_/
+B-labvalmod		pg/mL	ctext-1=pg	ctext-3=/	ctext-4=mL	beforecontext-0=context-ro	postcontext-1=context-ed	beforecontext-2=context-who	postcontext-3=context-patient Hence_,
+O	pg and_1000 /_mL
+O	/ 1000_pg mL_Hence
+O	mL pg_/ Hence_,
+O	Hence /_mL ,_for
+O	, mL_Hence for_patients
+O	for Hence_, patients_with
+O	patients ,_for with_suspected
+O	with for_patients suspected_ZES
+O	suspected patients_with ZES_with
+O	ZES with_suspected with_an
+O	with suspected_ZES an_equivocal
+O	an ZES_with equivocal_fasting
+B-labintermod		equivocal	ctext-0=equivocal	sectonHeader-0=131.xml-testSeg	with	pos|1-2|=IN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=wit	SUF|1-2|=ith		an	pos|1-1|=DT	capital|1-1|=0	STCLS|1-1-0|=ALPHA	equivocal	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=equ	SUF|1+0|=cal		fast	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=fas	SUF|1+1|=ing		serum	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ser	SUF|1+2|=rum		beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient with_an fasting_serum
+O	fasting an_equivocal serum_gastrin
+B-entity		fasting	T033	T059	T059	T041	ctext-0=fasting	sectonHeader-0=131.xml-testSeg	an	pos|1-2|=DT	capital|1-2|=0	STCLS|1-2-0|=ALPHA	equivocal	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=equ	SUF|1-1|=cal		fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	ctext-22=concentration	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+I-entity		serum	T033	T059	T059	T041	ctext-0=fasting	sectonHeader-0=131.xml-testSeg	an	pos|1-2|=DT	capital|1-2|=0	STCLS|1-2-0|=ALPHA	equivocal	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=equ	SUF|1-1|=cal		fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	ctext-22=concentration	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+I-entity		gastrin	T033	T059	T059	T041	ctext-0=fasting	sectonHeader-0=131.xml-testSeg	an	pos|1-2|=DT	capital|1-2|=0	STCLS|1-2-0|=ALPHA	equivocal	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=equ	SUF|1-1|=cal		fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	ctext-22=concentration	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+I-entity		concentration	T033	T059	T059	T041	ctext-0=fasting	sectonHeader-0=131.xml-testSeg	an	pos|1-2|=DT	capital|1-2|=0	STCLS|1-2-0|=ALPHA	equivocal	pos|1-1|=JJ	capital|1-1|=0	STCLS|1-1-0|=ALPHA	PRE|1-1|=equ	SUF|1-1|=cal		fast	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=fas	SUF|1+0|=ing		serum	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=ser	SUF|1+1|=rum		gastrin	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=gas	SUF|1+2|=rin		ctext-8=serum	ctext-14=gastrin	ctext-22=concentration	beforecontext-0=context-ro	beforecontext-1=context-ed	beforecontext-2=context-who	beforecontext-3=context-patient an_equivocal ,_a
+O	serum equivocal_fasting gastrin_concentration
+O	gastrin fasting_serum concentration_,
+O	concentration serum_gastrin ,_a
+O	, gastrin_concentration a_secretin
+O	a concentration_, secretin_stimulation
+O	secretin ,_a stimulation_test
+O	stimulation a_secretin test_should
+O	test secretin_stimulation should_be
+O	should stimulation_test be_performed
+O	be test_should
+O	performed should_be
+

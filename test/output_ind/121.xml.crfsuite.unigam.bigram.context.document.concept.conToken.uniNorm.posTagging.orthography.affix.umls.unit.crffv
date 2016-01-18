@@ -1,0 +1,15 @@
+
+B-labintermod		Increased	postcontext-0=context-ro stainable_hepatocellular
+O	stainable hepatocellular_iron
+O	hepatocellular Increased_stainable iron_(
+B-entity		hepatocellular	beforecontext-1=context-ed Increased_stainable (_Scheuer
+I-entity		iron	beforecontext-1=context-ed Increased_stainable (_Scheuer
+O	iron stainable_hepatocellular (_Scheuer
+O	( hepatocellular_iron Scheuer_grade
+O	Scheuer iron_( grade_3
+O	grade (_Scheuer 3_or
+O	3 Scheuer_grade or_4
+O	or grade_3 4_)
+O	4 3_or
+O	) or_4
+

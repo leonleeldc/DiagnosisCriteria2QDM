@@ -1,0 +1,21 @@
+
+O	Vitamin K_deficiency
+O	K deficiency_or
+B-labintermod		deficiency	T047	ctext-0=deficiency	sectonHeader-0=140.xml-testSeg	vitamin	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Vit	SUF|1-2|=min		K	pos|1-1|=NN	capital|1-1|=3	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-4|=ALLCAPS	STCLS|1-1-6|=SINGLECHAR	deficiency	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=def	SUF|1+0|=ncy		OR	pos|1+1|=CC	capital|1+1|=0	STCLS|1+1-0|=ALPHA	use	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=use	SUF|1+2|=use		postcontext-0=context-ro	righttermin-1=context-ed Vitamin_K or_use
+O	or K_deficiency use_of
+O	use deficiency_or of_vitamin
+O	of or_use vitamin_K
+O	vitamin use_of K_antagonist
+B-entity		vitamin	T121	T059	ctext-0=vitamin	sectonHeader-0=140.xml-testSeg	use	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=use	SUF|1-2|=use		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	vitamin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=vit	SUF|1+0|=min		K	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	STCLS|1+1-6|=SINGLECHAR	antagonist	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ant	SUF|1+2|=ist		ctext-8=K	postcontext-0=context-ro	righttermin-1=context-ed use_of antagonist_(
+I-entity		K	T121	T059	ctext-0=vitamin	sectonHeader-0=140.xml-testSeg	use	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=use	SUF|1-2|=use		of	pos|1-1|=IN	capital|1-1|=0	STCLS|1-1-0|=ALPHA	vitamin	pos|1+0|=NN	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=vit	SUF|1+0|=min		K	pos|1+1|=NN	capital|1+1|=3	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-4|=ALLCAPS	STCLS|1+1-6|=SINGLECHAR	antagonist	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=ant	SUF|1+2|=ist		ctext-8=K	postcontext-0=context-ro	righttermin-1=context-ed use_of antagonist_(
+O	K of_vitamin antagonist_(
+O	antagonist vitamin_K (_Prothrombin
+O	( K_antagonist Prothrombin_Time
+O	Prothrombin antagonist_( Time_:
+B-entity		Prothrombin	T059	ctext-0=Prothrombin	sectonHeader-0=140.xml-testSeg	antagonist	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ant	SUF|1-2|=ist		prothrombin	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pro	SUF|1+0|=bin		time	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Tim	SUF|1+1|=ime		ctext-12=Time	righttermin-1=context-ed antagonist_( :_Prolonged
+I-entity		Time	T059	ctext-0=Prothrombin	sectonHeader-0=140.xml-testSeg	antagonist	pos|1-2|=NN	capital|1-2|=0	STCLS|1-2-0|=ALPHA	PRE|1-2|=ant	SUF|1-2|=ist		prothrombin	pos|1+0|=NNP	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pro	SUF|1+0|=bin		time	pos|1+1|=NN	capital|1+1|=1	STCLS|1+1-0|=ALPHA	STCLS|1+1-1|=INITCAPS	STCLS|1+1-2|=UPPER-LOWER	PRE|1+1|=Tim	SUF|1+1|=ime		ctext-12=Time	righttermin-1=context-ed antagonist_( :_Prolonged
+O	Time (_Prothrombin :_Prolonged
+O	: Prothrombin_Time Prolonged_)
+B-labintermod		Prolonged	ctext-0=Prolonged	sectonHeader-0=140.xml-testSeg	time	pos|1-2|=NN	capital|1-2|=1	STCLS|1-2-0|=ALPHA	STCLS|1-2-1|=INITCAPS	STCLS|1-2-2|=UPPER-LOWER	PRE|1-2|=Tim	SUF|1-2|=ime		prolong	pos|1+0|=JJ	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Pro	SUF|1+0|=ged		uniTok|1+2|=EEEEE	beforecontext-0=context-ro Time_:
+O	) :_Prolonged
+

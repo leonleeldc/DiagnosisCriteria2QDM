@@ -1,0 +1,47 @@
+
+O	Abnormal results_from
+O	results from_stimulation
+O	from Abnormal_results stimulation_testing
+O	stimulation results_from testing_with
+O	testing from_stimulation with_secretin
+O	with stimulation_testing secretin_(
+B-entity		secretin	C0523887	T059	beforecontext-0=context-ro	beforecontext-1=context-no testing_with (_an
+O	( with_secretin an_increase
+O	an secretin_( increase_of
+B-labintermod		an	unit	ctext-16=>	ctext-23=/	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		increase	unit	ctext-16=>	ctext-23=/	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		of	unit	ctext-16=>	ctext-23=/	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		>200	unit	ctext-16=>	ctext-23=/	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		pg/mL	unit	ctext-16=>	ctext-23=/	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+I-labintermod		postinjection	unit	ctext-16=>	ctext-23=/	beforecontext-0=context-ro	beforecontext-1=context-no secretin_(
+O	increase (_an of_>
+O	of an_increase >_200
+O	> increase_of 200_pg
+O	200 of_> pg_/
+O	pg >_200 /_mL
+B-labvalmod		pg/mL	ctext-3=/	beforecontext-0=context-ro	beforecontext-1=context-no >_200 postinjection_)
+O	/ 200_pg mL_postinjection
+O	mL pg_/ postinjection_)
+O	postinjection /_mL
+O	) mL_postinjection
+
+
+O	or with_calcium
+O	with calcium_(
+B-entity		calcium	C0201925	T059 or_with (_an
+O	( with_calcium an_increase
+O	an calcium_( increase_>
+B-labintermod		an	unit	ctext-13=>	ctext-20=/ calcium_( )_;
+I-labintermod		increase	unit	ctext-13=>	ctext-20=/ calcium_( )_;
+I-labintermod		>395	unit	ctext-13=>	ctext-20=/ calcium_( )_;
+I-labintermod		pg/mL	unit	ctext-13=>	ctext-20=/ calcium_( )_;
+O	increase (_an >_395
+O	> an_increase 395_pg
+O	395 increase_> pg_/
+O	pg >_395 /_mL
+B-labvalmod		pg/mL	ctext-3=/ >_395 )_;
+O	/ 395_pg mL_)
+O	mL pg_/ )_;
+O	) /_mL
+O	; mL_)
+

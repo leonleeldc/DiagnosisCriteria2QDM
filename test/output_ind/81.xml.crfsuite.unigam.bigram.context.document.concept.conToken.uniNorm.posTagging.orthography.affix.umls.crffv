@@ -1,0 +1,10 @@
+
+B-labintermod		Positive	postcontext-0=context-her blood_culture
+O	blood culture_despite
+B-entity		blood	C0200949	T059 	postcontext-0=context-her despite_antibiotic
+I-entity		culture	postcontext-0=context-her despite_antibiotic
+O	culture Positive_blood despite_antibiotic
+O	despite blood_culture antibiotic_therapy
+O	antibiotic culture_despite
+O	therapy despite_antibiotic
+

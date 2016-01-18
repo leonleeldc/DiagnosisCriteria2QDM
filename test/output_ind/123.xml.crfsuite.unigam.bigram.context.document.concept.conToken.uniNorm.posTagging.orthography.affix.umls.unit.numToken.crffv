@@ -1,0 +1,22 @@
+
+B-labintermod		Increased	ctext-0=Increased	sectonHeader-0=123.xml-testSeg	uniTok|1-2|=SSSSS	uniTok|1-1|=SSSSS	increase	pos|1+0|=VBN	capital|1+0|=1	STCLS|1+0-0|=ALPHA	STCLS|1+0-1|=INITCAPS	STCLS|1+0-2|=UPPER-LOWER	PRE|1+0|=Inc	SUF|1+0|=sed		mobilizable	pos|1+1|=JJ	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=mob	SUF|1+1|=ble		iron	pos|1+2|=NN	capital|1+2|=0	STCLS|1+2-0|=ALPHA	PRE|1+2|=iro	SUF|1+2|=ron		postcontext-0=context-without	postcontext-1=context-ro mobilizable_iron
+O	mobilizable iron_(
+B-entity		mobilizable	T123	ctext-0=mobilizable	sectonHeader-0=123.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		mobilizable	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mob	SUF|1+0|=ble		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		ctext-12=iron	postcontext-0=context-without	beforecontext-2=context-ed (_removal
+I-entity		iron	T123	ctext-0=mobilizable	sectonHeader-0=123.xml-testSeg	uniTok|1-2|=SSSSS	increase	pos|1-1|=VBN	capital|1-1|=1	STCLS|1-1-0|=ALPHA	STCLS|1-1-1|=INITCAPS	STCLS|1-1-2|=UPPER-LOWER	PRE|1-1|=Inc	SUF|1-1|=sed		mobilizable	pos|1+0|=JJ	capital|1+0|=0	STCLS|1+0-0|=ALPHA	PRE|1+0|=mob	SUF|1+0|=ble		iron	pos|1+1|=NN	capital|1+1|=0	STCLS|1+1-0|=ALPHA	PRE|1+1|=iro	SUF|1+1|=ron		ctext-12=iron	postcontext-0=context-without	beforecontext-2=context-ed (_removal
+O	iron Increased_mobilizable (_removal
+O	( mobilizable_iron removal_of
+O	removal iron_( of_4
+O	of (_removal 4_g
+O	4 removal_of g_of
+O	g of_4 of_iron
+O	of 4_g iron_without
+O	iron g_of without_development
+O	without of_iron development_of
+O	development iron_without of_iron
+O	of without_development iron_-
+O	iron development_of -_limited
+O	- of_iron limited_erythropoiesis
+O	limited iron_- erythropoiesis_)
+O	erythropoiesis -_limited
+O	) limited_erythropoiesis
+
